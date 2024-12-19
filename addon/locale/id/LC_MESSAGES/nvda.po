@@ -1,0 +1,23 @@
+msgid "Calculation Input"
+msgstr "Masukan Perhitungan"
+
+msgid "Result"
+msgstr "Hasil"
+
+msgid "Copy"
+msgstr "Salin"
+
+msgid "Input is empty, cannot copy"
+msgstr "Input  kosong, tidak bisa disalin"
+
+msgid "Copied"
+msgstr "Disalin"
+
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "Masukan tidak valid, hanya angka dan simbol aritmatika yang diperbolehkan"
+
+msgid "Invalid format. Please follow the standard arithmetic order"
+msgstr "Format tidak valid. Harap ikuti urutan aritmatika standar"
+
+msgid "Error! Check Input"
+msgstr "Kesalahan! Periksa Input"

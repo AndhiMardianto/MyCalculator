@@ -1,0 +1,39 @@
+import os
+import sys
+
+# Tambahkan folder root ke path Python
+sys.path.insert(0, os.getcwd())
+
+# Import buildVars
+import buildVars
+# Tentukan lokasi file yang akan dikemas
+AddonFiles = [
+    "manifest.ini",
+    "buildVars.py",
+    "globalPlugins/myCalculator/__init__.py",
+    "doc/en/readme.html",
+    "doc/en/readme.md",
+    "locale/ar/LC_MESSAGES/nvda.po",   
+    "locale/ar/LC_MESSAGES/nvda.mo",   
+    "locale/es/LC_MESSAGES/nvda.po",   
+    "locale/es/LC_MESSAGES/nvda.mo",   
+    "locale/hi/LC_MESSAGES/nvda.po",   
+    "locale/hi/LC_MESSAGES/nvda.mo",   
+    "locale/id/LC_MESSAGES/nvda.po",   
+    "locale/id/LC_MESSAGES/nvda.mo",   
+    "locale/ja/LC_MESSAGES/nvda.po",   
+    "locale/ja/LC_MESSAGES/nvda.mo",   
+    "locale/pt/LC_MESSAGES/nvda.po",   
+    "locale/pt/LC_MESSAGES/nvda.mo",   
+    "locale/zh/LC_MESSAGES/nvda.po",   
+    "locale/zh/LC_MESSAGES/nvda.mo"
+]
+
+# Nama file hasil build
+AddonPackage = f"{buildVars.addon_name}-{buildVars.addon_version}.nvda-addon"
+
+# Proses build
+env = Environment()
+env.Zip(AddonPackage, AddonFiles)
+
+print(f"Addon berhasil dibuat: {AddonPackage}")

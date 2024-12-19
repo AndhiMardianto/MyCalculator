@@ -1,0 +1,23 @@
+msgid "Calculation Input"
+msgstr "गणना इनपुट"
+
+msgid "Result"
+msgstr "परिणाम"
+
+msgid "Copy"
+msgstr "कॉपी करें"
+
+msgid "Input is empty, cannot copy"
+msgstr "इनपुट खाली है, कॉपी नहीं कर सकते"
+
+msgid "Copied"
+msgstr "कॉपी किया गया"
+
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "अमान्य इनपुट, केवल संख्याएँ और अंकगणितीय प्रतीक अनुमति हैं"
+
+msgid "Invalid format. Please follow the standard arithmetic order"
+msgstr "अमान्य प्रारूप। कृपया मानक अंकगणितीय क्रम का पालन करें"
+
+msgid "Error! Check Input"
+msgstr "त्रुटि! इनपुट जांचें"

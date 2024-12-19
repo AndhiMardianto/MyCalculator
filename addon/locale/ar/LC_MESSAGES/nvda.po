@@ -1,0 +1,23 @@
+msgid "Calculation Input"
+msgstr "حساب المدخلات"
+
+msgid "Result"
+msgstr "النتيجة"
+
+msgid "Copy"
+msgstr "نسخ"
+
+msgid "Input is empty, cannot copy"
+msgstr "المدخل فارغ، لا يمكن النسخ"
+
+msgid "Copied"
+msgstr "تم النسخ"
+
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "إدخال غير صالح، يسمح فقط بالأرقام والرموز الحسابية"
+
+msgid "Invalid format. Please follow the standard arithmetic order"
+msgstr "تنسيق غير صالح. يرجى اتباع ترتيب الحساب القياسي"
+
+msgid "Error! Check Input"
+msgstr "خطأ! تحقق من المدخل"

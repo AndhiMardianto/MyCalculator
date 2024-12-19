@@ -1,0 +1,23 @@
+msgid "Calculation Input"
+msgstr "Entrada de cálculo"
+
+msgid "Result"
+msgstr "Resultado"
+
+msgid "Copy"
+msgstr "Copiar"
+
+msgid "Input is empty, cannot copy"
+msgstr "La entrada está vacía, no se puede copiar"
+
+msgid "Copied"
+msgstr "Copiado"
+
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "Entrada inválida, solo se permiten números y símbolos aritméticos"
+
+msgid "Invalid format. Please follow the standard arithmetic order"
+msgstr "Formato inválido. Por favor, siga el orden estándar de la aritmética"
+
+msgid "Error! Check Input"
+msgstr "¡Error! Verifique la entrada"

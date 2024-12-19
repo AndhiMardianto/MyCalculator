@@ -1,0 +1,23 @@
+msgid "Calculation Input"
+msgstr "计算输入"
+
+msgid "Result"
+msgstr "结果"
+
+msgid "Copy"
+msgstr "复制"
+
+msgid "Input is empty, cannot copy"
+msgstr "输入为空，无法复制"
+
+msgid "Copied"
+msgstr "已复制"
+
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "无效输入，仅允许数字和算术符号"
+
+msgid "Invalid format. Please follow the standard arithmetic order"
+msgstr "格式无效。请遵循标准算术顺序"
+
+msgid "Error! Check Input"
+msgstr "错误！检查输入"
