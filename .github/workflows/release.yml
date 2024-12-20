@@ -1,0 +1,40 @@
+name: Create NVDA Addon Release
+
+on:
+  push:
+    tags:
+      - 'v*'  # Workflow akan berjalan ketika ada push dengan tag yang diawali 'v', misalnya 'v1.0.0'
+
+jobs:
+  release:
+    name: Create Release
+    runs-on: ubuntu-latest
+
+    steps:
+      # check repositori 
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # create new release 
+      - name: Create GitHub Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
+
+      # upload file to release 
+      - name: Upload Addon to Release
+        id: upload-addon
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./addon/MyCalculator-1.0.0.nvda-addon  # Path file addon kamu
+          asset_name: MyCalculator-1.0.0.nvda-addon
+          asset_content_type: application/octet-stream  # Tipe konten untuk file .nvda-addon
