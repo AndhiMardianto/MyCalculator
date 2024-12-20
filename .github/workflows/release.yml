@@ -11,11 +11,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # check repositori 
+      # Checkout repository
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # create new release 
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y scons
+          python -m pip install --upgrade pip
+
+      # Build the addon file using scons
+      - name: Build Addon
+        run: |
+          cd addon
+          scons
+
+      # Create a new release
       - name: Create GitHub Release
         id: create_release
         uses: actions/create-release@v1
@@ -27,7 +40,7 @@ jobs:
           draft: false
           prerelease: false
 
-      # upload file to release 
+      # Upload file to release
       - name: Upload Addon to Release
         id: upload-addon
         uses: actions/upload-release-asset@v1
@@ -35,6 +48,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./addon/MyCalculator-1.0.0.nvda-addon  # Path file addon kamu
+          asset_path: ./addon/dist/*.nvda-addon  # Path file addon kamu setelah build
           asset_name: MyCalculator-1.0.0.nvda-addon
           asset_content_type: application/octet-stream  # Tipe konten untuk file .nvda-addon
