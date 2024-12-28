@@ -5,24 +5,23 @@
 **My Calculator NVDA Addon** is a calculator designed to enhance the user experience for NVDA screen reader users.
 
 ### ✨ Features
-
+- **Calculation History**
 - **Quick Access**:  
   Press `NVDA+Shift+M` to open the calculator.
 - **Audio Feedback**:  
   A beep sound plays each time you input a value.
 - **Navigation**:  
-  - Press `Enter` or `Tab` to move the focus to the result.
+  - Press `Enter`, `Tab` and `=` to move the focus to the result.
   - Press `Esc` to close the program.
 - **Clipboard Support**:  
   Easily copy the calculation result to the clipboard.
 - **Input Flexibility**:  
-  - Use `X` for multiplication.  
-  - Use `:` for division.
+  - Can Also  Use `X` for multiplication.  
+  - Can Also Use `:` for division.
 
 ### ⚠️ Notes
 
 - Invalid inputs will:
-  - Trigger a long beep sound.
   - Be removed automatically from the input field.
 
 ---
