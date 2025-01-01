@@ -1,23 +1,8 @@
-msgid "Calculation Input"
-msgstr "गणना इनपुट"
-
-msgid "Result"
-msgstr "परिणाम"
-
-msgid "Copy"
-msgstr "कॉपी करें"
-
-msgid "Input is empty, cannot copy"
-msgstr "इनपुट खाली है, कॉपी नहीं कर सकते"
-
-msgid "Copied"
-msgstr "कॉपी किया गया"
-
-msgid "Invalid input, only numbers and arithmetic symbols allowed"
-msgstr "अमान्य इनपुट, केवल संख्याएँ और अंकगणितीय प्रतीक अनुमति हैं"
-
-msgid "Invalid format. Please follow the standard arithmetic order"
-msgstr "अमान्य प्रारूप। कृपया मानक अंकगणितीय क्रम का पालन करें"
+msgid "Invalid calculation mode"
+msgstr "अमान्य गणना मोड"
 
 msgid "Error! Check Input"
 msgstr "त्रुटि! इनपुट जांचें"
+
+msgid "Standard Mode:\nCalculations follow the standard mathematical operator precedence rules (PEMDAS).\nExample: 3 + 5 * 2 = 13 (multiplication is performed first).\n\nLeft to Right Mode:\nCalculations are performed from left to right without considering operator precedence.\nExample: 3 + 5 * 2 = 16 (calculations are done left to right)."
+msgstr "मानक मोड:\nगणनाएँ मानक गणितीय ऑपरेटर प्राथमिकता नियमों (PEMDAS) का पालन करती हैं।\nउदाहरण: 3 + 5 * 2 = 13 (गुणन पहले किया जाता है)।\n\nबाएं से दाएं मोड:\nगणनाएँ ऑपरेटर प्राथमिकता की परवाह किए बिना बाएं से दाएं की जाती हैं।\nउदाहरण: 3 + 5 * 2 = 16 (गणना बाएं से दाएं की जाती है)।"

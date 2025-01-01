@@ -1,23 +1,8 @@
-msgid "Calculation Input"
-msgstr "Masukan Perhitungan"
-
-msgid "Result"
-msgstr "Hasil"
-
-msgid "Copy"
-msgstr "Salin"
-
-msgid "Input is empty, cannot copy"
-msgstr "Input  kosong, tidak bisa disalin"
-
-msgid "Copied"
-msgstr "Disalin"
-
-msgid "Invalid input, only numbers and arithmetic symbols allowed"
-msgstr "Masukan tidak valid, hanya angka dan simbol aritmatika yang diperbolehkan"
-
-msgid "Invalid format. Please follow the standard arithmetic order"
-msgstr "Format tidak valid. Harap ikuti urutan aritmatika standar"
+msgid "Invalid calculation mode"
+msgstr "Mode perhitungan tidak valid"
 
 msgid "Error! Check Input"
-msgstr "Kesalahan! Periksa Input"
+msgstr "Kesalahan! Periksa input"
+
+msgid "Standard Mode:\nCalculations follow the standard mathematical operator precedence rules (PEMDAS).\nExample: 3 + 5 * 2 = 13 (perkalian dilakukan terlebih dahulu).\n\nLeft to Right Mode:\nPerhitungan dilakukan dari kiri ke kanan tanpa memperhatikan prioritas operator.\nContoh: 3 + 5 * 2 = 16 (perhitungan dilakukan dari kiri ke kanan)."
+msgstr "Mode Standar:\nPerhitungan mengikuti aturan prioritas operator matematika standar (PEMDAS).\nContoh: 3 + 5 * 2 = 13 (perkalian dilakukan terlebih dahulu).\n\nMode Dari Kiri ke Kanan:\nPerhitungan dilakukan dari kiri ke kanan tanpa memperhatikan prioritas operator.\nContoh: 3 + 5 * 2 = 16 (perhitungan dilakukan dari kiri ke kanan)."

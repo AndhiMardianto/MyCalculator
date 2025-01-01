@@ -1,23 +1,8 @@
-msgid "Calculation Input"
-msgstr "计算输入"
-
-msgid "Result"
-msgstr "结果"
-
-msgid "Copy"
-msgstr "复制"
-
-msgid "Input is empty, cannot copy"
-msgstr "输入为空，无法复制"
-
-msgid "Copied"
-msgstr "已复制"
-
-msgid "Invalid input, only numbers and arithmetic symbols allowed"
-msgstr "无效输入，仅允许数字和算术符号"
-
-msgid "Invalid format. Please follow the standard arithmetic order"
-msgstr "格式无效。请遵循标准算术顺序"
+msgid "Invalid calculation mode"
+msgstr "无效的计算模式"
 
 msgid "Error! Check Input"
 msgstr "错误！检查输入"
+
+msgid "Standard Mode:\nCalculations follow the standard mathematical operator precedence rules (PEMDAS).\nExample: 3 + 5 * 2 = 13 (乘法首先进行)。\n\nLeft to Right Mode:\n计算从左到右进行，不考虑运算符优先级。\n例如：3 + 5 * 2 = 16（计算从左到右进行）。"
+msgstr "标准模式：\n计算遵循标准的数学运算符优先级规则（PEMDAS）。\n例如：3 + 5 * 2 = 13（乘法首先进行）。\n\n从左到右模式：\n计算从左到右进行，不考虑运算符优先级。\n例如：3 + 5 * 2 = 16（计算从左到右进行）。"

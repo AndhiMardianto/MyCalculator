@@ -1,23 +1,8 @@
-msgid "Calculation Input"
-msgstr "حساب المدخلات"
-
-msgid "Result"
-msgstr "النتيجة"
-
-msgid "Copy"
-msgstr "نسخ"
-
-msgid "Input is empty, cannot copy"
-msgstr "المدخل فارغ، لا يمكن النسخ"
-
-msgid "Copied"
-msgstr "تم النسخ"
-
-msgid "Invalid input, only numbers and arithmetic symbols allowed"
-msgstr "إدخال غير صالح، يسمح فقط بالأرقام والرموز الحسابية"
-
-msgid "Invalid format. Please follow the standard arithmetic order"
-msgstr "تنسيق غير صالح. يرجى اتباع ترتيب الحساب القياسي"
+msgid "Invalid calculation mode"
+msgstr "وضع حساب غير صالح"
 
 msgid "Error! Check Input"
-msgstr "خطأ! تحقق من المدخل"
+msgstr "خطأ! تحقق من الإدخال"
+
+msgid "Standard Mode:\nCalculations follow the standard mathematical operator precedence rules (PEMDAS).\nExample: 3 + 5 * 2 = 13 (multiplication is performed first).\n\nLeft to Right Mode:\nCalculations are performed from left to right without considering operator precedence.\nExample: 3 + 5 * 2 = 16 (calculations are done left to right)."
+msgstr "وضع قياسي:\nتتبع العمليات الحسابية قواعد الأولوية القياسية للعمليات الرياضية (PEMDAS).\nمثال: 3 + 5 * 2 = 13 (يتم إجراء الضرب أولاً).\n\nوضع من اليسار إلى اليمين:\nتتم العمليات الحسابية من اليسار إلى اليمين دون النظر إلى أولوية العمليات.\nمثال: 3 + 5 * 2 = 16 (تتم الحسابات من اليسار إلى اليمين)."

@@ -1,23 +1,8 @@
-msgid "Calculation Input"
-msgstr "計算入力"
-
-msgid "Result"
-msgstr "結果"
-
-msgid "Copy"
-msgstr "コピー"
-
-msgid "Input is empty, cannot copy"
-msgstr "入力が空です、コピーできません"
-
-msgid "Copied"
-msgstr "コピーしました"
-
-msgid "Invalid input, only numbers and arithmetic symbols allowed"
-msgstr "無効な入力、数字と算術記号のみ許可されます"
-
-msgid "Invalid format. Please follow the standard arithmetic order"
-msgstr "無効な形式です。標準的な算術順序に従ってください"
+msgid "Invalid calculation mode"
+msgstr "無効な計算モード"
 
 msgid "Error! Check Input"
 msgstr "エラー！入力を確認してください"
+
+msgid "Standard Mode:\nCalculations follow the standard mathematical operator precedence rules (PEMDAS).\nExample: 3 + 5 * 2 = 13 (掛け算が先に行われます)。\n\nLeft to Right Mode:\n計算は演算子の優先順位を考慮せず、左から右に行われます。\n例：3 + 5 * 2 = 16（計算は左から右に行われます）。"
+msgstr "スタンダードモード：\n計算は標準の数学的演算子の優先順位ルール（PEMDAS）に従います。\n例：3 + 5 * 2 = 13（掛け算が先に行われます）。\n\n左から右モード：\n計算は演算子の優先順位を考慮せず、左から右に行われます。\n例：3 + 5 * 2 = 16（計算は左から右に行われます）。"

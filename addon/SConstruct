@@ -11,6 +11,7 @@ AddonFiles = [
     "manifest.ini",
     "buildVars.py",
     "globalPlugins/myCalculator/__init__.py",
+    "globalPlugins/myCalculator/help.py",
     "doc/en/readme.html",
     "doc/en/readme.md",
     "locale/ar/LC_MESSAGES/nvda.po",   

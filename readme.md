@@ -1,47 +1,41 @@
 # My Calculator NVDA Addon
 
-## 📖 Introduction
+## Introduction
+**My Calculator NVDA Addon** is a calculator designed for NVDA users, offering multiple calculation methods and an improved user experience.
 
-**My Calculator NVDA Addon** is a calculator designed to enhance the user experience for NVDA screen reader users.
+### Key Features:
+- **Calculation Methods**:
+  - *Standard*: Follows the standard order of operations.
+  - *Left-to-Right*: Calculates operations from left to right, ignoring operator precedence.
+  - Press the *Help* button in the main dialog for detailed explanations.
 
-### ✨ Features
-- **Calculation History**
-- **Quick Access**:  
-  Press `NVDA+Shift+M` to open the calculator.
-- **Audio Feedback**:  
-  A beep sound plays each time you input a value.
-- **Navigation**:  
-  - Press `Enter`, `Tab` and `=` to move the focus to the result.
-  - Press `Esc` to close the program.
-- **Clipboard Support**:  
-  Easily copy the calculation result to the clipboard.
-- **Input Flexibility**:  
-  - Can Also  Use `X` for multiplication.  
-  - Can Also Use `:` for division.
+- **Easy Navigation**:
+  - Press `NVDA+Shift+M` to open the calculator.
+  - Enter your calculations and hear a beep sound with every input.
+  - View the history of previous calculations.
+  - Press `Enter`, `Tab`, or `=` to move the focus to the result.
 
-### ⚠️ Notes
+- **Copy Results**:
+  - Copy the result to the clipboard for further use.
+  - Press `Esc` to close the calculator.
 
-- Invalid inputs will:
-  - Be removed automatically from the input field.
+### Notes:
+- By default, the calculator uses the *Standard* calculation method when opened.
+- The letter **X** can be used for multiplication, and the symbol **:** for division.
+- Invalid inputs will be automatically removed from the input field.
 
----
+## How to Use
+1. Ensure NVDA is active.
+2. Press `NVDA+Shift+M` to open the calculator dialog.
+3. Enter your calculation and follow the prompts.
+4. Use the described keyboard shortcuts to navigate and retrieve results.
 
-## 🗒️ Changelog
+## Feedback and Contributions
+We welcome feedback and contributions! If you encounter a bug or have suggestions to improve the addon, feel free to open an *issue* in this [GitHub repository](#).
 
-### v1.0.0
-- First launch of My Calculator NVDA Addon.
-
----
-
-## 📄 License
-
-This project is licensed under the **GPL-2.0** license.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to open an issue or submit a pull request.
+## License
+This project is licensed under the **GPL-2.0 License**. Refer to the `LICENSE` file for more details.
 
 ---
 
+Thank you for using **My Calculator NVDA Addon**! We hope it makes your daily activities easier.
