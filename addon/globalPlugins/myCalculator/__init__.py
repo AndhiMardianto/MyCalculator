@@ -1,6 +1,6 @@
 # NVDA Addon: My Calculator 
 # Released under the GNU General Public License v2 
-# Copyright (C) 2024 Andhi Mardianto
+# Copyright (C) 2024 - 2025 Andhi Mardianto
 
 import globalPluginHandler
 import ui
@@ -10,6 +10,7 @@ import tones
 import addonHandler
 import wx
 import gui
+from .help import show_calculator_help
 from keyboardHandler import KeyboardInputGesture
 from scriptHandler import script
 addonHandler.initTranslation()
@@ -44,6 +45,7 @@ class MainDialog(wx.Dialog):
 
         # Variabel untuk menyimpan riwayat
         self.history = []
+        self.calculationMode = "standard"  # Default mode
 
         # Panel utama untuk elemen dialog
         panel = wx.Panel(self)
@@ -59,8 +61,8 @@ class MainDialog(wx.Dialog):
         self.number1 = wx.TextCtrl(panel, size=(350, 25))
         self.number1.SetBackgroundColour("#f0f8ff")
         self.number1.SetFont(wx.Font(14, wx.DEFAULT, wx.NORMAL, wx.NORMAL))
-        self.number1.Bind(wx.EVT_CHAR_HOOK, self.onKeyPressed)  # Bind enter, tab, and = key event
-        self.number1.Bind(wx.EVT_TEXT, self.onTextChanged)  # Bind text change event
+        self.number1.Bind(wx.EVT_CHAR_HOOK, self.onKeyPressed)
+        self.number1.Bind(wx.EVT_TEXT, self.onTextChanged)
         leftSizer.Add(self.number1, 0, wx.EXPAND | wx.ALL, 5)
 
         # Label dan input untuk menampilkan hasil
@@ -74,6 +76,21 @@ class MainDialog(wx.Dialog):
         copy_button = wx.Button(panel, label=_("Copy"))
         copy_button.Bind(wx.EVT_BUTTON, self.periksa)
         leftSizer.Add(copy_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
+
+        # Tombol Standar
+        standard_button = wx.Button(panel, label=_("Standar"))
+        standard_button.Bind(wx.EVT_BUTTON, self.set_standard_mode)
+        leftSizer.Add(standard_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
+
+        # Tombol Left to Right
+        ltr_button = wx.Button(panel, label=_("Left to Right"))
+        ltr_button.Bind(wx.EVT_BUTTON, self.set_left_to_right_mode)
+        leftSizer.Add(ltr_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
+
+        # Tombol Help
+        help_button = wx.Button(panel, label=_("Help"))
+        help_button.Bind(wx.EVT_BUTTON, self.show_help)
+        leftSizer.Add(help_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
 
         # Panel kanan untuk riwayat
         rightSizer = wx.BoxSizer(wx.VERTICAL)
@@ -99,30 +116,8 @@ class MainDialog(wx.Dialog):
 
         self.Show()
 
-    def tampilkan(self, event):
-        self.number1.SetFocus()
-
-    def close(self, event):
-        k = event.GetKeyCode()
-        if k == wx.WXK_ESCAPE:
-            self.Destroy()
-        else:
-            event.Skip()
-
-    def onKeyPressed(self, event):
-        """Menangani tombol Enter, Numpad Enter, Tab, dan = untuk menghitung dan menampilkan hasil"""
-        keycode = event.GetKeyCode()
-        if keycode == wx.WXK_RETURN or keycode == wx.WXK_TAB or keycode == wx.WXK_NUMPAD_ENTER:
-            self.hitung()  # Memanggil perhitungan ketika Enter, Numpad Enter, atau Tab ditekan
-            self.re.SetFocus()  # Fokus ke kotak hasil
-        elif not event.ShiftDown() and keycode == 61:  # KeyCode 61 adalah '='
-            self.hitung()  # Memanggil perhitungan ketika = ditekan tanpa Shift
-            self.re.SetFocus()  # Fokus ke kotak hasil
-        else:
-            event.Skip()
-
     def onTextChanged(self, event):
-        """Menangani perubahan teks di kotak input"""
+        """Menangani perubahan teks di kotak input."""
         expression = self.number1.GetValue().strip()
         if not expression:
             self.re.SetValue("")  # Kosongkan kotak hasil jika input kosong
@@ -137,15 +132,59 @@ class MainDialog(wx.Dialog):
                 self.number1.SetInsertionPointEnd()  # Set cursor ke akhir teks
         event.Skip()
 
-    def periksa(self, event):
-        if not self.number1.Value:
-            ui.message(_("Input is empty, cannot copy"))
-            tones.beep(440, 100)
+
+    def tampilkan(self, event):
+        self.number1.SetFocus()
+
+    def close(self, event):
+        k = event.GetKeyCode()
+        if k == wx.WXK_ESCAPE:
+            self.Destroy()
         else:
-            if api.copyToClip(self.re.Value):
-                ui.message(_("Copied"))
+            event.Skip()
+
+    def onKeyPressed(self, event):
+        keycode = event.GetKeyCode()
+        if keycode == wx.WXK_RETURN or keycode == wx.WXK_TAB or keycode == wx.WXK_NUMPAD_ENTER:
+            self.hitung()
+            self.re.SetFocus()
+        elif not event.ShiftDown() and keycode == 61:  # KeyCode 61 adalah '='
+            self.hitung()
+            self.re.SetFocus()
+        else:
+            event.Skip()
+
+    def set_standard_mode(self, event):
+        """Mengatur mode perhitungan ke Standar Internasional."""
+        self.calculationMode = "standard"
+        ui.message(_("Calculation mode set to Standard International"))
+
+    def set_left_to_right_mode(self, event):
+        """Mengatur mode perhitungan ke Left to Right."""
+        self.calculationMode = "left_to_right"
+        ui.message(_("Calculation mode set to Left to Right"))
+
+    def show_help(self, event):
+        """Menampilkan pesan bantuan."""
+        help.show_calculator_help()
+        
+    def periksa(self, event):
+        """Fungsi untuk menyalin hasil ke clipboard."""
+        if self.re.GetValue():
+            # Salin hasil ke clipboard
+            clipboard = wx.Clipboard.Get()
+            if clipboard.Open():
+                clipboard.SetData(wx.TextDataObject(self.re.GetValue()))
+                clipboard.Close()
+                ui.message(_("Result copied to clipboard"))
+            else:
+                ui.message(_("Failed to access clipboard"))
+        else:
+            ui.message(_("No result to copy"))
+
 
     def hitung(self):
+        """Logika utama untuk perhitungan berdasarkan mode yang dipilih."""
         expression = self.number1.Value.strip()
 
         # Jika input kosong, hentikan eksekusi
@@ -165,10 +204,17 @@ class MainDialog(wx.Dialog):
 
         try:
             expression = expression.rstrip('=')  # Hapus simbol = dari akhir ekspresi jika ada
-            result = self.calculate_left_to_right(expression)
+
+            if self.calculationMode == "standard":
+                result = eval(expression)
+            elif self.calculationMode == "left_to_right":
+                result = self.calculate_left_to_right(expression)
+            else:
+                ui.message(_("Invalid calculation mode"))
+                return
 
             # Jika hasilnya merupakan bilangan bulat (tanpa desimal), tampilkan sebagai bilangan bulat
-            result = int(result) if result.is_integer() else result
+            result = int(result) if isinstance(result, float) and result.is_integer() else result
             self.re.Value = str(result)
 
             # Tambahkan input dan hasil akhir ke riwayat
@@ -181,6 +227,7 @@ class MainDialog(wx.Dialog):
             tones.beep(440, 300)
 
     def calculate_left_to_right(self, expression):
+        """Menghitung ekspresi dari kiri ke kanan."""
         tokens = re.split(r'([+\-*/])', expression.replace(' ', ''))
         result = float(tokens[0])
 
@@ -205,3 +252,7 @@ class MainDialog(wx.Dialog):
     def updateHistoryBox(self):
         """Perbarui tampilan riwayat di kotak riwayat."""
         self.historyBox.Value = "\n".join(self.history)  # Tampilkan seluruh riwayat
+
+
+
+
