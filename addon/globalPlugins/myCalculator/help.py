@@ -1,4 +1,6 @@
 import wx
+import addonHandler
+addonHandler.initTranslation()
 import gui 
 def show_calculator_help():
     """Menampilkan dialog penjelasan tentang mode Standard dan Left to Right dengan aksesibilitas pembaca layar."""
