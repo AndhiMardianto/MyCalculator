@@ -1,8 +1,115 @@
+# Translation file for MyCalculator NVDA Add-on.
+# Copyright (C) 2025 MyCalculator Project
+# This file is distributed under the same license as the MyCalculator package.
+# Andhi Mardianto <anditoinfo@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: MyCalculator 1.0\n"
+"Report-Msgid-Bugs-To: anditoinfo@gmail.com\n"
+"POT-Creation-Date: 2025-01-02 10:01+0700\n"
+"PO-Revision-Date: 2025-01-02 10:30+0700\n"
+"Last-Translator: Andhi Mardianto <anditoinfo@gmail.com>\n"
+"Language-Team: Portuguese <pt@li.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: globalPlugins/myCalculator/help.py:6
+msgid "Calculation Mode Help"
+msgstr "Ajuda do Modo de Cálculo"
+
+#: globalPlugins/myCalculator/help.py:16
+msgid ""
+"Standard Mode:\n"
+"Calculations follow the standard mathematical operator precedence rules "
+"(PEMDAS).\n"
+"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
+"\n"
+"Left to Right Mode:\n"
+"Calculations are performed from left to right without considering operator "
+"precedence.\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right)."
+msgstr ""
+"Modo Padrão:\n"
+"Os cálculos seguem as regras padrão de precedência de operadores matemáticos "
+"(PEMDAS).\n"
+"Exemplo: 3 + 5 * 2 = 13 (a multiplicação é feita primeiro).\n"
+"\n"
+"Modo da Esquerda para a Direita:\n"
+"Os cálculos são feitos da esquerda para a direita sem considerar a "
+"precedência dos operadores.\n"
+"Exemplo: 3 + 5 * 2 = 16 (os cálculos são feitos da esquerda para a direita)."
+
+#: globalPlugins/myCalculator/help.py:28
+msgid "OK"
+msgstr "OK"
+
+#: globalPlugins/myCalculator/__init__.py:26
+msgid "Open My Calculator dialog"
+msgstr "Abrir o diálogo do My Calculator"
+
+#: globalPlugins/myCalculator/__init__.py:27
+msgid "MyCalculator"
+msgstr "MeuCalculadora"
+
+#: globalPlugins/myCalculator/__init__.py:60
+msgid "Calculation Input"
+msgstr "Entrada de Cálculo"
+
+#: globalPlugins/myCalculator/__init__.py:69
+msgid "Result"
+msgstr "Resultado"
+
+#: globalPlugins/myCalculator/__init__.py:76
+msgid "Copy"
+msgstr "Copiar"
+
+#: globalPlugins/myCalculator/__init__.py:81
+msgid "Standar"
+msgstr "Padrão"
+
+#: globalPlugins/myCalculator/__init__.py:86
+msgid "Left to Right"
+msgstr "Esquerda para a Direita"
+
+#: globalPlugins/myCalculator/__init__.py:91
+msgid "Help"
+msgstr "Ajuda"
+
+#: globalPlugins/myCalculator/__init__.py:97
+msgid "History"
+msgstr "Histórico"
+
+#: globalPlugins/myCalculator/__init__.py:198
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "Entrada inválida, apenas números e símbolos aritméticos são permitidos"
+
+#: globalPlugins/myCalculator/__init__.py:160
+msgid "Calculation mode set to Standard International"
+msgstr "Modo de cálculo definido para Padrão Internacional"
+
+#: globalPlugins/myCalculator/__init__.py:165
+msgid "Calculation mode set to Left to Right"
+msgstr "Modo de cálculo definido para Esquerda para a Direita"
+
+#: globalPlugins/myCalculator/__init__.py:179
+msgid "Result copied to clipboard"
+msgstr "Resultado copiado para a área de transferência"
+
+#: globalPlugins/myCalculator/__init__.py:181
+msgid "Failed to access clipboard"
+msgstr "Falha ao acessar a área de transferência"
+
+#: globalPlugins/myCalculator/__init__.py:183
+msgid "No result to copy"
+msgstr "Nenhum resultado para copiar"
+
+#: globalPlugins/myCalculator/__init__.py:213
 msgid "Invalid calculation mode"
 msgstr "Modo de cálculo inválido"
 
+#: globalPlugins/myCalculator/__init__.py:226
 msgid "Error! Check Input"
-msgstr "Erro! Verifique a entrada"
-
-msgid "Standard Mode:\nCalculations follow the standard mathematical operator precedence rules (PEMDAS).\nExample: 3 + 5 * 2 = 13 (multiplicação é realizada primeiro).\n\nLeft to Right Mode:\nOs cálculos são realizados da esquerda para a direita, sem considerar a precedência dos operadores.\nExemplo: 3 + 5 * 2 = 16 (os cálculos são feitos da esquerda para a direita)."
-msgstr "Modo Padrão:\nOs cálculos seguem as regras padrão de precedência dos operadores matemáticos (PEMDAS).\nExemplo: 3 + 5 * 2 = 13 (multiplicação é realizada primeiro).\n\nModo da Esquerda para a Direita:\nOs cálculos são realizados da esquerda para a direita, sem considerar a precedência dos operadores.\nExemplo: 3 + 5 * 2 = 16 (os cálculos são feitos da esquerda para a direita)."
+msgstr "Erro! Verifique a Entrada"

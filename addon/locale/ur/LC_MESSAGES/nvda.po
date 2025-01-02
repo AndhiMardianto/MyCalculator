@@ -10,15 +10,15 @@ msgstr ""
 "POT-Creation-Date: 2025-01-02 10:01+0700\n"
 "PO-Revision-Date: 2025-01-02 10:30+0700\n"
 "Last-Translator: Andhi Mardianto <anditoinfo@gmail.com>\n"
-"Language-Team: Spanish <es@li.org>\n"
-"Language: es\n"
+"Language-Team: Urdu <ur@li.org>\n"
+"Language: ur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: globalPlugins/myCalculator/help.py:6
 msgid "Calculation Mode Help"
-msgstr "Ayuda del modo de cálculo"
+msgstr "حساب کتاب کا طریقہ کار مدد"
 
 #: globalPlugins/myCalculator/help.py:16
 msgid ""
@@ -32,84 +32,82 @@ msgid ""
 "precedence.\n"
 "Example: 3 + 5 * 2 = 16 (calculations are done left to right)."
 msgstr ""
-"Modo estándar:\n"
-"Los cálculos siguen las reglas estándar de precedencia de operadores "
-"matemáticos (PEMDAS).\n"
-"Ejemplo: 3 + 5 * 2 = 13 (la multiplicación se realiza primero).\n"
+"معیاری موڈ:\n"
+"حساب کتاب معیاری ریاضیاتی آپریٹر کی ترجیحی قواعد (PEMDAS) کے مطابق کیا جاتا ہے۔\n"
+"مثال: 3 + 5 * 2 = 13 (سب سے پہلے ضرب کی جاتی ہے)۔\n"
 "\n"
-"Modo de izquierda a derecha:\n"
-"Los cálculos se realizan de izquierda a derecha sin considerar la "
-"precedencia de operadores.\n"
-"Ejemplo: 3 + 5 * 2 = 16 (los cálculos se realizan de izquierda a derecha)."
+"بائیں سے دائیں موڈ:\n"
+"حساب کتاب بغیر کسی آپریٹر کی ترجیحی قواعد کو مدنظر رکھے بائیں سے دائیں کی ترتیب سے کیا جاتا ہے۔\n"
+"مثال: 3 + 5 * 2 = 16 (حساب کتاب بائیں سے دائیں کیا جاتا ہے)۔"
 
 #: globalPlugins/myCalculator/help.py:28
 msgid "OK"
-msgstr "Aceptar"
+msgstr "ٹھیک ہے"
 
 #: globalPlugins/myCalculator/__init__.py:26
 msgid "Open My Calculator dialog"
-msgstr "Abrir el diálogo de Mi Calculadora"
+msgstr "میرے کیلکولیٹر کا ڈائیلاگ کھولیں"
 
 #: globalPlugins/myCalculator/__init__.py:27
 msgid "MyCalculator"
-msgstr "MiCalculadora"
+msgstr "میرا کیلکولیٹر"
 
 #: globalPlugins/myCalculator/__init__.py:60
 msgid "Calculation Input"
-msgstr "Entrada de cálculo"
+msgstr "حساب کا ان پٹ"
 
 #: globalPlugins/myCalculator/__init__.py:69
 msgid "Result"
-msgstr "Resultado"
+msgstr "نتیجہ"
 
 #: globalPlugins/myCalculator/__init__.py:76
 msgid "Copy"
-msgstr "Copiar"
+msgstr "کاپی کریں"
 
 #: globalPlugins/myCalculator/__init__.py:81
 msgid "Standar"
-msgstr "Estándar"
+msgstr "معیاری"
 
 #: globalPlugins/myCalculator/__init__.py:86
 msgid "Left to Right"
-msgstr "Izquierda a derecha"
+msgstr "بائیں سے دائیں"
 
 #: globalPlugins/myCalculator/__init__.py:91
 msgid "Help"
-msgstr "Ayuda"
+msgstr "مدد"
 
 #: globalPlugins/myCalculator/__init__.py:97
 msgid "History"
-msgstr "Historial"
+msgstr "تاریخ"
 
 #: globalPlugins/myCalculator/__init__.py:198
 msgid "Invalid input, only numbers and arithmetic symbols allowed"
-msgstr "Entrada no válida, solo se permiten números y símbolos aritméticos"
+msgstr "غلط ان پٹ، صرف نمبروں اور ریاضی کے علامات کی اجازت ہے"
 
 #: globalPlugins/myCalculator/__init__.py:160
 msgid "Calculation mode set to Standard International"
-msgstr "Modo de cálculo establecido en Estándar Internacional"
+msgstr "حساب کتاب کا موڈ معیاری بین الاقوامی پر سیٹ کیا گیا"
 
 #: globalPlugins/myCalculator/__init__.py:165
 msgid "Calculation mode set to Left to Right"
-msgstr "Modo de cálculo establecido en Izquierda a Derecha"
+msgstr "حساب کتاب کا موڈ بائیں سے دائیں پر سیٹ کیا گیا"
 
 #: globalPlugins/myCalculator/__init__.py:179
 msgid "Result copied to clipboard"
-msgstr "Resultado copiado al portapapeles"
+msgstr "نتیجہ کلپ بورڈ پر کاپی کیا گیا"
 
 #: globalPlugins/myCalculator/__init__.py:181
 msgid "Failed to access clipboard"
-msgstr "Error al acceder al portapapeles"
+msgstr "کلپ بورڈ تک رسائی حاصل کرنے میں ناکامی"
 
 #: globalPlugins/myCalculator/__init__.py:183
 msgid "No result to copy"
-msgstr "No hay resultado para copiar"
+msgstr "کاپی کرنے کے لئے کوئی نتیجہ نہیں ہے"
 
 #: globalPlugins/myCalculator/__init__.py:213
 msgid "Invalid calculation mode"
-msgstr "Modo de cálculo no válido"
+msgstr "غلط حساب کتاب کا موڈ"
 
 #: globalPlugins/myCalculator/__init__.py:226
 msgid "Error! Check Input"
-msgstr "¡Error! Verifique la entrada"
+msgstr "غلطی! ان پٹ چیک کریں"

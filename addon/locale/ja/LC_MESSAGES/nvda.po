@@ -1,8 +1,113 @@
+# Translation file for MyCalculator NVDA Add-on.
+# Copyright (C) 2025 MyCalculator Project
+# This file is distributed under the same license as the MyCalculator package.
+# Andhi Mardianto <anditoinfo@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: MyCalculator 1.0\n"
+"Report-Msgid-Bugs-To: anditoinfo@gmail.com\n"
+"POT-Creation-Date: 2025-01-02 10:01+0700\n"
+"PO-Revision-Date: 2025-01-02 10:30+0700\n"
+"Last-Translator: Andhi Mardianto <anditoinfo@gmail.com>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: globalPlugins/myCalculator/help.py:6
+msgid "Calculation Mode Help"
+msgstr "計算モードのヘルプ"
+
+#: globalPlugins/myCalculator/help.py:16
+msgid ""
+"Standard Mode:\n"
+"Calculations follow the standard mathematical operator precedence rules "
+"(PEMDAS).\n"
+"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
+"\n"
+"Left to Right Mode:\n"
+"Calculations are performed from left to right without considering operator "
+"precedence.\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right)."
+msgstr ""
+"標準モード:\n"
+"計算は標準的な数学演算子の優先順位ルール (PEMDAS) に従います。\n"
+"例: 3 + 5 * 2 = 13 (最初に掛け算が行われます)。\n"
+"\n"
+"左から右モード:\n"
+"演算子の優先順位を考慮せず、左から右に計算が行われます。\n"
+"例: 3 + 5 * 2 = 16 (計算は左から右に行われます)。"
+
+#: globalPlugins/myCalculator/help.py:28
+msgid "OK"
+msgstr "OK"
+
+#: globalPlugins/myCalculator/__init__.py:26
+msgid "Open My Calculator dialog"
+msgstr "My Calculatorダイアログを開く"
+
+#: globalPlugins/myCalculator/__init__.py:27
+msgid "MyCalculator"
+msgstr "マイ・カリキュレーター"
+
+#: globalPlugins/myCalculator/__init__.py:60
+msgid "Calculation Input"
+msgstr "計算入力"
+
+#: globalPlugins/myCalculator/__init__.py:69
+msgid "Result"
+msgstr "結果"
+
+#: globalPlugins/myCalculator/__init__.py:76
+msgid "Copy"
+msgstr "コピー"
+
+#: globalPlugins/myCalculator/__init__.py:81
+msgid "Standar"
+msgstr "標準"
+
+#: globalPlugins/myCalculator/__init__.py:86
+msgid "Left to Right"
+msgstr "左から右"
+
+#: globalPlugins/myCalculator/__init__.py:91
+msgid "Help"
+msgstr "ヘルプ"
+
+#: globalPlugins/myCalculator/__init__.py:97
+msgid "History"
+msgstr "履歴"
+
+#: globalPlugins/myCalculator/__init__.py:198
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "無効な入力です。数字と算術記号のみが許可されます"
+
+#: globalPlugins/myCalculator/__init__.py:160
+msgid "Calculation mode set to Standard International"
+msgstr "計算モードが標準国際モードに設定されました"
+
+#: globalPlugins/myCalculator/__init__.py:165
+msgid "Calculation mode set to Left to Right"
+msgstr "計算モードが左から右に設定されました"
+
+#: globalPlugins/myCalculator/__init__.py:179
+msgid "Result copied to clipboard"
+msgstr "結果がクリップボードにコピーされました"
+
+#: globalPlugins/myCalculator/__init__.py:181
+msgid "Failed to access clipboard"
+msgstr "クリップボードにアクセスできませんでした"
+
+#: globalPlugins/myCalculator/__init__.py:183
+msgid "No result to copy"
+msgstr "コピーする結果がありません"
+
+#: globalPlugins/myCalculator/__init__.py:213
 msgid "Invalid calculation mode"
 msgstr "無効な計算モード"
 
+#: globalPlugins/myCalculator/__init__.py:226
 msgid "Error! Check Input"
 msgstr "エラー！入力を確認してください"
-
-msgid "Standard Mode:\nCalculations follow the standard mathematical operator precedence rules (PEMDAS).\nExample: 3 + 5 * 2 = 13 (掛け算が先に行われます)。\n\nLeft to Right Mode:\n計算は演算子の優先順位を考慮せず、左から右に行われます。\n例：3 + 5 * 2 = 16（計算は左から右に行われます）。"
-msgstr "スタンダードモード：\n計算は標準の数学的演算子の優先順位ルール（PEMDAS）に従います。\n例：3 + 5 * 2 = 13（掛け算が先に行われます）。\n\n左から右モード：\n計算は演算子の優先順位を考慮せず、左から右に行われます。\n例：3 + 5 * 2 = 16（計算は左から右に行われます）。"

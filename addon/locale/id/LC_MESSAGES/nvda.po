@@ -1,8 +1,115 @@
+# Translation file for MyCalculator NVDA Add-on.
+# Copyright (C) 2025 MyCalculator Project
+# This file is distributed under the same license as the MyCalculator package.
+# Andhi Mardianto <anditoinfo@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: MyCalculator 1.0\n"
+"Report-Msgid-Bugs-To: anditoinfo@gmail.com\n"
+"POT-Creation-Date: 2025-01-02 10:01+0700\n"
+"PO-Revision-Date: 2025-01-02 10:30+0700\n"
+"Last-Translator: Andhi Mardianto <anditoinfo@gmail.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: globalPlugins/myCalculator/help.py:6
+msgid "Calculation Mode Help"
+msgstr "Bantuan Mode Perhitungan"
+
+#: globalPlugins/myCalculator/help.py:16
+msgid ""
+"Standard Mode:\n"
+"Calculations follow the standard mathematical operator precedence rules "
+"(PEMDAS).\n"
+"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
+"\n"
+"Left to Right Mode:\n"
+"Calculations are performed from left to right without considering operator "
+"precedence.\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right)."
+msgstr ""
+"Mode Standar:\n"
+"Perhitungan mengikuti aturan prioritas operator matematika standar "
+"(PEMDAS).\n"
+"Contoh: 3 + 5 * 2 = 13 (perkalian dilakukan lebih dahulu).\n"
+"\n"
+"Mode Kiri ke Kanan:\n"
+"Perhitungan dilakukan dari kiri ke kanan tanpa mempertimbangkan prioritas "
+"operator.\n"
+"Contoh: 3 + 5 * 2 = 16 (perhitungan dilakukan dari kiri ke kanan)."
+
+#: globalPlugins/myCalculator/help.py:28
+msgid "OK"
+msgstr "OK"
+
+#: globalPlugins/myCalculator/__init__.py:26
+msgid "Open My Calculator dialog"
+msgstr "Buka dialog Kalkulator "
+
+#: globalPlugins/myCalculator/__init__.py:27
+msgid "MyCalculator"
+msgstr "KalkulatorSaya"
+
+#: globalPlugins/myCalculator/__init__.py:60
+msgid "Calculation Input"
+msgstr "Masukan Perhitungan"
+
+#: globalPlugins/myCalculator/__init__.py:69
+msgid "Result"
+msgstr "Hasil"
+
+#: globalPlugins/myCalculator/__init__.py:76
+msgid "Copy"
+msgstr "Salin"
+
+#: globalPlugins/myCalculator/__init__.py:81
+msgid "Standar"
+msgstr "Standar"
+
+#: globalPlugins/myCalculator/__init__.py:86
+msgid "Left to Right"
+msgstr "Left to Right"
+
+#: globalPlugins/myCalculator/__init__.py:91
+msgid "Help"
+msgstr "Bantuan"
+
+#: globalPlugins/myCalculator/__init__.py:97
+msgid "History"
+msgstr "Riwayat"
+
+#: globalPlugins/myCalculator/__init__.py:198
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "Masukan tidak valid, hanya angka dan simbol aritmatika yang diperbolehkan"
+
+#: globalPlugins/myCalculator/__init__.py:160
+msgid "Calculation mode set to Standard International"
+msgstr "Mode perhitungan diatur ke Standar Internasional"
+
+#: globalPlugins/myCalculator/__init__.py:165
+msgid "Calculation mode set to Left to Right"
+msgstr "Mode perhitungan diatur  dari Kiri ke Kanan"
+
+#: globalPlugins/myCalculator/__init__.py:179
+msgid "Result copied to clipboard"
+msgstr "Hasil disalin ke clipboard"
+
+#: globalPlugins/myCalculator/__init__.py:181
+msgid "Failed to access clipboard"
+msgstr "Gagal mengakses clipboard"
+
+#: globalPlugins/myCalculator/__init__.py:183
+msgid "No result to copy"
+msgstr "Tidak ada hasil untuk disalin"
+
+#: globalPlugins/myCalculator/__init__.py:213
 msgid "Invalid calculation mode"
 msgstr "Mode perhitungan tidak valid"
 
+#: globalPlugins/myCalculator/__init__.py:226
 msgid "Error! Check Input"
-msgstr "Kesalahan! Periksa input"
-
-msgid "Standard Mode:\nCalculations follow the standard mathematical operator precedence rules (PEMDAS).\nExample: 3 + 5 * 2 = 13 (perkalian dilakukan terlebih dahulu).\n\nLeft to Right Mode:\nPerhitungan dilakukan dari kiri ke kanan tanpa memperhatikan prioritas operator.\nContoh: 3 + 5 * 2 = 16 (perhitungan dilakukan dari kiri ke kanan)."
-msgstr "Mode Standar:\nPerhitungan mengikuti aturan prioritas operator matematika standar (PEMDAS).\nContoh: 3 + 5 * 2 = 13 (perkalian dilakukan terlebih dahulu).\n\nMode Dari Kiri ke Kanan:\nPerhitungan dilakukan dari kiri ke kanan tanpa memperhatikan prioritas operator.\nContoh: 3 + 5 * 2 = 16 (perhitungan dilakukan dari kiri ke kanan)."
+msgstr "Error! Periksa Input"
