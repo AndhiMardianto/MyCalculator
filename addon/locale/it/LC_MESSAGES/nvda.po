@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-06 09:47+0100\n"
+"PO-Revision-Date: 2025-01-06 11:18+0100\n"
+"Last-Translator: NetB di Leonardo Marenda <posta@netb.pro>\n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: globalPlugins/myCalculator/__init__.py:25
+msgid "Open My Calculator dialog"
+msgstr "Apre la finestra di dialogo di My Calculator"
+
+#: globalPlugins/myCalculator/__init__.py:26
+msgid "MyCalculator"
+msgstr ""
+
+#: globalPlugins/myCalculator/__init__.py:58
+msgid "Calculation Input"
+msgstr "Calcolo"
+
+#: globalPlugins/myCalculator/__init__.py:67
+msgid "Result"
+msgstr "risultato"
+
+#: globalPlugins/myCalculator/__init__.py:74
+msgid "Copy"
+msgstr "Copia"
+
+#: globalPlugins/myCalculator/__init__.py:80
+msgid "History"
+msgstr "Storico"
+
+#: globalPlugins/myCalculator/__init__.py:134
+#: globalPlugins/myCalculator/__init__.py:159
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "Calcolo non valido, sono consentiti solo numeri e simboli aritmetici"
+
+#: globalPlugins/myCalculator/__init__.py:142
+msgid "Input is empty, cannot copy"
+msgstr "Il campo è vuoto, non può essere copiato"
+
+#: globalPlugins/myCalculator/__init__.py:146
+msgid "Copied"
+msgstr "Copiato"
+
+#: globalPlugins/myCalculator/__init__.py:180
+msgid "Error! Check Input"
+msgstr "Errore! Controllare il calcolo"

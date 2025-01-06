@@ -1,4 +1,4 @@
-# My Calculator NVDA Addon v1.0.0
+# My Calculator NVDA Addon v1.1.0
 
 ## My Calculator
 
@@ -22,3 +22,7 @@ Press `Esc` to close the program.
 ## Release v1.0.0
 
 **First Launch**
+
+## Release v1.1.0
+
+**Added Italian translation**
