@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-01-06 21:45+0200\n"
+"PO-Revision-Date: 2025-01-06 22:01+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: addon/globalPlugins\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: myCalculator/__init__.py:26
+msgid "Open My Calculator dialog"
+msgstr "Відкрити діалог «Мій калькулятор»"
+
+#: myCalculator/__init__.py:27
+msgid "MyCalculator"
+msgstr "Мій калькулятор"
+
+#: myCalculator/__init__.py:60
+msgid "Calculation Input"
+msgstr "Вхідні дані для обчислення"
+
+#: myCalculator/__init__.py:69
+msgid "Result"
+msgstr "Результат"
+
+#: myCalculator/__init__.py:76
+msgid "Copy"
+msgstr "Копіювати"
+
+#: myCalculator/__init__.py:81
+msgid "Standar"
+msgstr "Стандартний"
+
+#: myCalculator/__init__.py:86
+msgid "Left to Right"
+msgstr "Зліва направо"
+
+#: myCalculator/__init__.py:91
+msgid "Help"
+msgstr "Довідка"
+
+#: myCalculator/__init__.py:97
+msgid "History"
+msgstr "Історія"
+
+#: myCalculator/__init__.py:129 myCalculator/__init__.py:198
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "Недійсне введення, дозволені лише числа та арифметичні символи"
+
+#: myCalculator/__init__.py:160
+msgid "Calculation mode set to Standard International"
+msgstr "Режим обчислення встановлено на Стандартний міжнародний"
+
+#: myCalculator/__init__.py:165
+msgid "Calculation mode set to Left to Right"
+msgstr "Режим обчислення встановлено «Зліва направо»"
+
+#: myCalculator/__init__.py:179
+msgid "Result copied to clipboard"
+msgstr "Результат скопійовано в буфер обміну"
+
+#: myCalculator/__init__.py:181
+msgid "Failed to access clipboard"
+msgstr "Не вдалося отримати доступ до буфера обміну"
+
+#: myCalculator/__init__.py:183
+msgid "No result to copy"
+msgstr "Немає результатів для копіювання"
+
+#: myCalculator/__init__.py:213
+msgid "Invalid calculation mode"
+msgstr "Недійсний режим обчислення"
+
+#: myCalculator/__init__.py:226
+msgid "Error! Check Input"
+msgstr "Помилка! Перевірте введення"
+
+#: myCalculator/help.py:8
+msgid "Calculation Mode Help"
+msgstr "Довідка режиму обчислення"
+
+#: myCalculator/help.py:18
+msgid ""
+"Standard Mode:\n"
+"Calculations follow the standard mathematical operator precedence rules "
+"(PEMDAS).\n"
+"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
+"\n"
+"Left to Right Mode:\n"
+"Calculations are performed from left to right without considering operator "
+"precedence.\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right)."
+msgstr ""
+"Стандартний режим:\n"
+"Обчислення виконуються за стандартними правилами пріоритету математичних "
+"операторів (PEMDAS).\n"
+"Приклад: 3 + 5 * 2 = 13 (спочатку виконується множення).\n"
+"\n"
+"Режим зліва направо:\n"
+"Обчислення виконуються зліва направо без урахування пріоритету оператора.\n"
+"Приклад: 3 + 5 * 2 = 16 (обчислення ведуться зліва направо)."
+
+#: myCalculator/help.py:30
+msgid "OK"
+msgstr "Гаразд"
