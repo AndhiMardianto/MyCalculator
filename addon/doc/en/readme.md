@@ -1,4 +1,9 @@
 # My Calculator NVDA Addon
+# My Calculator NVDA Addon v1.1.0
+
+## My Calculator
+
+**Author:** Andhi Mardianto
 
 ## Introduction
 **My Calculator NVDA Addon** is a calculator designed for NVDA users, offering multiple calculation methods and an improved user experience.
@@ -39,3 +44,8 @@ This project is licensed under the **GPL-2.0 License**. Refer to the `LICENSE` f
 ---
 
 Thank you for using **My Calculator NVDA Addon**! We hope it makes your daily activities easier.
+**First Launch**
+
+## Release v1.1.0
+
+**Added Italian translation**
