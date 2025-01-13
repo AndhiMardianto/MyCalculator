@@ -1,14 +1,14 @@
-# Translation file for MyCalculator NVDA Add-on.
-# Copyright (C) 2025 MyCalculator Project
-# This file is distributed under the same license as the MyCalculator package.
+# Translation file for My Calculator NVDA Add-on.
+# Copyright (C) 2025 My Calculator Project
+# This file is distributed under the same license as the MyCalculatorpackage.
 # Andhi Mardianto <anditoinfo@gmail.com>, 2025.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: MyCalculator 1.0\n"
+"Project-Id-Version: my calculator 2.0\n"
 "Report-Msgid-Bugs-To: anditoinfo@gmail.com\n"
 "POT-Creation-Date: 2025-01-02 10:01+0700\n"
-"PO-Revision-Date: 2025-01-02 10:30+0700\n"
+"PO-Revision-Date: 2025-01-11 10:30+0700\n"
 "Last-Translator: Andhi Mardianto <anditoinfo@gmail.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
 "Language: id\n"
@@ -16,11 +16,64 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: globalPlugins/myCalculator/help.py:6
-msgid "Calculation Mode Help"
-msgstr "Bantuan Mode Perhitungan"
 
-#: globalPlugins/myCalculator/help.py:16
+msgid "Open My Calculator dialog"
+msgstr "buka kalkulator saya "
+
+msgid "Calculation Input"
+msgstr "Masukan Perhitungan"
+
+msgid "Result"
+msgstr "Hasil"
+
+msgid "Copy"
+msgstr "Salin"
+
+msgid "Standar"
+msgstr "Standar"
+
+msgid "Left to Right"
+msgstr "Kiri ke Kanan"
+
+msgid "Conversion"
+msgstr "Konversi"
+
+msgid "Scientific"
+msgstr "Ilmiah"
+
+msgid "Help"
+msgstr "Bantuan"
+
+msgid "History"
+msgstr "Riwayat"
+
+msgid "Calculation mode set to Standard International"
+msgstr "Perhitungan diatur ke standar"
+
+msgid "Calculation mode set to Left to Right"
+msgstr "Perhitungan diatur dari Kiri ke Kanan"
+
+msgid "Result copied to clipboard"
+msgstr "Hasil di Salin ke clipboard"
+
+msgid "Failed to access clipboard"
+msgstr "gagal mengakses clipboard"
+
+msgid "No result to copy"
+msgstr "tidak ada Hasil yang di Salin"
+
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "Format Masukan tidak benar hanya angka dan simbol matematika diperbolehkan "
+
+msgid "Error! Check Input"
+msgstr "Error periksa masukan"
+
+msgid "Invalid calculation mode"
+msgstr "Mode perhitungan tidak valid"
+
+msgid "Calculation Mode Help"
+msgstr "Mode Bantuan "
+
 msgid ""
 "Standard Mode:\n"
 "Calculations follow the standard mathematical operator precedence rules "
@@ -30,86 +83,229 @@ msgid ""
 "Left to Right Mode:\n"
 "Calculations are performed from left to right without considering operator "
 "precedence.\n"
-"Example: 3 + 5 * 2 = 16 (calculations are done left to right)."
-msgstr ""
-"Mode Standar:\n"
-"Perhitungan mengikuti aturan prioritas operator matematika standar "
-"(PEMDAS).\n"
-"Contoh: 3 + 5 * 2 = 13 (perkalian dilakukan lebih dahulu).\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
 "\n"
-"Mode Kiri ke Kanan:\n"
-"Perhitungan dilakukan dari kiri ke kanan tanpa mempertimbangkan prioritas "
-"operator.\n"
-"Contoh: 3 + 5 * 2 = 16 (perhitungan dilakukan dari kiri ke kanan)."
+"Scientific Mode:\n"
+"\n"
+"Sin and Cos:\n"
+"Calculates the values of sine and cosine.\n"
+"The input must be in degrees. The calculator will automatically convert the "
+"value to radians for the calculation.\n"
+"\n"
+"Logarithms:\n"
+"Two types of logarithms are available:\n"
+"- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
+"- Base 10 Logarithm: Logarithm with base 10.\n"
+"Negative numbers are not supported as logarithms are only defined for "
+"positive numbers.\n"
+"\n"
+"Square Root:\n"
+"Calculates the square root of a number.\n"
+"Negative numbers are not supported as the square root is only defined for "
+"non-negative numbers.\n"
+"\n"
+"Result Format:\n"
+"- High Precision: Displays the result with full detail.\n"
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded "
+"to 2 decimal places for easier reading."
+msgstr ""
 
-#: globalPlugins/myCalculator/help.py:28
 msgid "OK"
 msgstr "OK"
 
-#: globalPlugins/myCalculator/__init__.py:26
-msgid "Open My Calculator dialog"
-msgstr "Buka dialog Kalkulator "
+msgid "Please Select Conversion Mode"
+msgstr "Silahkan Pilih Mode Perhitungan"
 
-#: globalPlugins/myCalculator/__init__.py:27
-msgid "MyCalculator"
-msgstr "KalkulatorSaya"
+msgid "Length"
+msgstr "Panjang"
 
-#: globalPlugins/myCalculator/__init__.py:60
-msgid "Calculation Input"
-msgstr "Masukan Perhitungan"
+msgid "Mass"
+msgstr "Masa"
 
-#: globalPlugins/myCalculator/__init__.py:69
-msgid "Result"
-msgstr "Hasil"
+msgid "Temperature"
+msgstr "Suhu"
 
-#: globalPlugins/myCalculator/__init__.py:76
-msgid "Copy"
-msgstr "Salin"
+msgid "Volume"
+msgstr "Volume"
 
-#: globalPlugins/myCalculator/__init__.py:81
-msgid "Standar"
-msgstr "Standar"
+msgid "Speed"
+msgstr "Kecepatan"
 
-#: globalPlugins/myCalculator/__init__.py:86
-msgid "Left to Right"
-msgstr "Left to Right"
+msgid "Select a Speed conversion:"
+msgstr "Pilih Konversi Kecepatan"
 
-#: globalPlugins/myCalculator/__init__.py:91
-msgid "Help"
-msgstr "Bantuan"
+msgid "Speed Conversion Options"
+msgstr "Pilihan konversi Kecepatan"
 
-#: globalPlugins/myCalculator/__init__.py:97
-msgid "History"
-msgstr "Riwayat"
+msgid "Input in Kilometers per Hour:"
+msgstr "Masukan Dalam Kilometer per Jam"
 
-#: globalPlugins/myCalculator/__init__.py:198
-msgid "Invalid input, only numbers and arithmetic symbols allowed"
-msgstr "Masukan tidak valid, hanya angka dan simbol aritmatika yang diperbolehkan"
+msgid "Input in Miles per Hour:"
+msgstr "Masukan dalam Mil per Jam"
 
-#: globalPlugins/myCalculator/__init__.py:160
-msgid "Calculation mode set to Standard International"
-msgstr "Mode perhitungan diatur ke Standar Internasional"
+msgid "Input in Meters per Second:"
+msgstr "Masukan dalam Meter per Detik"
 
-#: globalPlugins/myCalculator/__init__.py:165
-msgid "Calculation mode set to Left to Right"
-msgstr "Mode perhitungan diatur  dari Kiri ke Kanan"
+msgid "Input in Knots:"
+msgstr "Masukan dalam Knot"
 
-#: globalPlugins/myCalculator/__init__.py:179
-msgid "Result copied to clipboard"
-msgstr "Hasil disalin ke clipboard"
+msgid "Input in Feet per Second:"
+msgstr "Masukan dalam Kaki per Detik"
 
-#: globalPlugins/myCalculator/__init__.py:181
-msgid "Failed to access clipboard"
-msgstr "Gagal mengakses clipboard"
+msgid "Select a length conversion:"
+msgstr "Pilih Konversi Panjang"
 
-#: globalPlugins/myCalculator/__init__.py:183
-msgid "No result to copy"
-msgstr "Tidak ada hasil untuk disalin"
+msgid "Length Conversion Options"
+msgstr "Pilihan konversi Panjang"
 
-#: globalPlugins/myCalculator/__init__.py:213
-msgid "Invalid calculation mode"
-msgstr "Mode perhitungan tidak valid"
+msgid "Input in Kilometers:"
+msgstr "Masukan Dalam Kilometer"
 
-#: globalPlugins/myCalculator/__init__.py:226
-msgid "Error! Check Input"
-msgstr "Error! Periksa Input"
+msgid "Input in Miles:"
+msgstr "Masukkan Dalam Mil"
+
+msgid "Input in Meters:"
+msgstr "Masukkan Dalam Meter"
+
+msgid "Input in Feet:"
+msgstr "Masukkan DalamKaki"
+
+msgid "Input in Centimeters:"
+msgstr "Masukkan Dalam Centimeter"
+
+msgid "Input in Inches:"
+msgstr "Masukkan Dalam Inchi"
+
+msgid "Select a Mass conversion:"
+msgstr "Pilih konversi Masa"
+
+msgid "Mass Conversion Options"
+msgstr "Pilih Konversi Masa"
+
+msgid "Input in Kilograms:"
+msgstr "Masukkan Dalam Kilogram"
+
+msgid "Input in Pounds:"
+msgstr "Masukkan Dalam Pound"
+
+msgid "Input in Tons:"
+msgstr "Masukkan Dalam Ton"
+
+msgid "Input in Ounces:"
+msgstr "Masukkan Dalam Ounce"
+
+msgid "Input in Grams:"
+msgstr "Masukkan Dalam Gram"
+
+msgid "Select a Temperature conversion:"
+msgstr "Pilih Konversi Suhu"
+
+msgid "Temperature Conversion Options"
+msgstr "Pilih Konversi Suhu"
+
+#: globalPlugins/myCalculator/conversion.py:430
+msgid "Input in Celsius:"
+msgstr "Masukkan Dalam Celsius"
+
+msgid "Input in Fahrenheit:"
+msgstr "Masukkan Dalam Fahrenheit"
+
+msgid "Input in Kelvin:"
+msgstr "Masukkan Dalam Kelvin"
+
+msgid "Select a Volume conversion:"
+msgstr "Pilih Konversi Volume"
+
+msgid "Volume Conversion Options"
+msgstr "Pilih Konversi Volume"
+
+msgid "Input in Liter:"
+msgstr "Masukkan Dalam Liter"
+
+msgid "Input in Gallon (US):"
+msgstr "Masukkan Dalam Gallon (US)"
+
+msgid "Input in Milliliter:"
+msgstr "Masukkan Dalam Mililiter"
+
+msgid "Input in Cubic Meter:"
+msgstr "Masukan Dalam kubik Meter"
+
+msgid "Input in Gallon (UK) :"
+msgstr "Masukkan Dalam Gallon (UK)"
+
+msgid "Input in Liter :"
+msgstr "Masukkan Dalam Liter"
+
+msgid "Input in Cubic Inch :"
+msgstr "Masukkan DalamKubik Inci"
+
+msgid "Input in Milliliter :"
+msgstr "Masukkan Dalam Mililiter"
+
+msgid "Input in Cubic Centimeter :"
+msgstr "Masukkan Dalam Centimeter kubik"
+
+msgid "Input in Barrel (US) :"
+msgstr "Masukkan Dalam Barel (US)"
+
+msgid "Invalid input, only numbers allowed"
+msgstr "Masukkan tidak Valid hanya angka diperbolehkan "
+
+msgid "Please Select Scientific Mode "
+msgstr "Silahkan Pilih Mode Ilmiah"
+
+msgid "Sin"
+msgstr "Sinus"
+
+msgid "Cos"
+msgstr "Cosinus"
+
+msgid "Log"
+msgstr "Logaritma"
+
+msgid "Sqrt"
+msgstr "Akar Kuadrat"
+
+msgid "Input in Degrees:"
+msgstr "Masukkan Dalam Derajat"
+
+msgid "Calculation mode set to Sin"
+msgstr "perhitungan diatur ke sinus"
+
+msgid "Calculation mode set to Cos"
+msgstr "Perhitungan diatur ke kosinus"
+
+msgid "Input in Basis Natural :"
+msgstr "Masukkan dalam Basis Natural (LN)"
+
+msgid "Input in Basis 10:"
+msgstr "Masukkan Dalam Basis 10"
+
+msgid "Input in Non-Negative Numbers:"
+msgstr "Masukkan Bukan Dalam angka Negatif"
+
+msgid "Calculation mode set to Sqrt"
+msgstr "Perhitungan diatur ke akar Kuadrat"
+
+msgid "Please select a calculation mode first"
+msgstr "Silahkan Pilih Mode Perhitungan terlebih Dahulu "
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "Logaritma hanya di defenisikan untuk bilangan positif"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "akar kuadrat hanya  di tentukan untuk bilangan positif "
+
+msgid ""
+"High Precision = {result}\n"
+"Rounded = {rounded_result}"
+msgstr ""
+"Presisi Tinggi = {result}\n"
+"Dibulatkan = {rounded_result}"
+
+msgid "Invalid input. Please check your expression"
+msgstr "masukkan tidak valid periksa masukkan"
+
+msgid "An error occurred: "
+msgstr ""

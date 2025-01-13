@@ -5,12 +5,15 @@
 import globalPluginHandler
 import ui
 import re
+import math
 import api
 import tones
 import addonHandler
 import wx
 import gui
 from .help import show_calculator_help
+from .scientific import DialogScientific
+from .conversion import DialogConversion
 from keyboardHandler import KeyboardInputGesture
 from scriptHandler import script
 addonHandler.initTranslation()
@@ -74,7 +77,7 @@ class MainDialog(wx.Dialog):
 
         # Tombol Copy
         copy_button = wx.Button(panel, label=_("Copy"))
-        copy_button.Bind(wx.EVT_BUTTON, self.periksa)
+        copy_button.Bind(wx.EVT_BUTTON, self.salin)
         leftSizer.Add(copy_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
 
         # Tombol Standar
@@ -86,6 +89,16 @@ class MainDialog(wx.Dialog):
         ltr_button = wx.Button(panel, label=_("Left to Right"))
         ltr_button.Bind(wx.EVT_BUTTON, self.set_left_to_right_mode)
         leftSizer.Add(ltr_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
+
+        # Tombol conversion
+        conversion_button = wx.Button(panel, label=_("Conversion"))
+        conversion_button.Bind(wx.EVT_BUTTON, self.ConversionMode)
+        leftSizer.Add(conversion_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
+
+        # Tombol Scientific
+        scientific_button = wx.Button(panel, label=_("Scientific"))
+        scientific_button.Bind(wx.EVT_BUTTON, self.ScientificMode)  
+        leftSizer.Add(scientific_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
 
         # Tombol Help
         help_button = wx.Button(panel, label=_("Help"))
@@ -112,28 +125,25 @@ class MainDialog(wx.Dialog):
         self.Bind(wx.EVT_CHAR_HOOK, self.close)
 
         # Fokus ke input saat dialog muncul
-        self.Bind(wx.EVT_SHOW, self.tampilkan)
-
+        self.Bind(wx.EVT_SHOW, self.fokus)
         self.Show()
 
-    def onTextChanged(self, event):
-        """Menangani perubahan teks di kotak input."""
-        expression = self.number1.GetValue().strip()
-        if not expression:
-            self.re.SetValue("")  # Kosongkan kotak hasil jika input kosong
-        else:
-            tones.beep(750, 50)  # Memutar nada beep saat ada input
 
-            # Validasi input untuk hanya mengizinkan angka dan simbol matematika
-            if not all(char.isdigit() or char in "+-*/().xX: " for char in expression):
-                ui.message(_("Invalid input, only numbers and arithmetic symbols allowed"))
-                tones.beep(440, 100)
-                self.number1.SetValue(expression[:-1])  # Hapus karakter tidak valid terakhir
-                self.number1.SetInsertionPointEnd()  # Set cursor ke akhir teks
-        event.Skip()
+    def ConversionMode(self, event):
+        """Membuka dialog mode conversion."""
+        dialog_conversion = DialogConversion(self)  # Buat instance dari dialogConversion dengan parent
+        dialog_conversion.ShowModal()       # Tampilkan dialog secara modal
+        dialog_conversion.Destroy()         # Hancurkan dialog setelah ditutup
 
 
-    def tampilkan(self, event):
+    def ScientificMode(self, event):
+        """Membuka dialog mode ilmiah sin."""
+        dialog_scientific = DialogScientific(self)  # Buat instance dari dialogSin dengan parent
+        dialog_scientific.ShowModal()       # Tampilkan dialog secara modal
+        dialog_scientific.Destroy()         # Hancurkan dialog setelah ditutup
+
+
+    def fokus(self, event):
         self.number1.SetFocus()
 
     def close(self, event):
@@ -143,35 +153,29 @@ class MainDialog(wx.Dialog):
         else:
             event.Skip()
 
-    def onKeyPressed(self, event):
-        keycode = event.GetKeyCode()
-        if keycode == wx.WXK_RETURN or keycode == wx.WXK_TAB or keycode == wx.WXK_NUMPAD_ENTER:
-            self.hitung()
-            self.re.SetFocus()
-        elif not event.ShiftDown() and keycode == 61:  # KeyCode 61 adalah '='
-            self.hitung()
-            self.re.SetFocus()
-        else:
-            event.Skip()
-
+        #Mengatur mode perhitungan ke Standar Internasional.
     def set_standard_mode(self, event):
-        """Mengatur mode perhitungan ke Standar Internasional."""
         self.calculationMode = "standard"
         ui.message(_("Calculation mode set to Standard International"))
+        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        self.hitung(expression)  # Panggil fungsi hitung dengan ekspresi
+        self.number1.SetFocus()  # Pindahkan fokus ke kotak input
 
+        #Mengatur mode perhitungan ke Left to Right.
     def set_left_to_right_mode(self, event):
-        """Mengatur mode perhitungan ke Left to Right."""
         self.calculationMode = "left_to_right"
         ui.message(_("Calculation mode set to Left to Right"))
+        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        self.hitung(expression)  # Panggil fungsi hitung dengan ekspresi
+        self.number1.SetFocus()  # Pindahkan fokus ke kotak input
 
+        #Menampilkan pesan bantuan.
     def show_help(self, event):
-        """Menampilkan pesan bantuan."""
         help.show_calculator_help()
         
-    def periksa(self, event):
-        """Fungsi untuk menyalin hasil ke clipboard."""
+        #Fungsi untuk menyalin hasil ke clipboard
+    def salin(self, event):
         if self.re.GetValue():
-            # Salin hasil ke clipboard
             clipboard = wx.Clipboard.Get()
             if clipboard.Open():
                 clipboard.SetData(wx.TextDataObject(self.re.GetValue()))
@@ -182,29 +186,52 @@ class MainDialog(wx.Dialog):
         else:
             ui.message(_("No result to copy"))
 
+        #Menangani input tombol tanpa memicu hasil.
+    def onKeyPressed(self, event):
+        keycode = event.GetKeyCode()        
+        if keycode == wx.WXK_RETURN or keycode == wx.WXK_NUMPAD_ENTER:
+            # Pindahkan fokus ke kotak hasil
+            self.re.SetFocus()  # Fokuskan ke kotak hasil ketika Enter ditekan
+            event.Skip()  # Biarkan event diproses default
+        else:
+            event.Skip()  # Biarkan event lain diproses default
 
-    def hitung(self):
-        """Logika utama untuk perhitungan berdasarkan mode yang dipilih."""
-        expression = self.number1.Value.strip()
+        #Menangani perubahan teks di kotak input
+    def onTextChanged(self, event):
+        expression = self.number1.GetValue().strip()
+        
+        if not expression:
+            self.re.SetValue("")  # Kosongkan kotak hasil jika input kosong
+        else:
+            tones.beep(750, 50)  # Memutar nada beep saat ada input
 
-        # Jika input kosong, hentikan eksekusi
+            # Validasi input untuk hanya mengizinkan angka dan simbol matematika
+            if not all(char.isdigit() or char in "+-*/().xX: " for char in expression):
+                ui.message(_("Invalid input, only numbers and arithmetic symbols allowed"))
+                tones.beep(440, 200)
+                self.number1.SetValue(expression[:-1])  # Hapus karakter tidak valid terakhir
+                self.number1.SetInsertionPointEnd()  # Set cursor ke akhir teks
+            else:
+                # Jalankan perhitungan real-time
+                self.hitung(expression)
+        event.Skip()
+
+        #Perhitungan real-time berdasarkan mode yang dipilih
+    def hitung(self, expression):
         if not expression:
             return
 
-        self.re.Value = ""
+        self.re.SetValue("")  # Kosongkan hasil sebelum perhitungan
         expression = re.sub(r"[xX]", "*", expression).replace(":", "/")
 
-        if not all(char.isdigit() or char in "+-*/().= " for char in expression):
-            ui.message(_("Invalid input, only numbers and arithmetic symbols allowed"))
-            tones.beep(440, 100)
-            expression = expression[:-1]
-            self.number1.Value = expression
-            self.number1.SetInsertionPoint(len(expression))
+        # Validasi simbol dan karakter
+        if not re.match(r'^[0-9+\-*/(). ]+$', expression):
+            self.re.SetValue(_("Error! Check Input"))
+            tones.beep(440, 300)
             return
 
         try:
-            expression = expression.rstrip('=')  # Hapus simbol = dari akhir ekspresi jika ada
-
+            # Hitung berdasarkan mode
             if self.calculationMode == "standard":
                 result = eval(expression)
             elif self.calculationMode == "left_to_right":
@@ -213,26 +240,28 @@ class MainDialog(wx.Dialog):
                 ui.message(_("Invalid calculation mode"))
                 return
 
-            # Jika hasilnya merupakan bilangan bulat (tanpa desimal), tampilkan sebagai bilangan bulat
+            # Tampilkan hasil
             result = int(result) if isinstance(result, float) and result.is_integer() else result
-            self.re.Value = str(result)
+            self.re.SetValue(str(result))
 
-            # Tambahkan input dan hasil akhir ke riwayat
-            self.history.insert(0, f"{expression} = {result}")  # Menambahkan perhitungan dan hasil ke riwayat
+            # Perbarui riwayat
+            self.history.insert(0, f"{expression} = {result}")
             self.updateHistoryBox()
+        except (SyntaxError, ZeroDivisionError, ValueError):
+            self.re.SetValue(_("Error! Check Input"))
 
-            tones.beep(750, 50)
-        except:
-            self.re.Value = _("Error! Check Input")
-            tones.beep(440, 300)
-
+        #Fungsi Menghitung ekspresi dari kiri ke kanan
     def calculate_left_to_right(self, expression):
-        """Menghitung ekspresi dari kiri ke kanan."""
-        tokens = re.split(r'([+\-*/])', expression.replace(' ', ''))
+        # Memastikan angka negatif di awal atau setelah operator diinterpretasikan dengan benar
+        tokens = re.findall(r'-?\d+(?:\.\d+)?|[+\-*/]', expression.replace(' ', ''))
+        
+        if not tokens:  # Jika tidak ada token, kembalikan 0 atau nilai default
+            return 0
+        
         result = float(tokens[0])
-
         i = 1
-        while i < len(tokens):
+
+        while i < len(tokens) - 1:  # Pastikan tidak melampaui batas token
             operator = tokens[i]
             next_number = float(tokens[i + 1])
 
@@ -250,9 +279,6 @@ class MainDialog(wx.Dialog):
         return result
 
     def updateHistoryBox(self):
-        """Perbarui tampilan riwayat di kotak riwayat."""
+        #Perbarui tampilan riwayat di kotak riwayat.
         self.historyBox.Value = "\n".join(self.history)  # Tampilkan seluruh riwayat
-
-
-
 
