@@ -1,0 +1,357 @@
+# Translation file for My Calculator NVDA Add-on.
+# Copyright (C) 2025 My Calculator Project
+# This file is distributed under the same license as the MyCalculatorpackage.
+# Andhi Mardianto <anditoinfo@gmail.com>, 2025.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: my calculator 2.0\n"
+"Report-Msgid-Bugs-To: anditoinfo@gmail.com\n"
+"POT-Creation-Date: 2025-01-02 10:01+0700\n"
+"PO-Revision-Date: 2025-01-11 10:30+0700\n"
+"Last-Translator: Andhi Mardianto with google translet<anditoinfo@gmail.com>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+
+
+# init.py
+msgid "Open My Calculator dialog"
+msgstr "내 계산기 대화 상자 열기"
+
+msgid "Calculation Input"
+msgstr "계산 입력"
+
+msgid "Copy"
+msgstr "복사"
+
+msgid "Standar"
+msgstr "표준"
+
+msgid "Left to Right"
+msgstr "왼쪽에서 오른쪽으로"
+
+msgid "Conversion"
+msgstr "변환"
+
+msgid "Scientific"
+msgstr "과학적"
+
+msgid "Help"
+msgstr "도움말"
+
+msgid "Calculation mode set to Standard International"
+msgstr "계산 모드가 표준 국제로 설정되었습니다"
+
+msgid "Calculation mode set to Left to Right"
+msgstr "계산 모드가 왼쪽에서 오른쪽으로 설정되었습니다"
+
+msgid "Failed to access clipboard"
+msgstr "클립보드에 액세스하지 못했습니다"
+
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "잘못된 입력입니다. 숫자와 산술 기호만 허용됩니다"
+
+msgid "Error! Check Input"
+msgstr "오류! 입력을 확인하세요"
+
+msgid "Invalid calculation mode"
+msgstr "잘못된 계산 모드"
+
+# scientific.py
+msgid "Please Select Scientific Mode "
+msgstr "과학 모드를 선택하세요"
+
+#msgid "Copy"
+#msgstr "복사"
+
+msgid "Sin"
+msgstr "사인"
+
+msgid "Cos"
+msgstr "코사인"
+
+msgid "Log"
+msgstr "로그"
+
+msgid "Sqrt"
+msgstr "제곱근"
+
+msgid "Select a Basis"
+msgstr "기준을 선택하세요"
+
+msgid "Basis Options"
+msgstr "기준 옵션"
+
+msgid "Input in Degrees:"
+msgstr "도 단위로 입력:"
+
+msgid "Calculation mode set to Sin"
+msgstr "계산 모드가 사인으로 설정되었습니다"
+
+msgid "Calculation mode set to Cos"
+msgstr "계산 모드가 코사인으로 설정되었습니다"
+
+msgid "Input in Basis Natural :"
+msgstr "자연 기준으로 입력:"
+
+msgid "Input in Basis 10:"
+msgstr "기준 10으로 입력:"
+
+msgid "Input in Non-Negative Numbers:"
+msgstr "비음수가 아닌 숫자로 입력:"
+
+msgid "Calculation mode set to Sqrt"
+msgstr "계산 모드가 제곱근으로 설정되었습니다"
+
+#msgid "Failed to access clipboard"
+#msgstr "클립보드에 액세스하지 못했습니다"
+
+msgid "Please select a calculation mode first"
+msgstr "먼저 계산 모드를 선택하세요"
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "로그는 양수에 대해서만 정의됩니다"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "제곱근은 비음수가 아닌 숫자에 대해서만 정의됩니다"
+
+msgid ""
+"High Precision = {result}\n"
+"Rounded = {rounded_result}"
+msgstr ""
+"높은 정밀도 = {result}\n"
+"반올림 값 = {rounded_result}"
+
+msgid "Invalid input. Please check your expression"
+msgstr "잘못된 입력입니다. 수식을 확인하세요"
+
+msgid "An error occurred: "
+msgstr "오류가 발생했습니다: "
+
+msgid "Invalid input, only numbers allowed"
+msgstr "잘못된 입력입니다. 숫자만 허용됩니다"
+
+# conversion.py
+msgid "Please Select Conversion Mode"
+msgstr "변환 모드를 선택하세요"
+
+msgid "Result"
+msgstr "결과"
+
+#msgid "Copy"
+#msgstr "복사"
+
+msgid "Length"
+msgstr "길이"
+
+msgid "Mass"
+msgstr "질량"
+
+msgid "Temperature"
+msgstr "온도"
+
+msgid "Volume"
+msgstr "부피"
+
+msgid "Speed"
+msgstr "속도"
+
+msgid "History"
+msgstr "기록"
+
+msgid "Select a Speed conversion:"
+msgstr "속도 변환을 선택하세요:"
+
+msgid "Speed Conversion Options"
+msgstr "속도 변환 옵션"
+
+msgid "Input in Kilometers per Hour:"
+msgstr "시속 킬로미터 단위로 입력:"
+
+msgid "Input in Miles per Hour:"
+msgstr "시속 마일 단위로 입력:"
+
+msgid "Input in Meters per Second:"
+msgstr "초당 미터 단위로 입력:"
+
+msgid "Input in Knots:"
+msgstr "노트 단위로 입력:"
+
+msgid "Input in Feet per Second:"
+msgstr "초당 피트 단위로 입력:"
+
+msgid "Select a length conversion:"
+msgstr "길이 변환을 선택하세요:"
+
+msgid "Length Conversion Options"
+msgstr "길이 변환 옵션"
+
+msgid "Input in Kilometers:"
+msgstr "킬로미터 단위로 입력:"
+
+msgid "Input in Miles:"
+msgstr "마일 단위로 입력:"
+
+msgid "Input in Meters:"
+msgstr "미터 단위로 입력:"
+
+msgid "Input in Feet:"
+msgstr "피트 단위로 입력:"
+
+msgid "Input in Centimeters:"
+msgstr "센티미터 단위로 입력:"
+
+msgid "Input in Inches:"
+msgstr "인치 단위로 입력:"
+
+msgid "Select a Mass conversion:"
+msgstr "질량 변환을 선택하세요:"
+
+msgid "Mass Conversion Options"
+msgstr "질량 변환 옵션"
+
+msgid "Input in Kilograms:"
+msgstr "킬로그램 단위로 입력:"
+
+msgid "Input in Pounds:"
+msgstr "파운드 단위로 입력:"
+
+msgid "Input in Tons:"
+msgstr "톤 단위로 입력:"
+
+msgid "Input in Ounces:"
+msgstr "온스 단위로 입력:"
+
+msgid "Input in Grams:"
+msgstr "그램 단위로 입력:"
+
+msgid "Select a Temperature conversion:"
+msgstr "온도 변환을 선택하세요:"
+
+msgid "Temperature Conversion Options"
+msgstr "온도 변환 옵션"
+
+msgid "Input in Celsius:"
+msgstr "섭씨 단위로 입력:"
+
+msgid "Input in Fahrenheit:"
+msgstr "화씨 단위로 입력:"
+
+msgid "Input in Kelvin:"
+msgstr "켈빈 단위로 입력:"
+
+msgid "Select a Volume conversion:"
+msgstr "부피 변환을 선택하세요:"
+
+msgid "Volume Conversion Options"
+msgstr "부피 변환 옵션"
+
+msgid "Input in Liter:"
+msgstr "리터 단위로 입력:"
+
+msgid "Input in Gallon (US):"
+msgstr "갤런(미국) 단위로 입력:"
+
+msgid "Input in Milliliter:"
+msgstr "밀리리터 단위로 입력:"
+
+msgid "Input in Cubic Meter:"
+msgstr "세제곱미터 단위로 입력:"
+
+msgid "Input in Gallon (UK) :"
+msgstr "갤런(영국) 단위로 입력:"
+
+msgid "Input in Liter :"
+msgstr "리터 단위로 입력:"
+
+msgid "Input in Cubic Inch :"
+msgstr "세제곱인치 단위로 입력:"
+
+msgid "Input in Milliliter :"
+msgstr "밀리리터 단위로 입력:"
+
+msgid "Input in Cubic Centimeter :"
+msgstr "세제곱센티미터 단위로 입력:"
+
+msgid "Input in Barrel (US) :"
+msgstr "배럴(미국) 단위로 입력:"
+
+msgid "Result copied to clipboard"
+msgstr "결과가 클립보드에 복사되었습니다"
+
+#msgid "Failed to access clipboard"
+#msgstr "클립보드에 액세스하지 못했습니다"
+
+msgid "No result to copy"
+msgstr "복사할 결과가 없습니다"
+
+#msgid "Invalid input, only numbers allowed"
+#msgstr "잘못된 입력입니다. 숫자만 허용됩니다"
+
+# help.py
+msgid "Calculation Mode Help"
+msgstr "계산 모드 도움말"
+
+msgid ""
+"Standard Mode:\n"
+"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
+"\n"
+"Left to Right Mode:\n"
+"Calculations are performed from left to right without considering operator precedence.\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
+"\n"
+"Scientific Mode:\n"
+"\n"
+"Sin and Cos:\n"
+"Calculates the values of sine and cosine.\n"
+"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"\n"
+"Logarithms:\n"
+"Two types of logarithms are available:\n"
+"- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
+"- Base 10 Logarithm: Logarithm with base 10.\n"
+"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"\n"
+"Square Root:\n"
+"Calculates the square root of a number.\n"
+"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"\n"
+"Result Format:\n"
+"- High Precision: Displays the result with full detail.\n"
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
+msgstr ""
+"표준 모드:\n"
+"계산은 표준 수학 연산자 우선순위 규칙(PEMDAS)을 따릅니다.\n"
+"예: 3 + 5 * 2 = 13 (곱셈이 먼저 수행됩니다).\n"
+"\n"
+"좌에서 우로 모드:\n"
+"계산은 연산자 우선순위를 고려하지 않고 좌에서 우로 수행됩니다.\n"
+"예: 3 + 5 * 2 = 16 (좌에서 우로 계산이 수행됩니다).\n"
+"\n"
+"과학 모드:\n"
+"\n"
+"사인 및 코사인:\n"
+"사인 및 코사인의 값을 계산합니다.\n"
+"입력값은 반드시 각도로 입력해야 합니다. 계산기는 값을 자동으로 라디안으로 변환하여 계산합니다.\n"
+"\n"
+"로그:\n"
+"두 가지 종류의 로그를 사용할 수 있습니다:\n"
+"- 자연 로그(LN): 자연 상수(e)를 기반으로 하는 로그.\n"
+"- 10진수 로그: 10을 기반으로 하는 로그.\n"
+"음수는 지원되지 않습니다. 로그는 양수에서만 정의됩니다.\n"
+"\n"
+"제곱근:\n"
+"숫자의 제곱근을 계산합니다.\n"
+"음수는 지원되지 않습니다. 제곱근은 0 이상의 숫자에서만 정의됩니다.\n"
+"\n"
+"결과 형식:\n"
+"- 고정밀: 결과를 상세히 표시합니다.\n"
+"- 반올림 (소수점 이하 2자리): 결과를 더 간단히 표시하며, 읽기 쉽게 2자리로 반올림합니다."
+
+msgid "OK"
+msgstr "확인"

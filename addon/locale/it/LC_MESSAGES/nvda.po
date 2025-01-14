@@ -58,3 +58,268 @@ msgstr "Copiato"
 #: globalPlugins/myCalculator/__init__.py:180
 msgid "Error! Check Input"
 msgstr "Errore! Controllare il calcolo"
+
+msgid "Conversion"
+msgstr "Conversione"
+
+msgid "Scientific"
+msgstr "Scientifico"
+
+# conversion.py
+msgid "Please Select Conversion Mode"
+msgstr "Seleziona la modalità di conversione"
+
+#msgid "Copy"
+#msgstr "Copia"
+
+msgid "Length"
+msgstr "Lunghezza"
+
+msgid "Mass"
+msgstr "Massa"
+
+msgid "Temperature"
+msgstr "Temperatura"
+
+msgid "Volume"
+msgstr "Volume"
+
+msgid "Speed"
+msgstr "Velocità"
+
+msgid "Select a Speed conversion:"
+msgstr "Seleziona una conversione di velocità:"
+
+msgid "Speed Conversion Options"
+msgstr "Opzioni di conversione della velocità"
+
+msgid "Input in Kilometers per Hour:"
+msgstr "Inserisci in chilometri all'ora:"
+
+msgid "Input in Miles per Hour:"
+msgstr "Inserisci in miglia all'ora:"
+
+msgid "Input in Meters per Second:"
+msgstr "Inserisci in metri al secondo:"
+
+msgid "Input in Knots:"
+msgstr "Inserisci in nodi:"
+
+msgid "Input in Feet per Second:"
+msgstr "Inserisci in piedi al secondo:"
+
+msgid "Select a length conversion:"
+msgstr "Seleziona una conversione di lunghezza:"
+
+msgid "Length Conversion Options"
+msgstr "Opzioni di conversione della lunghezza"
+
+msgid "Input in Kilometers:"
+msgstr "Inserisci in chilometri:"
+
+msgid "Input in Miles:"
+msgstr "Inserisci in miglia:"
+
+msgid "Input in Meters:"
+msgstr "Inserisci in metri:"
+
+msgid "Input in Feet:"
+msgstr "Inserisci in piedi:"
+
+msgid "Input in Centimeters:"
+msgstr "Inserisci in centimetri:"
+
+msgid "Input in Inches:"
+msgstr "Inserisci in pollici:"
+
+msgid "Select a Mass conversion:"
+msgstr "Seleziona una conversione di massa:"
+
+msgid "Mass Conversion Options"
+msgstr "Opzioni di conversione della massa"
+
+msgid "Input in Kilograms:"
+msgstr "Inserisci in chilogrammi:"
+
+msgid "Input in Pounds:"
+msgstr "Inserisci in libbre:"
+
+msgid "Input in Tons:"
+msgstr "Inserisci in tonnellate:"
+
+msgid "Input in Ounces:"
+msgstr "Inserisci in once:"
+
+msgid "Input in Grams:"
+msgstr "Inserisci in grammi:"
+
+msgid "Select a Temperature conversion:"
+msgstr "Seleziona una conversione di temperatura:"
+
+msgid "Temperature Conversion Options"
+msgstr "Opzioni di conversione della temperatura"
+
+msgid "Input in Celsius:"
+msgstr "Inserisci in Celsius:"
+
+msgid "Input in Fahrenheit:"
+msgstr "Inserisci in Fahrenheit:"
+
+msgid "Input in Kelvin:"
+msgstr "Inserisci in Kelvin:"
+
+msgid "Select a Volume conversion:"
+msgstr "Seleziona una conversione di volume:"
+
+msgid "Volume Conversion Options"
+msgstr "Opzioni di conversione del volume"
+
+msgid "Input in Liter:"
+msgstr "Inserisci in litri:"
+
+msgid "Input in Gallon (US):"
+msgstr "Inserisci in galloni (US):"
+
+msgid "Input in Milliliter:"
+msgstr "Inserisci in millilitri:"
+
+msgid "Input in Cubic Meter:"
+msgstr "Inserisci in metri cubi:"
+
+msgid "Input in Gallon (UK) :"
+msgstr "Inserisci in galloni (UK):"
+
+msgid "Input in Liter :"
+msgstr "Inserisci in litri:"
+
+msgid "Input in Cubic Inch :"
+msgstr "Inserisci in pollici cubici:"
+
+msgid "Input in Milliliter :"
+msgstr "Inserisci in millilitri:"
+
+msgid "Input in Cubic Centimeter :"
+msgstr "Inserisci in centimetri cubici:"
+
+msgid "Input in Barrel (US) :"
+msgstr "Inserisci in barili (US):"
+
+msgid "Failed to access clipboard"
+msgstr "Impossibile accedere agli appunti"
+
+# scientific.py
+msgid "Please Select Scientific Mode "
+msgstr "Seleziona la modalità scientifica"
+
+#msgid "Copy"
+#msgstr "Copia"
+
+msgid "Sin"
+msgstr "Sin"
+
+msgid "Cos"
+msgstr "Cos"
+
+msgid "Log"
+msgstr "Log"
+
+msgid "Sqrt"
+msgstr "Radice quadrata"
+
+msgid "Select a Basis"
+msgstr "Seleziona una base"
+
+msgid "Basis Options"
+msgstr "Opzioni di base"
+
+msgid "Input in Degrees:"
+msgstr "Inserisci in gradi:"
+
+msgid "Calculation mode set to Sin"
+msgstr "Modalità di calcolo impostata su Sin"
+
+msgid "Calculation mode set to Cos"
+msgstr "Modalità di calcolo impostata su Cos"
+
+msgid "Input in Basis Natural :"
+msgstr "Inserisci in base naturale:"
+
+msgid "Input in Basis 10:"
+msgstr "Inserisci in base 10:"
+
+msgid "Input in Non-Negative Numbers:"
+msgstr "Inserisci numeri non negativi:"
+
+msgid "Calculation mode set to Sqrt"
+msgstr "Modalità di calcolo impostata su Radice quadrata"
+
+msgid "Result copied to clipboard"
+msgstr "Risultato copiato negli appunti"
+
+#msgid "Failed to access clipboard"
+#msgstr "Impossibile accedere agli appunti"
+
+m                   sgid "No result to copy"
+msgstr "Nessun risultato da copiare"
+
+msgid "Please select a calculation mode first"
+msgstr "Seleziona prima una modalità di calcolo"
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "Il logaritmo è definito solo per numeri positivi"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "La radice quadrata è definita solo per numeri non negativi"
+
+msgid ""
+"High Precision = {result}\n"
+"Rounded = {rounded_result}"
+msgstr ""
+"Alta precisione = {result}\n"
+"Arrotondato = {rounded_result}"
+
+msgid "Invalid input. Please check your expression"
+msgstr "Input non valido. Controlla la tua espressione"
+
+msgid "An error occurred: "
+msgstr "Si è verificato un errore: "
+
+msgid "Invalid input, only numbers allowed"
+msgstr "Input non valido, sono consentiti solo numeri"
+
+# help.py
+msgid "Calculation Mode Help"
+msgstr "Guida alla modalità di calcolo"
+
+msgid ""
+"Standard Mode:\n"
+"Le operazioni seguono le regole standard di precedenza degli operatori matematici (PEMDAS).\n"
+"Esempio: 3 + 5 * 2 = 13 (la moltiplicazione viene eseguita prima).\n"
+"\n"
+"Left to Right Mode:\n"
+"Le operazioni vengono eseguite da sinistra a destra senza considerare la precedenza degli operatori.\n"
+"Esempio: 3 + 5 * 2 = 16 (le operazioni vengono eseguite da sinistra a destra).\n"
+"\n"
+"Scientific Mode:\n"
+"\n"
+"Sin and Cos:\n"
+"Calcola i valori del seno e del coseno.\n"
+"L'input deve essere in gradi. La calcolatrice convertirà automaticamente il valore in radianti per il calcolo.\n"
+"\n"
+"Logarithms:\n"
+"Sono disponibili due tipi di logaritmi:\n"
+"- Logaritmo naturale (LN): Logaritmo con la base naturale (e).\n"
+"- Logaritmo in base 10: Logaritmo con base 10.\n"
+"I numeri negativi non sono supportati poiché i logaritmi sono definiti solo per numeri positivi.\n"
+"\n"
+"Square Root:\n"
+"Calcola la radice quadrata di un numero.\n"
+"I numeri negativi non sono supportati poiché la radice quadrata è definita solo per numeri non negativi.\n"
+"\n"
+"Result Format:\n"
+"- Alta precisione: Mostra il risultato con tutti i dettagli.\n"
+"- Arrotondato (2 decimali): Mostra il risultato in una forma più semplice, arrotondato a 2 decimali per una lettura più facile."
+msgstr ""
+
+msgid "OK"
+msgstr "OK"

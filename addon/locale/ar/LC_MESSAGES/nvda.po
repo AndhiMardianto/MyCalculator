@@ -1,113 +1,339 @@
-# Translation file for MyCalculator NVDA Add-on.
-# Copyright (C) 2025 MyCalculator Project
-# This file is distributed under the same license as the MyCalculator package.
+# Translation file for My Calculator NVDA Add-on.
+# Copyright (C) 2025 My Calculator Project
+# This file is distributed under the same license as the MyCalculatorpackage.
 # Andhi Mardianto <anditoinfo@gmail.com>, 2025.
-#
+
 msgid ""
 msgstr ""
-"Project-Id-Version: MyCalculator 1.0\n"
+"Project-Id-Version: my calculator 2.0\n"
 "Report-Msgid-Bugs-To: anditoinfo@gmail.com\n"
 "POT-Creation-Date: 2025-01-02 10:01+0700\n"
-"PO-Revision-Date: 2025-01-02 10:30+0700\n"
-"Last-Translator: Andhi Mardianto <anditoinfo@gmail.com>\n"
-"Language-Team: Arabic <ar@li.org>\n"
+"PO-Revision-Date: 2025-01-11 10:30+0700\n"
+"Last-Translator: Andhi Mardianto with google translet<anditoinfo@gmail.com>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: globalPlugins/myCalculator/help.py:6
-msgid "Calculation Mode Help"
-msgstr "مساعدة وضع الحساب"
 
-#: globalPlugins/myCalculator/help.py:16
-msgid ""
-"Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules "
-"(PEMDAS).\n"
-"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
-"\n"
-"Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator "
-"precedence.\n"
-"Example: 3 + 5 * 2 = 16 (calculations are done left to right)."
-msgstr ""
-"الوضع القياسي:\n"
-"تتبع العمليات قواعد أولوية المشغل الرياضي القياسية (PEMDAS).\n"
-"مثال: 3 + 5 * 2 = 13 (يتم تنفيذ الضرب أولاً).\n"
-"\n"
-"وضع من اليسار إلى اليمين:\n"
-"تتم العمليات من اليسار إلى اليمين دون مراعاة أولوية المشغل.\n"
-"مثال: 3 + 5 * 2 = 16 (تُنفذ العمليات من اليسار إلى اليمين)."
 
-#: globalPlugins/myCalculator/help.py:28
-msgid "OK"
-msgstr "موافق"
+# init.py
 
-#: globalPlugins/myCalculator/__init__.py:26
 msgid "Open My Calculator dialog"
 msgstr "افتح مربع حوار الآلة الحاسبة الخاصة بي"
 
-#: globalPlugins/myCalculator/__init__.py:27
-msgid "MyCalculator"
-msgstr "حاسبتي"
-
-#: globalPlugins/myCalculator/__init__.py:60
 msgid "Calculation Input"
-msgstr "مدخلات الحساب"
+msgstr "إدخال الحساب"
 
-#: globalPlugins/myCalculator/__init__.py:69
 msgid "Result"
 msgstr "النتيجة"
 
-#: globalPlugins/myCalculator/__init__.py:76
 msgid "Copy"
 msgstr "نسخ"
 
-#: globalPlugins/myCalculator/__init__.py:81
 msgid "Standar"
 msgstr "قياسي"
 
-#: globalPlugins/myCalculator/__init__.py:86
 msgid "Left to Right"
 msgstr "من اليسار إلى اليمين"
 
-#: globalPlugins/myCalculator/__init__.py:91
+msgid "Conversion"
+msgstr "تحويل"
+
+msgid "Scientific"
+msgstr "علمي"
+
 msgid "Help"
 msgstr "مساعدة"
 
-#: globalPlugins/myCalculator/__init__.py:97
 msgid "History"
-msgstr "التاريخ"
+msgstr "السجل"
 
-#: globalPlugins/myCalculator/__init__.py:198
-msgid "Invalid input, only numbers and arithmetic symbols allowed"
-msgstr "مدخلات غير صالحة، يُسمح فقط بالأرقام والرموز الحسابية"
-
-#: globalPlugins/myCalculator/__init__.py:160
 msgid "Calculation mode set to Standard International"
 msgstr "تم تعيين وضع الحساب إلى القياسي الدولي"
 
-#: globalPlugins/myCalculator/__init__.py:165
 msgid "Calculation mode set to Left to Right"
 msgstr "تم تعيين وضع الحساب إلى من اليسار إلى اليمين"
 
-#: globalPlugins/myCalculator/__init__.py:179
 msgid "Result copied to clipboard"
 msgstr "تم نسخ النتيجة إلى الحافظة"
 
-#: globalPlugins/myCalculator/__init__.py:181
 msgid "Failed to access clipboard"
 msgstr "فشل الوصول إلى الحافظة"
 
-#: globalPlugins/myCalculator/__init__.py:183
 msgid "No result to copy"
 msgstr "لا توجد نتيجة للنسخ"
 
-#: globalPlugins/myCalculator/__init__.py:213
-msgid "Invalid calculation mode"
-msgstr "وضع حساب غير صالح"
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "إدخال غير صالح، يُسمح فقط بالأرقام والرموز الحسابية"
 
-#: globalPlugins/myCalculator/__init__.py:226
 msgid "Error! Check Input"
-msgstr "خطأ! تحقق من المدخلات"
+msgstr "خطأ! تحقق من الإدخال"
+
+msgid "Invalid calculation mode"
+msgstr "وضع الحساب غير صالح"
+
+# conversion.py
+msgid "Please Select Conversion Mode"
+msgstr "يرجى اختيار وضع التحويل"
+
+msgid "Length"
+msgstr "الطول"
+
+msgid "Mass"
+msgstr "الكتلة"
+
+msgid "Temperature"
+msgstr "درجة الحرارة"
+
+msgid "Volume"
+msgstr "الحجم"
+
+msgid "Speed"
+msgstr "السرعة"
+
+msgid "Select a Speed conversion:"
+msgstr "اختر تحويل السرعة:"
+
+msgid "Speed Conversion Options"
+msgstr "خيارات تحويل السرعة"
+
+msgid "Input in Kilometers per Hour:"
+msgstr "الإدخال بالكيلومترات في الساعة:"
+
+msgid "Input in Miles per Hour:"
+msgstr "الإدخال بالأميال في الساعة:"
+
+msgid "Input in Meters per Second:"
+msgstr "الإدخال بالأمتار في الثانية:"
+
+msgid "Input in Knots:"
+msgstr "الإدخال بالعقد:"
+
+msgid "Input in Feet per Second:"
+msgstr "الإدخال بالأقدام في الثانية:"
+
+msgid "Select a length conversion:"
+msgstr "اختر تحويل الطول:"
+
+msgid "Length Conversion Options"
+msgstr "خيارات تحويل الطول"
+
+msgid "Input in Kilometers:"
+msgstr "الإدخال بالكيلومترات:"
+
+msgid "Input in Miles:"
+msgstr "الإدخال بالأميال:"
+
+msgid "Input in Meters:"
+msgstr "الإدخال بالأمتار:"
+
+msgid "Input in Feet:"
+msgstr "الإدخال بالأقدام:"
+
+msgid "Input in Centimeters:"
+msgstr "الإدخال بالسنتيمترات:"
+
+msgid "Input in Inches:"
+msgstr "الإدخال بالبوصات:"
+
+msgid "Select a Mass conversion:"
+msgstr "اختر تحويل الكتلة:"
+
+msgid "Mass Conversion Options"
+msgstr "خيارات تحويل الكتلة"
+
+msgid "Input in Kilograms:"
+msgstr "الإدخال بالكيلوغرامات:"
+
+msgid "Input in Pounds:"
+msgstr "الإدخال بالرطل:"
+
+msgid "Input in Tons:"
+msgstr "الإدخال بالأطنان:"
+
+msgid "Input in Ounces:"
+msgstr "الإدخال بالأوقية:"
+
+msgid "Input in Grams:"
+msgstr "الإدخال بالجرامات:"
+
+msgid "Select a Temperature conversion:"
+msgstr "اختر تحويل درجة الحرارة:"
+
+msgid "Temperature Conversion Options"
+msgstr "خيارات تحويل درجة الحرارة"
+
+msgid "Input in Celsius:"
+msgstr "الإدخال بالدرجة المئوية:"
+
+msgid "Input in Fahrenheit:"
+msgstr "الإدخال بالفهرنهايت:"
+
+msgid "Input in Kelvin:"
+msgstr "الإدخال بالكلفن:"
+
+msgid "Select a Volume conversion:"
+msgstr "اختر تحويل الحجم:"
+
+msgid "Volume Conversion Options"
+msgstr "خيارات تحويل الحجم"
+
+msgid "Input in Liter:"
+msgstr "الإدخال باللتر:"
+
+msgid "Input in Gallon (US):"
+msgstr "الإدخال بالجالون (الأمريكي):"
+
+msgid "Input in Milliliter:"
+msgstr "الإدخال بالملليلتر:"
+
+msgid "Input in Cubic Meter:"
+msgstr "الإدخال بالمتر المكعب:"
+
+msgid "Input in Gallon (UK) :"
+msgstr "الإدخال بالجالون (البريطاني):"
+
+msgid "Input in Cubic Inch :"
+msgstr "الإدخال بالبوصة المكعبة:"
+
+msgid "Input in Milliliter :"
+msgstr "الإدخال بالملليلتر:"
+
+msgid "Input in Cubic Centimeter :"
+msgstr "الإدخال بالسنتيمتر المكعب:"
+
+msgid "Input in Barrel (US) :"
+msgstr "الإدخال بالبرميل (الأمريكي):"
+
+# scientific.py
+msgid "Please Select Scientific Mode "
+msgstr "يرجى اختيار الوضع العلمي"
+
+msgid "Sin"
+msgstr "جيب"
+
+msgid "Cos"
+msgstr "جيب التمام"
+
+msgid "Log"
+msgstr "لوغاريتم"
+
+msgid "Sqrt"
+msgstr "الجذر التربيعي"
+
+msgid "Select a Basis"
+msgstr "اختر الأساس"
+
+msgid "Basis Options"
+msgstr "خيارات الأساس"
+
+msgid "Input in Degrees:"
+msgstr "الإدخال بالدرجات:"
+
+msgid "Calculation mode set to Sin"
+msgstr "تم ضبط وضع الحساب على الجيب"
+
+msgid "Calculation mode set to Cos"
+msgstr "تم ضبط وضع الحساب على جيب التمام"
+
+msgid "Input in Basis Natural :"
+msgstr "الإدخال في الأساس الطبيعي:"
+
+msgid "Input in Basis 10:"
+msgstr "الإدخال في الأساس 10:"
+
+msgid "Input in Non-Negative Numbers:"
+msgstr "الإدخال في الأرقام غير السالبة:"
+
+msgid "Calculation mode set to Sqrt"
+msgstr "تم ضبط وضع الحساب على الجذر التربيعي"
+
+msgid "Please select a calculation mode first"
+msgstr "يرجى اختيار وضع الحساب أولاً"
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "اللوغاريتم معرف فقط للأرقام الموجبة"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "الجذر التربيعي معرف فقط للأرقام غير السالبة"
+
+msgid ""
+"High Precision = {result}\n"
+"Rounded = {rounded_result}"
+msgstr ""
+"الدقة العالية = {result}\n"
+"المقرب = {rounded_result}"
+
+msgid "Invalid input. Please check your expression"
+msgstr "إدخال غير صالح. يرجى التحقق من التعبير"
+
+msgid "An error occurred: "
+msgstr "حدث خطأ: "
+
+msgid "Invalid input, only numbers allowed"
+msgstr "إدخال غير صالح، يُسمح بالأرقام فقط"
+
+# help.py
+msgid "Calculation Mode Help"
+msgstr "مساعدة وضع الحساب"
+
+msgid ""
+"Standard Mode:\n"
+"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
+"\n"
+"Left to Right Mode:\n"
+"Calculations are performed from left to right without considering operator precedence.\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
+"\n"
+"Scientific Mode:\n"
+"\n"
+"Sin and Cos:\n"
+"Calculates the values of sine and cosine.\n"
+"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"\n"
+"Logarithms:\n"
+"Two types of logarithms are available:\n"
+"- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
+"- Base 10 Logarithm: Logarithm with base 10.\n"
+"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"\n"
+"Square Root:\n"
+"Calculates the square root of a number.\n"
+"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"\n"
+"Result Format:\n"
+"- High Precision: Displays the result with full detail.\n"
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
+msgstr ""
+"الوضع القياسي:\n"
+"تتبع العمليات قواعد أسبقية العمليات الرياضية القياسية (PEMDAS).\n"
+"مثال: 3 + 5 * 2 = 13 (يتم تنفيذ الضرب أولاً).\n"
+"\n"
+"الوضع من اليسار إلى اليمين:\n"
+"تُنفذ العمليات من اليسار إلى اليمين دون مراعاة أسبقية العمليات.\n"
+"مثال: 3 + 5 * 2 = 16 (تُنفذ العمليات من اليسار إلى اليمين).\n"
+"\n"
+"الوضع العلمي:\n"
+"\n"
+"الجيب وجيب التمام:\n"
+"يحسب قيم الجيب وجيب التمام.\n"
+"يجب أن يكون الإدخال بالدرجات. سيقوم الآلة الحاسبة تلقائيًا بتحويل القيمة إلى الراديان لإجراء الحساب.\n"
+"\n"
+"اللوغاريتمات:\n"
+"يوجد نوعان من اللوغاريتمات:\n"
+"- اللوغاريتم الطبيعي (LN): لوغاريتم ذو الأساس الطبيعي (e).\n"
+"- لوغاريتم الأساس 10: لوغاريتم ذو الأساس 10.\n"
+"لا تدعم الأرقام السالبة لأن اللوغاريتمات معرف فقط للأرقام الموجبة.\n"
+"\n"
+"الجذر التربيعي:\n"
+"يحسب الجذر التربيعي للعدد.\n"
+"لا تدعم الأرقام السالبة لأن الجذر التربيعي معرف فقط للأرقام غير السالبة.\n"
+"\n"
+"تنسيق النتيجة:\n"
+"- الدقة العالية: تعرض النتيجة بتفاصيل كاملة.\n"
+"- التقريب (رقمان عشريان): تعرض النتيجة بشكل مبسط، مقرب إلى رقمين عشريين لتسهيل القراءة."
+
+msgid "OK"
+msgstr "موافق"

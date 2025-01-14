@@ -13,6 +13,8 @@ msgstr ""
 "X-Poedit-Basepath: addon/globalPlugins\n"
 "X-Poedit-SearchPath-0: .\n"
 
+
+
 #: myCalculator/__init__.py:26
 msgid "Open My Calculator dialog"
 msgstr "Відкрити діалог «Мій калькулятор»"
@@ -40,6 +42,12 @@ msgstr "Стандартний"
 #: myCalculator/__init__.py:86
 msgid "Left to Right"
 msgstr "Зліва направо"
+
+msgid "Conversion"
+msgstr "Перетворення"
+
+msgid "Scientific"
+msgstr "Науковий"
 
 #: myCalculator/__init__.py:91
 msgid "Help"
@@ -81,31 +89,285 @@ msgstr "Недійсний режим обчислення"
 msgid "Error! Check Input"
 msgstr "Помилка! Перевірте введення"
 
-#: myCalculator/help.py:8
-msgid "Calculation Mode Help"
-msgstr "Довідка режиму обчислення"
+# conversion.py
+msgid "Please Select Conversion Mode"
+msgstr "Будь ласка, виберіть режим конверсії"
 
-#: myCalculator/help.py:18
+#msgid "Copy"
+#msgstr "Копіювати"
+
+msgid "Length"
+msgstr "Довжина"
+
+msgid "Mass"
+msgstr "Маса"
+
+msgid "Temperature"
+msgstr "Температура"
+
+msgid "Volume"
+msgstr "Об'єм"
+
+msgid "Speed"
+msgstr "Швидкість"
+
+msgid "Select a Speed conversion:"
+msgstr "Виберіть конверсію швидкості:"
+
+msgid "Speed Conversion Options"
+msgstr "Опції конверсії швидкості"
+
+msgid "Input in Kilometers per Hour:"
+msgstr "Введіть у кілометрах на годину:"
+
+msgid "Input in Miles per Hour:"
+msgstr "Введіть у милях на годину:"
+
+msgid "Input in Meters per Second:"
+msgstr "Введіть у метрах на секунду:"
+
+msgid "Input in Knots:"
+msgstr "Введіть у вузлах:"
+
+msgid "Input in Feet per Second:"
+msgstr "Введіть у футах на секунду:"
+
+msgid "Select a length conversion:"
+msgstr "Виберіть конверсію довжини:"
+
+msgid "Length Conversion Options"
+msgstr "Опції конверсії довжини"
+
+msgid "Input in Kilometers:"
+msgstr "Введіть у кілометрах:"
+
+msgid "Input in Miles:"
+msgstr "Введіть у милях:"
+
+msgid "Input in Meters:"
+msgstr "Введіть у метрах:"
+
+msgid "Input in Feet:"
+msgstr "Введіть у футах:"
+
+msgid "Input in Centimeters:"
+msgstr "Введіть у сантиметрах:"
+
+msgid "Input in Inches:"
+msgstr "Введіть у дюймах:"
+
+msgid "Select a Mass conversion:"
+msgstr "Виберіть конверсію маси:"
+
+msgid "Mass Conversion Options"
+msgstr "Опції конверсії маси"
+
+msgid "Input in Kilograms:"
+msgstr "Введіть у кілограмах:"
+
+msgid "Input in Pounds:"
+msgstr "Введіть у фунтах:"
+
+msgid "Input in Tons:"
+msgstr "Введіть у тоннах:"
+
+msgid "Input in Ounces:"
+msgstr "Введіть у унціях:"
+
+msgid "Input in Grams:"
+msgstr "Введіть у грамах:"
+
+msgid "Select a Temperature conversion:"
+msgstr "Виберіть конверсію температури:"
+
+msgid "Temperature Conversion Options"
+msgstr "Опції конверсії температури"
+
+msgid "Input in Celsius:"
+msgstr "Введіть у Цельсіях:"
+
+msgid "Input in Fahrenheit:"
+msgstr "Введіть у Фаренгейтах:"
+
+msgid "Input in Kelvin:"
+msgstr "Введіть у Кельвінах:"
+
+msgid "Select a Volume conversion:"
+msgstr "Виберіть конверсію об'єму:"
+
+msgid "Volume Conversion Options"
+msgstr "Опції конверсії об'єму"
+
+msgid "Input in Liter:"
+msgstr "Введіть у літрах:"
+
+msgid "Input in Gallon (US):"
+msgstr "Введіть у галонах (США):"
+
+msgid "Input in Milliliter:"
+msgstr "Введіть у мілілітрах:"
+
+msgid "Input in Cubic Meter:"
+msgstr "Введіть у кубічних метрах:"
+
+msgid "Input in Gallon (UK) :"
+msgstr "Введіть у галонах (Велика Британія):"
+
+msgid "Input in Liter :"
+msgstr "Введіть у літрах:"
+
+msgid "Input in Cubic Inch :"
+msgstr "Введіть у кубічних дюймах:"
+
+msgid "Input in Milliliter :"
+msgstr "Введіть у мілілітрах:"
+
+msgid "Input in Cubic Centimeter :"
+msgstr "Введіть у кубічних сантиметрах:"
+
+msgid "Input in Barrel (US) :"
+msgstr "Введіть у бочках (США):"
+
+#msgid "Failed to access clipboard"
+#msgstr "Не вдалося отримати доступ до буфера обміну"
+
+msgid "Invalid input, only numbers allowed"
+msgstr "Невірний ввід, дозволяються лише цифри"
+
+# scientific.py
+msgid "Please Select Scientific Mode "
+msgstr "Будь ласка, виберіть науковий режим"
+
+#msgid "Copy"
+#msgstr "Копіювати"
+
+msgid "Sin"
+msgstr "Сінус"
+
+msgid "Cos"
+msgstr "Косинус"
+
+msgid "Log"
+msgstr "Логарифм"
+
+msgid "Sqrt"
+msgstr "Квадратний корінь"
+
+msgid "Select a Basis"
+msgstr "Виберіть основу"
+
+msgid "Basis Options"
+msgstr "Опції основи"
+
+msgid "Input in Degrees:"
+msgstr "Введіть у градусах:"
+
+msgid "Calculation mode set to Sin"
+msgstr "Режим обчислення встановлено на Сінус"
+
+msgid "Calculation mode set to Cos"
+msgstr "Режим обчислення встановлено на Косинус"
+
+msgid "Input in Basis Natural :"
+msgstr "Введіть у натуральній основі:"
+
+msgid "Input in Basis 10:"
+msgstr "Введіть у основі 10:"
+
+msgid "Input in Non-Negative Numbers:"
+msgstr "Введіть ненегативні числа:"
+
+msgid "Calculation mode set to Sqrt"
+msgstr "Режим обчислення встановлено на Квадратний корінь"
+
+#msgid "Failed to access clipboard"
+#msgstr "Не вдалося отримати доступ до буфера обміну"
+
+msgid "Please select a calculation mode first"
+msgstr "Будь ласка, спочатку виберіть режим обчислення"
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "Логарифм визначений тільки для позитивних чисел"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "Квадратний корінь визначений тільки для ненегативних чисел"
+
+msgid ""
+"High Precision = {result}\n"
+"Rounded = {rounded_result}"
+msgstr ""
+"Висока точність = {result}\n"
+"Округлено = {rounded_result}"
+
+msgid "Invalid input. Please check your expression"
+msgstr "Невірний ввід. Будь ласка, перевірте вираз"
+
+msgid "An error occurred: "
+msgstr "Сталася помилка:"
+
+#msgid "Invalid input, only numbers allowed"
+#msgstr "Невірний ввід, дозволяються лише цифри"
+
+# help.py
+msgid "Calculation Mode Help"
+msgstr "Допомога щодо режиму обчислень"
+
 msgid ""
 "Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules "
-"(PEMDAS).\n"
+"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
 "Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
 "\n"
 "Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator "
-"precedence.\n"
-"Example: 3 + 5 * 2 = 16 (calculations are done left to right)."
+"Calculations are performed from left to right without considering operator precedence.\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
+"\n"
+"Scientific Mode:\n"
+"\n"
+"Sin and Cos:\n"
+"Calculates the values of sine and cosine.\n"
+"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"\n"
+"Logarithms:\n"
+"Two types of logarithms are available:\n"
+"- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
+"- Base 10 Logarithm: Logarithm with base 10.\n"
+"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"\n"
+"Square Root:\n"
+"Calculates the square root of a number.\n"
+"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"\n"
+"Result Format:\n"
+"- High Precision: Displays the result with full detail.\n"
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
 msgstr ""
 "Стандартний режим:\n"
-"Обчислення виконуються за стандартними правилами пріоритету математичних "
-"операторів (PEMDAS).\n"
-"Приклад: 3 + 5 * 2 = 13 (спочатку виконується множення).\n"
+"Обчислення слідують стандартним правилам пріоритету математичних операторів (PEMDAS).\n"
+"Приклад: 3 + 5 * 2 = 13 (множення виконується першим).\n"
 "\n"
-"Режим зліва направо:\n"
-"Обчислення виконуються зліва направо без урахування пріоритету оператора.\n"
-"Приклад: 3 + 5 * 2 = 16 (обчислення ведуться зліва направо)."
+"Режим ліво-направо:\n"
+"Обчислення виконуються зліва направо без урахування пріоритету операторів.\n"
+"Приклад: 3 + 5 * 2 = 16 (обчислення виконуються зліва направо).\n"
+"\n"
+"Науковий режим:\n"
+"\n"
+"Сінус і Косинус:\n"
+"Обчислює значення синуса та косинуса.\n"
+"Вхідні дані повинні бути в градусах. Калькулятор автоматично перетворить значення в радіани для обчислення.\n"
+"\n"
+"Логарифми:\n"
+"Доступні два типи логарифмів:\n"
+"- Натуральний логарифм (LN): Логарифм з природною основою (e).\n"
+"- Логарифм за основою 10: Логарифм з основою 10.\n"
+"Негативні числа не підтримуються, оскільки логарифми визначені лише для позитивних чисел.\n"
+"\n"
+"Квадратний корінь:\n"
+"Обчислює квадратний корінь числа.\n"
+"Негативні числа не підтримуються, оскільки квадратний корінь визначений лише для ненегативних чисел.\n"
+"\n"
+"Формат результату:\n"
+"- Висока точність: Відображає результат з повними деталями.\n"
+"- Округлений (до 2 знаків після коми): Відображає результат у спрощеній формі, округлений до 2 знаків для легшого сприйняття."
 
-#: myCalculator/help.py:30
 msgid "OK"
-msgstr "Гаразд"
+msgstr "ОК"

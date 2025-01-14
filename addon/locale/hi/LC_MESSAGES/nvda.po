@@ -1,113 +1,358 @@
-# Translation file for MyCalculator NVDA Add-on.
-# Copyright (C) 2025 MyCalculator Project
-# This file is distributed under the same license as the MyCalculator package.
+# Translation file for My Calculator NVDA Add-on.
+# Copyright (C) 2025 My Calculator Project
+# This file is distributed under the same license as the MyCalculatorpackage.
 # Andhi Mardianto <anditoinfo@gmail.com>, 2025.
-#
+
 msgid ""
 msgstr ""
-"Project-Id-Version: MyCalculator 1.0\n"
+"Project-Id-Version: my calculator 2.0\n"
 "Report-Msgid-Bugs-To: anditoinfo@gmail.com\n"
 "POT-Creation-Date: 2025-01-02 10:01+0700\n"
-"PO-Revision-Date: 2025-01-02 10:30+0700\n"
-"Last-Translator: Andhi Mardianto <anditoinfo@gmail.com>\n"
-"Language-Team: Hindi <hi@li.org>\n"
+"PO-Revision-Date: 2025-01-11 10:30+0700\n"
+"Last-Translator: Andhi Mardianto with google translet<anditoinfo@gmail.com>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: globalPlugins/myCalculator/help.py:6
-msgid "Calculation Mode Help"
-msgstr "गणना मोड सहायता"
 
-#: globalPlugins/myCalculator/help.py:16
-msgid ""
-"Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules "
-"(PEMDAS).\n"
-"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
-"\n"
-"Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator "
-"precedence.\n"
-"Example: 3 + 5 * 2 = 16 (calculations are done left to right)."
-msgstr ""
-"मानक मोड:\n"
-"गणनाएँ मानक गणितीय ऑपरेटर प्राथमिकता नियम (PEMDAS) का पालन करती हैं।\n"
-"उदाहरण: 3 + 5 * 2 = 13 (पहले गुणा किया जाता है)।\n"
-"\n"
-"बाएँ से दाएँ मोड:\n"
-"गणनाएँ बाएँ से दाएँ बिना ऑपरेटर प्राथमिकता को ध्यान में रखे की जाती हैं।\n"
-"उदाहरण: 3 + 5 * 2 = 16 (गणना बाएँ से दाएँ की जाती है)।"
 
-#: globalPlugins/myCalculator/help.py:28
-msgid "OK"
-msgstr "ठीक है"
 
-#: globalPlugins/myCalculator/__init__.py:26
+# init.py
+
 msgid "Open My Calculator dialog"
-msgstr "मेरे कैलकुलेटर संवाद को खोलें"
+msgstr "मेरा कैलकुलेटर डायलॉग खोलें"
 
-#: globalPlugins/myCalculator/__init__.py:27
-msgid "MyCalculator"
-msgstr "मेरा कैलकुलेटर"
-
-#: globalPlugins/myCalculator/__init__.py:60
 msgid "Calculation Input"
 msgstr "गणना इनपुट"
 
-#: globalPlugins/myCalculator/__init__.py:69
-msgid "Result"
-msgstr "परिणाम"
-
-#: globalPlugins/myCalculator/__init__.py:76
 msgid "Copy"
-msgstr "प्रतिलिपि"
+msgstr "कॉपी करें"
 
-#: globalPlugins/myCalculator/__init__.py:81
 msgid "Standar"
 msgstr "मानक"
 
-#: globalPlugins/myCalculator/__init__.py:86
 msgid "Left to Right"
-msgstr "बाएँ से दाएँ"
+msgstr "बाएं से दाएं"
 
-#: globalPlugins/myCalculator/__init__.py:91
+msgid "Conversion"
+msgstr "रूपांतरण"
+
+msgid "Scientific"
+msgstr "वैज्ञानिक"
+
 msgid "Help"
-msgstr "सहायता"
+msgstr "मदद"
 
-#: globalPlugins/myCalculator/__init__.py:97
-msgid "History"
-msgstr "इतिहास"
-
-#: globalPlugins/myCalculator/__init__.py:198
-msgid "Invalid input, only numbers and arithmetic symbols allowed"
-msgstr "अमान्य इनपुट, केवल संख्याएँ और अंकगणितीय प्रतीक की अनुमति है"
-
-#: globalPlugins/myCalculator/__init__.py:160
 msgid "Calculation mode set to Standard International"
-msgstr "गणना मोड को मानक अंतर्राष्ट्रीय पर सेट किया गया"
+msgstr "गणना मोड मानक अंतरराष्ट्रीय पर सेट किया गया है"
 
-#: globalPlugins/myCalculator/__init__.py:165
 msgid "Calculation mode set to Left to Right"
-msgstr "गणना मोड को बाएँ से दाएँ पर सेट किया गया"
+msgstr "गणना मोड बाएं से दाएं पर सेट किया गया है"
 
-#: globalPlugins/myCalculator/__init__.py:179
-msgid "Result copied to clipboard"
-msgstr "परिणाम क्लिपबोर्ड पर प्रतिलिपित किया गया"
-
-#: globalPlugins/myCalculator/__init__.py:181
 msgid "Failed to access clipboard"
 msgstr "क्लिपबोर्ड तक पहुंचने में विफल"
 
-#: globalPlugins/myCalculator/__init__.py:183
-msgid "No result to copy"
-msgstr "प्रतिलिपि के लिए कोई परिणाम नहीं"
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "अमान्य इनपुट, केवल संख्याएं और अंकगणितीय प्रतीक अनुमत हैं"
 
-#: globalPlugins/myCalculator/__init__.py:213
+msgid "Error! Check Input"
+msgstr "त्रुटि! इनपुट जांचें"
+
 msgid "Invalid calculation mode"
 msgstr "अमान्य गणना मोड"
 
-#: globalPlugins/myCalculator/__init__.py:226
-msgid "Error! Check Input"
-msgstr "त्रुटि! इनपुट जांचें"
+# conversion.py
+msgid "Please Select Conversion Mode"
+msgstr "कृपया रूपांतरण मोड चुनें"
+
+#msgid "Copy"
+#msgstr "कॉपी करें"
+
+msgid "Length"
+msgstr "लंबाई"
+
+msgid "Mass"
+msgstr "भार"
+
+msgid "Temperature"
+msgstr "तापमान"
+
+msgid "Volume"
+msgstr "आयतन"
+
+msgid "Speed"
+msgstr "गति"
+
+msgid "Select a Speed conversion:"
+msgstr "गति रूपांतरण चुनें:"
+
+msgid "Speed Conversion Options"
+msgstr "गति रूपांतरण विकल्प"
+
+msgid "Input in Kilometers per Hour:"
+msgstr "प्रविष्टि किलोमीटर प्रति घंटा में:"
+
+msgid "Input in Miles per Hour:"
+msgstr "प्रविष्टि मील प्रति घंटा में:"
+
+msgid "Input in Meters per Second:"
+msgstr "प्रविष्टि मीटर प्रति सेकंड में:"
+
+msgid "Input in Knots:"
+msgstr "प्रविष्टि नॉट्स में:"
+
+msgid "Input in Feet per Second:"
+msgstr "प्रविष्टि फीट प्रति सेकंड में:"
+
+msgid "Select a length conversion:"
+msgstr "लंबाई रूपांतरण चुनें:"
+
+msgid "Length Conversion Options"
+msgstr "लंबाई रूपांतरण विकल्प"
+
+msgid "Input in Kilometers:"
+msgstr "प्रविष्टि किलोमीटर में:"
+
+msgid "Input in Miles:"
+msgstr "प्रविष्टि मील में:"
+
+msgid "Input in Meters:"
+msgstr "प्रविष्टि मीटर में:"
+
+msgid "Input in Feet:"
+msgstr "प्रविष्टि फीट में:"
+
+msgid "Input in Centimeters:"
+msgstr "प्रविष्टि सेंटीमीटर में:"
+
+msgid "Input in Inches:"
+msgstr "प्रविष्टि इंच में:"
+
+msgid "Select a Mass conversion:"
+msgstr "भार रूपांतरण चुनें:"
+
+msgid "Mass Conversion Options"
+msgstr "भार रूपांतरण विकल्प"
+
+msgid "Input in Kilograms:"
+msgstr "प्रविष्टि किलोग्राम में:"
+
+msgid "Input in Pounds:"
+msgstr "प्रविष्टि पाउंड में:"
+
+msgid "Input in Tons:"
+msgstr "प्रविष्टि टन में:"
+
+msgid "Input in Ounces:"
+msgstr "प्रविष्टि औंस में:"
+
+msgid "Input in Grams:"
+msgstr "प्रविष्टि ग्राम में:"
+
+msgid "Select a Temperature conversion:"
+msgstr "तापमान रूपांतरण चुनें:"
+
+msgid "Temperature Conversion Options"
+msgstr "तापमान रूपांतरण विकल्प"
+
+msgid "Input in Celsius:"
+msgstr "प्रविष्टि सेल्सियस में:"
+
+msgid "Input in Fahrenheit:"
+msgstr "प्रविष्टि फारेनहाइट में:"
+
+msgid "Input in Kelvin:"
+msgstr "प्रविष्टि केल्विन में:"
+
+msgid "Select a Volume conversion:"
+msgstr "आयतन रूपांतरण चुनें:"
+
+msgid "Volume Conversion Options"
+msgstr "आयतन रूपांतरण विकल्प"
+
+msgid "Input in Liter:"
+msgstr "प्रविष्टि लीटर में:"
+
+msgid "Input in Gallon (US):"
+msgstr "प्रविष्टि गैलन (यूएस) में:"
+
+msgid "Input in Milliliter:"
+msgstr "प्रविष्टि मिलीलीटर में:"
+
+msgid "Input in Cubic Meter:"
+msgstr "प्रविष्टि घन मीटर में:"
+
+msgid "Input in Gallon (UK) :"
+msgstr "प्रविष्टि गैलन (यूके) में:"
+
+msgid "Input in Liter :"
+msgstr "प्रविष्टि लीटर में:"
+
+msgid "Input in Cubic Inch :"
+msgstr "प्रविष्टि घन इंच में:"
+
+msgid "Input in Milliliter :"
+msgstr "प्रविष्टि मिलीलीटर में:"
+
+msgid "Input in Cubic Centimeter :"
+msgstr "प्रविष्टि घन सेंटीमीटर में:"
+
+msgid "Input in Barrel (US) :"
+msgstr "प्रविष्टि बैरल (यूएस) में:"
+
+#msgid "Failed to access clipboard"
+#msgstr "क्लिपबोर्ड तक पहुंचने में विफल"
+
+msgid "Invalid input, only numbers allowed"
+msgstr "अमान्य प्रविष्टि, केवल संख्याएं अनुमत हैं"
+
+# scientific.py
+msgid "Please Select Scientific Mode "
+msgstr "कृपया वैज्ञानिक मोड चुनें"
+
+msgid "Result"
+msgstr "परिणाम"
+
+#msgid "Copy"
+#msgstr "कॉपी करें"
+
+msgid "Sin"
+msgstr "साइन"
+
+msgid "Cos"
+msgstr "कॉस"
+
+msgid "Log"
+msgstr "लॉग"
+
+msgid "Sqrt"
+msgstr "वर्गमूल"
+
+msgid "History"
+msgstr "इतिहास"
+
+msgid "Select a Basis"
+msgstr "आधार चुनें"
+
+msgid "Basis Options"
+msgstr "आधार विकल्प"
+
+msgid "Input in Degrees:"
+msgstr "डिग्री में प्रविष्टि:"
+
+msgid "Calculation mode set to Sin"
+msgstr "गणना मोड साइन पर सेट किया गया है"
+
+msgid "Calculation mode set to Cos"
+msgstr "गणना मोड कॉस पर सेट किया गया है"
+
+msgid "Input in Basis Natural :"
+msgstr "प्राकृतिक आधार में प्रविष्टि:"
+
+msgid "Input in Basis 10:"
+msgstr "आधार 10 में प्रविष्टि:"
+
+msgid "Input in Non-Negative Numbers:"
+msgstr "गैर-ऋणात्मक संख्याओं में प्रविष्टि:"
+
+msgid "Calculation mode set to Sqrt"
+msgstr "गणना मोड वर्गमूल पर सेट किया गया है"
+
+msgid "Result copied to clipboard"
+msgstr "परिणाम क्लिपबोर्ड पर कॉपी किया गया"
+
+#msgid "Failed to access clipboard"
+#msgstr "क्लिपबोर्ड तक पहुंचने में विफल"
+
+msgid "No result to copy"
+msgstr "कॉपी करने के लिए कोई परिणाम नहीं"
+
+msgid "Please select a calculation mode first"
+msgstr "कृपया पहले एक गणना मोड चुनें"
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "लॉगारिदम केवल धनात्मक संख्याओं के लिए परिभाषित है"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "वर्गमूल केवल गैर-ऋणात्मक संख्याओं के लिए परिभाषित है"
+
+msgid ""
+"High Precision = {result}\n"
+"Rounded = {rounded_result}"
+msgstr ""
+"उच्च सटीकता = {result}\n"
+"आवृत = {rounded_result}"
+
+msgid "Invalid input. Please check your expression"
+msgstr "अमान्य प्रविष्टि। कृपया अपने अभिव्यक्ति की जांच करें"
+
+msgid "An error occurred: "
+msgstr "एक त्रुटि हुई:"
+
+#msgid "Invalid input, only numbers allowed"
+#msgstr "अमान्य प्रविष्टि, केवल संख्याएं अनुमत हैं"
+
+# help.py
+msgid "Calculation Mode Help"
+msgstr "गणना मोड सहायता"
+
+msgid ""
+"Standard Mode:\n"
+"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
+"\n"
+"Left to Right Mode:\n"
+"Calculations are performed from left to right without considering operator precedence.\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
+"\n"
+"Scientific Mode:\n"
+"\n"
+"Sin and Cos:\n"
+"Calculates the values of sine and cosine.\n"
+"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"\n"
+"Logarithms:\n"
+"Two types of logarithms are available:\n"
+"- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
+"- Base 10 Logarithm: Logarithm with base 10.\n"
+"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"\n"
+"Square Root:\n"
+"Calculates the square root of a number.\n"
+"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"\n"
+"Result Format:\n"
+"- High Precision: Displays the result with full detail.\n"
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
+msgstr ""
+"मानक मोड:\n"
+"गणनाएँ मानक गणितीय ऑपरेटर प्राथमिकता नियमों (PEMDAS) का पालन करती हैं।\n"
+"उदाहरण: 3 + 5 * 2 = 13 (पहले गुणा किया जाता है)।\n"
+"\n"
+"बाएँ से दाएँ मोड:\n"
+"गणनाएँ ऑपरेटर प्राथमिकता को ध्यान में रखे बिना बाएँ से दाएँ की जाती हैं।\n"
+"उदाहरण: 3 + 5 * 2 = 16 (गणनाएँ बाएँ से दाएँ की जाती हैं)।\n"
+"\n"
+"वैज्ञानिक मोड:\n"
+"\n"
+"साइन और कॉस:\n"
+"साइन और कॉस के मानों की गणना करता है।\n"
+"इनपुट डिग्री में होना चाहिए। कैलकुलेटर स्वचालित रूप से गणना के लिए मान को रेडियन में बदल देगा।\n"
+"\n"
+"लॉगारिदम:\n"
+"दो प्रकार के लॉगारिदम उपलब्ध हैं:\n"
+"- प्राकृतिक लॉगारिदम (LN): प्राकृतिक आधार (e) के साथ लॉगारिदम।\n"
+"- आधार 10 लॉगारिदम: आधार 10 के साथ लॉगारिदम।\n"
+"ऋणात्मक संख्याएँ समर्थित नहीं हैं क्योंकि लॉगारिदम केवल सकारात्मक संख्याओं के लिए परिभाषित है।\n"
+"\n"
+"वर्गमूल:\n"
+"संख्या के वर्गमूल की गणना करता है।\n"
+"ऋणात्मक संख्याएँ समर्थित नहीं हैं क्योंकि वर्गमूल केवल गैर-ऋणात्मक संख्याओं के लिए परिभाषित है।\n"
+"\n"
+"परिणाम प्रारूप:\n"
+"- उच्च सटीकता: परिणाम को पूर्ण विवरण के साथ प्रदर्शित करता है।\n"
+"- आवृत (2 दशमलव स्थान): परिणाम को एक सरल रूप में प्रदर्शित करता है, आसान पढ़ने के लिए 2 दशमलव स्थानों तक आवृत।"
+
+msgid "OK"
+msgstr "ठीक है"

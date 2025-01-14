@@ -90,15 +90,15 @@ class MainDialog(wx.Dialog):
         ltr_button.Bind(wx.EVT_BUTTON, self.set_left_to_right_mode)
         leftSizer.Add(ltr_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
 
+        # Tombol scientific 
+        scientific_button = wx.Button(panel, label=_("Scientific"))
+        scientific_button.Bind(wx.EVT_BUTTON, self.ScientificMode)
+        leftSizer.Add(scientific_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
+
         # Tombol conversion
         conversion_button = wx.Button(panel, label=_("Conversion"))
-        conversion_button.Bind(wx.EVT_BUTTON, self.ConversionMode)
+        conversion_button.Bind(wx.EVT_BUTTON, self.ConversionMode)  
         leftSizer.Add(conversion_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
-
-        # Tombol Scientific
-        scientific_button = wx.Button(panel, label=_("Scientific"))
-        scientific_button.Bind(wx.EVT_BUTTON, self.ScientificMode)  
-        leftSizer.Add(scientific_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
 
         # Tombol Help
         help_button = wx.Button(panel, label=_("Help"))
@@ -253,18 +253,21 @@ class MainDialog(wx.Dialog):
         #Fungsi Menghitung ekspresi dari kiri ke kanan
     def calculate_left_to_right(self, expression):
         # Memastikan angka negatif di awal atau setelah operator diinterpretasikan dengan benar
-        tokens = re.findall(r'-?\d+(?:\.\d+)?|[+\-*/]', expression.replace(' ', ''))
-        
-        if not tokens:  # Jika tidak ada token, kembalikan 0 atau nilai default
+        tokens = re.findall(r'(?<!\d)-?\d+(?:\.\d+)?|[+\-*/]', expression.replace(' ', ''))
+
+        if not tokens:  # Jika tidak ada token, kembalikan 0
             return 0
-        
+
+        # Konversi token awal ke angka untuk memulai perhitungan
         result = float(tokens[0])
         i = 1
 
-        while i < len(tokens) - 1:  # Pastikan tidak melampaui batas token
+        # Iterasi melalui token
+        while i < len(tokens) - 1:
             operator = tokens[i]
             next_number = float(tokens[i + 1])
 
+            # Lakukan operasi sesuai dengan operator yang ditemukan
             if operator == '+':
                 result += next_number
             elif operator == '-':
@@ -272,9 +275,11 @@ class MainDialog(wx.Dialog):
             elif operator == '*':
                 result *= next_number
             elif operator == '/':
+                if next_number == 0:
+                    raise ZeroDivisionError("Tidak dapat membagi dengan nol.")
                 result /= next_number
 
-            i += 2
+            i += 2  # Melompat ke operator dan angka berikutnya
 
         return result
 

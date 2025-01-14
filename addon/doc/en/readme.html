@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Calculator v1.0.0</title>
+    <title>My Calculator v2.0.0</title>
     <style>
     .garisheading {
         background-color: black;
@@ -23,13 +23,37 @@
     </div>
     <p>Author : Andhi Mardianto </p>
 <h2>Introduction </h2>
-<p>My Calculator NVDA Addon is a calculator with multiple calculation methods and better user experience <br>There are several calculation methods, namely standard and also left to right. For an explanation of the method, you can press the help button on the main dialog.
-<br>    Press NVDA+Shift+M to open the calculator and enter the calculation you want to perform.
+<p>My Calculator NVDA Addon is a calculator with multiple calculation methods and better user experience <br>There are several calculation methods, namely standard, scientific, conversion and more <br>    Press NVDA+Shift+M to open the calculator and enter the calculation you want to perform.
 <br>    Each time you input a value, a beep sound will be heard.
 <br> You can also see the history of calculations that have been performed.
 <br>    Press Enter, Tab or = to move the focus to the result.
     You can also copy the result to the clipboard.
     Press Esc to close the program.</p>
+    <h4> Standard Mode:</h4>
+<p>Calculations follow the standard mathematical operator precedence rules (PEMDAS).
+     <br>Example: 3 + 5 * 2 = 13 (multiplication is performed first).</p>
+     <h3>Left to Right Mode:    </h3>
+<p>Calculations are performed from left to right without considering operator precedence.
+     <br>Example: 3 + 5 * 2 = 16 (calculations are done left to right).    </p>
+<h3>Scientific Mode:</h3>
+<p>Sin and Cos:
+    <br> Calculates the values of sine and cosine.
+    The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.    
+    <br> Logarithms:
+    <br> Two types of logarithms are available:
+    <br>  Natural Logarithm (LN): Logarithm with the natural base (e).
+     Base 10 Logarithm: Logarithm with base 10.
+    Negative numbers are not supported as logarithms are only defined for positive numbers.
+    
+    <br> Square Root:
+    Calculates the square root of a number.
+    Negative numbers are not supported as the square root is only defined for non-negative numbers.
+    
+    <br> Result Format:
+    <br>  High Precision: Displays the result with full detail.
+    <br> Rounded (2 Decimal Places): Displays the result in a simpler. use the down and up arrows to find out</p>
+<h3>Conversion Mode : </h3>
+<p>There are several conversions. length, Mass  and others please explore</p>
 <h3>NOTE</h3>
 <p>When you open the calculator by default it will use the standard calculation method.</p>
 <P>    The letter X is allowed for multiplication, and the symbol : is allowed for division.
@@ -39,7 +63,10 @@
 <h2>release v1.0.0</h2>
      </div>
 <p>First Launch </p>
-
+<div class="garisheading">
+    <h2>release v2.0.0</h2>
+         </div>
+<p>addition of conversion and scientific features and addition of translation languages ​​and improvements and others</p>    
 
 </body>
 </html>

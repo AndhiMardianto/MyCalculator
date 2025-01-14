@@ -10,214 +10,210 @@ msgstr ""
 "POT-Creation-Date: 2025-01-02 10:01+0700\n"
 "PO-Revision-Date: 2025-01-11 10:30+0700\n"
 "Last-Translator: Andhi Mardianto with google translet<anditoinfo@gmail.com>\n"
-"Language: fr\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 
-
-
 # init.py
 
 msgid "Open My Calculator dialog"
-msgstr "Ouvrir la boîte de dialogue de ma calculatrice"
+msgstr "Mein Rechner-Dialog öffnen"
 
 msgid "Calculation Input"
-msgstr "Entrée de calcul"
+msgstr "Berechnungseingabe"
 
 msgid "Copy"
-msgstr "Copier"
+msgstr "Kopieren"
 
 msgid "Standar"
 msgstr "Standard"
 
 msgid "Left to Right"
-msgstr "De gauche à droite"
+msgstr "Von links nach rechts"
 
 msgid "Conversion"
-msgstr "Conversion"
+msgstr "Umrechnung"
 
 msgid "Scientific"
-msgstr "Scientifique"
+msgstr "Wissenschaftlich"
 
 msgid "Help"
-msgstr "Aide"
+msgstr "Hilfe"
 
 msgid "Calculation mode set to Standard International"
-msgstr "Mode de calcul réglé sur Standard International"
+msgstr "Berechnungsmodus auf Standard International gesetzt"
 
 msgid "Calculation mode set to Left to Right"
-msgstr "Mode de calcul réglé sur De gauche à droite"
+msgstr "Berechnungsmodus auf Von links nach rechts gesetzt"
 
 msgid "Failed to access clipboard"
-msgstr "Échec de l'accès au presse-papiers"
+msgstr "Zugriff auf die Zwischenablage fehlgeschlagen"
 
 msgid "Invalid input, only numbers and arithmetic symbols allowed"
-msgstr ""
-"Entrée invalide, seuls les nombres et les symboles arithmétiques sont "
-"autorisés"
+msgstr "Ungültige Eingabe, nur Zahlen und arithmetische Symbole erlaubt"
 
 msgid "Error! Check Input"
-msgstr "Erreur ! Vérifiez l'entrée"
+msgstr "Fehler! Eingabe überprüfen"
 
 msgid "Invalid calculation mode"
-msgstr "Mode de calcul invalide"
+msgstr "Ungültiger Berechnungsmodus"
 
 # conversion.py
 msgid "Please Select Conversion Mode"
-msgstr "Veuillez sélectionner le mode de conversion"
+msgstr "Bitte wählen Sie den Umrechnungsmodus"
 
 #msgid "Copy"
-#msgstr "Copier"
+#msgstr "Kopieren"
 
 msgid "Length"
-msgstr "Longueur"
+msgstr "Länge"
 
 msgid "Mass"
 msgstr "Masse"
 
 msgid "Temperature"
-msgstr "Température"
+msgstr "Temperatur"
 
 msgid "Volume"
-msgstr "Volume"
+msgstr "Volumen"
 
 msgid "Speed"
-msgstr "Vitesse"
+msgstr "Geschwindigkeit"
 
 msgid "Select a Speed conversion:"
-msgstr "Sélectionnez une conversion de vitesse :"
+msgstr "Wählen Sie eine Geschwindigkeitsumrechnung:"
 
 msgid "Speed Conversion Options"
-msgstr "Options de conversion de vitesse"
+msgstr "Optionen für Geschwindigkeitsumrechnung"
 
 msgid "Input in Kilometers per Hour:"
-msgstr "Entrée en kilomètres par heure :"
+msgstr "Eingabe in Kilometer pro Stunde:"
 
 msgid "Input in Miles per Hour:"
-msgstr "Entrée en miles par heure :"
+msgstr "Eingabe in Meilen pro Stunde:"
 
 msgid "Input in Meters per Second:"
-msgstr "Entrée en mètres par seconde :"
+msgstr "Eingabe in Meter pro Sekunde:"
 
 msgid "Input in Knots:"
-msgstr "Entrée en nœuds :"
+msgstr "Eingabe in Knoten:"
 
 msgid "Input in Feet per Second:"
-msgstr "Entrée en pieds par seconde :"
+msgstr "Eingabe in Fuß pro Sekunde:"
 
 msgid "Select a length conversion:"
-msgstr "Sélectionnez une conversion de longueur :"
+msgstr "Wählen Sie eine Längenumrechnung:"
 
 msgid "Length Conversion Options"
-msgstr "Options de conversion de longueur"
+msgstr "Optionen für Längenumrechnung"
 
 msgid "Input in Kilometers:"
-msgstr "Entrée en kilomètres :"
+msgstr "Eingabe in Kilometer:"
 
 msgid "Input in Miles:"
-msgstr "Entrée en miles :"
+msgstr "Eingabe in Meilen:"
 
 msgid "Input in Meters:"
-msgstr "Entrée en mètres :"
+msgstr "Eingabe in Meter:"
 
 msgid "Input in Feet:"
-msgstr "Entrée en pieds :"
+msgstr "Eingabe in Fuß:"
 
 msgid "Input in Centimeters:"
-msgstr "Entrée en centimètres :"
+msgstr "Eingabe in Zentimeter:"
 
 msgid "Input in Inches:"
-msgstr "Entrée en pouces :"
+msgstr "Eingabe in Zoll:"
 
 msgid "Select a Mass conversion:"
-msgstr "Sélectionnez une conversion de masse :"
+msgstr "Wählen Sie eine Massenumrechnung:"
 
 msgid "Mass Conversion Options"
-msgstr "Options de conversion de masse"
+msgstr "Optionen für Massenumrechnung"
 
 msgid "Input in Kilograms:"
-msgstr "Entrée en kilogrammes :"
+msgstr "Eingabe in Kilogramm:"
 
 msgid "Input in Pounds:"
-msgstr "Entrée en livres :"
+msgstr "Eingabe in Pfund:"
 
 msgid "Input in Tons:"
-msgstr "Entrée en tonnes :"
+msgstr "Eingabe in Tonnen:"
 
 msgid "Input in Ounces:"
-msgstr "Entrée en onces :"
+msgstr "Eingabe in Unzen:"
 
 msgid "Input in Grams:"
-msgstr "Entrée en grammes :"
+msgstr "Eingabe in Gramm:"
 
 msgid "Select a Temperature conversion:"
-msgstr "Sélectionnez une conversion de température :"
+msgstr "Wählen Sie eine Temperaturumrechnung:"
 
 msgid "Temperature Conversion Options"
-msgstr "Options de conversion de température"
+msgstr "Optionen für Temperaturumrechnung"
 
 msgid "Input in Celsius:"
-msgstr "Entrée en Celsius :"
+msgstr "Eingabe in Celsius:"
 
 msgid "Input in Fahrenheit:"
-msgstr "Entrée en Fahrenheit :"
+msgstr "Eingabe in Fahrenheit:"
 
 msgid "Input in Kelvin:"
-msgstr "Entrée en Kelvin :"
+msgstr "Eingabe in Kelvin:"
 
 msgid "Select a Volume conversion:"
-msgstr "Sélectionnez une conversion de volume :"
+msgstr "Wählen Sie eine Volumenumrechnung:"
 
 msgid "Volume Conversion Options"
-msgstr "Options de conversion de volume"
+msgstr "Optionen für Volumenumrechnung"
 
 msgid "Input in Liter:"
-msgstr "Entrée en litres :"
+msgstr "Eingabe in Liter:"
 
 msgid "Input in Gallon (US):"
-msgstr "Entrée en gallons (US) :"
+msgstr "Eingabe in Gallone (US):"
 
 msgid "Input in Milliliter:"
-msgstr "Entrée en millilitres :"
+msgstr "Eingabe in Milliliter:"
 
 msgid "Input in Cubic Meter:"
-msgstr "Entrée en mètres cubes :"
+msgstr "Eingabe in Kubikmeter:"
 
 msgid "Input in Gallon (UK) :"
-msgstr "Entrée en gallons (UK) :"
+msgstr "Eingabe in Gallone (UK):"
 
 msgid "Input in Liter :"
-msgstr "Entrée en litres :"
+msgstr "Eingabe in Liter:"
 
 msgid "Input in Cubic Inch :"
-msgstr "Entrée en pouces cubes :"
+msgstr "Eingabe in Kubikzoll:"
 
 msgid "Input in Milliliter :"
-msgstr "Entrée en millilitres :"
+msgstr "Eingabe in Milliliter:"
 
 msgid "Input in Cubic Centimeter :"
-msgstr "Entrée en centimètres cubes :"
+msgstr "Eingabe in Kubikzentimeter:"
 
 msgid "Input in Barrel (US) :"
-msgstr "Entrée en barils (US) :"
+msgstr "Eingabe in Fass (US):"
 
 #msgid "Failed to access clipboard"
-#msgstr "Échec de l'accès au presse-papiers"
+#msgstr "Zugriff auf die Zwischenablage fehlgeschlagen"
 
 msgid "Invalid input, only numbers allowed"
-msgstr "Entrée invalide, seuls les nombres sont autorisés"
+msgstr "Ungültige Eingabe, nur Zahlen erlaubt"
 
 # scientific.py
 msgid "Please Select Scientific Mode "
-msgstr "Veuillez sélectionner le mode scientifique"
+msgstr "Bitte wählen Sie den wissenschaftlichen Modus"
 
 msgid "Result"
-msgstr "Résultat"
+msgstr "Ergebnis"
 
 #msgid "Copy"
-#msgstr "Copier"
+#msgstr "Kopieren"
 
 msgid "Sin"
 msgstr "Sin"
@@ -229,75 +225,75 @@ msgid "Log"
 msgstr "Log"
 
 msgid "Sqrt"
-msgstr "Racine carrée"
+msgstr "Wurzel"
 
 msgid "History"
-msgstr "Historique"
+msgstr "Verlauf"
 
 msgid "Select a Basis"
-msgstr "Sélectionnez une base"
+msgstr "Basis auswählen"
 
 msgid "Basis Options"
-msgstr "Options de base"
+msgstr "Basisoptionen"
 
 msgid "Input in Degrees:"
-msgstr "Entrée en degrés :"
+msgstr "Eingabe in Grad:"
 
 msgid "Calculation mode set to Sin"
-msgstr "Mode de calcul défini sur Sin"
+msgstr "Berechnungsmodus auf Sin gesetzt"
 
 msgid "Calculation mode set to Cos"
-msgstr "Mode de calcul défini sur Cos"
+msgstr "Berechnungsmodus auf Cos gesetzt"
 
 msgid "Input in Basis Natural :"
-msgstr "Entrée en base naturelle :"
+msgstr "Eingabe in natürlicher Basis:"
 
 msgid "Input in Basis 10:"
-msgstr "Entrée en base 10 :"
+msgstr "Eingabe in Basis 10:"
 
 msgid "Input in Non-Negative Numbers:"
-msgstr "Entrée en nombres non négatifs :"
+msgstr "Eingabe in nicht-negativen Zahlen:"
 
 msgid "Calculation mode set to Sqrt"
-msgstr "Mode de calcul défini sur racine carrée"
+msgstr "Berechnungsmodus auf Wurzel gesetzt"
 
 msgid "Result copied to clipboard"
-msgstr "Résultat copié dans le presse-papiers"
+msgstr "Ergebnis in die Zwischenablage kopiert"
 
 #msgid "Failed to access clipboard"
-#msgstr "Échec de l'accès au presse-papiers"
+#msgstr "Zugriff auf die Zwischenablage fehlgeschlagen"
 
 msgid "No result to copy"
-msgstr "Aucun résultat à copier"
+msgstr "Kein Ergebnis zum Kopieren"
 
 msgid "Please select a calculation mode first"
-msgstr "Veuillez d'abord sélectionner un mode de calcul"
+msgstr "Bitte wählen Sie zuerst einen Berechnungsmodus"
 
 msgid "Logarithm is only defined for positive numbers"
-msgstr "Le logarithme est uniquement défini pour les nombres positifs"
+msgstr "Logarithmus ist nur für positive Zahlen definiert"
 
 msgid "Square root is only defined for non-negative numbers"
-msgstr "La racine carrée est uniquement définie pour les nombres non négatifs"
+msgstr "Die Quadratwurzel ist nur für nicht-negative Zahlen definiert"
 
 msgid ""
 "High Precision = {result}\n"
 "Rounded = {rounded_result}"
 msgstr ""
-"Haute précision = {result}\n"
-"Arrondi = {rounded_result}"
+"Hochpräzision = {result}\n"
+"Gerundet = {rounded_result}"
 
 msgid "Invalid input. Please check your expression"
-msgstr "Entrée invalide. Veuillez vérifier votre expression"
+msgstr "Ungültige Eingabe. Bitte überprüfen Sie Ihren Ausdruck"
 
 msgid "An error occurred: "
-msgstr "Une erreur s'est produite :"
+msgstr "Ein Fehler ist aufgetreten: "
 
 #msgid "Invalid input, only numbers allowed"
-#msgstr "Entrée invalide, seuls les nombres sont autorisés"
+#msgstr "Ungültige Eingabe, nur Zahlen erlaubt"
 
 # help.py
 msgid "Calculation Mode Help"
-msgstr "Aide sur les modes de calcul"
+msgstr "Hilfe zum Berechnungsmodus"
 
 msgid ""
 "Standard Mode:\n"
@@ -328,33 +324,33 @@ msgid ""
 "- High Precision: Displays the result with full detail.\n"
 "- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
 msgstr ""
-"Mode Standard :\n"
-"Les calculs suivent les règles de priorité des opérateurs mathématiques standard (PEMDAS).\n"
-"Exemple : 3 + 5 * 2 = 13 (la multiplication est effectuée en premier).\n"
+"Standardmodus:\n"
+"Berechnungen folgen den Standardregeln zur Operatorvorrangigkeit (PEMDAS).\n"
+"Beispiel: 3 + 5 * 2 = 13 (Multiplikation wird zuerst durchgeführt).\n"
 "\n"
-"Mode Gauche à Droite :\n"
-"Les calculs sont effectués de gauche à droite sans tenir compte de la priorité des opérateurs.\n"
-"Exemple : 3 + 5 * 2 = 16 (les calculs sont effectués de gauche à droite).\n"
+"Modus von Links nach Rechts:\n"
+"Berechnungen werden von links nach rechts durchgeführt, ohne die Operatorvorrangigkeit zu berücksichtigen.\n"
+"Beispiel: 3 + 5 * 2 = 16 (Berechnungen erfolgen von links nach rechts).\n"
 "\n"
-"Mode Scientifique :\n"
+"Wissenschaftlicher Modus:\n"
 "\n"
-"Sin et Cos :\n"
-"Calcule les valeurs du sinus et du cosinus.\n"
-"L'entrée doit être en degrés. La calculatrice convertira automatiquement la valeur en radians pour le calcul.\n"
+"Sinus und Kosinus:\n"
+"Berechnet die Werte von Sinus und Kosinus.\n"
+"Die Eingabe muss in Grad erfolgen. Der Rechner konvertiert den Wert automatisch in Bogenmaß für die Berechnung.\n"
 "\n"
-"Logarithmes :\n"
-"Deux types de logarithmes sont disponibles :\n"
-"- Logarithme naturel (LN) : Logarithme avec la base naturelle (e).\n"
-"- Logarithme en base 10 : Logarithme en base 10.\n"
-"Les nombres négatifs ne sont pas pris en charge car les logarithmes sont uniquement définis pour les nombres positifs.\n"
+"Logarithmen:\n"
+"Es stehen zwei Arten von Logarithmen zur Verfügung:\n"
+"- Natürlicher Logarithmus (LN): Logarithmus mit der natürlichen Basis (e).\n"
+"- Logarithmus Basis 10: Logarithmus zur Basis 10.\n"
+"Negative Zahlen werden nicht unterstützt, da Logarithmen nur für positive Zahlen definiert sind.\n"
 "\n"
-"Racine carrée :\n"
-"Calcule la racine carrée d'un nombre.\n"
-"Les nombres négatifs ne sont pas pris en charge car la racine carrée est uniquement définie pour les nombres non négatifs.\n"
+"Quadratwurzel:\n"
+"Berechnet die Quadratwurzel einer Zahl.\n"
+"Negative Zahlen werden nicht unterstützt, da die Quadratwurzel nur für nicht-negative Zahlen definiert ist.\n"
 "\n"
-"Format du résultat :\n"
-"- Haute Précision : Affiche le résultat avec tous les détails.\n"
-"- Arrondi (2 décimales) : Affiche le résultat sous une forme simplifiée, arrondie à 2 décimales pour une lecture plus facile."
+"Ergebnisformat:\n"
+"- Hohe Genauigkeit: Zeigt das Ergebnis mit voller Detailgenauigkeit an.\n"
+"- Gerundet (2 Dezimalstellen): Zeigt das Ergebnis in einer vereinfachten Form an, gerundet auf 2 Dezimalstellen für eine einfachere Lesbarkeit."
 
 msgid "OK"
 msgstr "OK"

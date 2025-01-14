@@ -1,115 +1,358 @@
-# Translation file for MyCalculator NVDA Add-on.
-# Copyright (C) 2025 MyCalculator Project
-# This file is distributed under the same license as the MyCalculator package.
+# Translation file for My Calculator NVDA Add-on.
+# Copyright (C) 2025 My Calculator Project
+# This file is distributed under the same license as the MyCalculatorpackage.
 # Andhi Mardianto <anditoinfo@gmail.com>, 2025.
-#
+
 msgid ""
 msgstr ""
-"Project-Id-Version: MyCalculator 1.0\n"
+"Project-Id-Version: my calculator 2.0\n"
 "Report-Msgid-Bugs-To: anditoinfo@gmail.com\n"
 "POT-Creation-Date: 2025-01-02 10:01+0700\n"
-"PO-Revision-Date: 2025-01-02 10:30+0700\n"
-"Last-Translator: Andhi Mardianto <anditoinfo@gmail.com>\n"
-"Language-Team: Portuguese <pt@li.org>\n"
+"PO-Revision-Date: 2025-01-11 10:30+0700\n"
+"Last-Translator: Andhi Mardianto with google translet<anditoinfo@gmail.com>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: globalPlugins/myCalculator/help.py:6
-msgid "Calculation Mode Help"
-msgstr "Ajuda do Modo de Cálculo"
 
-#: globalPlugins/myCalculator/help.py:16
-msgid ""
-"Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules "
-"(PEMDAS).\n"
-"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
-"\n"
-"Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator "
-"precedence.\n"
-"Example: 3 + 5 * 2 = 16 (calculations are done left to right)."
-msgstr ""
-"Modo Padrão:\n"
-"Os cálculos seguem as regras padrão de precedência de operadores matemáticos "
-"(PEMDAS).\n"
-"Exemplo: 3 + 5 * 2 = 13 (a multiplicação é feita primeiro).\n"
-"\n"
-"Modo da Esquerda para a Direita:\n"
-"Os cálculos são feitos da esquerda para a direita sem considerar a "
-"precedência dos operadores.\n"
-"Exemplo: 3 + 5 * 2 = 16 (os cálculos são feitos da esquerda para a direita)."
 
-#: globalPlugins/myCalculator/help.py:28
-msgid "OK"
-msgstr "OK"
+# init.py
 
-#: globalPlugins/myCalculator/__init__.py:26
-msgid "Open My Calculator dialog"
-msgstr "Abrir o diálogo do My Calculator"
+msgid "Open M   y Calculator dialog"
+msgstr "Abrir o diálogo do Meu Calculadora"
 
-#: globalPlugins/myCalculator/__init__.py:27
-msgid "MyCalculator"
-msgstr "MeuCalculadora"
-
-#: globalPlugins/myCalculator/__init__.py:60
 msgid "Calculation Input"
 msgstr "Entrada de Cálculo"
 
-#: globalPlugins/myCalculator/__init__.py:69
-msgid "Result"
-msgstr "Resultado"
-
-#: globalPlugins/myCalculator/__init__.py:76
 msgid "Copy"
 msgstr "Copiar"
 
-#: globalPlugins/myCalculator/__init__.py:81
 msgid "Standar"
 msgstr "Padrão"
 
-#: globalPlugins/myCalculator/__init__.py:86
 msgid "Left to Right"
-msgstr "Esquerda para a Direita"
+msgstr "Esquerda para Direita"
 
-#: globalPlugins/myCalculator/__init__.py:91
+msgid "Conversion"
+msgstr "Conversão"
+
+msgid "Scientific"
+msgstr "Científico"
+
 msgid "Help"
 msgstr "Ajuda"
 
-#: globalPlugins/myCalculator/__init__.py:97
-msgid "History"
-msgstr "Histórico"
-
-#: globalPlugins/myCalculator/__init__.py:198
-msgid "Invalid input, only numbers and arithmetic symbols allowed"
-msgstr "Entrada inválida, apenas números e símbolos aritméticos são permitidos"
-
-#: globalPlugins/myCalculator/__init__.py:160
 msgid "Calculation mode set to Standard International"
-msgstr "Modo de cálculo definido para Padrão Internacional"
+msgstr "Modo de cálculo definido como Padrão Internacional"
 
-#: globalPlugins/myCalculator/__init__.py:165
 msgid "Calculation mode set to Left to Right"
-msgstr "Modo de cálculo definido para Esquerda para a Direita"
+msgstr "Modo de cálculo definido como Esquerda para Direita"
 
-#: globalPlugins/myCalculator/__init__.py:179
-msgid "Result copied to clipboard"
-msgstr "Resultado copiado para a área de transferência"
-
-#: globalPlugins/myCalculator/__init__.py:181
 msgid "Failed to access clipboard"
 msgstr "Falha ao acessar a área de transferência"
 
-#: globalPlugins/myCalculator/__init__.py:183
-msgid "No result to copy"
-msgstr "Nenhum resultado para copiar"
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr ""
+"Entrada inválida, apenas números e símbolos aritméticos são permitidos"
 
-#: globalPlugins/myCalculator/__init__.py:213
+msgid "Error! Check Input"
+msgstr "Erro! Verifique a entrada"
+
 msgid "Invalid calculation mode"
 msgstr "Modo de cálculo inválido"
 
-#: globalPlugins/myCalculator/__init__.py:226
-msgid "Error! Check Input"
-msgstr "Erro! Verifique a Entrada"
+# conversion.py
+msgid "Please Select Conversion Mode"
+msgstr "Por favor, selecione o modo de conversão"
+
+#msgid "Copy"
+#msgstr "Copiar"
+
+msgid "Length"
+msgstr "Comprimento"
+
+msgid "Mass"
+msgstr "Massa"
+
+msgid "Temperature"
+msgstr "Temperatura"
+
+msgid "Volume"
+msgstr "Volume"
+
+msgid "Speed"
+msgstr "Velocidade"
+
+msgid "Select a Speed conversion:"
+msgstr "Selecione uma conversão de velocidade:"
+
+msgid "Speed Conversion Options"
+msgstr "Opções de conversão de velocidade"
+
+msgid "Input in Kilometers per Hour:"
+msgstr "Entrada em Quilômetros por Hora:"
+
+msgid "Input in Miles per Hour:"
+msgstr "Entrada em Milhas por Hora:"
+
+msgid "Input in Meters per Second:"
+msgstr "Entrada em Metros por Segundo:"
+
+msgid "Input in Knots:"
+msgstr "Entrada em Nós:"
+
+msgid "Input in Feet per Second:"
+msgstr "Entrada em Pés por Segundo:"
+
+msgid "Select a length conversion:"
+msgstr "Selecione uma conversão de comprimento:"
+
+msgid "Length Conversion Options"
+msgstr "Opções de conversão de comprimento"
+
+msgid "Input in Kilometers:"
+msgstr "Entrada em Quilômetros:"
+
+msgid "Input in Miles:"
+msgstr "Entrada em Milhas:"
+
+msgid "Input in Meters:"
+msgstr "Entrada em Metros:"
+
+msgid "Input in Feet:"
+msgstr "Entrada em Pés:"
+
+msgid "Input in Centimeters:"
+msgstr "Entrada em Centímetros:"
+
+msgid "Input in Inches:"
+msgstr "Entrada em Polegadas:"
+
+msgid "Select a Mass conversion:"
+msgstr "Selecione uma conversão de massa:"
+
+msgid "Mass Conversion Options"
+msgstr "Opções de conversão de massa"
+
+msgid "Input in Kilograms:"
+msgstr "Entrada em Quilogramas:"
+
+msgid "Input in Pounds:"
+msgstr "Entrada em Libras:"
+
+msgid "Input in Tons:"
+msgstr "Entrada em Toneladas:"
+
+msgid "Input in Ounces:"
+msgstr "Entrada em Onças:"
+
+msgid "Input in Grams:"
+msgstr "Entrada em Gramas:"
+
+msgid "Select a Temperature conversion:"
+msgstr "Selecione uma conversão de temperatura:"
+
+msgid "Temperature Conversion Options"
+msgstr "Opções de conversão de temperatura"
+
+msgid "Input in Celsius:"
+msgstr "Entrada em Celsius:"
+
+msgid "Input in Fahrenheit:"
+msgstr "Entrada em Fahrenheit:"
+
+msgid "Input in Kelvin:"
+msgstr "Entrada em Kelvin:"
+
+msgid "Select a Volume conversion:"
+msgstr "Selecione uma conversão de volume:"
+
+msgid "Volume Conversion Options"
+msgstr "Opções de conversão de volume"
+
+msgid "Input in Liter:"
+msgstr "Entrada em Litros:"
+
+msgid "Input in Gallon (US):"
+msgstr "Entrada em Galão (EUA):"
+
+msgid "Input in Milliliter:"
+msgstr "Entrada em Mililitros:"
+
+msgid "Input in Cubic Meter:"
+msgstr "Entrada em Metro Cúbico:"
+
+msgid "Input in Gallon (UK) :"
+msgstr "Entrada em Galão (Reino Unido):"
+
+msgid "Input in Liter :"
+msgstr "Entrada em Litros:"
+
+msgid "Input in Cubic Inch :"
+msgstr "Entrada em Polegada Cúbica:"
+
+msgid "Input in Milliliter :"
+msgstr "Entrada em Mililitros:"
+
+msgid "Input in Cubic Centimeter :"
+msgstr "Entrada em Centímetro Cúbico:"
+
+msgid "Input in Barrel (US) :"
+msgstr "Entrada em Barril (EUA):"
+
+#msgid "Failed to access clipboard"
+#msgstr "Falha ao acessar a área de transferência"
+
+msgid "Invalid input, only numbers allowed"
+msgstr "Entrada inválida, apenas números são permitidos"
+
+# scientific.py
+msgid "Please Select Scientific Mode "
+msgstr "Por favor, selecione o modo científico"
+
+msgid "Result"
+msgstr "Resultado"
+
+#msgid "Copy"
+#msgstr "Copiar"
+
+msgid "Sin"
+msgstr "Seno"
+
+msgid "Cos"
+msgstr "Cosseno"
+
+msgid "Log"
+msgstr "Logaritmo"
+
+msgid "Sqrt"
+msgstr "Raiz Quadrada"
+
+msgid "History"
+msgstr "Histórico"
+
+msgid "Select a Basis"
+msgstr "Selecione uma Base"
+
+msgid "Basis Options"
+msgstr "Opções de Base"
+
+msgid "Input in Degrees:"
+msgstr "Entrada em Graus:"
+
+msgid "Calculation mode set to Sin"
+msgstr "Modo de cálculo definido para Seno"
+
+msgid "Calculation mode set to Cos"
+msgstr "Modo de cálculo definido para Cosseno"
+
+msgid "Input in Basis Natural :"
+msgstr "Entrada em Base Natural:"
+
+msgid "Input in Basis 10:"
+msgstr "Entrada em Base 10:"
+
+msgid "Input in Non-Negative Numbers:"
+msgstr "Entrada em Números Não Negativos:"
+
+msgid "Calculation mode set to Sqrt"
+msgstr "Modo de cálculo definido para Raiz Quadrada"
+
+msgid "Result copied to clipboard"
+msgstr "Resultado copiado para a área de transferência"
+
+#msgid "Failed to access clipboard"
+#msgstr "Falha ao acessar a área de transferência"
+
+msgid "No result to copy"
+msgstr "Nenhum resultado para copiar"
+
+msgid "Please select a calculation mode first"
+msgstr "Por favor, selecione um modo de cálculo primeiro"
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "O logaritmo é definido apenas para números positivos"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "A raiz quadrada é definida apenas para números não negativos"
+
+msgid ""
+"High Precision = {result}\n"
+"Rounded = {rounded_result}"
+msgstr ""
+"Alta Precisão = {result}\n"
+"Arredondado = {rounded_result}"
+
+msgid "Invalid input. Please check your expression"
+msgstr "Entrada inválida. Por favor, verifique sua expressão"
+
+msgid "An error occurred: "
+msgstr "Ocorreu um erro:"
+
+#msgid "Invalid input, only numbers allowed"
+#msgstr "Entrada inválida, apenas números são permitidos"
+
+# help.py
+msgid "Calculation Mode Help"
+msgstr "Ajuda sobre o Modo de Cálculo"
+
+msgid ""
+"Standard Mode:\n"
+"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
+"\n"
+"Left to Right Mode:\n"
+"Calculations are performed from left to right without considering operator precedence.\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
+"\n"
+"Scientific Mode:\n"
+"\n"
+"Sin and Cos:\n"
+"Calculates the values of sine and cosine.\n"
+"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"\n"
+"Logarithms:\n"
+"Two types of logarithms are available:\n"
+"- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
+"- Base 10 Logarithm: Logarithm with base 10.\n"
+"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"\n"
+"Square Root:\n"
+"Calculates the square root of a number.\n"
+"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"\n"
+"Result Format:\n"
+"- High Precision: Displays the result with full detail.\n"
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
+msgstr ""
+"Modo Padrão:\n"
+"Os cálculos seguem as regras padrão de precedência de operadores matemáticos (PEMDAS).\n"
+"Exemplo: 3 + 5 * 2 = 13 (multiplicação é realizada primeiro).\n"
+"\n"
+"Modo da Esquerda para a Direita:\n"
+"Os cálculos são realizados da esquerda para a direita, sem considerar a precedência dos operadores.\n"
+"Exemplo: 3 + 5 * 2 = 16 (os cálculos são feitos da esquerda para a direita).\n"
+"\n"
+"Modo Científico:\n"
+"\n"
+"Seno e Cosseno:\n"
+"Calcula os valores de seno e cosseno.\n"
+"A entrada deve estar em graus. A calculadora irá automaticamente converter o valor para radianos para o cálculo.\n"
+"\n"
+"Logaritmos:\n"
+"Dois tipos de logaritmos estão disponíveis:\n"
+"- Logaritmo Natural (LN): Logaritmo com a base natural (e).\n"
+"- Logaritmo de Base 10: Logaritmo com a base 10.\n"
+"Números negativos não são suportados, pois os logaritmos só são definidos para números positivos.\n"
+"\n"
+"Raiz Quadrada:\n"
+"Calcula a raiz quadrada de um número.\n"
+"Números negativos não são suportados, pois a raiz quadrada só é definida para números não negativos.\n"
+"\n"
+"Formato do Resultado:\n"
+"- Alta Precisão: Exibe o resultado com todos os detalhes.\n"
+"- Arredondado (2 casas decimais): Exibe o resultado de forma simplificada, arredondado para 2 casas decimais para uma leitura mais fácil."
+
+msgid "OK"
+msgstr "OK"

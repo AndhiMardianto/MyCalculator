@@ -1,107 +1,337 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# Translation file for My Calculator NVDA Add-on.
+# Copyright (C) 2025 My Calculator Project
+# This file is distributed under the same license as the MyCalculatorpackage.
+# Andhi Mardianto <anditoinfo@gmail.com>, 2025.
+
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-06 15:15+0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: my calculator 2.0\n"
+"Report-Msgid-Bugs-To: anditoinfo@gmail.com\n"
+"POT-Creation-Date: 2025-01-02 10:01+0700\n"
+"PO-Revision-Date: 2025-01-11 10:30+0700\n"
+"Last-Translator: Andhi Mardianto with google translet<anditoinfo@gmail.com>\n"
+"Language: af\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: globalPlugins/myCalculator/__init__.py:26
+
+
+# init.py
+
 msgid "Open My Calculator dialog"
-msgstr ""
+msgstr "Maak My Sakrekenaar dialoog oop"
 
-#: globalPlugins/myCalculator/__init__.py:27
-msgid "MyCalculator"
-msgstr ""
-
-#: globalPlugins/myCalculator/__init__.py:60
 msgid "Calculation Input"
-msgstr ""
+msgstr "Berekeningsinvoer"
 
-#: globalPlugins/myCalculator/__init__.py:69
-msgid "Result"
-msgstr ""
-
-#: globalPlugins/myCalculator/__init__.py:76
 msgid "Copy"
-msgstr ""
+msgstr "Kopieer"
 
-#: globalPlugins/myCalculator/__init__.py:81
 msgid "Standar"
-msgstr ""
+msgstr "Standaard"
 
-#: globalPlugins/myCalculator/__init__.py:86
 msgid "Left to Right"
-msgstr ""
+msgstr "Links na Regs"
 
-#: globalPlugins/myCalculator/__init__.py:91
+msgid "Conversion"
+msgstr "Omskakeling"
+
+msgid "Scientific"
+msgstr "Wetenskaplik"
+
 msgid "Help"
-msgstr ""
+msgstr "Hulp"
 
-#: globalPlugins/myCalculator/__init__.py:97
-msgid "History"
-msgstr ""
-
-#: globalPlugins/myCalculator/__init__.py:129
-#: globalPlugins/myCalculator/__init__.py:198
-msgid "Invalid input, only numbers and arithmetic symbols allowed"
-msgstr ""
-
-#: globalPlugins/myCalculator/__init__.py:160
 msgid "Calculation mode set to Standard International"
-msgstr ""
+msgstr "Berekeningsmodus gestel na Standaard Internasionaal"
 
-#: globalPlugins/myCalculator/__init__.py:165
 msgid "Calculation mode set to Left to Right"
-msgstr ""
+msgstr "Berekeningsmodus gestel na Links na Regs"
 
-#: globalPlugins/myCalculator/__init__.py:179
-msgid "Result copied to clipboard"
-msgstr ""
-
-#: globalPlugins/myCalculator/__init__.py:181
 msgid "Failed to access clipboard"
-msgstr ""
+msgstr "Kon nie toegang tot knipbord kry nie"
 
-#: globalPlugins/myCalculator/__init__.py:183
-msgid "No result to copy"
-msgstr ""
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "Ongeldige invoer, slegs syfers en rekenkundige simbole toegelaat"
 
-#: globalPlugins/myCalculator/__init__.py:213
-msgid "Invalid calculation mode"
-msgstr ""
-
-#: globalPlugins/myCalculator/__init__.py:226
 msgid "Error! Check Input"
-msgstr ""
+msgstr "Fout! Gaan Invoer na"
 
-#: globalPlugins/myCalculator/help.py:8
+msgid "Invalid calculation mode"
+msgstr "Ongeldige berekeningsmodus"
+
+# conversion.py
+msgid "Please Select Conversion Mode"
+msgstr "Kies asseblief Omskakelingsmodus"
+
+
+msgid "Length"
+msgstr "Lengte"
+
+msgid "Mass"
+msgstr "Massa"
+
+msgid "Temperature"
+msgstr "Temperatuur"
+
+msgid "Volume"
+msgstr "Volume"
+
+msgid "Speed"
+msgstr "Spoed"
+
+msgid "Select a Speed conversion:"
+msgstr "Kies 'n Spoedomskakeling:"
+
+msgid "Speed Conversion Options"
+msgstr "Spoedomskakelingsopsies"
+
+msgid "Input in Kilometers per Hour:"
+msgstr "Invoer in Kilometer per Uur:"
+
+msgid "Input in Miles per Hour:"
+msgstr "Invoer in Myl per Uur:"
+
+msgid "Input in Meters per Second:"
+msgstr "Invoer in Meter per Sekonde:"
+
+msgid "Input in Knots:"
+msgstr "Invoer in Knoppe:"
+
+msgid "Input in Feet per Second:"
+msgstr "Invoer in Voete per Sekonde:"
+
+msgid "Select a length conversion:"
+msgstr "Kies 'n lengteomskakeling:"
+
+msgid "Length Conversion Options"
+msgstr "Lengteomskakelingsopsies"
+
+msgid "Input in Kilometers:"
+msgstr "Invoer in Kilometer:"
+
+msgid "Input in Miles:"
+msgstr "Invoer in Myl:"
+
+msgid "Input in Meters:"
+msgstr "Invoer in Meter:"
+
+msgid "Input in Feet:"
+msgstr "Invoer in Voete:"
+
+msgid "Input in Centimeters:"
+msgstr "Invoer in Sentimeter:"
+
+msgid "Input in Inches:"
+msgstr "Invoer in Duim:"
+
+msgid "Select a Mass conversion:"
+msgstr "Kies 'n Massaomskakeling:"
+
+msgid "Mass Conversion Options"
+msgstr "Massaomskakelingsopsies"
+
+msgid "Input in Kilograms:"
+msgstr "Invoer in Kilogram:"
+
+msgid "Input in Pounds:"
+msgstr "Invoer in Ponde:"
+
+msgid "Input in Tons:"
+msgstr "Invoer in Tonne:"
+
+msgid "Input in Ounces:"
+msgstr "Invoer in Ons:"
+
+msgid "Input in Grams:"
+msgstr "Invoer in Gram:"
+
+msgid "Select a Temperature conversion:"
+msgstr "Kies 'n Temperatuuromskakeling:"
+
+msgid "Temperature Conversion Options"
+msgstr "Temperatuuromskakelingsopsies"
+
+msgid "Input in Celsius:"
+msgstr "Invoer in Celsius:"
+
+msgid "Input in Fahrenheit:"
+msgstr "Invoer in Fahrenheit:"
+
+msgid "Input in Kelvin:"
+msgstr "Invoer in Kelvin:"
+
+msgid "Select a Volume conversion:"
+msgstr "Kies 'n Volumeomskakeling:"
+
+msgid "Volume Conversion Options"
+msgstr "Volumeomskakelingsopsies"
+
+msgid "Input in Liter:"
+msgstr "Invoer in Liter:"
+
+msgid "Input in Gallon (US):"
+msgstr "Invoer in Gallon (VSA):"
+
+msgid "Input in Milliliter:"
+msgstr "Invoer in Milliliter:"
+
+msgid "Input in Cubic Meter:"
+msgstr "Invoer in Kubieke Meter:"
+
+msgid "Input in Gallon (UK) :"
+msgstr "Invoer in Gallon (VK):"
+
+msgid "Input in Cubic Inch :"
+msgstr "Invoer in Kubieke Duim:"
+
+msgid "Input in Cubic Centimeter :"
+msgstr "Invoer in Kubieke Sentimeter:"
+
+msgid "Input in Barrel (US) :"
+msgstr "Invoer in Vaat (VSA):"
+
+
+
+# scientific.py
+msgid "Please Select Scientific Mode "
+msgstr "Kies asseblief Wetenskaplike Modus"
+
+msgid "Result"
+msgstr "Resultaat"
+
+
+msgid "Sin"
+msgstr "Sin"
+
+msgid "Cos"
+msgstr "Cos"
+
+msgid "Log"
+msgstr "Log"
+
+msgid "Sqrt"
+msgstr "Vierkantswortel"
+
+msgid "History"
+msgstr "Geskiedenis"
+
+msgid "Select a Basis"
+msgstr "Kies 'n Basis"
+
+msgid "Basis Options"
+msgstr "Basis Opsies"
+
+msgid "Input in Degrees:"
+msgstr "Invoer in Grade:"
+
+msgid "Calculation mode set to Sin"
+msgstr "Berekeningsmodus gestel na Sin"
+
+msgid "Calculation mode set to Cos"
+msgstr "Berekeningsmodus gestel na Cos"
+
+msgid "Input in Basis Natural :"
+msgstr "Invoer in Natuurlike Basis:"
+
+msgid "Input in Basis 10:"
+msgstr "Invoer in Basis 10:"
+
+msgid "Input in Non-Negative Numbers:"
+msgstr "Invoer in Nie-Negatiewe Getalle:"
+
+msgid "Calculation mode set to Sqrt"
+msgstr "Berekeningsmodus gestel na Vierkantswortel"
+
+msgid "Result copied to clipboard"
+msgstr "Resultaat na knipbord gekopieer"
+
+
+
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "Logaritme is slegs gedefinieer vir positiewe getalle"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "Vierkantswortel is slegs gedefinieer vir nie-negatiewe getalle"
+
+msgid ""
+"High Precision = {result}\n"
+"Rounded = {rounded_result}"
+msgstr ""
+"Hoë Presisie = {result}\n"
+"Afgerond = {rounded_result}"
+
+msgid "Invalid input. Please check your expression"
+msgstr "Ongeldige invoer. Gaan asseblief jou uitdrukking na"
+
+msgid "An error occurred: "
+msgstr "’n Fout het voorgekom: "
+
+msgid "Invalid input, only numbers allowed"
+msgstr "Ongeldige invoer, slegs syfers toegelaat"
+
+# help.py
 msgid "Calculation Mode Help"
-msgstr ""
+msgstr "Berekeningsmodus Hulp"
 
-#: globalPlugins/myCalculator/help.py:18
 msgid ""
 "Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules "
-"(PEMDAS).\n"
+"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
 "Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
 "\n"
 "Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator "
-"precedence.\n"
-"Example: 3 + 5 * 2 = 16 (calculations are done left to right)."
+"Calculations are performed from left to right without considering operator precedence.\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
+"\n"
+"Scientific Mode:\n"
+"\n"
+"Sin and Cos:\n"
+"Calculates the values of sine and cosine.\n"
+"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"\n"
+"Logarithms:\n"
+"Two types of logarithms are available:\n"
+"- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
+"- Base 10 Logarithm: Logarithm with base 10.\n"
+"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"\n"
+"Square Root:\n"
+"Calculates the square root of a number.\n"
+"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"\n"
+"Result Format:\n"
+"- High Precision: Displays the result with full detail.\n"
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
 msgstr ""
+"Standaardmodus:\n"
+"Berekeninge volg die standaard wiskundige operatorvoorrangsreëls (PEMDAS).\n"
+"Voorbeeld: 3 + 5 * 2 = 13 (vermenigvuldiging word eerste uitgevoer).\n"
+"\n"
+"Links na Regs Modus:\n"
+"Berekeninge word van links na regs uitgevoer sonder om operatorvoorrang in agneming te neem.\n"
+"Voorbeeld: 3 + 5 * 2 = 16 (berekeninge word van links na regs gedoen).\n"
+"\n"
+"Wetenskaplike Modus:\n"
+"\n"
+"Sin en Cos:\n"
+"Bereken die waardes van sinus en cosinus.\n"
+"Die invoer moet in grade wees. Die sakrekenaar sal outomaties die waarde na radiale omskakel vir die berekening.\n"
+"\n"
+"Logaritmes:\n"
+"Twee tipes logaritmes is beskikbaar:\n"
+"- Natuurlike Logaritme (LN): Logaritme met die natuurlike basis (e).\n"
+"- Basis 10 Logaritme: Logaritme met basis 10.\n"
+"Negatiewe getalle word nie ondersteun nie, aangesien logaritmes slegs vir positiewe getalle gedefinieer is.\n"
+"\n"
+"Vierkantswortel:\n"
+"Bereken die vierkantswortel van 'n getal.\n"
+"Negatiewe getalle word nie ondersteun nie, aangesien die vierkantswortel slegs vir nie-negatiewe getalle gedefinieer is.\n"
+"\n"
+"Resultaatformaat:\n"
+"- Hoë Presisie: Wys die resultaat met volledige detail.\n"
+"- Afgerond (2 Desimale Plekke): Wys die resultaat in 'n eenvoudiger vorm, afgerond tot 2 desimale plekke vir makliker lees."
 
-#: globalPlugins/myCalculator/help.py:30
 msgid "OK"
-msgstr ""
+msgstr "OK"

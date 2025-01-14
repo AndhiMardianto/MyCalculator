@@ -7,14 +7,16 @@
 - **Calculation Methods**:
   - *Standard*: Follows the standard order of operations.
   - *Left-to-Right*: Calculates operations from left to right, ignoring operator precedence.
+  - *Scientific* : Sin, Cos, Log and SQRT.
+  - *conversion* : Lenght, mass and more.
   - Press the *Help* button in the main dialog for detailed explanations.
 
 - **Easy Navigation**:
   - Press `NVDA+Shift+M` to open the calculator.
   - Enter your calculations and hear a beep sound with every input.
   - View the history of previous calculations.
-  - Press `Enter`, `Tab`, or `=` to move the focus to the result.
-
+  - Press `Enter`, `Tab`, or  to move the focus to the result.
+- Use the down and up arrows in the results box to find out high precision results and rounding in scientific calculation methods.
 - **Copy Results**:
   - Copy the result to the clipboard for further use.
   - Press `Esc` to close the calculator.

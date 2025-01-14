@@ -1,0 +1,355 @@
+# Translation file for My Calculator NVDA Add-on.
+# Copyright (C) 2025 My Calculator Project
+# This file is distributed under the same license as the MyCalculatorpackage.
+# Andhi Mardianto <anditoinfo@gmail.com>, 2025.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: my calculator 2.0\n"
+"Report-Msgid-Bugs-To: anditoinfo@gmail.com\n"
+"POT-Creation-Date: 2025-01-02 10:01+0700\n"
+"PO-Revision-Date: 2025-01-11 10:30+0700\n"
+"Last-Translator: Andhi Mardianto with google translet<anditoinfo@gmail.com>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# init.py
+msgid "Open My Calculator dialog"
+msgstr "Hesap Makinem iletişim kutusunu aç"
+
+msgid "Calculation Input"
+msgstr "Hesaplama Girdisi"
+
+msgid "Copy"
+msgstr "Kopyala"
+
+msgid "Standar"
+msgstr "Standart"
+
+msgid "Left to Right"
+msgstr "Soldan Sağa"
+
+msgid "Conversion"
+msgstr "Dönüştürme"
+
+msgid "Scientific"
+msgstr "Bilimsel"
+
+msgid "Help"
+msgstr "Yardım"
+
+msgid "Calculation mode set to Standard International"
+msgstr "Hesaplama modu Uluslararası Standart olarak ayarlandı"
+
+msgid "Calculation mode set to Left to Right"
+msgstr "Hesaplama modu Soldan Sağa olarak ayarlandı"
+
+msgid "Failed to access clipboard"
+msgstr "Panoya erişilemedi"
+
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr ""
+"Geçersiz giriş, yalnızca sayılar ve aritmetik semboller kullanılabilir"
+
+msgid "Error! Check Input"
+msgstr "Hata! Girdiyi kontrol edin"
+
+msgid "Invalid calculation mode"
+msgstr "Geçersiz hesaplama modu"
+
+# scientific.py
+msgid "Please Select Scientific Mode "
+msgstr "Lütfen Bilimsel Modu Seçin"
+
+#msgid "Copy"
+#msgstr "Kopyala"
+
+msgid "Sin"
+msgstr "Sin"
+
+msgid "Cos"
+msgstr "Cos"
+
+msgid "Log"
+msgstr "Log"
+
+msgid "Sqrt"
+msgstr "Karekök"
+
+msgid "Select a Basis"
+msgstr "Bir Taban Seçin"
+
+msgid "Basis Options"
+msgstr "Taban Seçenekleri"
+
+msgid "Input in Degrees:"
+msgstr "Derece Cinsinden Giriş:"
+
+msgid "Calculation mode set to Sin"
+msgstr "Hesaplama modu Sin olarak ayarlandı"
+
+msgid "Calculation mode set to Cos"
+msgstr "Hesaplama modu Cos olarak ayarlandı"
+
+msgid "Input in Basis Natural :"
+msgstr "Doğal Taban Girdisi :"
+
+msgid "Input in Basis 10:"
+msgstr "Taban 10 Girdisi:"
+
+msgid "Input in Non-Negative Numbers:"
+msgstr "Negatif Olmayan Sayılar Girdisi:"
+
+msgid "Calculation mode set to Sqrt"
+msgstr "Hesaplama modu Karekök olarak ayarlandı"
+
+#msgid "Failed to access clipboard"
+#msgstr "Panoya erişilemedi"
+
+msgid "Please select a calculation mode first"
+msgstr "Lütfen önce bir hesaplama modu seçin"
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "Logaritma yalnızca pozitif sayılar için tanımlıdır"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "Karekök yalnızca negatif olmayan sayılar için tanımlıdır"
+
+msgid ""
+"High Precision = {result}\n"
+"Rounded = {rounded_result}"
+msgstr ""
+"Yüksek Hassasiyet = {result}\n"
+"Yuvarlanmış = {rounded_result}"
+
+msgid "Invalid input. Please check your expression"
+msgstr "Geçersiz giriş. Lütfen ifadenizi kontrol edin"
+
+msgid "An error occurred: "
+msgstr "Bir hata oluştu: "
+
+msgid "Invalid input, only numbers allowed"
+msgstr "Geçersiz giriş, yalnızca sayılara izin verilir"
+
+# conversion.py
+msgid "Please Select Conversion Mode"
+msgstr "Lütfen Dönüşüm Modunu Seçin"
+
+msgid "Result"
+msgstr "Sonuç"
+
+#msgid "Copy"
+#msgstr "Kopyala"
+
+msgid "Length"
+msgstr "Uzunluk"
+
+msgid "Mass"
+msgstr "Kütle"
+
+msgid "Temperature"
+msgstr "Sıcaklık"
+
+msgid "Volume"
+msgstr "Hacim"
+
+msgid "Speed"
+msgstr "Hız"
+
+msgid "History"
+msgstr "Geçmiş"
+
+msgid "Select a Speed conversion:"
+msgstr "Bir Hız Dönüşümü Seçin:"
+
+msgid "Speed Conversion Options"
+msgstr "Hız Dönüşüm Seçenekleri"
+
+msgid "Input in Kilometers per Hour:"
+msgstr "Saatte Kilometre Cinsinden Giriş:"
+
+msgid "Input in Miles per Hour:"
+msgstr "Saatte Mil Cinsinden Giriş:"
+
+msgid "Input in Meters per Second:"
+msgstr "Saniyede Metre Cinsinden Giriş:"
+
+msgid "Input in Knots:"
+msgstr "Knot Cinsinden Giriş:"
+
+msgid "Input in Feet per Second:"
+msgstr "Saniyede Ayak Cinsinden Giriş:"
+
+msgid "Select a length conversion:"
+msgstr "Bir Uzunluk Dönüşümü Seçin:"
+
+msgid "Length Conversion Options"
+msgstr "Uzunluk Dönüşüm Seçenekleri"
+
+msgid "Input in Kilometers:"
+msgstr "Kilometre Cinsinden Giriş:"
+
+msgid "Input in Miles:"
+msgstr "Mil Cinsinden Giriş:"
+
+msgid "Input in Meters:"
+msgstr "Metre Cinsinden Giriş:"
+
+msgid "Input in Feet:"
+msgstr "Ayak Cinsinden Giriş:"
+
+msgid "Input in Centimeters:"
+msgstr "Santimetre Cinsinden Giriş:"
+
+msgid "Input in Inches:"
+msgstr "İnç Cinsinden Giriş:"
+
+msgid "Select a Mass conversion:"
+msgstr "Bir Kütle Dönüşümü Seçin:"
+
+msgid "Mass Conversion Options"
+msgstr "Kütle Dönüşüm Seçenekleri"
+
+msgid "Input in Kilograms:"
+msgstr "Kilogram Cinsinden Giriş:"
+
+msgid "Input in Pounds:"
+msgstr "Pound Cinsinden Giriş:"
+
+msgid "Input in Tons:"
+msgstr "Ton Cinsinden Giriş:"
+
+msgid "Input in Ounces:"
+msgstr "Ons Cinsinden Giriş:"
+
+msgid "Input in Grams:"
+msgstr "Gram Cinsinden Giriş:"
+
+msgid "Select a Temperature conversion:"
+msgstr "Bir Sıcaklık Dönüşümü Seçin:"
+
+msgid "Temperature Conversion Options"
+msgstr "Sıcaklık Dönüşüm Seçenekleri"
+
+msgid "Input in Celsius:"
+msgstr "Celsius Cinsinden Giriş:"
+
+msgid "Input in Fahrenheit:"
+msgstr "Fahrenheit Cinsinden Giriş:"
+
+msgid "Input in Kelvin:"
+msgstr "Kelvin Cinsinden Giriş:"
+
+msgid "Select a Volume conversion:"
+msgstr "Bir Hacim Dönüşümü Seçin:"
+
+msgid "Volume Conversion Options"
+msgstr "Hacim Dönüşüm Seçenekleri"
+
+msgid "Input in Liter:"
+msgstr "Litre Cinsinden Giriş:"
+
+msgid "Input in Gallon (US):"
+msgstr "Gallon (ABD) Cinsinden Giriş:"
+
+msgid "Input in Milliliter:"
+msgstr "Mililitre Cinsinden Giriş:"
+
+msgid "Input in Cubic Meter:"
+msgstr "Metreküp Cinsinden Giriş:"
+
+msgid "Input in Gallon (UK) :"
+msgstr "Gallon (İngiltere) Cinsinden Giriş:"
+
+msgid "Input in Liter :"
+msgstr "Litre Cinsinden Giriş:"
+
+msgid "Input in Cubic Inch :"
+msgstr "İnç Küp Cinsinden Giriş:"
+
+msgid "Input in Milliliter :"
+msgstr "Mililitre Cinsinden Giriş:"
+
+msgid "Input in Cubic Centimeter :"
+msgstr "Santimetreküp Cinsinden Giriş:"
+
+msgid "Input in Barrel (US) :"
+msgstr "Varil (ABD) Cinsinden Giriş:"
+
+msgid "Result copied to clipboard"
+msgstr "Sonuç panoya kopyalandı"
+
+#msgid "Failed to access clipboard"
+#msgstr "Panoya erişilemedi"
+
+msgid "No result to copy"
+msgstr "Kopyalanacak sonuç yok"
+
+#msgid "Invalid input, only numbers allowed"
+#msgstr "Geçersiz giriş, yalnızca sayılara izin verilir"
+
+# help.py
+msgid "Calculation Mode Help"
+msgstr "Hesaplama Modu Yardımı"
+
+msgid ""
+"Standard Mode:\n"
+"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
+"\n"
+"Left to Right Mode:\n"
+"Calculations are performed from left to right without considering operator precedence.\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
+"\n"
+"Scientific Mode:\n"
+"\n"
+"Sin and Cos:\n"
+"Calculates the values of sine and cosine.\n"
+"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"\n"
+"Logarithms:\n"
+"Two types of logarithms are available:\n"
+"- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
+"- Base 10 Logarithm: Logarithm with base 10.\n"
+"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"\n"
+"Square Root:\n"
+"Calculates the square root of a number.\n"
+"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"\n"
+"Result Format:\n"
+"- High Precision: Displays the result with full detail.\n"
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
+msgstr ""
+"Standart Mod:\n"
+"Hesaplamalar standart matematiksel işlem önceliği kurallarına göre yapılır (PEMDAS).\n"
+"Örnek: 3 + 5 * 2 = 13 (çarpma işlemi önce yapılır).\n"
+"\n"
+"Soldan Sağa Mod:\n"
+"Hesaplamalar işlem önceliği göz önüne alınmadan soldan sağa doğru yapılır.\n"
+"Örnek: 3 + 5 * 2 = 16 (hesaplamalar soldan sağa yapılır).\n"
+"\n"
+"Bilimsel Mod:\n"
+"\n"
+"Sin ve Cos:\n"
+"Sinüs ve kosinüs değerlerini hesaplar.\n"
+"Giriş derece cinsinden olmalıdır. Hesap makinesi otomatik olarak değeri radyana dönüştürür.\n"
+"\n"
+"Logaritmalar:\n"
+"İki tür logaritma mevcuttur:\n"
+"- Doğal Logaritma (LN): Doğal taban (e) ile logaritma.\n"
+"- Taban 10 Logaritması: Taban 10 ile logaritma.\n"
+"Negatif sayılar desteklenmez çünkü logaritmalar yalnızca pozitif sayılar için tanımlıdır.\n"
+"\n"
+"Karekök:\n"
+"Bir sayının karekökünü hesaplar.\n"
+"Negatif sayılar desteklenmez çünkü karekök yalnızca pozitif olmayan sayılarda tanımlıdır.\n"
+"\n"
+"Sonuç Formatı:\n"
+"- Yüksek Hassasiyet: Sonucu tüm ayrıntılarıyla gösterir.\n"
+"- Yuvarlanmış (2 Ondalık Basamak): Sonucu daha basit bir biçimde, 2 ondalık basamağa yuvarlanmış olarak gösterir."
+
+msgid "OK"
+msgstr "Tamam"

@@ -103,8 +103,8 @@ class DialogScientific(wx.Dialog):
     def show_logaritma_options(self, event):
         dialog = wx.SingleChoiceDialog(
             self,
-            "Select a Basis",
-            "Basis Options",
+            _("Select a Basis"),
+            _("Basis Options"),
             ["Natural Basis", "Base 10"]
         )
         pilihan = None

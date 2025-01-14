@@ -102,7 +102,7 @@ class DialogConversion(wx.Dialog):
 
         self.Show()
 
-    # Fungsi untuk menunjukkan opsi kecepatan
+    # popup speed 
     def show_speed_options(self, event):
         dialog = wx.SingleChoiceDialog(
             self,
@@ -120,7 +120,7 @@ class DialogConversion(wx.Dialog):
                 "Knots to Miles per Hour",
                 "Miles per Hour to Knots",
                 "Feet per Second to Kilometers per Hour",
-                "Kilometers per Hour to Feet per Second",
+                "Kilometers per Hour to Feet per Second"
             ]
         )
         pilihan = None
@@ -323,7 +323,14 @@ class DialogConversion(wx.Dialog):
             self,
             _("Select a Mass conversion:"),
             _("Mass Conversion Options"),
-            ["Kilograms to Pounds", "Pounds to Kilograms", "Tons to Kilograms", "Kilograms to Tons", "Ounces to Grams", "Grams to Ounces"]
+            [
+                "Kilograms to Pounds",
+                "Pounds to Kilograms",
+                "Tons to Kilograms",
+                "Kilograms to Tons",
+                "Ounces to Grams",
+                "Grams to Ounces"
+                ]
         )
         pilihan = None
         if dialog.ShowModal() == wx.ID_OK:

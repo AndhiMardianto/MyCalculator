@@ -1,113 +1,359 @@
-# Translation file for MyCalculator NVDA Add-on.
-# Copyright (C) 2025 MyCalculator Project
-# This file is distributed under the same license as the MyCalculator package.
+# Translation file for My Calculator NVDA Add-on.
+# Copyright (C) 2025 My Calculator Project
+# This file is distributed under the same license as the MyCalculatorpackage.
 # Andhi Mardianto <anditoinfo@gmail.com>, 2025.
-#
+
 msgid ""
 msgstr ""
-"Project-Id-Version: MyCalculator 1.0\n"
+"Project-Id-Version: my calculator 2.0\n"
 "Report-Msgid-Bugs-To: anditoinfo@gmail.com\n"
 "POT-Creation-Date: 2025-01-02 10:01+0700\n"
-"PO-Revision-Date: 2025-01-02 10:30+0700\n"
-"Last-Translator: Andhi Mardianto <anditoinfo@gmail.com>\n"
-"Language-Team: Urdu <ur@li.org>\n"
+"PO-Revision-Date: 2025-01-11 10:30+0700\n"
+"Last-Translator: Andhi Mardianto with google translet<anditoinfo@gmail.com>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: globalPlugins/myCalculator/help.py:6
-msgid "Calculation Mode Help"
-msgstr "حساب کتاب کا طریقہ کار مدد"
 
-#: globalPlugins/myCalculator/help.py:16
-msgid ""
-"Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules "
-"(PEMDAS).\n"
-"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
-"\n"
-"Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator "
-"precedence.\n"
-"Example: 3 + 5 * 2 = 16 (calculations are done left to right)."
-msgstr ""
-"معیاری موڈ:\n"
-"حساب کتاب معیاری ریاضیاتی آپریٹر کی ترجیحی قواعد (PEMDAS) کے مطابق کیا جاتا ہے۔\n"
-"مثال: 3 + 5 * 2 = 13 (سب سے پہلے ضرب کی جاتی ہے)۔\n"
-"\n"
-"بائیں سے دائیں موڈ:\n"
-"حساب کتاب بغیر کسی آپریٹر کی ترجیحی قواعد کو مدنظر رکھے بائیں سے دائیں کی ترتیب سے کیا جاتا ہے۔\n"
-"مثال: 3 + 5 * 2 = 16 (حساب کتاب بائیں سے دائیں کیا جاتا ہے)۔"
 
-#: globalPlugins/myCalculator/help.py:28
-msgid "OK"
-msgstr "ٹھیک ہے"
+# init.py
+#msgid ""
+#msgstr ""
 
-#: globalPlugins/myCalculator/__init__.py:26
 msgid "Open My Calculator dialog"
-msgstr "میرے کیلکولیٹر کا ڈائیلاگ کھولیں"
+msgstr "میرے کیلکولیٹر ڈائیلاگ کو کھولیں"
 
-#: globalPlugins/myCalculator/__init__.py:27
-msgid "MyCalculator"
-msgstr "میرا کیلکولیٹر"
-
-#: globalPlugins/myCalculator/__init__.py:60
 msgid "Calculation Input"
 msgstr "حساب کا ان پٹ"
 
-#: globalPlugins/myCalculator/__init__.py:69
-msgid "Result"
-msgstr "نتیجہ"
-
-#: globalPlugins/myCalculator/__init__.py:76
 msgid "Copy"
-msgstr "کاپی کریں"
+msgstr "نقل کریں"
 
-#: globalPlugins/myCalculator/__init__.py:81
 msgid "Standar"
 msgstr "معیاری"
 
-#: globalPlugins/myCalculator/__init__.py:86
 msgid "Left to Right"
 msgstr "بائیں سے دائیں"
 
-#: globalPlugins/myCalculator/__init__.py:91
+msgid "Conversion"
+msgstr "تبدیلی"
+
+msgid "Scientific"
+msgstr "سائنسی"
+
 msgid "Help"
 msgstr "مدد"
 
-#: globalPlugins/myCalculator/__init__.py:97
+msgid "Calculation mode set to Standard International"
+msgstr "حساب کا طریقہ معیاری بین الاقوامی پر سیٹ کر دیا گیا"
+
+msgid "Calculation mode set to Left to Right"
+msgstr "حساب کا طریقہ بائیں سے دائیں پر سیٹ کر دیا گیا"
+
+msgid "Failed to access clipboard"
+msgstr "کلپ بورڈ تک رسائی میں ناکامی"
+
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "غلط ان پٹ، صرف نمبرز اور ریاضیاتی علامات کی اجازت ہے"
+
+msgid "Error! Check Input"
+msgstr "غلطی! ان پٹ چیک کریں"
+
+msgid "Invalid calculation mode"
+msgstr "غلط حساب کا طریقہ"
+
+# conversion.py
+msgid "Please Select Conversion Mode"
+msgstr "براہ کرم تبدیلی کے موڈ کا انتخاب کریں"
+
+#msgid "Copy"
+#msgstr "نقل کریں"
+
+msgid "Length"
+msgstr "لمبائی"
+
+msgid "Mass"
+msgstr "ماس"
+
+msgid "Temperature"
+msgstr "درجہ حرارت"
+
+msgid "Volume"
+msgstr "حجم"
+
+msgid "Speed"
+msgstr "رفتار"
+
+msgid "Select a Speed conversion:"
+msgstr "رفتار کی تبدیلی کا انتخاب کریں:"
+
+msgid "Speed Conversion Options"
+msgstr "رفتار تبدیلی کے اختیارات"
+
+msgid "Input in Kilometers per Hour:"
+msgstr "کلومیٹر فی گھنٹہ میں ان پٹ کریں:"
+
+msgid "Input in Miles per Hour:"
+msgstr "میل فی گھنٹہ میں ان پٹ کریں:"
+
+msgid "Input in Meters per Second:"
+msgstr "میٹر فی سیکنڈ میں ان پٹ کریں:"
+
+msgid "Input in Knots:"
+msgstr "نوٹس میں ان پٹ کریں:"
+
+msgid "Input in Feet per Second:"
+msgstr "فٹ فی سیکنڈ میں ان پٹ کریں:"
+
+msgid "Select a length conversion:"
+msgstr "لمبائی کی تبدیلی کا انتخاب کریں:"
+
+msgid "Length Conversion Options"
+msgstr "لمبائی تبدیلی کے اختیارات"
+
+msgid "Input in Kilometers:"
+msgstr "کلومیٹر میں ان پٹ کریں:"
+
+msgid "Input in Miles:"
+msgstr "میل میں ان پٹ کریں:"
+
+msgid "Input in Meters:"
+msgstr "میٹر میں ان پٹ کریں:"
+
+msgid "Input in Feet:"
+msgstr "فٹ میں ان پٹ کریں:"
+
+msgid "Input in Centimeters:"
+msgstr "سینٹی میٹر میں ان پٹ کریں:"
+
+msgid "Input in Inches:"
+msgstr "انچ میں ان پٹ کریں:"
+
+msgid "Select a Mass conversion:"
+msgstr "ماس کی تبدیلی کا انتخاب کریں:"
+
+msgid "Mass Conversion Options"
+msgstr "ماس تبدیلی کے اختیارات"
+
+msgid "Input in Kilograms:"
+msgstr "کلوگرام میں ان پٹ کریں:"
+
+msgid "Input in Pounds:"
+msgstr "پاؤنڈ میں ان پٹ کریں:"
+
+msgid "Input in Tons:"
+msgstr "ٹن میں ان پٹ کریں:"
+
+msgid "Input in Ounces:"
+msgstr "انس میں ان پٹ کریں:"
+
+msgid "Input in Grams:"
+msgstr "گرام میں ان پٹ کریں:"
+
+msgid "Select a Temperature conversion:"
+msgstr "درجہ حرارت کی تبدیلی کا انتخاب کریں:"
+
+msgid "Temperature Conversion Options"
+msgstr "درجہ حرارت تبدیلی کے اختیارات"
+
+msgid "Input in Celsius:"
+msgstr "سیلسیس میں ان پٹ کریں:"
+
+msgid "Input in Fahrenheit:"
+msgstr "فارن ہائیٹ میں ان پٹ کریں:"
+
+msgid "Input in Kelvin:"
+msgstr "کلوین میں ان پٹ کریں:"
+
+msgid "Select a Volume conversion:"
+msgstr "حجم کی تبدیلی کا انتخاب کریں:"
+
+msgid "Volume Conversion Options"
+msgstr "حجم تبدیلی کے اختیارات"
+
+msgid "Input in Liter:"
+msgstr "لیٹر میں ان پٹ کریں:"
+
+msgid "Input in Gallon (US):"
+msgstr "گیلن (امریکہ) میں ان پٹ کریں:"
+
+msgid "Input in Milliliter:"
+msgstr "ملی لیٹر میں ان پٹ کریں:"
+
+msgid "Input in Cubic Meter:"
+msgstr "مکعب میٹر میں ان پٹ کریں:"
+
+msgid "Input in Gallon (UK) :"
+msgstr "گیلن (برطانیہ) میں ان پٹ کریں:"
+
+msgid "Input in Liter :"
+msgstr "لیٹر میں ان پٹ کریں :"
+
+msgid "Input in Cubic Inch :"
+msgstr "مکعب انچ میں ان پٹ کریں :"
+
+msgid "Input in Milliliter :"
+msgstr "ملی لیٹر میں ان پٹ کریں :"
+
+msgid "Input in Cubic Centimeter :"
+msgstr "مکعب سینٹی میٹر میں ان پٹ کریں :"
+
+msgid "Input in Barrel (US) :"
+msgstr "بارل (امریکہ) میں ان پٹ کریں :"
+
+#msgid "Failed to access clipboard"
+#msgstr "کلپ بورڈ تک رسائی میں ناکامی"
+
+msgid "Invalid input, only numbers allowed"
+msgstr "غلط ان پٹ، صرف نمبرز کی اجازت ہے"
+
+# scientific.py
+msgid "Please Select Scientific Mode "
+msgstr "براہ کرم سائنسی موڈ کا انتخاب کریں"
+
+msgid "Result"
+msgstr "نتیجہ"
+
+#msgid "Copy"
+#msgstr "نقل کریں"
+
+msgid "Sin"
+msgstr "سائن"
+
+msgid "Cos"
+msgstr "کوسائن"
+
+msgid "Log"
+msgstr "لاگ"
+
+msgid "Sqrt"
+msgstr "مربع جڑ"
+
 msgid "History"
 msgstr "تاریخ"
 
-#: globalPlugins/myCalculator/__init__.py:198
-msgid "Invalid input, only numbers and arithmetic symbols allowed"
-msgstr "غلط ان پٹ، صرف نمبروں اور ریاضی کے علامات کی اجازت ہے"
+msgid "Select a Basis"
+msgstr "بیس کا انتخاب کریں"
 
-#: globalPlugins/myCalculator/__init__.py:160
-msgid "Calculation mode set to Standard International"
-msgstr "حساب کتاب کا موڈ معیاری بین الاقوامی پر سیٹ کیا گیا"
+msgid "Basis Options"
+msgstr "بیس کے اختیارات"
 
-#: globalPlugins/myCalculator/__init__.py:165
-msgid "Calculation mode set to Left to Right"
-msgstr "حساب کتاب کا موڈ بائیں سے دائیں پر سیٹ کیا گیا"
+msgid "Input in Degrees:"
+msgstr "ڈگریوں میں ان پٹ کریں:"
 
-#: globalPlugins/myCalculator/__init__.py:179
+msgid "Calculation mode set to Sin"
+msgstr "حساب کا موڈ سائن پر سیٹ کر دیا گیا"
+
+msgid "Calculation mode set to Cos"
+msgstr "حساب کا موڈ کوسائن پر سیٹ کر دیا گیا"
+
+msgid "Input in Basis Natural :"
+msgstr "قدرتی بیس میں ان پٹ کریں:"
+
+msgid "Input in Basis 10:"
+msgstr "بیس 10 میں ان پٹ کریں:"
+
+msgid "Input in Non-Negative Numbers:"
+msgstr "غیر منفی نمبروں میں ان پٹ کریں:"
+
+msgid "Calculation mode set to Sqrt"
+msgstr "حساب کا موڈ مربع جڑ پر سیٹ کر دیا گیا"
+
 msgid "Result copied to clipboard"
-msgstr "نتیجہ کلپ بورڈ پر کاپی کیا گیا"
+msgstr "نتیجہ کلپ بورڈ پر نقل کر لیا گیا"
 
-#: globalPlugins/myCalculator/__init__.py:181
-msgid "Failed to access clipboard"
-msgstr "کلپ بورڈ تک رسائی حاصل کرنے میں ناکامی"
+#msgid "Failed to access clipboard"
+#msgstr "کلپ بورڈ تک رسائی میں ناکامی"
 
-#: globalPlugins/myCalculator/__init__.py:183
 msgid "No result to copy"
-msgstr "کاپی کرنے کے لئے کوئی نتیجہ نہیں ہے"
+msgstr "نقل کرنے کے لیے کوئی نتیجہ نہیں ہے"
 
-#: globalPlugins/myCalculator/__init__.py:213
-msgid "Invalid calculation mode"
-msgstr "غلط حساب کتاب کا موڈ"
+msgid "Please select a calculation mode first"
+msgstr "براہ کرم پہلے حساب کا موڈ منتخب کریں"
 
-#: globalPlugins/myCalculator/__init__.py:226
-msgid "Error! Check Input"
-msgstr "غلطی! ان پٹ چیک کریں"
+msgid "Logarithm is only defined for positive numbers"
+msgstr "لاگارتھم صرف مثبت نمبروں کے لیے متعین ہوتا ہے"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "مربع جڑ صرف غیر منفی نمبروں کے لیے متعین ہوتی ہے"
+
+msgid ""
+"High Precision = {result}\n"
+"Rounded = {rounded_result}"
+msgstr ""
+"اعلیٰ درستگی = {result}\n"
+"گول شدہ = {rounded_result}"
+
+msgid "Invalid input. Please check your expression"
+msgstr "غلط ان پٹ۔ براہ کرم اپنے اظہار کو چیک کریں"
+
+msgid "An error occurred: "
+msgstr "ایک غلطی پیش آئی:"
+
+#msgid "Invalid input, only numbers allowed"
+#msgstr "غلط ان پٹ، صرف نمبرز کی اجازت ہے"
+
+# help.py
+msgid "Calculation Mode Help"
+msgstr "حساب کے موڈ کی مدد"
+
+msgid ""
+"Standard Mode:\n"
+"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
+"\n"
+"Left to Right Mode:\n"
+"Calculations are performed from left to right without considering operator precedence.\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
+"\n"
+"Scientific Mode:\n"
+"\n"
+"Sin and Cos:\n"
+"Calculates the values of sine and cosine.\n"
+"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"\n"
+"Logarithms:\n"
+"Two types of logarithms are available:\n"
+"- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
+"- Base 10 Logarithm: Logarithm with base 10.\n"
+"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"\n"
+"Square Root:\n"
+"Calculates the square root of a number.\n"
+"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"\n"
+"Result Format:\n"
+"- High Precision: Displays the result with full detail.\n"
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
+msgstr ""
+"معیاری موڈ:\n"
+"حساب میں معیاری ریاضیاتی آپریٹر کی ترجیحی قواعد (PEMDAS) کی پیروی کی جاتی ہے۔\n"
+"مثال: 3 + 5 * 2 = 13 (پہلے ضرب کی جاتی ہے)۔\n"
+"\n"
+"بائیں سے دائیں موڈ:\n"
+"حساب بائیں سے دائیں کیا جاتا ہے بغیر آپریٹر کی ترجیحی قواعد کو مدنظر رکھتے ہوئے۔\n"
+"مثال: 3 + 5 * 2 = 16 (حساب بائیں سے دائیں کیا جاتا ہے)۔\n"
+"\n"
+"سائنسی موڈ:\n"
+"\n"
+"سائن اور کوسائن:\n"
+"سائن اور کوسائن کی قیمتوں کا حساب لگاتا ہے۔\n"
+"ان پٹ ڈگریوں میں ہونا چاہیے۔ کیلکولیٹر خود بخود اس قیمت کو حساب کے لیے ریڈیئنز میں تبدیل کر دے گا۔\n"
+"\n"
+"لاگارتھمز:\n"
+"لاگارتھم کے دو اقسام دستیاب ہیں:\n"
+"- قدرتی لاگارتھم (LN): قدرتی بیس (e) کے ساتھ لاگارتھم۔\n"
+"- بیس 10 لاگارتھم: بیس 10 کے ساتھ لاگارتھم۔\n"
+"منفی نمبروں کی حمایت نہیں کی جاتی کیونکہ لاگارتھم صرف مثبت نمبروں کے لیے متعین ہوتا ہے۔\n"
+"\n"
+"مربع جڑ:\n"
+"کسی نمبر کی مربع جڑ کا حساب لگاتا ہے۔\n"
+"منفی نمبروں کی حمایت نہیں کی جاتی کیونکہ مربع جڑ صرف غیر منفی نمبروں کے لیے متعین ہوتی ہے۔\n"
+"\n"
+"نتیجے کا فارمیٹ:\n"
+"- اعلیٰ درستگی: نتیجہ مکمل تفصیل کے ساتھ دکھاتا ہے۔\n"
+"- گول شدہ (2 اعشاریہ مقامات): نتیجہ سادہ فارم میں دکھاتا ہے، 2 اعشاریہ مقامات پر گول کیا جاتا ہے تاکہ پڑھنے میں آسان ہو۔"
+
+msgid "OK"
+msgstr "ٹھیک ہے"

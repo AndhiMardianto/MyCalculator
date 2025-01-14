@@ -1,0 +1,350 @@
+# Translation file for My Calculator NVDA Add-on.
+# Copyright (C) 2025 My Calculator Project
+# This file is distributed under the same license as the MyCalculatorpackage.
+# Andhi Mardianto <anditoinfo@gmail.com>, 2025.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: my calculator 2.0\n"
+"Report-Msgid-Bugs-To: anditoinfo@gmail.com\n"
+"POT-Creation-Date: 2025-01-02 10:01+0700\n"
+"PO-Revision-Date: 2025-01-11 10:30+0700\n"
+"Last-Translator: Andhi Mardianto with google translet<anditoinfo@gmail.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+
+# init.py
+msgid "Open My Calculator dialog"
+msgstr "Открыть диалоговое окно Мой Калькулятор"
+
+msgid "Calculation Input"
+msgstr "Ввод вычисления"
+
+msgid "Copy"
+msgstr "Копировать"
+
+msgid "Standar"
+msgstr "Стандартный"
+
+msgid "Left to Right"
+msgstr "Слева направо"
+
+msgid "Conversion"
+msgstr "Конверсия"
+
+msgid "Scientific"
+msgstr "Научный"
+
+msgid "Help"
+msgstr "Справка"
+
+msgid "Calculation mode set to Standard International"
+msgstr "Режим вычислений установлен на Стандартный Международный"
+
+msgid "Calculation mode set to Left to Right"
+msgstr "Режим вычислений установлен на Слева направо"
+
+msgid "Failed to access clipboard"
+msgstr "Не удалось получить доступ к буферу обмена"
+
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "Неверный ввод, разрешены только числа и арифметические символы"
+
+msgid "Error! Check Input"
+msgstr "Ошибка! Проверьте ввод"
+
+msgid "Invalid calculation mode"
+msgstr "Неверный режим вычислений"
+
+# scientific.py
+msgid "Please Select Scientific Mode "
+msgstr "Пожалуйста, выберите научный режим"
+
+#msgid "Copy"
+#msgstr "Копировать"
+
+msgid "Sin"
+msgstr "Син"
+
+msgid "Cos"
+msgstr "Кос"
+
+msgid "Log"
+msgstr "Лог"
+
+msgid "Sqrt"
+msgstr "Кв. корень"
+
+msgid "Select a Basis"
+msgstr "Выберите основание"
+
+msgid "Basis Options"
+msgstr "Опции основания"
+
+msgid "Input in Degrees:"
+msgstr "Ввод в градусах:"
+
+msgid "Calculation mode set to Sin"
+msgstr "Режим вычислений установлен на Син"
+
+msgid "Calculation mode set to Cos"
+msgstr "Режим вычислений установлен на Кос"
+
+msgid "Input in Basis Natural :"
+msgstr "Ввод в натуральном основании:"
+
+msgid "Input in Basis 10:"
+msgstr "Ввод в основании 10:"
+
+msgid "Input in Non-Negative Numbers:"
+msgstr "Ввод неотрицательных чисел:"
+
+msgid "Calculation mode set to Sqrt"
+msgstr "Режим вычислений установлен на Кв. корень"
+
+#msgid "Failed to access clipboard"
+#msgstr "Не удалось получить доступ к буферу обмена"
+
+msgid "Please select a calculation mode first"
+msgstr "Сначала выберите режим вычислений"
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "Логарифм определен только для положительных чисел"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "Квадратный корень определен только для неотрицательных чисел"
+
+msgid ""
+"High Precision = {result}\n"
+"Rounded = {rounded_result}"
+msgstr ""
+"Высокая точность = {result}\n"
+"Округлено = {rounded_result}"
+
+msgid "Invalid input. Please check your expression"
+msgstr "Неверный ввод. Пожалуйста, проверьте выражение"
+
+msgid "An error occurred: "
+msgstr "Произошла ошибка:"
+
+msgid "Invalid input, only numbers allowed"
+msgstr "Неверный ввод, разрешены только числа"
+
+# conversion.py
+msgid "Please Select Conversion Mode"
+msgstr "Пожалуйста, выберите режим конвертации"
+
+msgid "Result"
+msgstr "Результат"
+
+#msgid "Copy"
+#msgstr "Копировать"
+
+msgid "Length"
+msgstr "Длина"
+
+msgid "Mass"
+msgstr "Масса"
+
+msgid "Temperature"
+msgstr "Температура"
+
+msgid "Volume"
+msgstr "Объем"
+
+msgid "Speed"
+msgstr "Скорость"
+
+msgid "History"
+msgstr "История"
+
+msgid "Select a Speed conversion:"
+msgstr "Выберите конвертацию скорости:"
+
+msgid "Speed Conversion Options"
+msgstr "Опции конвертации скорости"
+
+msgid "Input in Kilometers per Hour:"
+msgstr "Ввод в километрах в час:"
+
+msgid "Input in Miles per Hour:"
+msgstr "Ввод в милях в час:"
+
+msgid "Input in Meters per Second:"
+msgstr "Ввод в метрах в секунду:"
+
+msgid "Input in Knots:"
+msgstr "Ввод в узлах:"
+
+msgid "Input in Feet per Second:"
+msgstr "Ввод в футах в секунду:"
+
+msgid "Select a length conversion:"
+msgstr "Выберите конвертацию длины:"
+
+msgid "Length Conversion Options"
+msgstr "Опции конвертации длины"
+
+msgid "Input in Kilometers:"
+msgstr "Ввод в километрах:"
+
+msgid "Input in Miles:"
+msgstr "Ввод в милях:"
+
+msgid "Input in Meters:"
+msgstr "Ввод в метрах:"
+
+msgid "Input in Feet:"
+msgstr "Ввод в футах:"
+
+msgid "Input in Centimeters:"
+msgstr "Ввод в сантиметрах:"
+
+msgid "Input in Inches:"
+msgstr "Ввод в дюймах:"
+
+msgid "Select a Mass conversion:"
+msgstr "Выберите конвертацию массы:"
+
+msgid "Mass Conversion Options"
+msgstr "Опции конвертации массы"
+
+msgid "Input in Kilograms:"
+msgstr "Ввод в килограммах:"
+
+msgid "Input in Pounds:"
+msgstr "Ввод в фунтах:"
+
+msgid "Input in Tons:"
+msgstr "Ввод в тоннах:"
+
+msgid "Input in Ounces:"
+msgstr "Ввод в унциях:"
+
+msgid "Input in Grams:"
+msgstr "Ввод в граммах:"
+
+msgid "Select a Temperature conversion:"
+msgstr "Выберите конвертацию температуры:"
+
+msgid "Temperature Conversion Options"
+msgstr "Опции конвертации температуры"
+
+msgid "Input in Celsius:"
+msgstr "Ввод в градусах Цельсия:"
+
+msgid "Input in Fahrenheit:"
+msgstr "Ввод в градусах Фаренгейта:"
+
+msgid "Input in Kelvin:"
+msgstr "Ввод в кельвинах:"
+
+msgid "Select a Volume conversion:"
+msgstr "Выберите конвертацию объема:"
+
+msgid "Volume Conversion Options"
+msgstr "Опции конвертации объема"
+
+msgid "Input in Liter:"
+msgstr "Ввод в литрах:"
+
+msgid "Input in Gallon (US):"
+msgstr "Ввод в галлонах (США):"
+
+msgid "Input in Milliliter:"
+msgstr "Ввод в миллилитрах:"
+
+msgid "Input in Cubic Meter:"
+msgstr "Ввод в кубических метрах:"
+
+msgid "Input in Gallon (UK) :"
+msgstr "Ввод в галлонах (Великобритания):"
+
+msgid "Input in Cubic Inch :"
+msgstr "Ввод в кубических дюймах:"
+
+msgid "Input in Cubic Centimeter :"
+msgstr "Ввод в кубических сантиметрах:"
+
+msgid "Input in Barrel (US) :"
+msgstr "Ввод в баррелях (США):"
+
+msgid "Result copied to clipboard"
+msgstr "Результат скопирован в буфер обмена"
+
+#msgid "Failed to access clipboard"
+#msgstr "Не удалось получить доступ к буферу обмена"
+
+msgid "No result to copy"
+msgstr "Нет результата для копирования"
+
+#msgid "Invalid input, only numbers allowed"
+#msgstr "Неверный ввод, разрешены только числа"
+
+# help.py
+msgid "Calculation Mode Help"
+msgstr "Помощь по режиму вычислений"
+
+msgid ""
+"Standard Mode:\n"
+"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
+"\n"
+"Left to Right Mode:\n"
+"Calculations are performed from left to right without considering operator precedence.\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
+"\n"
+"Scientific Mode:\n"
+"\n"
+"Sin and Cos:\n"
+"Calculates the values of sine and cosine.\n"
+"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"\n"
+"Logarithms:\n"
+"Two types of logarithms are available:\n"
+"- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
+"- Base 10 Logarithm: Logarithm with base 10.\n"
+"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"\n"
+"Square Root:\n"
+"Calculates the square root of a number.\n"
+"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"\n"
+"Result Format:\n"
+"- High Precision: Displays the result with full detail.\n"
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
+msgstr ""
+"Стандартный режим:\n"
+"Вычисления следуют стандартным правилам приоритета математических операций (PEMDAS).\n"
+"Пример: 3 + 5 * 2 = 13 (сначала выполняется умножение).\n"
+"\n"
+"Режим слева направо:\n"
+"Вычисления выполняются слева направо без учета приоритета операций.\n"
+"Пример: 3 + 5 * 2 = 16 (вычисления выполняются слева направо).\n"
+"\n"
+"Научный режим:\n"
+"\n"
+"Синус и Косинус:\n"
+"Вычисляет значения синуса и косинуса.\n"
+"Ввод должен быть в градусах. Калькулятор автоматически преобразует значение в радианы для вычисления.\n"
+"\n"
+"Логарифмы:\n"
+"Доступны два типа логарифмов:\n"
+"- Натуральный логарифм (LN): Логарифм с натуральным основанием (e).\n"
+"- Логарифм по основанию 10: Логарифм с основанием 10.\n"
+"Отрицательные числа не поддерживаются, так как логарифмы определены только для положительных чисел.\n"
+"\n"
+"Квадратный корень:\n"
+"Вычисляет квадратный корень числа.\n"
+"Отрицательные числа не поддерживаются, так как квадратный корень определен только для неотрицательных чисел.\n"
+"\n"
+"Формат результата:\n"
+"- Высокая точность: Отображает результат с полной детализацией.\n"
+"- Округленный (до 2 десятичных знаков): Отображает результат в упрощенной форме, округленный до 2 десятичных знаков для удобства чтения."
+
+msgid "OK"
+msgstr "ОК"

@@ -1,6 +1,6 @@
 # Translation file for My Calculator NVDA Add-on.
 # Copyright (C) 2025 My Calculator Project
-# This file is distributed under the same license as the MyCalculatorpackage.
+# This file is distributed under the same license as the MyCalculator package.
 # Andhi Mardianto <anditoinfo@gmail.com>, 2025.
 #
 msgid ""
@@ -17,17 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 
+# init.py
+
 msgid "Open My Calculator dialog"
-msgstr "buka kalkulator saya "
+msgstr "Buka dialog Kalkulator Saya"
 
 msgid "Calculation Input"
-msgstr "Masukan Perhitungan"
-
-msgid "Result"
-msgstr "Hasil"
-
-msgid "Copy"
-msgstr "Salin"
+msgstr "Input Perhitungan"
 
 msgid "Standar"
 msgstr "Standar"
@@ -44,83 +40,27 @@ msgstr "Ilmiah"
 msgid "Help"
 msgstr "Bantuan"
 
-msgid "History"
-msgstr "Riwayat"
-
 msgid "Calculation mode set to Standard International"
-msgstr "Perhitungan diatur ke standar"
+msgstr "Mode perhitungan diatur ke Standar Internasional"
 
 msgid "Calculation mode set to Left to Right"
-msgstr "Perhitungan diatur dari Kiri ke Kanan"
-
-msgid "Result copied to clipboard"
-msgstr "Hasil di Salin ke clipboard"
-
-msgid "Failed to access clipboard"
-msgstr "gagal mengakses clipboard"
-
-msgid "No result to copy"
-msgstr "tidak ada Hasil yang di Salin"
+msgstr "Mode perhitungan diatur ke Kiri ke Kanan"
 
 msgid "Invalid input, only numbers and arithmetic symbols allowed"
-msgstr "Format Masukan tidak benar hanya angka dan simbol matematika diperbolehkan "
+msgstr "Input tidak valid, hanya angka dan simbol aritmatika yang diizinkan"
 
 msgid "Error! Check Input"
-msgstr "Error periksa masukan"
+msgstr "Kesalahan! Periksa Input"
 
-msgid "Invalid calculation mode"
-msgstr "Mode perhitungan tidak valid"
-
-msgid "Calculation Mode Help"
-msgstr "Mode Bantuan "
-
-msgid ""
-"Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules "
-"(PEMDAS).\n"
-"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
-"\n"
-"Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator "
-"precedence.\n"
-"Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
-"\n"
-"Scientific Mode:\n"
-"\n"
-"Sin and Cos:\n"
-"Calculates the values of sine and cosine.\n"
-"The input must be in degrees. The calculator will automatically convert the "
-"value to radians for the calculation.\n"
-"\n"
-"Logarithms:\n"
-"Two types of logarithms are available:\n"
-"- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
-"- Base 10 Logarithm: Logarithm with base 10.\n"
-"Negative numbers are not supported as logarithms are only defined for "
-"positive numbers.\n"
-"\n"
-"Square Root:\n"
-"Calculates the square root of a number.\n"
-"Negative numbers are not supported as the square root is only defined for "
-"non-negative numbers.\n"
-"\n"
-"Result Format:\n"
-"- High Precision: Displays the result with full detail.\n"
-"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded "
-"to 2 decimal places for easier reading."
-msgstr ""
-
-msgid "OK"
-msgstr "OK"
-
+# conversion.py
 msgid "Please Select Conversion Mode"
-msgstr "Silahkan Pilih Mode Perhitungan"
+msgstr "Silakan Pilih Mode Konversi"
 
 msgid "Length"
 msgstr "Panjang"
 
 msgid "Mass"
-msgstr "Masa"
+msgstr "Massa"
 
 msgid "Temperature"
 msgstr "Suhu"
@@ -132,170 +72,194 @@ msgid "Speed"
 msgstr "Kecepatan"
 
 msgid "Select a Speed conversion:"
-msgstr "Pilih Konversi Kecepatan"
+msgstr "Pilih konversi Kecepatan:"
 
 msgid "Speed Conversion Options"
-msgstr "Pilihan konversi Kecepatan"
+msgstr "Opsi Konversi Kecepatan"
 
 msgid "Input in Kilometers per Hour:"
-msgstr "Masukan Dalam Kilometer per Jam"
+msgstr "Input dalam Kilometer per Jam:"
 
 msgid "Input in Miles per Hour:"
-msgstr "Masukan dalam Mil per Jam"
+msgstr "Input dalam Mil per Jam:"
 
 msgid "Input in Meters per Second:"
-msgstr "Masukan dalam Meter per Detik"
+msgstr "Input dalam Meter per Detik:"
 
 msgid "Input in Knots:"
-msgstr "Masukan dalam Knot"
+msgstr "Input dalam Knot:"
 
 msgid "Input in Feet per Second:"
-msgstr "Masukan dalam Kaki per Detik"
+msgstr "Input dalam Kaki per Detik:"
 
 msgid "Select a length conversion:"
-msgstr "Pilih Konversi Panjang"
+msgstr "Pilih konversi Panjang:"
 
 msgid "Length Conversion Options"
-msgstr "Pilihan konversi Panjang"
+msgstr "Opsi Konversi Panjang"
 
 msgid "Input in Kilometers:"
-msgstr "Masukan Dalam Kilometer"
+msgstr "Input dalam Kilometer:"
 
 msgid "Input in Miles:"
-msgstr "Masukkan Dalam Mil"
+msgstr "Input dalam Mil:"
 
 msgid "Input in Meters:"
-msgstr "Masukkan Dalam Meter"
+msgstr "Input dalam Meter:"
 
 msgid "Input in Feet:"
-msgstr "Masukkan DalamKaki"
+msgstr "Input dalam Kaki:"
 
 msgid "Input in Centimeters:"
-msgstr "Masukkan Dalam Centimeter"
+msgstr "Input dalam Sentimeter:"
 
 msgid "Input in Inches:"
-msgstr "Masukkan Dalam Inchi"
+msgstr "Input dalam Inci:"
 
 msgid "Select a Mass conversion:"
-msgstr "Pilih konversi Masa"
+msgstr "Pilih konversi Massa:"
 
 msgid "Mass Conversion Options"
-msgstr "Pilih Konversi Masa"
+msgstr "Opsi Konversi Massa"
 
 msgid "Input in Kilograms:"
-msgstr "Masukkan Dalam Kilogram"
+msgstr "Input dalam Kilogram:"
 
 msgid "Input in Pounds:"
-msgstr "Masukkan Dalam Pound"
+msgstr "Input dalam Pound:"
 
 msgid "Input in Tons:"
-msgstr "Masukkan Dalam Ton"
+msgstr "Input dalam Ton:"
 
 msgid "Input in Ounces:"
-msgstr "Masukkan Dalam Ounce"
+msgstr "Input dalam Ons:"
 
 msgid "Input in Grams:"
-msgstr "Masukkan Dalam Gram"
+msgstr "Input dalam Gram:"
 
 msgid "Select a Temperature conversion:"
-msgstr "Pilih Konversi Suhu"
+msgstr "Pilih konversi Suhu:"
 
 msgid "Temperature Conversion Options"
-msgstr "Pilih Konversi Suhu"
+msgstr "Opsi Konversi Suhu"
 
-#: globalPlugins/myCalculator/conversion.py:430
 msgid "Input in Celsius:"
-msgstr "Masukkan Dalam Celsius"
+msgstr "Input dalam Celsius:"
 
 msgid "Input in Fahrenheit:"
-msgstr "Masukkan Dalam Fahrenheit"
+msgstr "Input dalam Fahrenheit:"
 
 msgid "Input in Kelvin:"
-msgstr "Masukkan Dalam Kelvin"
+msgstr "Input dalam Kelvin:"
 
 msgid "Select a Volume conversion:"
-msgstr "Pilih Konversi Volume"
+msgstr "Pilih konversi Volume:"
 
 msgid "Volume Conversion Options"
-msgstr "Pilih Konversi Volume"
+msgstr "Opsi Konversi Volume"
 
 msgid "Input in Liter:"
-msgstr "Masukkan Dalam Liter"
+msgstr "Input dalam Liter:"
 
 msgid "Input in Gallon (US):"
-msgstr "Masukkan Dalam Gallon (US)"
+msgstr "Input dalam Galon (AS):"
 
 msgid "Input in Milliliter:"
-msgstr "Masukkan Dalam Mililiter"
+msgstr "Input dalam Mililiter:"
 
 msgid "Input in Cubic Meter:"
-msgstr "Masukan Dalam kubik Meter"
+msgstr "Input dalam Meter Kubik:"
 
 msgid "Input in Gallon (UK) :"
-msgstr "Masukkan Dalam Gallon (UK)"
+msgstr "Input dalam Galon (UK):"
 
 msgid "Input in Liter :"
-msgstr "Masukkan Dalam Liter"
+msgstr "Input dalam Liter:"
 
 msgid "Input in Cubic Inch :"
-msgstr "Masukkan DalamKubik Inci"
+msgstr "Input dalam Inci Kubik:"
 
 msgid "Input in Milliliter :"
-msgstr "Masukkan Dalam Mililiter"
+msgstr "Input dalam Mililiter:"
 
 msgid "Input in Cubic Centimeter :"
-msgstr "Masukkan Dalam Centimeter kubik"
+msgstr "Input dalam Sentimeter Kubik:"
 
 msgid "Input in Barrel (US) :"
-msgstr "Masukkan Dalam Barel (US)"
+msgstr "Input dalam Barel (AS):"
 
 msgid "Invalid input, only numbers allowed"
-msgstr "Masukkan tidak Valid hanya angka diperbolehkan "
+msgstr "Input tidak valid, hanya angka yang diizinkan"
 
+# scientific.py
 msgid "Please Select Scientific Mode "
-msgstr "Silahkan Pilih Mode Ilmiah"
+msgstr "Silakan Pilih Mode Ilmiah"
+
+msgid "Result"
+msgstr "Hasil"
+
+msgid "Copy"
+msgstr "Salin"
 
 msgid "Sin"
-msgstr "Sinus"
+msgstr "Sin"
 
 msgid "Cos"
-msgstr "Cosinus"
+msgstr "Cos"
 
 msgid "Log"
-msgstr "Logaritma"
+msgstr "Log"
 
 msgid "Sqrt"
 msgstr "Akar Kuadrat"
 
+msgid "History"
+msgstr "Riwayat"
+
+msgid "Select a Basis"
+msgstr "Pilih Basis"
+
+msgid "Basis Options"
+msgstr "Opsi Basis"
+
 msgid "Input in Degrees:"
-msgstr "Masukkan Dalam Derajat"
+msgstr "Input dalam Derajat:"
 
 msgid "Calculation mode set to Sin"
-msgstr "perhitungan diatur ke sinus"
+msgstr "Mode perhitungan diatur ke Sin"
 
 msgid "Calculation mode set to Cos"
-msgstr "Perhitungan diatur ke kosinus"
+msgstr "Mode perhitungan diatur ke Cos"
 
 msgid "Input in Basis Natural :"
-msgstr "Masukkan dalam Basis Natural (LN)"
+msgstr "Input dalam Basis Natural:"
 
 msgid "Input in Basis 10:"
-msgstr "Masukkan Dalam Basis 10"
+msgstr "Input dalam Basis 10:"
 
 msgid "Input in Non-Negative Numbers:"
-msgstr "Masukkan Bukan Dalam angka Negatif"
+msgstr "Input dalam Angka Non-Negatif:"
 
 msgid "Calculation mode set to Sqrt"
-msgstr "Perhitungan diatur ke akar Kuadrat"
+msgstr "Mode perhitungan diatur ke Akar Kuadrat"
+
+msgid "Result copied to clipboard"
+msgstr "Hasil disalin ke papan klip"
+
+msgid "Failed to access clipboard"
+msgstr "Gagal mengakses papan klip"
+
+msgid "No result to copy"
+msgstr "Tidak ada hasil untuk disalin"
 
 msgid "Please select a calculation mode first"
-msgstr "Silahkan Pilih Mode Perhitungan terlebih Dahulu "
+msgstr "Silakan pilih mode perhitungan terlebih dahulu"
 
 msgid "Logarithm is only defined for positive numbers"
-msgstr "Logaritma hanya di defenisikan untuk bilangan positif"
+msgstr "Logaritma hanya didefinisikan untuk angka positif"
 
 msgid "Square root is only defined for non-negative numbers"
-msgstr "akar kuadrat hanya  di tentukan untuk bilangan positif "
+msgstr "Akar kuadrat hanya didefinisikan untuk angka non-negatif"
 
 msgid ""
 "High Precision = {result}\n"
@@ -305,7 +269,74 @@ msgstr ""
 "Dibulatkan = {rounded_result}"
 
 msgid "Invalid input. Please check your expression"
-msgstr "masukkan tidak valid periksa masukkan"
+msgstr "Input tidak valid. Silakan periksa ekspresi Anda"
 
 msgid "An error occurred: "
+msgstr "Terjadi kesalahan: "
+
+#msgid "Invalid input, only numbers allowed"
+#msgstr "Input tidak valid, hanya angka yang diizinkan"
+
+# help.py
+msgid "Calculation Mode Help"
+msgstr "Bantuan Mode Perhitungan"
+
+msgid ""
+"Standard Mode:\n"
+"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
+"\n"
+"Left to Right Mode:\n"
+"Calculations are performed from left to right without considering operator precedence.\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
+"\n"
+"Scientific Mode:\n"
+"\n"
+"Sin and Cos:\n"
+"Calculates the values of sine and cosine.\n"
+"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"\n"
+"Logarithms:\n"
+"Two types of logarithms are available:\n"
+"- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
+"- Base 10 Logarithm: Logarithm with base 10.\n"
+"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"\n"
+"Square Root:\n"
+"Calculates the square root of a number.\n"
+"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"\n"
+"Result Format:\n"
+"- High Precision: Displays the result with full detail.\n"
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
 msgstr ""
+"Mode Standar:\n"
+"Perhitungan mengikuti aturan prioritas operator matematika standar (PEMDAS).\n"
+"Contoh: 3 + 5 * 2 = 13 (perkalian dilakukan lebih dahulu).\n"
+"\n"
+"Mode Kiri ke Kanan:\n"
+"Perhitungan dilakukan dari kiri ke kanan tanpa mempertimbangkan prioritas operator.\n"
+"Contoh: 3 + 5 * 2 = 16 (perhitungan dilakukan dari kiri ke kanan).\n"
+"\n"
+"Mode Ilmiah:\n"
+"\n"
+"Sin dan Cos:\n"
+"Menghitung nilai sinus dan cosinus.\n"
+"Input harus dalam derajat. Kalkulator akan secara otomatis mengonversi nilai ke radian untuk perhitungan.\n"
+"\n"
+"Logaritma:\n"
+"Terdapat dua jenis logaritma:\n"
+"- Logaritma Natural (LN): Logaritma dengan basis natural (e).\n"
+"- Logaritma Basis 10: Logaritma dengan basis 10.\n"
+"Angka negatif tidak didukung karena logaritma hanya didefinisikan untuk angka positif.\n"
+"\n"
+"Akar Kuadrat:\n"
+"Menghitung akar kuadrat dari sebuah angka.\n"
+"Angka negatif tidak didukung karena akar kuadrat hanya didefinisikan untuk angka non-negatif.\n"
+"\n"
+"Format Hasil:\n"
+"- Presisi Tinggi: Menampilkan hasil dengan detail penuh.\n"
+"- Dibulatkan (2 Angka Desimal): Menampilkan hasil dalam format lebih sederhana, dibulatkan ke 2 angka desimal untuk memudahkan pembacaan."
+
+msgid "OK"
+msgstr "OK"
