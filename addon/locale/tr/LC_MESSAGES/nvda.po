@@ -60,6 +60,75 @@ msgid "Invalid calculation mode"
 msgstr "Geçersiz hesaplama modu"
 
 # scientific.py
+msgid "Use Radians"
+msgstr "Radyan Kullan"
+
+msgid "Asin"
+msgstr "Asin"
+
+msgid "Acos"
+msgstr "Acos"
+
+msgid "Tan"
+msgstr "Tan"
+
+msgid "Atan"
+msgstr "Atan"
+
+msgid "Radian"
+msgstr "Radyan"
+
+msgid "Degree"
+msgstr "Derece"
+
+msgid "Natural Base"
+msgstr "Doğal Tabanda"
+
+msgid "Base 10"
+msgstr "Taban 10"
+
+msgid "Radians"
+msgstr "Radyanlar"
+
+msgid "Degrees"
+msgstr "Dereceler"
+
+msgid "Calculation mode set to Sin (Input in "
+msgstr "Hesaplama modu Sin olarak ayarlandı (Girdi şu şekilde: "
+
+msgid "Calculation mode set to Cos (Input in "
+msgstr "Hesaplama modu Cos olarak ayarlandı (Girdi şu şekilde: "
+
+msgid "Input in Range [-1, 1] ({mode}):"
+msgstr "{mode} için [-1, 1] Aralığında Girdi:"
+
+msgid "Calculation mode set to Asin"
+msgstr "Hesaplama modu Asin olarak ayarlandı"
+
+msgid "Calculation mode set to Acos"
+msgstr "Hesaplama modu Acos olarak ayarlandı"
+
+msgid "Input in {mode}:"
+msgstr "{mode} olarak Girdi:"
+
+msgid "Calculation mode set to Tan"
+msgstr "Hesaplama modu Tan olarak ayarlandı"
+
+msgid "Input in Any Real Number ({mode}):"
+msgstr "Herhangi bir Gerçek Sayı ({mode}) olarak Girdi:"
+
+msgid "Calculation mode set to Atan"
+msgstr "Hesaplama modu Atan olarak ayarlandı"
+
+msgid "Arcsine is only defined for values between -1 and 1"
+msgstr "Arksin sadece -1 ile 1 arasındaki değerler için tanımlıdır"
+
+msgid "Arccosine is only defined for values between -1 and 1"
+msgstr "Arkkos sadece -1 ile 1 arasındaki değerler için tanımlıdır"
+
+msgid "Invalid input, only valid numbers are allowed"
+msgstr "Geçersiz giriş, yalnızca geçerli sayılara izin verilir"
+
 msgid "Please Select Scientific Mode "
 msgstr "Lütfen Bilimsel Modu Seçin"
 
@@ -134,6 +203,195 @@ msgid "Invalid input, only numbers allowed"
 msgstr "Geçersiz giriş, yalnızca sayılara izin verilir"
 
 # conversion.py
+msgid "Time"
+msgstr "Zaman"
+
+msgid "Select a Time conversion:"
+msgstr "Bir zaman dönüşümü seçin:"
+
+msgid "Time Conversion Options"
+msgstr "Zaman Dönüşümü Seçenekleri"
+
+msgid "Masehi to Hijri"
+msgstr "Miladi'den Hicri'ye"
+
+msgid "Hijri to Masehi"
+msgstr "Hicri'den Miladi'ye"
+
+msgid "Input in Masehi. Example 01012025"
+msgstr "Miladi olarak girin. Örnek: 01012025"
+
+msgid "Input in Hijri. Example 01012025"
+msgstr "Hicri olarak girin. Örnek: 01012025"
+
+msgid "Seconds to Minutes"
+msgstr "Saniye'den Dakika'ya"
+
+msgid "Minutes to Hours"
+msgstr "Dakika'dan Saat'e"
+
+msgid "Hours to Days"
+msgstr "Saat'ten Gün'e"
+
+msgid "Days to Weeks"
+msgstr "Gün'den Hafta'ya"
+
+msgid "Weeks to Months"
+msgstr "Hafta'dan Ay'a"
+
+msgid "Months to Years"
+msgstr "Ay'dan Yıl'a"
+
+msgid "Input in Seconds:"
+msgstr "Saniye olarak girin:"
+
+msgid "Input in Minutes:"
+msgstr "Dakika olarak girin:"
+
+msgid "Input in Hours:"
+msgstr "Saat olarak girin:"
+
+msgid "Input in Days:"
+msgstr "Gün olarak girin:"
+
+msgid "Input in Weeks:"
+msgstr "Hafta olarak girin:"
+
+msgid "Input in Months:"
+msgstr "Ay olarak girin:"
+
+msgid "Kilometers per Hour to Miles per Hour"
+msgstr "Kilometre/Saat'ten Mil/Saat'e"
+
+msgid "Miles per Hour to Kilometers per Hour"
+msgstr "Mil/Saat'ten Kilometre/Saat'e"
+
+msgid "Meters per Second to Kilometers per Hour"
+msgstr "Metre/Saniye'den Kilometre/Saat'e"
+
+msgid "Kilometers per Hour to Meters per Second"
+msgstr "Kilometre/Saat'ten Metre/Saniye'ye"
+
+msgid "Meters per Second to Miles per Hour"
+msgstr "Metre/Saniye'den Mil/Saat'e"
+
+msgid "Miles per Hour to Meters per Second"
+msgstr "Mil/Saat'ten Metre/Saniye'ye"
+
+msgid "Knots to Kilometers per Hour"
+msgstr "Düğüm'den Kilometre/Saat'e"
+
+msgid "Kilometers per Hour to Knots"
+msgstr "Kilometre/Saat'ten Düğüm'e"
+
+msgid "Knots to Miles per Hour"
+msgstr "Düğüm'den Mil/Saat'e"
+
+msgid "Miles per Hour to Knots"
+msgstr "Mil/Saat'ten Düğüm'e"
+
+msgid "Feet per Second to Kilometers per Hour"
+msgstr "Ayak/Saniye'den Kilometre/Saat'e"
+
+msgid "Kilometers per Hour to Feet per Second"
+msgstr "Kilometre/Saat'ten Ayak/Saniye'ye"
+
+msgid "Kilometers to Miles"
+msgstr "Kilometre'den Mil'e"
+
+msgid "Miles to Kilometers"
+msgstr "Mil'den Kilometre'ye"
+
+msgid "Meters to Feet"
+msgstr "Metre'den Ayak'a"
+
+msgid "Feet to Meters"
+msgstr "Ayak'tan Metre'ye"
+
+msgid "Centimeters to Inches"
+msgstr "Santimetre'den İnç'e"
+
+msgid "Inches to Centimeters"
+msgstr "İnç'ten Santimetre'ye"
+
+msgid "Kilograms to Pounds"
+msgstr "Kilogram'dan Pound'a"
+
+msgid "Pounds to Kilograms"
+msgstr "Pound'dan Kilogram'a"
+
+msgid "Tons to Kilograms"
+msgstr "Ton'dan Kilogram'a"
+
+msgid "Kilograms to Tons"
+msgstr "Kilogram'dan Ton'a"
+
+msgid "Ounces to Grams"
+msgstr "Ons'tan Gram'a"
+
+msgid "Grams to Ounces"
+msgstr "Gram'dan Ons'a"
+
+msgid "Liter to Gallon (US)"
+msgstr "Litre'den Galon (ABD)'ye"
+
+msgid "Gallon (US) to Liter"
+msgstr "Galon (ABD)'den Litre'ye"
+
+msgid "Liter to Milliliter"
+msgstr "Litre'den Mililitre'ye"
+
+msgid "Milliliter to Liter"
+msgstr "Mililitre'den Litre'ye"
+
+msgid "Cubic Meter to Liter"
+msgstr "Metreküp'ten Litre'ye"
+
+msgid "Liter to Cubic Meter"
+msgstr "Litre'den Metreküp'e"
+
+msgid "Gallon (UK) to Liter"
+msgstr "Galon (İngiltere)'den Litre'ye"
+
+msgid "Liter to Gallon (UK)"
+msgstr "Litre'den Galon (İngiltere)'ye"
+
+msgid "Cubic Inch to Liter"
+msgstr "İnç Küp'ten Litre'ye"
+
+msgid "Liter to Cubic Inch"
+msgstr "Litre'den İnç Küp'e"
+
+msgid "Milliliter to Cubic Centimeter"
+msgstr "Mililitre'den Santimetre Küp'e"
+
+msgid "Cubic Centimeter to Milliliter"
+msgstr "Santimetre Küp'ten Mililitre'ye"
+
+msgid "Barrel (US) to Liter"
+msgstr "Varil (ABD)'den Litre'ye"
+
+msgid "Liter to Barrel (US)"
+msgstr "Litre'den Varil (ABD)'ye"
+
+msgid "Celsius to Fahrenheit"
+msgstr "Celsius'tan Fahrenheit'e"
+
+msgid "Fahrenheit to Celsius"
+msgstr "Fahrenheit'ten Celsius'a"
+
+msgid "Celsius to Kelvin"
+msgstr "Celsius'tan Kelvin'e"
+
+msgid "Kelvin to Celsius"
+msgstr "Kelvin'den Celsius'a"
+
+msgid "Fahrenheit to Kelvin"
+msgstr "Fahrenheit'ten Kelvin'e"
+
+msgid "Kelvin to Fahrenheit"
+msgstr "Kelvin'den Fahrenheit'e"
+
 msgid "Please Select Conversion Mode"
 msgstr "Lütfen Dönüşüm Modunu Seçin"
 
@@ -296,60 +554,69 @@ msgstr "Hesaplama Modu Yardımı"
 
 msgid ""
 "Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Calculations follow the standard mathematical operator precedence rules "
+"(PEMDAS).\n"
 "Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
 "\n"
 "Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator precedence.\n"
+"Calculations are performed from left to right without considering operator "
+"precedence.\n"
 "Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
 "\n"
 "Scientific Mode:\n"
 "\n"
-"Sin and Cos:\n"
-"Calculates the values of sine and cosine.\n"
-"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"Sin, Cos, and Inverse Trigonometric Functions (Sin^-1, Cos^-1, Tan^-1):\n"
+"Calculates the values of sine, cosine, inverse sine (asin), inverse cosine "
+"(acos), tangent (tan), and inverse tangent (atan).\n"
+"These functions can accept input in degrees or radians. To switch between "
+"them, use the checkbox for 'Use Radians'. The default is degrees.\n"
 "\n"
 "Logarithms:\n"
 "Two types of logarithms are available:\n"
 "- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
 "- Base 10 Logarithm: Logarithm with base 10.\n"
-"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"Negative numbers are not supported as logarithms are only defined for "
+"positive numbers.\n"
 "\n"
 "Square Root:\n"
 "Calculates the square root of a number.\n"
-"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"Negative numbers are not supported as the square root is only defined for "
+"non-negative numbers.\n"
 "\n"
 "Result Format:\n"
 "- High Precision: Displays the result with full detail.\n"
-"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded "
+"to 2 decimal places for easier reading."
 msgstr ""
 "Standart Mod:\n"
-"Hesaplamalar standart matematiksel işlem önceliği kurallarına göre yapılır (PEMDAS).\n"
-"Örnek: 3 + 5 * 2 = 13 (çarpma işlemi önce yapılır).\n"
+"Hesaplamalar, matematiksel işlem önceliği kurallarını (PEMDAS) takip eder.\n"
+"Örnek: 3 + 5 * 2 = 13 (çarpma önce yapılır).\n"
 "\n"
 "Soldan Sağa Mod:\n"
-"Hesaplamalar işlem önceliği göz önüne alınmadan soldan sağa doğru yapılır.\n"
+"Hesaplamalar, işlem önceliğini dikkate almadan soldan sağa doğru yapılır.\n"
 "Örnek: 3 + 5 * 2 = 16 (hesaplamalar soldan sağa yapılır).\n"
 "\n"
 "Bilimsel Mod:\n"
 "\n"
-"Sin ve Cos:\n"
-"Sinüs ve kosinüs değerlerini hesaplar.\n"
-"Giriş derece cinsinden olmalıdır. Hesap makinesi otomatik olarak değeri radyana dönüştürür.\n"
+"Sin, Cos ve Ters Trigonometri Fonksiyonları (Sin^-1, Cos^-1, Tan^-1):\n"
+"Sinüs, kosinüs, ters sinüs (asin), ters kosinüs (acos), tanjant (tan) ve "
+"ters tanjant (atan) değerlerini hesaplar.\n"
+"Bu fonksiyonlar, derece veya radian cinsinden giriş alabilir. Bunlar arasında "
+"geçiş yapmak için 'Radyan Kullan' onay kutusunu kullanın. Varsayılan olan derece cinsindendir.\n"
 "\n"
 "Logaritmalar:\n"
 "İki tür logaritma mevcuttur:\n"
 "- Doğal Logaritma (LN): Doğal taban (e) ile logaritma.\n"
-"- Taban 10 Logaritması: Taban 10 ile logaritma.\n"
-"Negatif sayılar desteklenmez çünkü logaritmalar yalnızca pozitif sayılar için tanımlıdır.\n"
+"- Taban 10 Logaritması: 10 tabanlı logaritma.\n"
+"Negatif sayılar desteklenmez, çünkü logaritmalar yalnızca pozitif sayılar için "
+"tanımlıdır.\n"
 "\n"
 "Karekök:\n"
 "Bir sayının karekökünü hesaplar.\n"
-"Negatif sayılar desteklenmez çünkü karekök yalnızca pozitif olmayan sayılarda tanımlıdır.\n"
+"Negatif sayılar desteklenmez, çünkü karekök yalnızca negatif olmayan sayılar için "
+"tanımlıdır.\n"
 "\n"
 "Sonuç Formatı:\n"
-"- Yüksek Hassasiyet: Sonucu tüm ayrıntılarıyla gösterir.\n"
-"- Yuvarlanmış (2 Ondalık Basamak): Sonucu daha basit bir biçimde, 2 ondalık basamağa yuvarlanmış olarak gösterir."
-
-msgid "OK"
-msgstr "Tamam"
+"- Yüksek Hassasiyet: Sonucu tüm detaylarıyla gösterir.\n"
+"- Yuvarlanmış (2 Ondalık Basamağa): Sonucu daha basit bir şekilde, 2 ondalık basamağa yuvarlanmış "
+"olarak gösterir, okunmasını kolaylaştırır."

@@ -64,6 +64,195 @@ msgid "Invalid calculation mode"
 msgstr "غلط حساب کا طریقہ"
 
 # conversion.py
+msgid "Time"
+msgstr "وقت"
+
+msgid "Select a Time conversion:"
+msgstr "وقت کی تبدیلی منتخب کریں:"
+
+msgid "Time Conversion Options"
+msgstr "وقت کی تبدیلی کے آپشنز"
+
+msgid "Masehi to Hijri"
+msgstr "مسیحی تاریخ سے ہجری تاریخ"
+
+msgid "Hijri to Masehi"
+msgstr "ہجری تاریخ سے مسیحی تاریخ"
+
+msgid "Input in Masehi. Example 01012025"
+msgstr "مسیحی تاریخ میں داخل کریں۔ مثال 01012025"
+
+msgid "Input in Hijri. Example 01012025"
+msgstr "ہجری تاریخ میں داخل کریں۔ مثال 01012025"
+
+msgid "Seconds to Minutes"
+msgstr "سیکنڈ سے منٹ"
+
+msgid "Minutes to Hours"
+msgstr "منٹ سے گھنٹے"
+
+msgid "Hours to Days"
+msgstr "گھنٹے سے دن"
+
+msgid "Days to Weeks"
+msgstr "دن سے ہفتے"
+
+msgid "Weeks to Months"
+msgstr "ہفتے سے مہینے"
+
+msgid "Months to Years"
+msgstr "مہینے سے سال"
+
+msgid "Input in Seconds:"
+msgstr "سیکنڈ میں داخل کریں:"
+
+msgid "Input in Minutes:"
+msgstr "منٹ میں داخل کریں:"
+
+msgid "Input in Hours:"
+msgstr "گھنٹے میں داخل کریں:"
+
+msgid "Input in Days:"
+msgstr "دن میں داخل کریں:"
+
+msgid "Input in Weeks:"
+msgstr "ہفتے میں داخل کریں:"
+
+msgid "Input in Months:"
+msgstr "مہینے میں داخل کریں:"
+
+msgid "Kilometers per Hour to Miles per Hour"
+msgstr "کلو میٹر فی گھنٹہ سے میل فی گھنٹہ"
+
+msgid "Miles per Hour to Kilometers per Hour"
+msgstr "میل فی گھنٹہ سے کلو میٹر فی گھنٹہ"
+
+msgid "Meters per Second to Kilometers per Hour"
+msgstr "میٹر فی سیکنڈ سے کلو میٹر فی گھنٹہ"
+
+msgid "Kilometers per Hour to Meters per Second"
+msgstr "کلو میٹر فی گھنٹہ سے میٹر فی سیکنڈ"
+
+msgid "Meters per Second to Miles per Hour"
+msgstr "میٹر فی سیکنڈ سے میل فی گھنٹہ"
+
+msgid "Miles per Hour to Meters per Second"
+msgstr "میل فی گھنٹہ سے میٹر فی سیکنڈ"
+
+msgid "Knots to Kilometers per Hour"
+msgstr "نوٹس سے کلو میٹر فی گھنٹہ"
+
+msgid "Kilometers per Hour to Knots"
+msgstr "کلو میٹر فی گھنٹہ سے نوٹس"
+
+msgid "Knots to Miles per Hour"
+msgstr "نوٹس سے میل فی گھنٹہ"
+
+msgid "Miles per Hour to Knots"
+msgstr "میل فی گھنٹہ سے نوٹس"
+
+msgid "Feet per Second to Kilometers per Hour"
+msgstr "پاؤں فی سیکنڈ سے کلو میٹر فی گھنٹہ"
+
+msgid "Kilometers per Hour to Feet per Second"
+msgstr "کلو میٹر فی گھنٹہ سے پاؤں فی سیکنڈ"
+
+msgid "Kilometers to Miles"
+msgstr "کلو میٹر سے میل"
+
+msgid "Miles to Kilometers"
+msgstr "میل سے کلو میٹر"
+
+msgid "Meters to Feet"
+msgstr "میٹر سے پاؤں"
+
+msgid "Feet to Meters"
+msgstr "پاؤں سے میٹر"
+
+msgid "Centimeters to Inches"
+msgstr "سینٹی میٹر سے انچ"
+
+msgid "Inches to Centimeters"
+msgstr "انچ سے سینٹی میٹر"
+
+msgid "Kilograms to Pounds"
+msgstr "کلو گرام سے پاؤنڈ"
+
+msgid "Pounds to Kilograms"
+msgstr "پاؤنڈ سے کلو گرام"
+
+msgid "Tons to Kilograms"
+msgstr "ٹن سے کلو گرام"
+
+msgid "Kilograms to Tons"
+msgstr "کلو گرام سے ٹن"
+
+msgid "Ounces to Grams"
+msgstr "اونس سے گرام"
+
+msgid "Grams to Ounces"
+msgstr "گرام سے اونس"
+
+msgid "Liter to Gallon (US)"
+msgstr "لیٹر سے گیلن (امریکہ)"
+
+msgid "Gallon (US) to Liter"
+msgstr "گیلن (امریکہ) سے لیٹر"
+
+msgid "Liter to Milliliter"
+msgstr "لیٹر سے ملی لیٹر"
+
+msgid "Milliliter to Liter"
+msgstr "ملی لیٹر سے لیٹر"
+
+msgid "Cubic Meter to Liter"
+msgstr "مکعب میٹر سے لیٹر"
+
+msgid "Liter to Cubic Meter"
+msgstr "لیٹر سے مکعب میٹر"
+
+msgid "Gallon (UK) to Liter"
+msgstr "گیلن (برطانیہ) سے لیٹر"
+
+msgid "Liter to Gallon (UK)"
+msgstr "لیٹر سے گیلن (برطانیہ)"
+
+msgid "Cubic Inch to Liter"
+msgstr "مکعب انچ سے لیٹر"
+
+msgid "Liter to Cubic Inch"
+msgstr "لیٹر سے مکعب انچ"
+
+msgid "Milliliter to Cubic Centimeter"
+msgstr "ملی لیٹر سے مکعب سینٹی میٹر"
+
+msgid "Cubic Centimeter to Milliliter"
+msgstr "مکعب سینٹی میٹر سے ملی لیٹر"
+
+msgid "Barrel (US) to Liter"
+msgstr "بیلر (امریکہ) سے لیٹر"
+
+msgid "Liter to Barrel (US)"
+msgstr "لیٹر سے بیلر (امریکہ)"
+
+msgid "Celsius to Fahrenheit"
+msgstr "سیلسیئس سے فارنہائٹ"
+
+msgid "Fahrenheit to Celsius"
+msgstr "فارنہائٹ سے سیلسیئس"
+
+msgid "Celsius to Kelvin"
+msgstr "سیلسیئس سے کیلون"
+
+msgid "Kelvin to Celsius"
+msgstr "کیلون سے سیلسیئس"
+
+msgid "Fahrenheit to Kelvin"
+msgstr "فارنہائٹ سے کیلون"
+
+msgid "Kelvin to Fahrenheit"
+msgstr "کیلون سے فارنہائٹ"
+
 msgid "Please Select Conversion Mode"
 msgstr "براہ کرم تبدیلی کے موڈ کا انتخاب کریں"
 
@@ -209,6 +398,75 @@ msgid "Invalid input, only numbers allowed"
 msgstr "غلط ان پٹ، صرف نمبرز کی اجازت ہے"
 
 # scientific.py
+msgid "Use Radians"
+msgstr "ریڈیئن استعمال کریں"
+
+msgid "Asin"
+msgstr "آسائن"
+
+msgid "Acos"
+msgstr "ایکو سائن"
+
+msgid "Tan"
+msgstr "ٹین"
+
+msgid "Atan"
+msgstr "اے ٹین"
+
+msgid "Radian"
+msgstr "ریڈیئن"
+
+msgid "Degree"
+msgstr "ڈگری"
+
+msgid "Natural Base"
+msgstr "قدرتی بنیاد"
+
+msgid "Base 10"
+msgstr "بیس 10"
+
+msgid "Radians"
+msgstr "ریڈیئن"
+
+msgid "Degrees"
+msgstr "ڈگری"
+
+msgid "Calculation mode set to Sin (Input in "
+msgstr "حساب کا طریقہ سیٹ کیا گیا ہے سین (داخل کریں "
+
+msgid "Calculation mode set to Cos (Input in "
+msgstr "حساب کا طریقہ سیٹ کیا گیا ہے کوس (داخل کریں "
+
+msgid "Input in Range [-1, 1] ({mode}):"
+msgstr "داخل کریں رینج [-1, 1] ({mode}):"
+
+msgid "Calculation mode set to Asin"
+msgstr "حساب کا طریقہ سیٹ کیا گیا ہے آسائن"
+
+msgid "Calculation mode set to Acos"
+msgstr "حساب کا طریقہ سیٹ کیا گیا ہے ایکو سائن"
+
+msgid "Input in {mode}:"
+msgstr "داخل کریں {mode}:"
+
+msgid "Calculation mode set to Tan"
+msgstr "حساب کا طریقہ سیٹ کیا گیا ہے ٹین"
+
+msgid "Input in Any Real Number ({mode}):"
+msgstr "داخل کریں کوئی بھی حقیقی عدد ({mode}):"
+
+msgid "Calculation mode set to Atan"
+msgstr "حساب کا طریقہ سیٹ کیا گیا ہے اے ٹین"
+
+msgid "Arcsine is only defined for values between -1 and 1"
+msgstr "آرک سین صرف -1 اور 1 کے درمیان قیمتوں کے لیے متعین ہے"
+
+msgid "Arccosine is only defined for values between -1 and 1"
+msgstr "آرک کوسین صرف -1 اور 1 کے درمیان قیمتوں کے لیے متعین ہے"
+
+msgid "Invalid input, only valid numbers are allowed"
+msgstr "غلط داخلہ، صرف درست نمبر ہی اجازت ہیں"
+
 msgid "Please Select Scientific Mode "
 msgstr "براہ کرم سائنسی موڈ کا انتخاب کریں"
 
@@ -300,60 +558,66 @@ msgstr "حساب کے موڈ کی مدد"
 
 msgid ""
 "Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Calculations follow the standard mathematical operator precedence rules "
+"(PEMDAS).\n"
 "Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
 "\n"
 "Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator precedence.\n"
+"Calculations are performed from left to right without considering operator "
+"precedence.\n"
 "Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
 "\n"
 "Scientific Mode:\n"
 "\n"
-"Sin and Cos:\n"
-"Calculates the values of sine and cosine.\n"
-"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"Sin, Cos, and Inverse Trigonometric Functions (Sin^-1, Cos^-1, Tan^-1):\n"
+"Calculates the values of sine, cosine, inverse sine (asin), inverse cosine "
+"(acos), tangent (tan), and inverse tangent (atan).\n"
+"These functions can accept input in degrees or radians. To switch between "
+"them, use the checkbox for 'Use Radians'. The default is degrees.\n"
 "\n"
 "Logarithms:\n"
 "Two types of logarithms are available:\n"
 "- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
 "- Base 10 Logarithm: Logarithm with base 10.\n"
-"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"Negative numbers are not supported as logarithms are only defined for "
+"positive numbers.\n"
 "\n"
 "Square Root:\n"
 "Calculates the square root of a number.\n"
-"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"Negative numbers are not supported as the square root is only defined for "
+"non-negative numbers.\n"
 "\n"
 "Result Format:\n"
 "- High Precision: Displays the result with full detail.\n"
-"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded "
+"to 2 decimal places for easier reading."
 msgstr ""
-"معیاری موڈ:\n"
-"حساب میں معیاری ریاضیاتی آپریٹر کی ترجیحی قواعد (PEMDAS) کی پیروی کی جاتی ہے۔\n"
-"مثال: 3 + 5 * 2 = 13 (پہلے ضرب کی جاتی ہے)۔\n"
+"اسٹینڈرڈ موڈ :\n"
+"حسابات معیاری ریاضیاتی آپریٹر کی ترجیحات کے قواعد کے مطابق کیے جاتے ہیں "
+"(PEMDAS).\n"
+"مثال : 3 + 5 * 2 = 13 (سب سے پہلے ضرب کی جاتی ہے).\n"
 "\n"
-"بائیں سے دائیں موڈ:\n"
-"حساب بائیں سے دائیں کیا جاتا ہے بغیر آپریٹر کی ترجیحی قواعد کو مدنظر رکھتے ہوئے۔\n"
-"مثال: 3 + 5 * 2 = 16 (حساب بائیں سے دائیں کیا جاتا ہے)۔\n"
+"بائیں سے دائیں موڈ :\n"
+"حسابات بائیں سے دائیں کیے جاتے ہیں، آپریٹر کی ترجیحات کو نظرانداز کرتے ہوئے.\n"
+"مثال : 3 + 5 * 2 = 16 (حسابات بائیں سے دائیں کیے جاتے ہیں).\n"
 "\n"
-"سائنسی موڈ:\n"
+"سائنسی موڈ :\n"
 "\n"
-"سائن اور کوسائن:\n"
-"سائن اور کوسائن کی قیمتوں کا حساب لگاتا ہے۔\n"
-"ان پٹ ڈگریوں میں ہونا چاہیے۔ کیلکولیٹر خود بخود اس قیمت کو حساب کے لیے ریڈیئنز میں تبدیل کر دے گا۔\n"
+"سین، کوس اور معکوس مثلثی افعال (سین^-1، کوس^-1، ٹین^-1) :\n"
+"سائن، کوسائن، معکوس سائن (asin)، معکوس کوسائن (acos)، ٹینجنٹ (tan)، اور معکوس ٹینجنٹ (atan) کی قیمتیں حساب کرتے ہیں.\n"
+"یہ افعال درجات یا ریڈیئن میں ان پٹ قبول کر سکتے ہیں۔ ان کے درمیان سوئچ کرنے کے لیے "
+"'ریڈیئن استعمال کریں' چیک باکس کا استعمال کریں۔ ڈیفالٹ درجات ہیں.\n"
 "\n"
-"لاگارتھمز:\n"
-"لاگارتھم کے دو اقسام دستیاب ہیں:\n"
-"- قدرتی لاگارتھم (LN): قدرتی بیس (e) کے ساتھ لاگارتھم۔\n"
-"- بیس 10 لاگارتھم: بیس 10 کے ساتھ لاگارتھم۔\n"
-"منفی نمبروں کی حمایت نہیں کی جاتی کیونکہ لاگارتھم صرف مثبت نمبروں کے لیے متعین ہوتا ہے۔\n"
+"لوگرتھمز :\n"
+"دو قسم کے لوگرتھمز دستیاب ہیں :\n"
+"- قدرتی لوگرتھم (LN) : قدرتی بنیاد (e) کے ساتھ لوگرتھم.\n"
+"- بیس 10 لوگرتھم : بیس 10 کے ساتھ لوگرتھم.\n"
+"منفی نمبر سپورٹ نہیں کیے جاتے کیونکہ لوگرتھم صرف مثبت نمبروں کے لیے متعین ہیں.\n"
 "\n"
-"مربع جڑ:\n"
-"کسی نمبر کی مربع جڑ کا حساب لگاتا ہے۔\n"
-"منفی نمبروں کی حمایت نہیں کی جاتی کیونکہ مربع جڑ صرف غیر منفی نمبروں کے لیے متعین ہوتی ہے۔\n"
+"مربع جڑ :\n"
+"ایک نمبر کی مربع جڑ حساب کرتا ہے.\n"
+"منفی نمبروں کو سپورٹ نہیں کیا جاتا کیونکہ مربع جڑ صرف غیر منفی نمبروں کے لیے متعین ہے.\n"
 "\n"
-"نتیجے کا فارمیٹ:\n"
-"- اعلیٰ درستگی: نتیجہ مکمل تفصیل کے ساتھ دکھاتا ہے۔\n"
-"- گول شدہ (2 اعشاریہ مقامات): نتیجہ سادہ فارم میں دکھاتا ہے، 2 اعشاریہ مقامات پر گول کیا جاتا ہے تاکہ پڑھنے میں آسان ہو۔"
-
-msgid "OK"
-msgstr "ٹھیک ہے"
+"نتیجہ کا فارمیٹ :\n"
+"- اعلی درستگی : نتیجہ کو مکمل تفصیل کے ساتھ دکھاتا ہے.\n"
+"- گول (2 اعشاریہ مقامات) : نتیجہ کو ایک سادہ شکل میں دکھاتا ہے، 2 اعشاریہ مقامات تک گول کیا گیا ہوتا ہے تاکہ پڑھنے میں آسانی ہو."

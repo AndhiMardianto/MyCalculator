@@ -29,7 +29,7 @@ msgid "Standar"
 msgstr "Standar"
 
 msgid "Left to Right"
-msgstr "Kiri ke Kanan"
+msgstr "Left to right"
 
 msgid "Conversion"
 msgstr "Konversi"
@@ -53,6 +53,196 @@ msgid "Error! Check Input"
 msgstr "Kesalahan! Periksa Input"
 
 # conversion.py
+msgid "Seconds to Minutes"
+msgstr "Detik ke Menit"
+
+msgid "Minutes to Hours"
+msgstr "Menit ke Jam"
+
+msgid "Hours to Days"
+msgstr "Jam ke Hari"
+
+msgid "Days to Weeks"
+msgstr "Hari ke Minggu"
+
+msgid "Weeks to Months"
+msgstr "Minggu ke Bulan"
+
+msgid "Months to Years"
+msgstr "Bulan ke Tahun"
+
+msgid "Time"
+msgstr "Waktu"
+
+msgid "Select a Time conversion:"
+msgstr "Pilih konversi waktu:"
+
+msgid "Time Conversion Options"
+msgstr "Opsi Konversi Waktu"
+
+
+msgid "Masehi to Hijri"
+msgstr "Masehi ke Hijriah"
+
+msgid "Hijri to Masehi"
+msgstr "Hijriah ke Masehi"
+
+msgid "Input in Masehi. Example 01012025"
+msgstr "Masukkan dalam Masehi. Contoh 01012025"
+
+msgid "Input in Hijri. Example 01012025"
+msgstr "Masukkan dalam Hijriah. Contoh 01012025"
+
+msgid "Input in Seconds:"
+msgstr "Masukkan dalam Detik:"
+
+msgid "Input in Minutes:"
+msgstr "Masukkan dalam Menit:"
+
+msgid "Input in Hours:"
+msgstr "Masukkan dalam Jam:"
+
+msgid "Input in Days:"
+msgstr "Masukkan dalam Hari:"
+
+msgid "Input in Weeks:"
+msgstr "Masukkan dalam Minggu:"
+
+msgid "Input in Months:"
+msgstr "Masukkan dalam Bulan:"
+
+msgid "Kilometers per Hour to Miles per Hour"
+msgstr "Kilometer per Jam ke Mil per Jam"
+
+msgid "Miles per Hour to Kilometers per Hour"
+msgstr "Mil per Jam ke Kilometer per Jam"
+
+msgid "Meters per Second to Kilometers per Hour"
+msgstr "Meter per Detik ke Kilometer per Jam"
+
+msgid "Kilometers per Hour to Meters per Second"
+msgstr "Kilometer per Jam ke Meter per Detik"
+
+msgid "Meters per Second to Miles per Hour"
+msgstr "Meter per Detik ke Mil per Jam"
+
+msgid "Miles per Hour to Meters per Second"
+msgstr "Mil per Jam ke Meter per Detik"
+
+msgid "Knots to Kilometers per Hour"
+msgstr "Knot ke Kilometer per Jam"
+
+msgid "Kilometers per Hour to Knots"
+msgstr "Kilometer per Jam ke Knot"
+
+msgid "Knots to Miles per Hour"
+msgstr "Knot ke Mil per Jam"
+
+msgid "Miles per Hour to Knots"
+msgstr "Mil per Jam ke Knot"
+
+msgid "Feet per Second to Kilometers per Hour"
+msgstr "Kaki per Detik ke Kilometer per Jam"
+
+msgid "Kilometers per Hour to Feet per Second"
+msgstr "Kilometer per Jam ke Kaki per Detik"
+
+msgid "Kilometers to Miles"
+msgstr "Kilometer ke Mil"
+
+msgid "Miles to Kilometers"
+msgstr "Mil ke Kilometer"
+
+msgid "Meters to Feet"
+msgstr "Meter ke Kaki"
+
+msgid "Feet to Meters"
+msgstr "Kaki ke Meter"
+
+msgid "Centimeters to Inches"
+msgstr "Sentimeter ke Inci"
+
+msgid "Inches to Centimeters"
+msgstr "Inci ke Sentimeter"
+
+msgid "Kilograms to Pounds"
+msgstr "Kilogram ke Pon"
+
+msgid "Pounds to Kilograms"
+msgstr "Pon ke Kilogram"
+
+msgid "Tons to Kilograms"
+msgstr "Ton ke Kilogram"
+
+msgid "Kilograms to Tons"
+msgstr "Kilogram ke Ton"
+
+msgid "Ounces to Grams"
+msgstr "Ons ke Gram"
+
+msgid "Grams to Ounces"
+msgstr "Gram ke Ons"
+
+msgid "Liter to Gallon (US)"
+msgstr "Liter ke Galon (US)"
+
+msgid "Gallon (US) to Liter"
+msgstr "Galon (US) ke Liter"
+
+msgid "Liter to Milliliter"
+msgstr "Liter ke Mililiter"
+
+msgid "Milliliter to Liter"
+msgstr "Mililiter ke Liter"
+
+msgid "Cubic Meter to Liter"
+msgstr "Meter Kubik ke Liter"
+
+msgid "Liter to Cubic Meter"
+msgstr "Liter ke Meter Kubik"
+
+msgid "Gallon (UK) to Liter"
+msgstr "Galon (UK) ke Liter"
+
+msgid "Liter to Gallon (UK)"
+msgstr "Liter ke Galon (UK)"
+
+msgid "Cubic Inch to Liter"
+msgstr "Inci Kubik ke Liter"
+
+msgid "Liter to Cubic Inch"
+msgstr "Liter ke Inci Kubik"
+
+msgid "Milliliter to Cubic Centimeter"
+msgstr "Mililiter ke Sentimeter Kubik"
+
+msgid "Cubic Centimeter to Milliliter"
+msgstr "Sentimeter Kubik ke Mililiter"
+
+msgid "Barrel (US) to Liter"
+msgstr "Barrel (US) ke Liter"
+
+msgid "Liter to Barrel (US)"
+msgstr "Liter ke Barrel (US)"
+
+msgid "Celsius to Fahrenheit"
+msgstr "Celsius ke Fahrenheit"
+
+msgid "Fahrenheit to Celsius"
+msgstr "Fahrenheit ke Celsius"
+
+msgid "Celsius to Kelvin"
+msgstr "Celsius ke Kelvin"
+
+msgid "Kelvin to Celsius"
+msgstr "Kelvin ke Celsius"
+
+msgid "Fahrenheit to Kelvin"
+msgstr "Fahrenheit ke Kelvin"
+
+msgid "Kelvin to Fahrenheit"
+msgstr "Kelvin ke Fahrenheit"
+
 msgid "Please Select Conversion Mode"
 msgstr "Silakan Pilih Mode Konversi"
 
@@ -192,6 +382,97 @@ msgid "Invalid input, only numbers allowed"
 msgstr "Input tidak valid, hanya angka yang diizinkan"
 
 # scientific.py
+msgid "Use Radians"
+msgstr "Gunakan Radian"
+
+msgid "Asin"
+msgstr "Asin"
+
+msgid "Acos"
+msgstr "Acos"
+
+msgid "Tan"
+msgstr "Tan"
+
+msgid "Atan"
+msgstr "Atan"
+
+msgid "Sqrt"
+msgstr "Akar Kuadrat"
+
+msgid "Radian"
+msgstr "Radian"
+
+msgid "Degree"
+msgstr "Derajat"
+
+msgid "Natural Base"
+msgstr "Basis Natural"
+
+msgid "Base 10"
+msgstr "Basis 10"
+
+msgid "Radians"
+msgstr "Radian"
+
+msgid "Degrees"
+msgstr "Derajat"
+
+msgid "Calculation mode set to Sin (Input in "
+msgstr "Mode perhitungan diatur ke Sin (Masukan dalam "
+
+msgid "Calculation mode set to Cos (Input in "
+msgstr "Mode perhitungan diatur ke Cos (Masukan dalam "
+
+msgid "Input in Range [-1, 1] ({mode}):"
+msgstr "Masukan dalam Rentang [-1, 1] ({mode}):"
+
+msgid "Calculation mode set to Asin"
+msgstr "Mode perhitungan diatur ke Asin"
+
+msgid "Calculation mode set to Acos"
+msgstr "Mode perhitungan diatur ke Acos"
+
+msgid "Input in {mode}:"
+msgstr "Masukan dalam {mode}:"
+
+msgid "Calculation mode set to Tan"
+msgstr "Mode perhitungan diatur ke Tan"
+
+msgid "Input in Any Real Number ({mode}):"
+msgstr "Masukan dalam Bilangan Real Apa Pun ({mode}):"
+
+msgid "Calculation mode set to Atan"
+msgstr "Mode perhitungan diatur ke Atan"
+
+msgid "Arcsine is only defined for values between -1 and 1"
+msgstr "Arkus sinus hanya didefinisikan untuk nilai antara -1 dan 1"
+
+msgid "Arccosine is only defined for values between -1 and 1"
+msgstr "Arkus kosinus hanya didefinisikan untuk nilai antara -1 dan 1"
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "Logaritma hanya didefinisikan untuk bilangan positif"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "Akar kuadrat hanya didefinisikan untuk bilangan tidak negatif"
+
+msgid ""
+"High Precision = {result}\n"
+"Rounded = {rounded_result}"
+msgstr ""
+"Presisi Tinggi = {result}\n"
+"Dibulatkan = {rounded_result}"
+
+msgid "Invalid input. Please check your expression"
+msgstr "Masukan tidak valid. Silakan periksa ekspresi Anda"
+
+msgid "An error occurred: "
+msgstr "Terjadi kesalahan: "
+
+msgid "Invalid input, only valid numbers are allowed"
+msgstr "Masukan tidak valid, hanya angka yang diperbolehkan"
+
 msgid "Please Select Scientific Mode "
 msgstr "Silakan Pilih Mode Ilmiah"
 
@@ -210,8 +491,8 @@ msgstr "Cos"
 msgid "Log"
 msgstr "Log"
 
-msgid "Sqrt"
-msgstr "Akar Kuadrat"
+#msgid "Sqrt"
+#msgstr "Akar Kuadrat"
 
 msgid "History"
 msgstr "Riwayat"
@@ -255,24 +536,24 @@ msgstr "Tidak ada hasil untuk disalin"
 msgid "Please select a calculation mode first"
 msgstr "Silakan pilih mode perhitungan terlebih dahulu"
 
-msgid "Logarithm is only defined for positive numbers"
-msgstr "Logaritma hanya didefinisikan untuk angka positif"
+#msgid "Logarithm is only defined for positive numbers"
+#msgstr "Logaritma hanya didefinisikan untuk angka positif"
 
-msgid "Square root is only defined for non-negative numbers"
-msgstr "Akar kuadrat hanya didefinisikan untuk angka non-negatif"
+#msgid "Square root is only defined for non-negative numbers"
+#msgstr "Akar kuadrat hanya didefinisikan untuk angka non-negatif"
 
-msgid ""
-"High Precision = {result}\n"
-"Rounded = {rounded_result}"
-msgstr ""
-"Presisi Tinggi = {result}\n"
-"Dibulatkan = {rounded_result}"
+#msgid ""
+#"High Precision = {result}\n"
+#"Rounded = {rounded_result}"
+#msgstr ""
+#"Presisi Tinggi = {result}\n"
+#"Dibulatkan = {rounded_result}"
 
-msgid "Invalid input. Please check your expression"
-msgstr "Input tidak valid. Silakan periksa ekspresi Anda"
+#msgid "Invalid input. Please check your expression"
+#msgstr "Input tidak valid. Silakan periksa ekspresi Anda"
 
-msgid "An error occurred: "
-msgstr "Terjadi kesalahan: "
+#msgid "An error occurred: "
+#msgstr "Terjadi kesalahan: "
 
 #msgid "Invalid input, only numbers allowed"
 #msgstr "Input tidak valid, hanya angka yang diizinkan"
@@ -283,60 +564,74 @@ msgstr "Bantuan Mode Perhitungan"
 
 msgid ""
 "Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Calculations follow the standard mathematical operator precedence rules "
+"(PEMDAS).\n"
 "Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
 "\n"
 "Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator precedence.\n"
+"Calculations are performed from left to right without considering operator "
+"precedence.\n"
 "Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
 "\n"
 "Scientific Mode:\n"
 "\n"
-"Sin and Cos:\n"
-"Calculates the values of sine and cosine.\n"
-"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"Sin, Cos, and Inverse Trigonometric Functions (Sin^-1, Cos^-1, Tan^-1):\n"
+"Calculates the values of sine, cosine, inverse sine (asin), inverse cosine "
+"(acos), tangent (tan), and inverse tangent (atan).\n"
+"These functions can accept input in degrees or radians. To switch between "
+"them, use the checkbox for 'Use Radians'. The default is degrees.\n"
 "\n"
 "Logarithms:\n"
 "Two types of logarithms are available:\n"
 "- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
 "- Base 10 Logarithm: Logarithm with base 10.\n"
-"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"Negative numbers are not supported as logarithms are only defined for "
+"positive numbers.\n"
 "\n"
 "Square Root:\n"
 "Calculates the square root of a number.\n"
-"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"Negative numbers are not supported as the square root is only defined for "
+"non-negative numbers.\n"
 "\n"
 "Result Format:\n"
 "- High Precision: Displays the result with full detail.\n"
-"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded "
+"to 2 decimal places for easier reading."
 msgstr ""
 "Mode Standar:\n"
-"Perhitungan mengikuti aturan prioritas operator matematika standar (PEMDAS).\n"
-"Contoh: 3 + 5 * 2 = 13 (perkalian dilakukan lebih dahulu).\n"
+"Perhitungan mengikuti aturan standar prioritas operator matematika "
+"(PEMDAS).\n"
+"Contoh: 3 + 5 * 2 = 13 (perkalian dilakukan terlebih dahulu).\n"
 "\n"
 "Mode Kiri ke Kanan:\n"
-"Perhitungan dilakukan dari kiri ke kanan tanpa mempertimbangkan prioritas operator.\n"
+"Perhitungan dilakukan dari kiri ke kanan tanpa mempertimbangkan prioritas "
+"operator.\n"
 "Contoh: 3 + 5 * 2 = 16 (perhitungan dilakukan dari kiri ke kanan).\n"
 "\n"
 "Mode Ilmiah:\n"
 "\n"
-"Sin dan Cos:\n"
-"Menghitung nilai sinus dan cosinus.\n"
-"Input harus dalam derajat. Kalkulator akan secara otomatis mengonversi nilai ke radian untuk perhitungan.\n"
+"Sin, Cos, dan Fungsi Trigonometri Invers (Sin^-1, Cos^-1, Tan^-1):\n"
+"Menghitung nilai sinus, kosinus, sinus invers (asin), kosinus invers "
+"(acos), tangen (tan), dan tangen invers (atan).\n"
+"Fungsi ini dapat menerima masukan dalam derajat atau radian. Untuk beralih "
+"di antara keduanya, gunakan kotak centang 'Gunakan Radian'. Defaultnya adalah derajat.\n"
 "\n"
 "Logaritma:\n"
-"Terdapat dua jenis logaritma:\n"
+"Tersedia dua jenis logaritma:\n"
 "- Logaritma Natural (LN): Logaritma dengan basis natural (e).\n"
 "- Logaritma Basis 10: Logaritma dengan basis 10.\n"
-"Angka negatif tidak didukung karena logaritma hanya didefinisikan untuk angka positif.\n"
+"Bilangan negatif tidak didukung karena logaritma hanya didefinisikan untuk "
+"bilangan positif.\n"
 "\n"
 "Akar Kuadrat:\n"
-"Menghitung akar kuadrat dari sebuah angka.\n"
-"Angka negatif tidak didukung karena akar kuadrat hanya didefinisikan untuk angka non-negatif.\n"
+"Menghitung akar kuadrat dari suatu bilangan.\n"
+"Bilangan negatif tidak didukung karena akar kuadrat hanya didefinisikan untuk "
+"bilangan tidak negatif.\n"
 "\n"
 "Format Hasil:\n"
 "- Presisi Tinggi: Menampilkan hasil dengan detail penuh.\n"
-"- Dibulatkan (2 Angka Desimal): Menampilkan hasil dalam format lebih sederhana, dibulatkan ke 2 angka desimal untuk memudahkan pembacaan."
+"- Dibulatkan (2 Desimal): Menampilkan hasil dalam bentuk lebih sederhana, "
+"dibulatkan hingga 2 angka desimal agar lebih mudah dibaca."
 
 msgid "OK"
 msgstr "OK"

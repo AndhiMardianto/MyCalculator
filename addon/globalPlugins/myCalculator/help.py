@@ -2,7 +2,6 @@ import wx
 import gui
 import addonHandler
 addonHandler.initTranslation()
-import gui 
 
 def show_calculator_help():
     """Menampilkan dialog penjelasan tentang mode Standard dan Left to Right dengan aksesibilitas pembaca layar."""
@@ -23,19 +22,19 @@ def show_calculator_help():
         "Left to Right Mode:\nCalculations are performed from left to right without considering operator precedence.\n"
         "Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n\n"        
         "Scientific Mode:\n\n"        
-        "Sin and Cos:\nCalculates the values of sine and cosine.\n"
-        "The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n\n"        
+        "Sin, Cos, and Inverse Trigonometric Functions (Sin^-1, Cos^-1, Tan^-1):\n"
+        "Calculates the values of sine, cosine, inverse sine (asin), inverse cosine (acos), tangent (tan), and inverse tangent (atan).\n"
+        "These functions can accept input in degrees or radians. To switch between them, use the checkbox for 'Use Radians'. The default is degrees.\n\n"
         "Logarithms:\nTwo types of logarithms are available:\n"
         "- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
         "- Base 10 Logarithm: Logarithm with base 10.\n"
-        "Negative numbers are not supported as logarithms are only defined for positive numbers.\n\n"        
+        "Negative numbers are not supported as logarithms are only defined for positive numbers.\n\n"
         "Square Root:\nCalculates the square root of a number.\n"
-        "Negative numbers are not supported as the square root is only defined for non-negative numbers.\n\n"        
+        "Negative numbers are not supported as the square root is only defined for non-negative numbers.\n\n"
         "Result Format:\n"
         "- High Precision: Displays the result with full detail.\n"
         "- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
     )
-
 
     # Gunakan TextCtrl agar pembaca layar dapat membacanya dan fokus dapat dialihkan ke sini
     explanation = wx.TextCtrl(panel, value=explanation_text, style=wx.TE_MULTILINE | wx.TE_READONLY, size=(380, 180))

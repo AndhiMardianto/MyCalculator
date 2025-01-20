@@ -61,6 +61,195 @@ msgid "Invalid calculation mode"
 msgstr "無効な計算モード"
 
 # conversion.py
+msgid "Time"
+msgstr "時間"
+
+msgid "Select a Time conversion:"
+msgstr "時間の変換を選択してください:"
+
+msgid "Time Conversion Options"
+msgstr "時間変換オプション"
+
+msgid "Masehi to Hijri"
+msgstr "西暦からヒジュラ暦"
+
+msgid "Hijri to Masehi"
+msgstr "ヒジュラ暦から西暦"
+
+msgid "Input in Masehi. Example 01012025"
+msgstr "西暦で入力してください。例: 01012025"
+
+msgid "Input in Hijri. Example 01012025"
+msgstr "ヒジュラ暦で入力してください。例: 01012025"
+
+msgid "Seconds to Minutes"
+msgstr "秒から分"
+
+msgid "Minutes to Hours"
+msgstr "分から時間"
+
+msgid "Hours to Days"
+msgstr "時間から日"
+
+msgid "Days to Weeks"
+msgstr "日から週"
+
+msgid "Weeks to Months"
+msgstr "週から月"
+
+msgid "Months to Years"
+msgstr "月から年"
+
+msgid "Input in Seconds:"
+msgstr "秒単位で入力してください:"
+
+msgid "Input in Minutes:"
+msgstr "分単位で入力してください:"
+
+msgid "Input in Hours:"
+msgstr "時間単位で入力してください:"
+
+msgid "Input in Days:"
+msgstr "日単位で入力してください:"
+
+msgid "Input in Weeks:"
+msgstr "週単位で入力してください:"
+
+msgid "Input in Months:"
+msgstr "月単位で入力してください:"
+
+msgid "Kilometers per Hour to Miles per Hour"
+msgstr "時速キロメートルから時速マイル"
+
+msgid "Miles per Hour to Kilometers per Hour"
+msgstr "時速マイルから時速キロメートル"
+
+msgid "Meters per Second to Kilometers per Hour"
+msgstr "秒速メートルから時速キロメートル"
+
+msgid "Kilometers per Hour to Meters per Second"
+msgstr "時速キロメートルから秒速メートル"
+
+msgid "Meters per Second to Miles per Hour"
+msgstr "秒速メートルから時速マイル"
+
+msgid "Miles per Hour to Meters per Second"
+msgstr "時速マイルから秒速メートル"
+
+msgid "Knots to Kilometers per Hour"
+msgstr "ノットから時速キロメートル"
+
+msgid "Kilometers per Hour to Knots"
+msgstr "時速キロメートルからノット"
+
+msgid "Knots to Miles per Hour"
+msgstr "ノットから時速マイル"
+
+msgid "Miles per Hour to Knots"
+msgstr "時速マイルからノット"
+
+msgid "Feet per Second to Kilometers per Hour"
+msgstr "秒速フィートから時速キロメートル"
+
+msgid "Kilometers per Hour to Feet per Second"
+msgstr "時速キロメートルから秒速フィート"
+
+msgid "Kilometers to Miles"
+msgstr "キロメートルからマイル"
+
+msgid "Miles to Kilometers"
+msgstr "マイルからキロメートル"
+
+msgid "Meters to Feet"
+msgstr "メートルからフィート"
+
+msgid "Feet to Meters"
+msgstr "フィートからメートル"
+
+msgid "Centimeters to Inches"
+msgstr "センチメートルからインチ"
+
+msgid "Inches to Centimeters"
+msgstr "インチからセンチメートル"
+
+msgid "Kilograms to Pounds"
+msgstr "キログラムからポンド"
+
+msgid "Pounds to Kilograms"
+msgstr "ポンドからキログラム"
+
+msgid "Tons to Kilograms"
+msgstr "トンからキログラム"
+
+msgid "Kilograms to Tons"
+msgstr "キログラムからトン"
+
+msgid "Ounces to Grams"
+msgstr "オンスからグラム"
+
+msgid "Grams to Ounces"
+msgstr "グラムからオンス"
+
+msgid "Liter to Gallon (US)"
+msgstr "リットルからガロン (US)"
+
+msgid "Gallon (US) to Liter"
+msgstr "ガロン (US) からリットル"
+
+msgid "Liter to Milliliter"
+msgstr "リットルからミリリットル"
+
+msgid "Milliliter to Liter"
+msgstr "ミリリットルからリットル"
+
+msgid "Cubic Meter to Liter"
+msgstr "立方メートルからリットル"
+
+msgid "Liter to Cubic Meter"
+msgstr "リットルから立方メートル"
+
+msgid "Gallon (UK) to Liter"
+msgstr "ガロン (UK) からリットル"
+
+msgid "Liter to Gallon (UK)"
+msgstr "リットルからガロン (UK)"
+
+msgid "Cubic Inch to Liter"
+msgstr "立方インチからリットル"
+
+msgid "Liter to Cubic Inch"
+msgstr "リットルから立方インチ"
+
+msgid "Milliliter to Cubic Centimeter"
+msgstr "ミリリットルから立方センチメートル"
+
+msgid "Cubic Centimeter to Milliliter"
+msgstr "立方センチメートルからミリリットル"
+
+msgid "Barrel (US) to Liter"
+msgstr "バレル (US) からリットル"
+
+msgid "Liter to Barrel (US)"
+msgstr "リットルからバレル (US)"
+
+msgid "Celsius to Fahrenheit"
+msgstr "摂氏から華氏"
+
+msgid "Fahrenheit to Celsius"
+msgstr "華氏から摂氏"
+
+msgid "Celsius to Kelvin"
+msgstr "摂氏からケルビン"
+
+msgid "Kelvin to Celsius"
+msgstr "ケルビンから摂氏"
+
+msgid "Fahrenheit to Kelvin"
+msgstr "華氏からケルビン"
+
+msgid "Kelvin to Fahrenheit"
+msgstr "ケルビンから華氏"
+
 msgid "Please Select Conversion Mode"
 msgstr "変換モードを選択してください"
 
@@ -206,6 +395,81 @@ msgid "Invalid input, only numbers allowed"
 msgstr "無効な入力です。数字のみ使用可能です"
 
 # scientific.py
+msgid "Use Radians"
+msgstr "ラジアンを使用"
+
+msgid "Asin"
+msgstr "アークサイン"
+
+msgid "Acos"
+msgstr "アークコサイン"
+
+msgid "Tan"
+msgstr "タンジェント"
+
+msgid "Atan"
+msgstr "アークタンジェント"
+
+msgid "Radian"
+msgstr "ラジアン"
+
+msgid "Degree"
+msgstr "度"
+
+msgid "Natural Base"
+msgstr "自然対数の底"
+
+msgid "Base 10"
+msgstr "底 10"
+
+msgid "Radians"
+msgstr "ラジアン"
+
+msgid "Degrees"
+msgstr "度"
+
+msgid "Calculation mode set to Sin (Input in "
+msgstr "計算モードがサインに設定されました (入力: "
+
+msgid "Calculation mode set to Cos (Input in "
+msgstr "計算モードがコサインに設定されました (入力: "
+
+msgid "Input in Range [-1, 1] ({mode}):"
+msgstr "範囲 [-1, 1] で入力してください ({mode}):"
+
+msgid "Calculation mode set to Asin"
+msgstr "計算モードがアークサインに設定されました"
+
+msgid "Calculation mode set to Acos"
+msgstr "計算モードがアークコサインに設定されました"
+
+msgid "Input in {mode}:"
+msgstr "{mode} で入力してください:"
+
+msgid "Calculation mode set to Tan"
+msgstr "計算モードがタンジェントに設定されました"
+
+msgid "Input in Any Real Number ({mode}):"
+msgstr "任意の実数を入力してください ({mode}):"
+
+msgid "Calculation mode set to Atan"
+msgstr "計算モードがアークタンジェントに設定されました"
+
+msgid "Arcsine is only defined for values between -1 and 1"
+msgstr "アークサインは -1 から 1 の範囲の値でのみ定義されます"
+
+msgid "Arccosine is only defined for values between -1 and 1"
+msgstr "アークコサインは -1 から 1 の範囲の値でのみ定義されます"
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "対数は正の数でのみ定義されます"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "平方根は 0 以上の数でのみ定義されます"
+
+msgid "Invalid input, only valid numbers are allowed"
+msgstr "無効な入力です。有効な数値のみ使用できます"
+
 msgid "Please Select Scientific Mode "
 msgstr "科学モードを選択してください"
 
@@ -269,11 +533,11 @@ msgstr "コピーする結果がありません"
 msgid "Please select a calculation mode first"
 msgstr "計算モードを最初に選択してください"
 
-msgid "Logarithm is only defined for positive numbers"
-msgstr "対数は正の数に対してのみ定義されています"
+#msgid "Logarithm is only defined for positive numbers"
+#msgstr "対数は正の数に対してのみ定義されています"
 
-msgid "Square root is only defined for non-negative numbers"
-msgstr "平方根は非負の数に対してのみ定義されています"
+#msgid "Square root is only defined for non-negative numbers"
+#msgstr "平方根は非負の数に対してのみ定義されています"
 
 msgid ""
 "High Precision = {result}\n"
@@ -297,60 +561,65 @@ msgstr "計算モードのヘルプ"
 
 msgid ""
 "Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Calculations follow the standard mathematical operator precedence rules "
+"(PEMDAS).\n"
 "Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
 "\n"
 "Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator precedence.\n"
+"Calculations are performed from left to right without considering operator "
+"precedence.\n"
 "Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
 "\n"
 "Scientific Mode:\n"
 "\n"
-"Sin and Cos:\n"
-"Calculates the values of sine and cosine.\n"
-"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"Sin, Cos, and Inverse Trigonometric Functions (Sin^-1, Cos^-1, Tan^-1):\n"
+"Calculates the values of sine, cosine, inverse sine (asin), inverse cosine "
+"(acos), tangent (tan), and inverse tangent (atan).\n"
+"These functions can accept input in degrees or radians. To switch between "
+"them, use the checkbox for 'Use Radians'. The default is degrees.\n"
 "\n"
 "Logarithms:\n"
 "Two types of logarithms are available:\n"
 "- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
 "- Base 10 Logarithm: Logarithm with base 10.\n"
-"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"Negative numbers are not supported as logarithms are only defined for "
+"positive numbers.\n"
 "\n"
 "Square Root:\n"
 "Calculates the square root of a number.\n"
-"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"Negative numbers are not supported as the square root is only defined for "
+"non-negative numbers.\n"
 "\n"
 "Result Format:\n"
 "- High Precision: Displays the result with full detail.\n"
-"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded "
+"to 2 decimal places for easier reading."
 msgstr ""
 "標準モード:\n"
-"計算は標準的な数学的演算子の優先順位ルール（PEMDAS）に従います。\n"
-"例：3 + 5 * 2 = 13（乗算が最初に行われます）。\n"
+"計算は標準的な数学の演算子の優先順位ルール (PEMDAS) に従います。\n"
+"例: 3 + 5 * 2 = 13 (掛け算が先に実行されます)。\n"
 "\n"
 "左から右モード:\n"
-"計算は演算子の優先順位を無視して、左から右に行われます。\n"
-"例：3 + 5 * 2 = 16（計算は左から右に行われます）。\n"
+"計算は左から右へと順番に実行され、演算子の優先順位は考慮されません。\n"
+"例: 3 + 5 * 2 = 16 (計算は単純に左から右へ進みます)。\n"
 "\n"
-"科学モード:\n"
+"科学計算モード:\n"
 "\n"
-"サインとコサイン:\n"
-"サインとコサインの値を計算します。\n"
-"入力は度数法である必要があります。計算のために自動的にラジアンに変換されます。\n"
+"三角関数 (Sin, Cos) および逆三角関数 (Sin^-1, Cos^-1, Tan^-1):\n"
+"正弦 (sin)、余弦 (cos)、逆正弦 (asin)、逆余弦 (acos)、正接 (tan)、逆正接 (atan) の値を計算します。\n"
+"これらの関数は角度の単位として度 (Degrees) またはラジアン (Radians) を使用できます。\n"
+"単位を切り替えるには「ラジアンを使用」のチェックボックスを変更してください。デフォルトは度です。\n"
 "\n"
 "対数:\n"
-"二種類の対数があります。\n"
-"- 自然対数（LN）：自然基数（e）による対数。\n"
-"- 10進対数：基数10による対数。\n"
-"負の数はサポートされていません。対数は正の数に対してのみ定義されています。\n"
+"次の2種類の対数が利用可能です:\n"
+"- 自然対数 (LN): 底 (e) の対数。\n"
+"- 底10の対数: 底 (10) の対数。\n"
+"対数は正の数に対してのみ定義されるため、負の数には対応していません。\n"
 "\n"
 "平方根:\n"
-"数の平方根を計算します。\n"
-"負の数はサポートされていません。平方根は非負の数に対してのみ定義されています。\n"
+"数値の平方根を計算します。\n"
+"平方根は0以上の数に対してのみ定義されるため、負の数には対応していません。\n"
 "\n"
-"結果の形式:\n"
-"- 高精度: 結果を完全な詳細で表示します。\n"
-"- 丸めた（小数点以下2桁）: 結果を簡略化し、小数点以下2桁で表示します。"
-
-msgid "OK"
-msgstr "OK"
+"結果の表示形式:\n"
+"- 高精度: 結果を詳細な数値で表示。\n"
+"- 四捨五入 (小数点以下2桁): 結果を簡潔に表示し、小数点以下2桁で四捨五入します。"

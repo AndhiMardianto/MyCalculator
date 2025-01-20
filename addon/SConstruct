@@ -13,6 +13,13 @@ AddonFiles = [
     "globalPlugins/myCalculator/help.py",
     "globalPlugins/myCalculator/conversion.py",
     "globalPlugins/myCalculator/scientific.py",
+    "globalPlugins/myCalculator/hijri_converter/__init__.py",
+    "globalPlugins/myCalculator/hijri_converter/convert.py",
+    "globalPlugins/myCalculator/hijri_converter/helpers.py",
+    "globalPlugins/myCalculator/hijri_converter/locales.py",
+    "globalPlugins/myCalculator/hijri_converter/py.typed",
+    "globalPlugins/myCalculator/hijri_converter/ummalqura.py",
+
     "doc/en/readme.html",
     "doc/en/readme.md",
     "doc/it/readme.md",

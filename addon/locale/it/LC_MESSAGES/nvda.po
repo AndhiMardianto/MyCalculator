@@ -259,8 +259,8 @@ msgstr "Risultato copiato negli appunti"
 #msgid "Failed to access clipboard"
 #msgstr "Impossibile accedere agli appunti"
 
-m                   sgid "No result to copy"
-msgstr "Nessun risultato da copiare"
+                   #sgid "No result to copy"
+#msgstr "Nessun risultato da copiare"
 
 msgid "Please select a calculation mode first"
 msgstr "Seleziona prima una modalità di calcolo"
@@ -287,39 +287,342 @@ msgstr "Si è verificato un errore: "
 msgid "Invalid input, only numbers allowed"
 msgstr "Input non valido, sono consentiti solo numeri"
 
+# conversion 
+msgid "Time"
+msgstr "Tempo"
+
+msgid "Select a Time conversion:"
+msgstr "Seleziona una conversione di tempo:"
+
+msgid "Time Conversion Options"
+msgstr "Opzioni di Conversione del Tempo"
+
+msgid "Masehi to Hijri"
+msgstr "Masehi a Hijri"
+
+msgid "Hijri to Masehi"
+msgstr "Hijri a Masehi"
+
+msgid "Input in Masehi. Example 01012025"
+msgstr "Inserisci in Masehi. Esempio 01012025"
+
+msgid "Input in Hijri. Example 01012025"
+msgstr "Inserisci in Hijri. Esempio 01012025"
+
+msgid "Seconds to Minutes"
+msgstr "Secondi a Minuti"
+
+msgid "Minutes to Hours"
+msgstr "Minuti a Ore"
+
+msgid "Hours to Days"
+msgstr "Ore a Giorni"
+
+msgid "Days to Weeks"
+msgstr "Giorni a Settimane"
+
+msgid "Weeks to Months"
+msgstr "Settimane a Mesi"
+
+msgid "Months to Years"
+msgstr "Mesi a Anni"
+
+msgid "Input in Seconds:"
+msgstr "Inserisci in Secondi:"
+
+msgid "Input in Minutes:"
+msgstr "Inserisci in Minuti:"
+
+msgid "Input in Hours:"
+msgstr "Inserisci in Ore:"
+
+msgid "Input in Days:"
+msgstr "Inserisci in Giorni:"
+
+msgid "Input in Weeks:"
+msgstr "Inserisci in Settimane:"
+
+msgid "Input in Months:"
+msgstr "Inserisci in Mesi:"
+
+msgid "Kilometers per Hour to Miles per Hour"
+msgstr "Chilometri all'ora a Miglia all'ora"
+
+msgid "Miles per Hour to Kilometers per Hour"
+msgstr "Miglia all'ora a Chilometri all'ora"
+
+msgid "Meters per Second to Kilometers per Hour"
+msgstr "Metri al secondo a Chilometri all'ora"
+
+msgid "Kilometers per Hour to Meters per Second"
+msgstr "Chilometri all'ora a Metri al secondo"
+
+msgid "Meters per Second to Miles per Hour"
+msgstr "Metri al secondo a Miglia all'ora"
+
+msgid "Miles per Hour to Meters per Second"
+msgstr "Miglia all'ora a Metri al secondo"
+
+msgid "Knots to Kilometers per Hour"
+msgstr "Nodi a Chilometri all'ora"
+
+msgid "Kilometers per Hour to Knots"
+msgstr "Chilometri all'ora a Nodi"
+
+msgid "Knots to Miles per Hour"
+msgstr "Nodi a Miglia all'ora"
+
+msgid "Miles per Hour to Knots"
+msgstr "Miglia all'ora a Nodi"
+
+msgid "Feet per Second to Kilometers per Hour"
+msgstr "Piedi al secondo a Chilometri all'ora"
+
+msgid "Kilometers per Hour to Feet per Second"
+msgstr "Chilometri all'ora a Piedi al secondo"
+
+msgid "Kilometers to Miles"
+msgstr "Chilometri a Miglia"
+
+msgid "Miles to Kilometers"
+msgstr "Miglia a Chilometri"
+
+msgid "Meters to Feet"
+msgstr "Metri a Piedi"
+
+msgid "Feet to Meters"
+msgstr "Piedi a Metri"
+
+msgid "Centimeters to Inches"
+msgstr "Centimetri a Pollici"
+
+msgid "Inches to Centimeters"
+msgstr "Pollici a Centimetri"
+
+msgid "Kilograms to Pounds"
+msgstr "Chilogrammi a Libbre"
+
+msgid "Pounds to Kilograms"
+msgstr "Libbre a Chilogrammi"
+
+msgid "Tons to Kilograms"
+msgstr "Tonnellate a Chilogrammi"
+
+msgid "Kilograms to Tons"
+msgstr "Chilogrammi a Tonnellate"
+
+msgid "Ounces to Grams"
+msgstr "Once a Grammi"
+
+msgid "Grams to Ounces"
+msgstr "Grammi a Once"
+
+msgid "Liter to Gallon (US)"
+msgstr "Litro a Gallone (US)"
+
+msgid "Gallon (US) to Liter"
+msgstr "Gallone (US) a Litro"
+
+msgid "Liter to Milliliter"
+msgstr "Litro a Millilitro"
+
+msgid "Milliliter to Liter"
+msgstr "Millilitro a Litro"
+
+msgid "Cubic Meter to Liter"
+msgstr "Metro Cubico a Litro"
+
+msgid "Liter to Cubic Meter"
+msgstr "Litro a Metro Cubico"
+
+msgid "Gallon (UK) to Liter"
+msgstr "Gallone (UK) a Litro"
+
+msgid "Liter to Gallon (UK)"
+msgstr "Litro a Gallone (UK)"
+
+msgid "Cubic Inch to Liter"
+msgstr "Pollice Cubico a Litro"
+
+msgid "Liter to Cubic Inch"
+msgstr "Litro a Pollice Cubico"
+
+msgid "Milliliter to Cubic Centimeter"
+msgstr "Millilitro a Centimetro Cubico"
+
+msgid "Cubic Centimeter to Milliliter"
+msgstr "Centimetro Cubico a Millilitro"
+
+msgid "Barrel (US) to Liter"
+msgstr "Barile (US) a Litro"
+
+msgid "Liter to Barrel (US)"
+msgstr "Litro a Barile (US)"
+
+msgid "Celsius to Fahrenheit"
+msgstr "Celsius a Fahrenheit"
+
+msgid "Fahrenheit to Celsius"
+msgstr "Fahrenheit a Celsius"
+
+msgid "Celsius to Kelvin"
+msgstr "Celsius a Kelvin"
+
+msgid "Kelvin to Celsius"
+msgstr "Kelvin a Celsius"
+
+msgid "Fahrenheit to Kelvin"
+msgstr "Fahrenheit a Kelvin"
+
+msgid "Kelvin to Fahrenheit"
+msgstr "Kelvin a Fahrenheit"
+
+# scientific 
+msgid "Use Radians"
+msgstr "Usa Radiani"
+
+msgid "Asin"
+msgstr "Asin"
+
+msgid "Acos"
+msgstr "Acos"
+
+msgid "Tan"
+msgstr "Tan"
+
+msgid "Atan"
+msgstr "Atan"
+
+msgid "Radian"
+msgstr "Radiante"
+
+msgid "Degree"
+msgstr "Grado"
+
+msgid "Natural Base"
+msgstr "Base Naturale"
+
+msgid "Base 10"
+msgstr "Base 10"
+
+msgid "Radians"
+msgstr "Radianti"
+
+msgid "Degrees"
+msgstr "Gradi"
+
+msgid "Calculation mode set to Sin (Input in "
+msgstr "Modalità di calcolo impostata su Sin (Inserisci in "
+
+msgid "Calculation mode set to Cos (Input in "
+msgstr "Modalità di calcolo impostata su Cos (Inserisci in "
+
+msgid "Input in Range [-1, 1] ({mode}):"
+msgstr "Inserisci nell'intervallo [-1, 1] ({mode}):"
+
+msgid "Calculation mode set to Asin"
+msgstr "Modalità di calcolo impostata su Asin"
+
+msgid "Calculation mode set to Acos"
+msgstr "Modalità di calcolo impostata su Acos"
+
+msgid "Input in {mode}:"
+msgstr "Inserisci in {mode}:"
+
+msgid "Calculation mode set to Tan"
+msgstr "Modalità di calcolo impostata su Tan"
+
+msgid "Input in Any Real Number ({mode}):"
+msgstr "Inserisci un qualsiasi numero reale ({mode}):"
+
+msgid "Calculation mode set to Atan"
+msgstr "Modalità di calcolo impostata su Atan"
+
+msgid "Arcsine is only defined for values between -1 and 1"
+msgstr "L'arcoseno è definito solo per valori tra -1 e 1"
+
+msgid "Arccosine is only defined for values between -1 and 1"
+msgstr "L'arcocoseno è definito solo per valori tra -1 e 1"
+
+msgid "Invalid input, only valid numbers are allowed"
+msgstr "Input non valido, sono ammessi solo numeri validi"
+
+
 # help.py
 msgid "Calculation Mode Help"
-msgstr "Guida alla modalità di calcolo"
+msgstr "Aiuto sulla Modalità di Calcolo"
 
 msgid ""
 "Standard Mode:\n"
-"Le operazioni seguono le regole standard di precedenza degli operatori matematici (PEMDAS).\n"
-"Esempio: 3 + 5 * 2 = 13 (la moltiplicazione viene eseguita prima).\n"
+"Calculations follow the standard mathematical operator precedence rules "
+"(PEMDAS).\n"
+"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
 "\n"
 "Left to Right Mode:\n"
-"Le operazioni vengono eseguite da sinistra a destra senza considerare la precedenza degli operatori.\n"
-"Esempio: 3 + 5 * 2 = 16 (le operazioni vengono eseguite da sinistra a destra).\n"
+"Calculations are performed from left to right without considering operator "
+"precedence.\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
 "\n"
 "Scientific Mode:\n"
 "\n"
-"Sin and Cos:\n"
-"Calcola i valori del seno e del coseno.\n"
-"L'input deve essere in gradi. La calcolatrice convertirà automaticamente il valore in radianti per il calcolo.\n"
+"Sin, Cos, and Inverse Trigonometric Functions (Sin^-1, Cos^-1, Tan^-1):\n"
+"Calculates the values of sine, cosine, inverse sine (asin), inverse cosine "
+"(acos), tangent (tan), and inverse tangent (atan).\n"
+"These functions can accept input in degrees or radians. To switch between "
+"them, use the checkbox for 'Use Radians'. The default is degrees.\n"
 "\n"
 "Logarithms:\n"
-"Sono disponibili due tipi di logaritmi:\n"
-"- Logaritmo naturale (LN): Logaritmo con la base naturale (e).\n"
-"- Logaritmo in base 10: Logaritmo con base 10.\n"
-"I numeri negativi non sono supportati poiché i logaritmi sono definiti solo per numeri positivi.\n"
+"Two types of logarithms are available:\n"
+"- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
+"- Base 10 Logarithm: Logarithm with base 10.\n"
+"Negative numbers are not supported as logarithms are only defined for "
+"positive numbers.\n"
 "\n"
 "Square Root:\n"
-"Calcola la radice quadrata di un numero.\n"
-"I numeri negativi non sono supportati poiché la radice quadrata è definita solo per numeri non negativi.\n"
+"Calculates the square root of a number.\n"
+"Negative numbers are not supported as the square root is only defined for "
+"non-negative numbers.\n"
 "\n"
 "Result Format:\n"
-"- Alta precisione: Mostra il risultato con tutti i dettagli.\n"
-"- Arrotondato (2 decimali): Mostra il risultato in una forma più semplice, arrotondato a 2 decimali per una lettura più facile."
+"- High Precision: Displays the result with full detail.\n"
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded "
+"to 2 decimal places for easier reading."
 msgstr ""
+"Modalità Standard:\n"
+"I calcoli seguono le regole standard di precedenza degli operatori matematici "
+"(PEMDAS).\n"
+"Esempio: 3 + 5 * 2 = 13 (la moltiplicazione viene eseguita per prima).\n"
+"\n"
+"Modalità Sinistra a Destra:\n"
+"I calcoli vengono eseguiti da sinistra a destra senza considerare la precedenza "
+"degli operatori.\n"
+"Esempio: 3 + 5 * 2 = 16 (i calcoli vengono eseguiti da sinistra a destra).\n"
+"\n"
+"Modalità Scientifica:\n"
+"\n"
+"Sin, Cos e Funzioni Trigonometriche Inverse (Sin^-1, Cos^-1, Tan^-1):\n"
+"Calcola i valori di seno, coseno, seno inverso (asin), coseno inverso (acos), "
+"tangente (tan) e tangente inversa (atan).\n"
+"Queste funzioni accettano input in gradi o radianti. Per passare da uno all'altro, "
+"usa la casella di controllo 'Usa Radiani'. Il valore predefinito è in gradi.\n"
+"\n"
+"Logaritmi:\n"
+"Sono disponibili due tipi di logaritmi:\n"
+"- Logaritmo Naturale (LN): Logaritmo con la base naturale (e).\n"
+"- Logaritmo Base 10: Logaritmo con base 10.\n"
+"I numeri negativi non sono supportati poiché i logaritmi sono definiti solo per "
+"numeri positivi.\n"
+"\n"
+"Radice Quadrata:\n"
+"Calcola la radice quadrata di un numero.\n"
+"I numeri negativi non sono supportati poiché la radice quadrata è definita solo per "
+"numeri non negativi.\n"
+"\n"
+"Formato del Risultato:\n"
+"- Alta Precisione: Mostra il risultato con tutti i dettagli.\n"
+"- Arrotondato (2 Decimali): Mostra il risultato in una forma semplificata, arrotondato "
+"a 2 decimali per una lettura più facile."
+
 
 msgid "OK"
 msgstr "OK"

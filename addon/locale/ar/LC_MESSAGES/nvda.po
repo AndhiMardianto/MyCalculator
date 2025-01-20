@@ -74,6 +74,195 @@ msgid "Invalid calculation mode"
 msgstr "وضع الحساب غير صالح"
 
 # conversion.py
+msgid "Time"
+msgstr "الوقت"
+
+msgid "Select a Time conversion:"
+msgstr "اختر تحويل الوقت:"
+
+msgid "Time Conversion Options"
+msgstr "خيارات تحويل الوقت"
+
+msgid "Masehi to Hijri"
+msgstr "الميلادي إلى الهجري"
+
+msgid "Hijri to Masehi"
+msgstr "الهجري إلى الميلادي"
+
+msgid "Input in Masehi. Example 01012025"
+msgstr "الإدخال بالتاريخ الميلادي. مثال 01012025"
+
+msgid "Input in Hijri. Example 01012025"
+msgstr "الإدخال بالتاريخ الهجري. مثال 01012025"
+
+msgid "Seconds to Minutes"
+msgstr "الثواني إلى الدقائق"
+
+msgid "Minutes to Hours"
+msgstr "الدقائق إلى الساعات"
+
+msgid "Hours to Days"
+msgstr "الساعات إلى الأيام"
+
+msgid "Days to Weeks"
+msgstr "الأيام إلى الأسابيع"
+
+msgid "Weeks to Months"
+msgstr "الأسابيع إلى الأشهر"
+
+msgid "Months to Years"
+msgstr "الأشهر إلى السنوات"
+
+msgid "Input in Seconds:"
+msgstr "الإدخال بالثواني:"
+
+msgid "Input in Minutes:"
+msgstr "الإدخال بالدقائق:"
+
+msgid "Input in Hours:"
+msgstr "الإدخال بالساعات:"
+
+msgid "Input in Days:"
+msgstr "الإدخال بالأيام:"
+
+msgid "Input in Weeks:"
+msgstr "الإدخال بالأسابيع:"
+
+msgid "Input in Months:"
+msgstr "الإدخال بالأشهر:"
+
+msgid "Kilometers per Hour to Miles per Hour"
+msgstr "كيلومتر في الساعة إلى ميل في الساعة"
+
+msgid "Miles per Hour to Kilometers per Hour"
+msgstr "ميل في الساعة إلى كيلومتر في الساعة"
+
+msgid "Meters per Second to Kilometers per Hour"
+msgstr "متر في الثانية إلى كيلومتر في الساعة"
+
+msgid "Kilometers per Hour to Meters per Second"
+msgstr "كيلومتر في الساعة إلى متر في الثانية"
+
+msgid "Meters per Second to Miles per Hour"
+msgstr "متر في الثانية إلى ميل في الساعة"
+
+msgid "Miles per Hour to Meters per Second"
+msgstr "ميل في الساعة إلى متر في الثانية"
+
+msgid "Knots to Kilometers per Hour"
+msgstr "عقدة إلى كيلومتر في الساعة"
+
+msgid "Kilometers per Hour to Knots"
+msgstr "كيلومتر في الساعة إلى عقدة"
+
+msgid "Knots to Miles per Hour"
+msgstr "عقدة إلى ميل في الساعة"
+
+msgid "Miles per Hour to Knots"
+msgstr "ميل في الساعة إلى عقدة"
+
+msgid "Feet per Second to Kilometers per Hour"
+msgstr "قدم في الثانية إلى كيلومتر في الساعة"
+
+msgid "Kilometers per Hour to Feet per Second"
+msgstr "كيلومتر في الساعة إلى قدم في الثانية"
+
+msgid "Kilometers to Miles"
+msgstr "كيلومتر إلى ميل"
+
+msgid "Miles to Kilometers"
+msgstr "ميل إلى كيلومتر"
+
+msgid "Meters to Feet"
+msgstr "متر إلى قدم"
+
+msgid "Feet to Meters"
+msgstr "قدم إلى متر"
+
+msgid "Centimeters to Inches"
+msgstr "سنتيمتر إلى بوصة"
+
+msgid "Inches to Centimeters"
+msgstr "بوصة إلى سنتيمتر"
+
+msgid "Kilograms to Pounds"
+msgstr "كيلوغرام إلى رطل"
+
+msgid "Pounds to Kilograms"
+msgstr "رطل إلى كيلوغرام"
+
+msgid "Tons to Kilograms"
+msgstr "طن إلى كيلوغرام"
+
+msgid "Kilograms to Tons"
+msgstr "كيلوغرام إلى طن"
+
+msgid "Ounces to Grams"
+msgstr "أونصة إلى جرام"
+
+msgid "Grams to Ounces"
+msgstr "جرام إلى أونصة"
+
+msgid "Liter to Gallon (US)"
+msgstr "لتر إلى جالون (أمريكي)"
+
+msgid "Gallon (US) to Liter"
+msgstr "جالون (أمريكي) إلى لتر"
+
+msgid "Liter to Milliliter"
+msgstr "لتر إلى مليلتر"
+
+msgid "Milliliter to Liter"
+msgstr "مليلتر إلى لتر"
+
+msgid "Cubic Meter to Liter"
+msgstr "متر مكعب إلى لتر"
+
+msgid "Liter to Cubic Meter"
+msgstr "لتر إلى متر مكعب"
+
+msgid "Gallon (UK) to Liter"
+msgstr "جالون (بريطاني) إلى لتر"
+
+msgid "Liter to Gallon (UK)"
+msgstr "لتر إلى جالون (بريطاني)"
+
+msgid "Cubic Inch to Liter"
+msgstr "بوصة مكعبة إلى لتر"
+
+msgid "Liter to Cubic Inch"
+msgstr "لتر إلى بوصة مكعبة"
+
+msgid "Milliliter to Cubic Centimeter"
+msgstr "مليلتر إلى سنتيمتر مكعب"
+
+msgid "Cubic Centimeter to Milliliter"
+msgstr "سنتيمتر مكعب إلى مليلتر"
+
+msgid "Barrel (US) to Liter"
+msgstr "برميل (أمريكي) إلى لتر"
+
+msgid "Liter to Barrel (US)"
+msgstr "لتر إلى برميل (أمريكي)"
+
+msgid "Celsius to Fahrenheit"
+msgstr "درجة مئوية إلى فهرنهايت"
+
+msgid "Fahrenheit to Celsius"
+msgstr "فهرنهايت إلى درجة مئوية"
+
+msgid "Celsius to Kelvin"
+msgstr "درجة مئوية إلى كلفن"
+
+msgid "Kelvin to Celsius"
+msgstr "كلفن إلى درجة مئوية"
+
+msgid "Fahrenheit to Kelvin"
+msgstr "فهرنهايت إلى كلفن"
+
+msgid "Kelvin to Fahrenheit"
+msgstr "كلفن إلى فهرنهايت"
+
 msgid "Please Select Conversion Mode"
 msgstr "يرجى اختيار وضع التحويل"
 
@@ -207,6 +396,81 @@ msgid "Input in Barrel (US) :"
 msgstr "الإدخال بالبرميل (الأمريكي):"
 
 # scientific.py
+msgid "Use Radians"
+msgstr "استخدم الراديان"
+
+msgid "Asin"
+msgstr "الجيب العكسي"
+
+msgid "Acos"
+msgstr "جيب التمام العكسي"
+
+msgid "Tan"
+msgstr "الظل"
+
+msgid "Atan"
+msgstr "ظل التمام العكسي"
+
+msgid "Radian"
+msgstr "راديان"
+
+msgid "Degree"
+msgstr "درجة"
+
+msgid "Natural Base"
+msgstr "الأساس الطبيعي"
+
+msgid "Base 10"
+msgstr "الأساس 10"
+
+msgid "Radians"
+msgstr "راديان"
+
+msgid "Degrees"
+msgstr "درجات"
+
+msgid "Calculation mode set to Sin (Input in "
+msgstr "تم ضبط وضع الحساب على الجيب (الإدخال بـ "
+
+msgid "Calculation mode set to Cos (Input in "
+msgstr "تم ضبط وضع الحساب على جيب التمام (الإدخال بـ "
+
+msgid "Input in Range [-1, 1] ({mode}):"
+msgstr "الإدخال في النطاق [-1, 1] ({mode}):"
+
+msgid "Calculation mode set to Asin"
+msgstr "تم ضبط وضع الحساب على الجيب العكسي"
+
+msgid "Calculation mode set to Acos"
+msgstr "تم ضبط وضع الحساب على جيب التمام العكسي"
+
+msgid "Input in {mode}:"
+msgstr "الإدخال في {mode}:"
+
+msgid "Calculation mode set to Tan"
+msgstr "تم ضبط وضع الحساب على الظل"
+
+msgid "Input in Any Real Number ({mode}):"
+msgstr "الإدخال في أي عدد حقيقي ({mode}):"
+
+msgid "Calculation mode set to Atan"
+msgstr "تم ضبط وضع الحساب على ظل التمام العكسي"
+
+msgid "Arcsine is only defined for values between -1 and 1"
+msgstr "الجيب العكسي معرف فقط للقيم بين -1 و 1"
+
+msgid "Arccosine is only defined for values between -1 and 1"
+msgstr "جيب التمام العكسي معرف فقط للقيم بين -1 و 1"
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "اللوغاريتم معرف فقط للأعداد الموجبة"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "الجذر التربيعي معرف فقط للأعداد غير السالبة"
+
+msgid "Invalid input, only valid numbers are allowed"
+msgstr "إدخال غير صالح، يُسمح فقط بالأرقام الصالحة"
+
 msgid "Please Select Scientific Mode "
 msgstr "يرجى اختيار الوضع العلمي"
 
@@ -252,11 +516,11 @@ msgstr "تم ضبط وضع الحساب على الجذر التربيعي"
 msgid "Please select a calculation mode first"
 msgstr "يرجى اختيار وضع الحساب أولاً"
 
-msgid "Logarithm is only defined for positive numbers"
-msgstr "اللوغاريتم معرف فقط للأرقام الموجبة"
+#msgid "Logarithm is only defined for positive numbers"
+#msgstr "اللوغاريتم معرف فقط للأرقام الموجبة"
 
-msgid "Square root is only defined for non-negative numbers"
-msgstr "الجذر التربيعي معرف فقط للأرقام غير السالبة"
+#msgid "Square root is only defined for non-negative numbers"
+#msgstr "الجذر التربيعي معرف فقط للأرقام غير السالبة"
 
 msgid ""
 "High Precision = {result}\n"
@@ -280,60 +544,69 @@ msgstr "مساعدة وضع الحساب"
 
 msgid ""
 "Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Calculations follow the standard mathematical operator precedence rules "
+"(PEMDAS).\n"
 "Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
 "\n"
 "Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator precedence.\n"
+"Calculations are performed from left to right without considering operator "
+"precedence.\n"
 "Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
 "\n"
 "Scientific Mode:\n"
 "\n"
-"Sin and Cos:\n"
-"Calculates the values of sine and cosine.\n"
-"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"Sin, Cos, and Inverse Trigonometric Functions (Sin^-1, Cos^-1, Tan^-1):\n"
+"Calculates the values of sine, cosine, inverse sine (asin), inverse cosine "
+"(acos), tangent (tan), and inverse tangent (atan).\n"
+"These functions can accept input in degrees or radians. To switch between "
+"them, use the checkbox for 'Use Radians'. The default is degrees.\n"
 "\n"
 "Logarithms:\n"
 "Two types of logarithms are available:\n"
 "- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
 "- Base 10 Logarithm: Logarithm with base 10.\n"
-"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"Negative numbers are not supported as logarithms are only defined for "
+"positive numbers.\n"
 "\n"
 "Square Root:\n"
 "Calculates the square root of a number.\n"
-"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"Negative numbers are not supported as the square root is only defined for "
+"non-negative numbers.\n"
 "\n"
 "Result Format:\n"
 "- High Precision: Displays the result with full detail.\n"
-"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded "
+"to 2 decimal places for easier reading."
 msgstr ""
 "الوضع القياسي:\n"
-"تتبع العمليات قواعد أسبقية العمليات الرياضية القياسية (PEMDAS).\n"
+"تتبع العمليات الحسابية قواعد أولوية العمليات الرياضية القياسية (PEMDAS).\n"
 "مثال: 3 + 5 * 2 = 13 (يتم تنفيذ الضرب أولاً).\n"
 "\n"
-"الوضع من اليسار إلى اليمين:\n"
-"تُنفذ العمليات من اليسار إلى اليمين دون مراعاة أسبقية العمليات.\n"
-"مثال: 3 + 5 * 2 = 16 (تُنفذ العمليات من اليسار إلى اليمين).\n"
+"وضع من اليسار إلى اليمين:\n"
+"تُجرى العمليات الحسابية من اليسار إلى اليمين دون مراعاة أولوية المشغل.\n"
+"مثال: 3 + 5 * 2 = 16 (يتم الحساب من اليسار إلى اليمين).\n"
 "\n"
 "الوضع العلمي:\n"
 "\n"
-"الجيب وجيب التمام:\n"
-"يحسب قيم الجيب وجيب التمام.\n"
-"يجب أن يكون الإدخال بالدرجات. سيقوم الآلة الحاسبة تلقائيًا بتحويل القيمة إلى الراديان لإجراء الحساب.\n"
+"دوال الجيب وجيب التمام والدوال المثلثية العكسية (Sin^-1, Cos^-1, Tan^-1):\n"
+"تحسب قيم الجيب (sin) وجيب التمام (cos) والجيب العكسي (asin) وجيب التمام العكسي (acos) "
+"وظا (tan) وظا العكسي (atan).\n"
+"يمكن لهذه الدوال قبول المدخلات بالدرجات أو بالتقدير الدائري. للتبديل بينهما، استخدم مربع "
+"الاختيار 'استخدام التقدير الدائري'. الوضع الافتراضي هو الدرجات.\n"
 "\n"
 "اللوغاريتمات:\n"
 "يوجد نوعان من اللوغاريتمات:\n"
-"- اللوغاريتم الطبيعي (LN): لوغاريتم ذو الأساس الطبيعي (e).\n"
-"- لوغاريتم الأساس 10: لوغاريتم ذو الأساس 10.\n"
-"لا تدعم الأرقام السالبة لأن اللوغاريتمات معرف فقط للأرقام الموجبة.\n"
+"- اللوغاريتم الطبيعي (LN): لوغاريتم للأساس الطبيعي (e).\n"
+"- اللوغاريتم للأساس 10: لوغاريتم للأساس 10.\n"
+"الأرقام السالبة غير مدعومة لأن اللوغاريتمات تُعرّف فقط للأرقام الموجبة.\n"
 "\n"
 "الجذر التربيعي:\n"
-"يحسب الجذر التربيعي للعدد.\n"
-"لا تدعم الأرقام السالبة لأن الجذر التربيعي معرف فقط للأرقام غير السالبة.\n"
+"يحسب الجذر التربيعي لعدد معين.\n"
+"الأرقام السالبة غير مدعومة لأن الجذر التربيعي يُعرّف فقط للأرقام غير السالبة.\n"
 "\n"
 "تنسيق النتيجة:\n"
-"- الدقة العالية: تعرض النتيجة بتفاصيل كاملة.\n"
-"- التقريب (رقمان عشريان): تعرض النتيجة بشكل مبسط، مقرب إلى رقمين عشريين لتسهيل القراءة."
+"- دقة عالية: يعرض النتيجة بتفاصيل كاملة.\n"
+"- تقريب إلى منزلتين عشريتين: يعرض النتيجة بشكل مبسط، مقربًا إلى منزلتين عشريتين لسهولة القراءة."
 
 msgid "OK"
 msgstr "موافق"

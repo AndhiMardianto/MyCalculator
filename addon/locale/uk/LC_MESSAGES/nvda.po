@@ -308,66 +308,341 @@ msgstr "Сталася помилка:"
 #msgid "Invalid input, only numbers allowed"
 #msgstr "Невірний ввід, дозволяються лише цифри"
 
+# conversion 
+msgid "Time"
+msgstr "Час"
+
+msgid "Select a Time conversion:"
+msgstr "Виберіть конверсію часу:"
+
+msgid "Time Conversion Options"
+msgstr "Опції конверсії часу"
+
+msgid "Masehi to Hijri"
+msgstr "Григоріанський календар до Хіджри"
+
+msgid "Hijri to Masehi"
+msgstr "Хіджра до Григоріанського календаря"
+
+msgid "Input in Masehi. Example 01012025"
+msgstr "Введіть у григоріанському календарі. Приклад 01012025"
+
+msgid "Input in Hijri. Example 01012025"
+msgstr "Введіть у хіджрійському календарі. Приклад 01012025"
+
+msgid "Seconds to Minutes"
+msgstr "Секунди в хвилини"
+
+msgid "Minutes to Hours"
+msgstr "Хвилини в години"
+
+msgid "Hours to Days"
+msgstr "Години в дні"
+
+msgid "Days to Weeks"
+msgstr "Дні в тижні"
+
+msgid "Weeks to Months"
+msgstr "Тижні в місяці"
+
+msgid "Months to Years"
+msgstr "Місяці в роки"
+
+msgid "Input in Seconds:"
+msgstr "Введіть у секундах:"
+
+msgid "Input in Minutes:"
+msgstr "Введіть у хвилинах:"
+
+msgid "Input in Hours:"
+msgstr "Введіть у годинах:"
+
+msgid "Input in Days:"
+msgstr "Введіть у днях:"
+
+msgid "Input in Weeks:"
+msgstr "Введіть у тижнях:"
+
+msgid "Input in Months:"
+msgstr "Введіть у місяцях:"
+
+msgid "Kilometers per Hour to Miles per Hour"
+msgstr "Кілометри на годину в милі на годину"
+
+msgid "Miles per Hour to Kilometers per Hour"
+msgstr "Милі на годину в кілометри на годину"
+
+msgid "Meters per Second to Kilometers per Hour"
+msgstr "Метри на секунду в кілометри на годину"
+
+msgid "Kilometers per Hour to Meters per Second"
+msgstr "Кілометри на годину в метри на секунду"
+
+msgid "Meters per Second to Miles per Hour"
+msgstr "Метри на секунду в милі на годину"
+
+msgid "Miles per Hour to Meters per Second"
+msgstr "Милі на годину в метри на секунду"
+
+msgid "Knots to Kilometers per Hour"
+msgstr "Вузли в кілометри на годину"
+
+msgid "Kilometers per Hour to Knots"
+msgstr "Кілометри на годину в вузли"
+
+msgid "Knots to Miles per Hour"
+msgstr "Вузли в милі на годину"
+
+msgid "Miles per Hour to Knots"
+msgstr "Милі на годину в вузли"
+
+msgid "Feet per Second to Kilometers per Hour"
+msgstr "Фути на секунду в кілометри на годину"
+
+msgid "Kilometers per Hour to Feet per Second"
+msgstr "Кілометри на годину в фути на секунду"
+
+msgid "Kilometers to Miles"
+msgstr "Кілометри в милі"
+
+msgid "Miles to Kilometers"
+msgstr "Милі в кілометри"
+
+msgid "Meters to Feet"
+msgstr "Метри в фути"
+
+msgid "Feet to Meters"
+msgstr "Фути в метри"
+
+msgid "Centimeters to Inches"
+msgstr "Сантиметри в дюйми"
+
+msgid "Inches to Centimeters"
+msgstr "Дюйми в сантиметри"
+
+msgid "Kilograms to Pounds"
+msgstr "Кілограми в фунти"
+
+msgid "Pounds to Kilograms"
+msgstr "Фунти в кілограми"
+
+msgid "Tons to Kilograms"
+msgstr "Тони в кілограми"
+
+msgid "Kilograms to Tons"
+msgstr "Кілограми в тони"
+
+msgid "Ounces to Grams"
+msgstr "Унції в грами"
+
+msgid "Grams to Ounces"
+msgstr "Грами в унції"
+
+msgid "Liter to Gallon (US)"
+msgstr "Літри в галони (США)"
+
+msgid "Gallon (US) to Liter"
+msgstr "Галони (США) в літри"
+
+msgid "Liter to Milliliter"
+msgstr "Літри в мілілітри"
+
+msgid "Milliliter to Liter"
+msgstr "Мілілітри в літри"
+
+msgid "Cubic Meter to Liter"
+msgstr "Кубічні метри в літри"
+
+msgid "Liter to Cubic Meter"
+msgstr "Літри в кубічні метри"
+
+msgid "Gallon (UK) to Liter"
+msgstr "Галони (Великобританія) в літри"
+
+msgid "Liter to Gallon (UK)"
+msgstr "Літри в галони (Великобританія)"
+
+msgid "Cubic Inch to Liter"
+msgstr "Кубічні дюйми в літри"
+
+msgid "Liter to Cubic Inch"
+msgstr "Літри в кубічні дюйми"
+
+msgid "Milliliter to Cubic Centimeter"
+msgstr "Мілілітри в кубічні сантиметри"
+
+msgid "Cubic Centimeter to Milliliter"
+msgstr "Кубічні сантиметри в мілілітри"
+
+msgid "Barrel (US) to Liter"
+msgstr "Бочки (США) в літри"
+
+msgid "Liter to Barrel (US)"
+msgstr "Літри в бочки (США)"
+
+msgid "Celsius to Fahrenheit"
+msgstr "Цельсій в Фаренгейт"
+
+msgid "Fahrenheit to Celsius"
+msgstr "Фаренгейт в Цельсій"
+
+msgid "Celsius to Kelvin"
+msgstr "Цельсій в Кельвін"
+
+msgid "Kelvin to Celsius"
+msgstr "Кельвін в Цельсій"
+
+msgid "Fahrenheit to Kelvin"
+msgstr "Фаренгейт в Кельвін"
+
+msgid "Kelvin to Fahrenheit"
+msgstr "Кельвін в Фаренгейт"
+
+# scientific 
+msgid "Use Radians"
+msgstr "Використовувати радіани"
+
+msgid "Asin"
+msgstr "Арксин"
+
+msgid "Acos"
+msgstr "Арккос"
+
+msgid "Tan"
+msgstr "Тангенс"
+
+msgid "Atan"
+msgstr "Арктангенс"
+
+msgid "Radian"
+msgstr "Радіан"
+
+msgid "Degree"
+msgstr "Градус"
+
+msgid "Natural Base"
+msgstr "Природна база"
+
+msgid "Base 10"
+msgstr "База 10"
+
+msgid "Radians"
+msgstr "Радіани"
+
+msgid "Degrees"
+msgstr "Градуси"
+
+msgid "Calculation mode set to Sin (Input in "
+msgstr "Режим обчислення встановлено на Sin (Введіть у "
+
+msgid "Calculation mode set to Cos (Input in "
+msgstr "Режим обчислення встановлено на Cos (Введіть у "
+
+msgid "Input in Range [-1, 1] ({mode}):"
+msgstr "Введіть у діапазоні [-1, 1] ({mode}):"
+
+msgid "Calculation mode set to Asin"
+msgstr "Режим обчислення встановлено на Asin"
+
+msgid "Calculation mode set to Acos"
+msgstr "Режим обчислення встановлено на Acos"
+
+msgid "Input in {mode}:"
+msgstr "Введіть у {mode}:"
+
+msgid "Calculation mode set to Tan"
+msgstr "Режим обчислення встановлено на Tan"
+
+msgid "Input in Any Real Number ({mode}):"
+msgstr "Введіть будь-яке дійсне число ({mode}):"
+
+msgid "Calculation mode set to Atan"
+msgstr "Режим обчислення встановлено на Atan"
+
+msgid "Arcsine is only defined for values between -1 and 1"
+msgstr "Арксинус визначається лише для значень між -1 та 1"
+
+msgid "Arccosine is only defined for values between -1 and 1"
+msgstr "Арккосинус визначається лише для значень між -1 та 1"
+
+msgid "Invalid input, only valid numbers are allowed"
+msgstr "Невірний ввід, дозволяються лише правильні числа"
+
 # help.py
 msgid "Calculation Mode Help"
-msgstr "Допомога щодо режиму обчислень"
+msgstr "Допомога по режиму обчислення"
 
 msgid ""
 "Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Calculations follow the standard mathematical operator precedence rules "
+"(PEMDAS).\n"
 "Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
 "\n"
 "Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator precedence.\n"
+"Calculations are performed from left to right without considering operator "
+"precedence.\n"
 "Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
 "\n"
 "Scientific Mode:\n"
 "\n"
-"Sin and Cos:\n"
-"Calculates the values of sine and cosine.\n"
-"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"Sin, Cos, and Inverse Trigonometric Functions (Sin^-1, Cos^-1, Tan^-1):\n"
+"Calculates the values of sine, cosine, inverse sine (asin), inverse cosine "
+"(acos), tangent (tan), and inverse tangent (atan).\n"
+"These functions can accept input in degrees or radians. To switch between "
+"them, use the checkbox for 'Use Radians'. The default is degrees.\n"
 "\n"
 "Logarithms:\n"
 "Two types of logarithms are available:\n"
 "- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
 "- Base 10 Logarithm: Logarithm with base 10.\n"
-"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"Negative numbers are not supported as logarithms are only defined for "
+"positive numbers.\n"
 "\n"
 "Square Root:\n"
 "Calculates the square root of a number.\n"
-"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"Negative numbers are not supported as the square root is only defined for "
+"non-negative numbers.\n"
 "\n"
 "Result Format:\n"
 "- High Precision: Displays the result with full detail.\n"
-"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded "
+"to 2 decimal places for easier reading."
 msgstr ""
 "Стандартний режим:\n"
-"Обчислення слідують стандартним правилам пріоритету математичних операторів (PEMDAS).\n"
+"Обчислення здійснюються згідно з стандартними правилами пріоритету математичних операторів "
+"(PEMDAS).\n"
 "Приклад: 3 + 5 * 2 = 13 (множення виконується першим).\n"
 "\n"
-"Режим ліво-направо:\n"
-"Обчислення виконуються зліва направо без урахування пріоритету операторів.\n"
+"Режим зліва направо:\n"
+"Обчислення виконуються зліва направо без врахування пріоритету операторів.\n"
 "Приклад: 3 + 5 * 2 = 16 (обчислення виконуються зліва направо).\n"
 "\n"
 "Науковий режим:\n"
 "\n"
-"Сінус і Косинус:\n"
-"Обчислює значення синуса та косинуса.\n"
-"Вхідні дані повинні бути в градусах. Калькулятор автоматично перетворить значення в радіани для обчислення.\n"
+"Синус, Косинус і Обернені тригонометричні функції (Sin^-1, Cos^-1, Tan^-1):\n"
+"Обчислює значення синуса, косинуса, оберненого синуса (asin), оберненого косинуса "
+"(acos), дотичність (tan) і обернену дотичність (atan).\n"
+"Ці функції можуть приймати введення в градусах або радіанах. Для перемикання між ними "
+"використовуйте прапорець 'Використовувати радіани'. За замовчуванням використовуються градуси.\n"
 "\n"
 "Логарифми:\n"
 "Доступні два типи логарифмів:\n"
-"- Натуральний логарифм (LN): Логарифм з природною основою (e).\n"
-"- Логарифм за основою 10: Логарифм з основою 10.\n"
-"Негативні числа не підтримуються, оскільки логарифми визначені лише для позитивних чисел.\n"
+"- Природний логарифм (LN): Логарифм з природною базою (e).\n"
+"- Логарифм за базою 10: Логарифм з базою 10.\n"
+"Негативні числа не підтримуються, оскільки логарифми визначені лише для "
+"позитивних чисел.\n"
 "\n"
 "Квадратний корінь:\n"
-"Обчислює квадратний корінь числа.\n"
-"Негативні числа не підтримуються, оскільки квадратний корінь визначений лише для ненегативних чисел.\n"
+"Обчислює квадратний корінь з числа.\n"
+"Негативні числа не підтримуються, оскільки квадратний корінь визначений лише для "
+"неперервних чисел.\n"
 "\n"
 "Формат результату:\n"
-"- Висока точність: Відображає результат з повними деталями.\n"
-"- Округлений (до 2 знаків після коми): Відображає результат у спрощеній формі, округлений до 2 знаків для легшого сприйняття."
+"- Висока точність: Показує результат з усіма деталями.\n"
+"- Округлено (2 десяткових знаки): Показує результат у спрощеній формі, округлений "
+"до 2 десяткових знаків для легшого читання."
+
+
 
 msgid "OK"
 msgstr "ОК"

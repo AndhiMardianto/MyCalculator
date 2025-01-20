@@ -62,6 +62,195 @@ msgid "Invalid calculation mode"
 msgstr "Ongeldige berekeningsmodus"
 
 # conversion.py
+msgid "Time"
+msgstr "Tyd"
+
+msgid "Select a Time conversion:"
+msgstr "Kies 'n tyd-omskakeling:"
+
+msgid "Time Conversion Options"
+msgstr "Tyd-omskakelingsopsies"
+
+msgid "Masehi to Hijri"
+msgstr "Masehi na Hijri"
+
+msgid "Hijri to Masehi"
+msgstr "Hijri na Masehi"
+
+msgid "Input in Masehi. Example 01012025"
+msgstr "Voer in Masehi in. Voorbeeld 01012025"
+
+msgid "Input in Hijri. Example 01012025"
+msgstr "Voer in Hijri in. Voorbeeld 01012025"
+
+msgid "Seconds to Minutes"
+msgstr "Sekondes na Minute"
+
+msgid "Minutes to Hours"
+msgstr "Minute na Ure"
+
+msgid "Hours to Days"
+msgstr "Ure na Dae"
+
+msgid "Days to Weeks"
+msgstr "Dae na Weke"
+
+msgid "Weeks to Months"
+msgstr "Weke na Maande"
+
+msgid "Months to Years"
+msgstr "Maande na Jare"
+
+msgid "Input in Seconds:"
+msgstr "Voer in sekondes in:"
+
+msgid "Input in Minutes:"
+msgstr "Voer in minute in:"
+
+msgid "Input in Hours:"
+msgstr "Voer in ure in:"
+
+msgid "Input in Days:"
+msgstr "Voer in dae in:"
+
+msgid "Input in Weeks:"
+msgstr "Voer in weke in:"
+
+msgid "Input in Months:"
+msgstr "Voer in maande in:"
+
+msgid "Kilometers per Hour to Miles per Hour"
+msgstr "Kilometer per uur na Myl per uur"
+
+msgid "Miles per Hour to Kilometers per Hour"
+msgstr "Myl per uur na Kilometer per uur"
+
+msgid "Meters per Second to Kilometers per Hour"
+msgstr "Meter per sekonde na Kilometer per uur"
+
+msgid "Kilometers per Hour to Meters per Second"
+msgstr "Kilometer per uur na Meter per sekonde"
+
+msgid "Meters per Second to Miles per Hour"
+msgstr "Meter per sekonde na Myl per uur"
+
+msgid "Miles per Hour to Meters per Second"
+msgstr "Myl per uur na Meter per sekonde"
+
+msgid "Knots to Kilometers per Hour"
+msgstr "Knope na Kilometer per uur"
+
+msgid "Kilometers per Hour to Knots"
+msgstr "Kilometer per uur na Knope"
+
+msgid "Knots to Miles per Hour"
+msgstr "Knope na Myl per uur"
+
+msgid "Miles per Hour to Knots"
+msgstr "Myl per uur na Knope"
+
+msgid "Feet per Second to Kilometers per Hour"
+msgstr "Voet per sekonde na Kilometer per uur"
+
+msgid "Kilometers per Hour to Feet per Second"
+msgstr "Kilometer per uur na Voet per sekonde"
+
+msgid "Kilometers to Miles"
+msgstr "Kilometer na Myl"
+
+msgid "Miles to Kilometers"
+msgstr "Myl na Kilometer"
+
+msgid "Meters to Feet"
+msgstr "Meter na Voet"
+
+msgid "Feet to Meters"
+msgstr "Voet na Meter"
+
+msgid "Centimeters to Inches"
+msgstr "Sentimeter na Duim"
+
+msgid "Inches to Centimeters"
+msgstr "Duim na Sentimeter"
+
+msgid "Kilograms to Pounds"
+msgstr "Kilogram na Pond"
+
+msgid "Pounds to Kilograms"
+msgstr "Pond na Kilogram"
+
+msgid "Tons to Kilograms"
+msgstr "Ton na Kilogram"
+
+msgid "Kilograms to Tons"
+msgstr "Kilogram na Ton"
+
+msgid "Ounces to Grams"
+msgstr "Ons na Gram"
+
+msgid "Grams to Ounces"
+msgstr "Gram na Ons"
+
+msgid "Liter to Gallon (US)"
+msgstr "Liter na Gallon (VSA)"
+
+msgid "Gallon (US) to Liter"
+msgstr "Gallon (VSA) na Liter"
+
+msgid "Liter to Milliliter"
+msgstr "Liter na Milliliter"
+
+msgid "Milliliter to Liter"
+msgstr "Milliliter na Liter"
+
+msgid "Cubic Meter to Liter"
+msgstr "Kubieke meter na Liter"
+
+msgid "Liter to Cubic Meter"
+msgstr "Liter na Kubieke meter"
+
+msgid "Gallon (UK) to Liter"
+msgstr "Gallon (VK) na Liter"
+
+msgid "Liter to Gallon (UK)"
+msgstr "Liter na Gallon (VK)"
+
+msgid "Cubic Inch to Liter"
+msgstr "Kubieke duim na Liter"
+
+msgid "Liter to Cubic Inch"
+msgstr "Liter na Kubieke duim"
+
+msgid "Milliliter to Cubic Centimeter"
+msgstr "Milliliter na Kubieke sentimeter"
+
+msgid "Cubic Centimeter to Milliliter"
+msgstr "Kubieke sentimeter na Milliliter"
+
+msgid "Barrel (US) to Liter"
+msgstr "Vat (VSA) na Liter"
+
+msgid "Liter to Barrel (US)"
+msgstr "Liter na Vat (VSA)"
+
+msgid "Celsius to Fahrenheit"
+msgstr "Celsius na Fahrenheit"
+
+msgid "Fahrenheit to Celsius"
+msgstr "Fahrenheit na Celsius"
+
+msgid "Celsius to Kelvin"
+msgstr "Celsius na Kelvin"
+
+msgid "Kelvin to Celsius"
+msgstr "Kelvin na Celsius"
+
+msgid "Fahrenheit to Kelvin"
+msgstr "Fahrenheit na Kelvin"
+
+msgid "Kelvin to Fahrenheit"
+msgstr "Kelvin na Fahrenheit"
+
 msgid "Please Select Conversion Mode"
 msgstr "Kies asseblief Omskakelingsmodus"
 
@@ -195,6 +384,81 @@ msgstr "Invoer in Vaat (VSA):"
 
 
 # scientific.py
+msgid "Use Radians"
+msgstr "Gebruik Radiale"
+
+msgid "Asin"
+msgstr "Asin"
+
+msgid "Acos"
+msgstr "Acos"
+
+msgid "Tan"
+msgstr "Tan"
+
+msgid "Atan"
+msgstr "Atan"
+
+msgid "Radian"
+msgstr "Radiaal"
+
+msgid "Degree"
+msgstr "Graad"
+
+msgid "Natural Base"
+msgstr "Natuurlike Basis"
+
+msgid "Base 10"
+msgstr "Basis 10"
+
+msgid "Radians"
+msgstr "Radiale"
+
+msgid "Degrees"
+msgstr "Grade"
+
+msgid "Calculation mode set to Sin (Input in "
+msgstr "Berekeningsmodus gestel op Sin (Invoer in "
+
+msgid "Calculation mode set to Cos (Input in "
+msgstr "Berekeningsmodus gestel op Cos (Invoer in "
+
+msgid "Input in Range [-1, 1] ({mode}):"
+msgstr "Invoer in Reeks [-1, 1] ({mode}):"
+
+msgid "Calculation mode set to Asin"
+msgstr "Berekeningsmodus gestel op Asin"
+
+msgid "Calculation mode set to Acos"
+msgstr "Berekeningsmodus gestel op Acos"
+
+msgid "Input in {mode}:"
+msgstr "Invoer in {mode}:"
+
+msgid "Calculation mode set to Tan"
+msgstr "Berekeningsmodus gestel op Tan"
+
+msgid "Input in Any Real Number ({mode}):"
+msgstr "Invoer in Enige Reële Getal ({mode}):"
+
+msgid "Calculation mode set to Atan"
+msgstr "Berekeningsmodus gestel op Atan"
+
+msgid "Arcsine is only defined for values between -1 and 1"
+msgstr "Arksinus is slegs gedefinieer vir waardes tussen -1 en 1"
+
+msgid "Arccosine is only defined for values between -1 and 1"
+msgstr "Arkkosinus is slegs gedefinieer vir waardes tussen -1 en 1"
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "Logaritme is slegs gedefinieer vir positiewe getalle"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "Vierkantswortel is slegs gedefinieer vir nie-negatiewe getalle"
+
+msgid "Invalid input, only valid numbers are allowed"
+msgstr "Ongeldige invoer, slegs geldige getalle word toegelaat"
+
 msgid "Please Select Scientific Mode "
 msgstr "Kies asseblief Wetenskaplike Modus"
 
@@ -250,11 +514,11 @@ msgstr "Resultaat na knipbord gekopieer"
 
 
 
-msgid "Logarithm is only defined for positive numbers"
-msgstr "Logaritme is slegs gedefinieer vir positiewe getalle"
+#msgid "Logarithm is only defined for positive numbers"
+#msgstr "Logaritme is slegs gedefinieer vir positiewe getalle"
 
-msgid "Square root is only defined for non-negative numbers"
-msgstr "Vierkantswortel is slegs gedefinieer vir nie-negatiewe getalle"
+#msgid "Square root is only defined for non-negative numbers"
+#msgstr "Vierkantswortel is slegs gedefinieer vir nie-negatiewe getalle"
 
 msgid ""
 "High Precision = {result}\n"
@@ -272,66 +536,3 @@ msgstr "’n Fout het voorgekom: "
 msgid "Invalid input, only numbers allowed"
 msgstr "Ongeldige invoer, slegs syfers toegelaat"
 
-# help.py
-msgid "Calculation Mode Help"
-msgstr "Berekeningsmodus Hulp"
-
-msgid ""
-"Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
-"Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
-"\n"
-"Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator precedence.\n"
-"Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
-"\n"
-"Scientific Mode:\n"
-"\n"
-"Sin and Cos:\n"
-"Calculates the values of sine and cosine.\n"
-"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
-"\n"
-"Logarithms:\n"
-"Two types of logarithms are available:\n"
-"- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
-"- Base 10 Logarithm: Logarithm with base 10.\n"
-"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
-"\n"
-"Square Root:\n"
-"Calculates the square root of a number.\n"
-"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
-"\n"
-"Result Format:\n"
-"- High Precision: Displays the result with full detail.\n"
-"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
-msgstr ""
-"Standaardmodus:\n"
-"Berekeninge volg die standaard wiskundige operatorvoorrangsreëls (PEMDAS).\n"
-"Voorbeeld: 3 + 5 * 2 = 13 (vermenigvuldiging word eerste uitgevoer).\n"
-"\n"
-"Links na Regs Modus:\n"
-"Berekeninge word van links na regs uitgevoer sonder om operatorvoorrang in agneming te neem.\n"
-"Voorbeeld: 3 + 5 * 2 = 16 (berekeninge word van links na regs gedoen).\n"
-"\n"
-"Wetenskaplike Modus:\n"
-"\n"
-"Sin en Cos:\n"
-"Bereken die waardes van sinus en cosinus.\n"
-"Die invoer moet in grade wees. Die sakrekenaar sal outomaties die waarde na radiale omskakel vir die berekening.\n"
-"\n"
-"Logaritmes:\n"
-"Twee tipes logaritmes is beskikbaar:\n"
-"- Natuurlike Logaritme (LN): Logaritme met die natuurlike basis (e).\n"
-"- Basis 10 Logaritme: Logaritme met basis 10.\n"
-"Negatiewe getalle word nie ondersteun nie, aangesien logaritmes slegs vir positiewe getalle gedefinieer is.\n"
-"\n"
-"Vierkantswortel:\n"
-"Bereken die vierkantswortel van 'n getal.\n"
-"Negatiewe getalle word nie ondersteun nie, aangesien die vierkantswortel slegs vir nie-negatiewe getalle gedefinieer is.\n"
-"\n"
-"Resultaatformaat:\n"
-"- Hoë Presisie: Wys die resultaat met volledige detail.\n"
-"- Afgerond (2 Desimale Plekke): Wys die resultaat in 'n eenvoudiger vorm, afgerond tot 2 desimale plekke vir makliker lees."
-
-msgid "OK"
-msgstr "OK"

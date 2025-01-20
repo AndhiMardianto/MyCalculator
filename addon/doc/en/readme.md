@@ -1,51 +1,48 @@
 # My Calculator NVDA Addon
-# My Calculator NVDA Addon v1.1.0
-
-## My Calculator
-
-**Author:** Andhi Mardianto
 
 ## Introduction
-**My Calculator NVDA Addon** is a calculator designed for NVDA users, offering multiple calculation methods and an improved user experience.
+My Calculator NVDA Addon is a calculator with multiple calculation methods and a better user experience.  
+There are several calculation methods, namely standard, scientific, conversion, and more.
 
-### Key Features:
-- **Calculation Methods**:
-  - *Standard*: Follows the standard order of operations.
-  - *Left-to-Right*: Calculates operations from left to right, ignoring operator precedence.
-  - Press the *Help* button in the main dialog for detailed explanations.
+- Press `NVDA+Shift+M` to open the calculator and enter the calculation you want to perform.  
+- You can also press `NVDA+SHIFT+H` to hear the results of converting the Gregorian year to Hijri.  
+- Each time you input a value, a beep sound will be heard.  
+- You can also see the history of calculations that have been performed.  
+- Press `Enter`, `Tab`, or `=` to move the focus to the result. You can also copy the result to the clipboard.  
+- Press `Esc` to close the program.
 
-- **Easy Navigation**:
-  - Press `NVDA+Shift+M` to open the calculator.
-  - Enter your calculations and hear a beep sound with every input.
-  - View the history of previous calculations.
-  - Press `Enter`, `Tab`, or `=` to move the focus to the result.
+## Modes
 
-- **Copy Results**:
-  - Copy the result to the clipboard for further use.
-  - Press `Esc` to close the calculator.
+### Standard Mode:
+- Calculations follow the standard mathematical operator precedence rules (PEMDAS).  
+- Example: `3 + 5 * 2 = 13` (multiplication is performed first).
 
-### Notes:
-- By default, the calculator uses the *Standard* calculation method when opened.
-- The letter **X** can be used for multiplication, and the symbol **:** for division.
-- Invalid inputs will be automatically removed from the input field.
+### Left to Right Mode:
+- Calculations are performed from left to right without considering operator precedence.  
+- Example: `3 + 5 * 2 = 16` (calculations are done left to right).
 
-## How to Use
-1. Ensure NVDA is active.
-2. Press `NVDA+Shift+M` to open the calculator dialog.
-3. Enter your calculation and follow the prompts.
-4. Use the described keyboard shortcuts to navigate and retrieve results.
+### Scientific Mode:
 
-## Feedback and Contributions
-We welcome feedback and contributions! If you encounter a bug or have suggestions to improve the addon, feel free to open an *issue* in this [GitHub repository](#).
+#### Sin and Cos:
+- Calculates the values of sine and cosine. The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.
 
-## License
-This project is licensed under the **GPL-2.0 License**. Refer to the `LICENSE` file for more details.
+#### Logarithms:
+- Two types of logarithms are available:
+  - **Natural Logarithm (LN):** Logarithm with the natural base (e).
+  - **Base 10 Logarithm:** Logarithm with base 10.
+- Negative numbers are not supported as logarithms are only defined for positive numbers.
 
----
+#### Square Root:
+- Calculates the square root of a number. Negative numbers are not supported as the square root is only defined for non-negative numbers.
 
-Thank you for using **My Calculator NVDA Addon**! We hope it makes your daily activities easier.
-**First Launch**
+#### Result Format:
+- **High Precision:** Displays the result with full detail.
+- **Rounded (2 Decimal Places):** Displays the result in a simpler format. Use the down and up arrows to find out.
 
-## Release v1.1.0
+### Conversion Mode:
+- There are several conversions: length, mass, and others. Please explore.
 
-**Added Italian translation**
+## NOTE
+- When you open the calculator, by default it will use the standard calculation method.
+- The letter `X` is allowed for multiplication, and the symbol `:` is allowed for division.
+- Invalid inputs will be removed from the input field.

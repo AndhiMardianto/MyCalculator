@@ -65,6 +65,195 @@ msgid "Invalid calculation mode"
 msgstr "Mode de calcul invalide"
 
 # conversion.py
+msgid "Time"
+msgstr "Temps"
+
+msgid "Select a Time conversion:"
+msgstr "Sélectionnez une conversion de temps :"
+
+msgid "Time Conversion Options"
+msgstr "Options de conversion du temps"
+
+msgid "Masehi to Hijri"
+msgstr "Grégorien vers Hijri"
+
+msgid "Hijri to Masehi"
+msgstr "Hijri vers Grégorien"
+
+msgid "Input in Masehi. Example 01012025"
+msgstr "Entrée en Grégorien. Exemple : 01012025"
+
+msgid "Input in Hijri. Example 01012025"
+msgstr "Entrée en Hijri. Exemple : 01012025"
+
+msgid "Seconds to Minutes"
+msgstr "Secondes en Minutes"
+
+msgid "Minutes to Hours"
+msgstr "Minutes en Heures"
+
+msgid "Hours to Days"
+msgstr "Heures en Jours"
+
+msgid "Days to Weeks"
+msgstr "Jours en Semaines"
+
+msgid "Weeks to Months"
+msgstr "Semaines en Mois"
+
+msgid "Months to Years"
+msgstr "Mois en Années"
+
+msgid "Input in Seconds:"
+msgstr "Entrée en Secondes :"
+
+msgid "Input in Minutes:"
+msgstr "Entrée en Minutes :"
+
+msgid "Input in Hours:"
+msgstr "Entrée en Heures :"
+
+msgid "Input in Days:"
+msgstr "Entrée en Jours :"
+
+msgid "Input in Weeks:"
+msgstr "Entrée en Semaines :"
+
+msgid "Input in Months:"
+msgstr "Entrée en Mois :"
+
+msgid "Kilometers per Hour to Miles per Hour"
+msgstr "Kilomètres par Heure en Miles par Heure"
+
+msgid "Miles per Hour to Kilometers per Hour"
+msgstr "Miles par Heure en Kilomètres par Heure"
+
+msgid "Meters per Second to Kilometers per Hour"
+msgstr "Mètres par Seconde en Kilomètres par Heure"
+
+msgid "Kilometers per Hour to Meters per Second"
+msgstr "Kilomètres par Heure en Mètres par Seconde"
+
+msgid "Meters per Second to Miles per Hour"
+msgstr "Mètres par Seconde en Miles par Heure"
+
+msgid "Miles per Hour to Meters per Second"
+msgstr "Miles par Heure en Mètres par Seconde"
+
+msgid "Knots to Kilometers per Hour"
+msgstr "Nœuds en Kilomètres par Heure"
+
+msgid "Kilometers per Hour to Knots"
+msgstr "Kilomètres par Heure en Nœuds"
+
+msgid "Knots to Miles per Hour"
+msgstr "Nœuds en Miles par Heure"
+
+msgid "Miles per Hour to Knots"
+msgstr "Miles par Heure en Nœuds"
+
+msgid "Feet per Second to Kilometers per Hour"
+msgstr "Pieds par Seconde en Kilomètres par Heure"
+
+msgid "Kilometers per Hour to Feet per Second"
+msgstr "Kilomètres par Heure en Pieds par Seconde"
+
+msgid "Kilometers to Miles"
+msgstr "Kilomètres en Miles"
+
+msgid "Miles to Kilometers"
+msgstr "Miles en Kilomètres"
+
+msgid "Meters to Feet"
+msgstr "Mètres en Pieds"
+
+msgid "Feet to Meters"
+msgstr "Pieds en Mètres"
+
+msgid "Centimeters to Inches"
+msgstr "Centimètres en Pouces"
+
+msgid "Inches to Centimeters"
+msgstr "Pouces en Centimètres"
+
+msgid "Kilograms to Pounds"
+msgstr "Kilogrammes en Livres"
+
+msgid "Pounds to Kilograms"
+msgstr "Livres en Kilogrammes"
+
+msgid "Tons to Kilograms"
+msgstr "Tonnes en Kilogrammes"
+
+msgid "Kilograms to Tons"
+msgstr "Kilogrammes en Tonnes"
+
+msgid "Ounces to Grams"
+msgstr "Onces en Grammes"
+
+msgid "Grams to Ounces"
+msgstr "Grammes en Onces"
+
+msgid "Liter to Gallon (US)"
+msgstr "Litre en Gallon (US)"
+
+msgid "Gallon (US) to Liter"
+msgstr "Gallon (US) en Litre"
+
+msgid "Liter to Milliliter"
+msgstr "Litre en Millilitre"
+
+msgid "Milliliter to Liter"
+msgstr "Millilitre en Litre"
+
+msgid "Cubic Meter to Liter"
+msgstr "Mètre Cube en Litre"
+
+msgid "Liter to Cubic Meter"
+msgstr "Litre en Mètre Cube"
+
+msgid "Gallon (UK) to Liter"
+msgstr "Gallon (UK) en Litre"
+
+msgid "Liter to Gallon (UK)"
+msgstr "Litre en Gallon (UK)"
+
+msgid "Cubic Inch to Liter"
+msgstr "Pouce Cube en Litre"
+
+msgid "Liter to Cubic Inch"
+msgstr "Litre en Pouce Cube"
+
+msgid "Milliliter to Cubic Centimeter"
+msgstr "Millilitre en Centimètre Cube"
+
+msgid "Cubic Centimeter to Milliliter"
+msgstr "Centimètre Cube en Millilitre"
+
+msgid "Barrel (US) to Liter"
+msgstr "Baril (US) en Litre"
+
+msgid "Liter to Barrel (US)"
+msgstr "Litre en Baril (US)"
+
+msgid "Celsius to Fahrenheit"
+msgstr "Celsius en Fahrenheit"
+
+msgid "Fahrenheit to Celsius"
+msgstr "Fahrenheit en Celsius"
+
+msgid "Celsius to Kelvin"
+msgstr "Celsius en Kelvin"
+
+msgid "Kelvin to Celsius"
+msgstr "Kelvin en Celsius"
+
+msgid "Fahrenheit to Kelvin"
+msgstr "Fahrenheit en Kelvin"
+
+msgid "Kelvin to Fahrenheit"
+msgstr "Kelvin en Fahrenheit"
+
 msgid "Please Select Conversion Mode"
 msgstr "Veuillez sélectionner le mode de conversion"
 
@@ -210,6 +399,81 @@ msgid "Invalid input, only numbers allowed"
 msgstr "Entrée invalide, seuls les nombres sont autorisés"
 
 # scientific.py
+msgid "Use Radians"
+msgstr "Utiliser les Radians"
+
+msgid "Asin"
+msgstr "Asin"
+
+msgid "Acos"
+msgstr "Acos"
+
+msgid "Tan"
+msgstr "Tan"
+
+msgid "Atan"
+msgstr "Atan"
+
+msgid "Radian"
+msgstr "Radian"
+
+msgid "Degree"
+msgstr "Degré"
+
+msgid "Natural Base"
+msgstr "Base Naturelle"
+
+msgid "Base 10"
+msgstr "Base 10"
+
+msgid "Radians"
+msgstr "Radians"
+
+msgid "Degrees"
+msgstr "Degrés"
+
+msgid "Calculation mode set to Sin (Input in "
+msgstr "Mode de calcul défini sur Sin (Entrée en "
+
+msgid "Calculation mode set to Cos (Input in "
+msgstr "Mode de calcul défini sur Cos (Entrée en "
+
+msgid "Input in Range [-1, 1] ({mode}):"
+msgstr "Entrée dans l'intervalle [-1, 1] ({mode}) :"
+
+msgid "Calculation mode set to Asin"
+msgstr "Mode de calcul défini sur Asin"
+
+msgid "Calculation mode set to Acos"
+msgstr "Mode de calcul défini sur Acos"
+
+msgid "Input in {mode}:"
+msgstr "Entrée en {mode} :"
+
+msgid "Calculation mode set to Tan"
+msgstr "Mode de calcul défini sur Tan"
+
+msgid "Input in Any Real Number ({mode}):"
+msgstr "Entrée dans n'importe quel nombre réel ({mode}) :"
+
+msgid "Calculation mode set to Atan"
+msgstr "Mode de calcul défini sur Atan"
+
+msgid "Arcsine is only defined for values between -1 and 1"
+msgstr "L'arcsinus est uniquement défini pour les valeurs entre -1 et 1"
+
+msgid "Arccosine is only defined for values between -1 and 1"
+msgstr "L'arccosinus est uniquement défini pour les valeurs entre -1 et 1"
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "Le logarithme est uniquement défini pour les nombres positifs"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "La racine carrée est uniquement définie pour les nombres non négatifs"
+
+msgid "Invalid input, only valid numbers are allowed"
+msgstr "Entrée invalide, seuls les nombres valides sont autorisés"
+
 msgid "Please Select Scientific Mode "
 msgstr "Veuillez sélectionner le mode scientifique"
 
@@ -273,11 +537,11 @@ msgstr "Aucun résultat à copier"
 msgid "Please select a calculation mode first"
 msgstr "Veuillez d'abord sélectionner un mode de calcul"
 
-msgid "Logarithm is only defined for positive numbers"
-msgstr "Le logarithme est uniquement défini pour les nombres positifs"
+        #msgid "Logarithm is only defined for positive numbers"
+#msgstr "Le logarithme est uniquement défini pour les nombres positifs"
 
-msgid "Square root is only defined for non-negative numbers"
-msgstr "La racine carrée est uniquement définie pour les nombres non négatifs"
+#msgid "Square root is only defined for non-negative numbers"
+#msgstr "La racine carrée est uniquement définie pour les nombres non négatifs"
 
 msgid ""
 "High Precision = {result}\n"
@@ -297,64 +561,75 @@ msgstr "Une erreur s'est produite :"
 
 # help.py
 msgid "Calculation Mode Help"
-msgstr "Aide sur les modes de calcul"
+msgstr "Aide du Mode de Calcul"
 
 msgid ""
 "Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Calculations follow the standard mathematical operator precedence rules "
+"(PEMDAS).\n"
 "Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
 "\n"
 "Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator precedence.\n"
+"Calculations are performed from left to right without considering operator "
+"precedence.\n"
 "Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
 "\n"
 "Scientific Mode:\n"
 "\n"
-"Sin and Cos:\n"
-"Calculates the values of sine and cosine.\n"
-"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"Sin, Cos, and Inverse Trigonometric Functions (Sin^-1, Cos^-1, Tan^-1):\n"
+"Calculates the values of sine, cosine, inverse sine (asin), inverse cosine "
+"(acos), tangent (tan), and inverse tangent (atan).\n"
+"These functions can accept input in degrees or radians. To switch between "
+"them, use the checkbox for 'Use Radians'. The default is degrees.\n"
 "\n"
 "Logarithms:\n"
 "Two types of logarithms are available:\n"
 "- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
 "- Base 10 Logarithm: Logarithm with base 10.\n"
-"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"Negative numbers are not supported as logarithms are only defined for "
+"positive numbers.\n"
 "\n"
 "Square Root:\n"
 "Calculates the square root of a number.\n"
-"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"Negative numbers are not supported as the square root is only defined for "
+"non-negative numbers.\n"
 "\n"
 "Result Format:\n"
 "- High Precision: Displays the result with full detail.\n"
-"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded "
+"to 2 decimal places for easier reading."
 msgstr ""
-"Mode Standard :\n"
-"Les calculs suivent les règles de priorité des opérateurs mathématiques standard (PEMDAS).\n"
-"Exemple : 3 + 5 * 2 = 13 (la multiplication est effectuée en premier).\n"
+"Mode Standard :\n"
+"Les calculs suivent les règles standard de priorité des opérateurs "
+"mathématiques (PEMDAS).\n"
+"Exemple : 3 + 5 * 2 = 13 (la multiplication est effectuée en premier).\n"
 "\n"
-"Mode Gauche à Droite :\n"
-"Les calculs sont effectués de gauche à droite sans tenir compte de la priorité des opérateurs.\n"
-"Exemple : 3 + 5 * 2 = 16 (les calculs sont effectués de gauche à droite).\n"
+"Mode Gauche à Droite :\n"
+"Les calculs sont effectués de gauche à droite sans tenir compte de la "
+"priorité des opérateurs.\n"
+"Exemple : 3 + 5 * 2 = 16 (les calculs sont effectués de gauche à droite).\n"
 "\n"
-"Mode Scientifique :\n"
+"Mode Scientifique :\n"
 "\n"
-"Sin et Cos :\n"
-"Calcule les valeurs du sinus et du cosinus.\n"
-"L'entrée doit être en degrés. La calculatrice convertira automatiquement la valeur en radians pour le calcul.\n"
+"Sin, Cos et Fonctions Trigonométriques Inverses (Sin^-1, Cos^-1, Tan^-1) :\n"
+"Calcule les valeurs du sinus, du cosinus, de l'arcsinus (asin), de l'arccosinus "
+"(acos), de la tangente (tan) et de l'arc tangente (atan).\n"
+"Ces fonctions acceptent une entrée en degrés ou en radians. Pour basculer entre "
+"eux, utilisez la case à cocher 'Utiliser les Radians'. L'option par défaut est les degrés.\n"
 "\n"
-"Logarithmes :\n"
-"Deux types de logarithmes sont disponibles :\n"
-"- Logarithme naturel (LN) : Logarithme avec la base naturelle (e).\n"
-"- Logarithme en base 10 : Logarithme en base 10.\n"
-"Les nombres négatifs ne sont pas pris en charge car les logarithmes sont uniquement définis pour les nombres positifs.\n"
+"Logarithmes :\n"
+"Deux types de logarithmes sont disponibles :\n"
+"- Logarithme Naturel (LN) : Logarithme de base naturelle (e).\n"
+"- Logarithme Base 10 : Logarithme en base 10.\n"
+"Les nombres négatifs ne sont pas pris en charge, car les logarithmes ne sont "
+"définis que pour les nombres positifs.\n"
 "\n"
-"Racine carrée :\n"
+"Racine Carrée :\n"
 "Calcule la racine carrée d'un nombre.\n"
-"Les nombres négatifs ne sont pas pris en charge car la racine carrée est uniquement définie pour les nombres non négatifs.\n"
+"Les nombres négatifs ne sont pas pris en charge, car la racine carrée n'est "
+"définie que pour les nombres non négatifs.\n"
 "\n"
-"Format du résultat :\n"
-"- Haute Précision : Affiche le résultat avec tous les détails.\n"
-"- Arrondi (2 décimales) : Affiche le résultat sous une forme simplifiée, arrondie à 2 décimales pour une lecture plus facile."
-
-msgid "OK"
-msgstr "OK"
+"Format du Résultat :\n"
+"- Haute Précision : Affiche le résultat avec tous les détails.\n"
+"- Arrondi (2 Décimales) : Affiche le résultat sous une forme simplifiée, arrondi "
+"à 2 décimales pour une lecture plus facile."

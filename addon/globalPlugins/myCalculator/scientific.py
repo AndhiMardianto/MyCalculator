@@ -21,9 +21,10 @@ class DialogScientific(wx.Dialog):
     def __init__(self, parent):
         super().__init__(parent, title="Scientific Calculation", size=(800, 400))
 
-        # Variabel untuk menyimpan riwayat
+        # Variabel untuk menyimpan riwayat dan mode
         self.history = []
         self.calculationMode = None  # Tidak ada mode perhitungan saat pertama kali
+        self.isRadian = False  # Default mode adalah derajat
 
         # Panel utama untuk elemen dialog
         panel = wx.Panel(self)
@@ -34,8 +35,14 @@ class DialogScientific(wx.Dialog):
         # Panel kiri untuk input dan hasil
         leftSizer = wx.BoxSizer(wx.VERTICAL)
 
-# Label input yang dapat diubah
-        self.inputLabel = wx.StaticText(panel, label=_("Please Select Scientific Mode "))
+        # Checkbox untuk memilih input dalam derajat atau radian
+        self.radianCheckbox = wx.CheckBox(panel, label=_("Use Radians"))
+        self.radianCheckbox.Bind(wx.EVT_CHECKBOX, self.toggleInputMode)
+        leftSizer.Add(self.radianCheckbox, 0, wx.ALL, 5)
+
+
+        # Label input
+        self.inputLabel = wx.StaticText(panel, label=_("Please Select Scientific Mode"))
         leftSizer.Add(self.inputLabel, 0, wx.ALL, 5)
 
         # Kotak input
@@ -46,12 +53,13 @@ class DialogScientific(wx.Dialog):
         self.number1.Bind(wx.EVT_TEXT, self.onTextChanged)
         leftSizer.Add(self.number1, 0, wx.EXPAND | wx.ALL, 5)
 
+
         # Label dan input untuk menampilkan hasil
         leftSizer.Add(wx.StaticText(panel, label=_("Result")), 0, wx.ALL, 5)
         self.re = wx.TextCtrl(panel, size=(350, 100), style=wx.TE_MULTILINE | wx.HSCROLL)
         self.re.SetBackgroundColour("#e6ffe6")
         self.re.SetFont(wx.Font(14, wx.DEFAULT, wx.NORMAL, wx.BOLD))
-        self.re.SetEditable(False)  # Membuat teks tidak bisa diubah tanpa label "read-only"
+        self.re.SetEditable(False)  # Membuat teks tidak bisa diubah
         leftSizer.Add(self.re, 1, wx.EXPAND | wx.ALL, 5)
 
         # Tombol Copy
@@ -60,22 +68,21 @@ class DialogScientific(wx.Dialog):
         leftSizer.Add(copy_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
 
         # Tombol untuk memilih mode perhitungan
-        self.sin_button = wx.Button(panel, label=_("Sin"))
-        self.sin_button.Bind(wx.EVT_BUTTON, self.set_sin_mode)
-        leftSizer.Add(self.sin_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
+        buttons = [
+            (_("Sin"), self.set_sin_mode),
+            (_("Asin"), self.set_asin_mode),
+            (_("Cos"), self.set_cos_mode),
+            (_("Acos"), self.set_acos_mode),
+            (_("Tan"), self.set_tan_mode),
+            (_("Atan"), self.set_atan_mode),
+            (_("Log"), self.show_logaritma_options),
+            (_("Sqrt"), self.set_sqrt_mode),
+        ]
 
-        cos_button = wx.Button(panel, label=_("Cos"))
-        cos_button.Bind(wx.EVT_BUTTON, self.set_cos_mode)
-        leftSizer.Add(cos_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
-
-        log_button = wx.Button(panel, label=_("Log"))
-        log_button.Bind(wx.EVT_BUTTON, self.show_logaritma_options)
-        leftSizer.Add(log_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
-
-        # Tombol untuk menghitung akar kuadrat
-        sqrt_button = wx.Button(panel, label=_("Sqrt"))
-        sqrt_button.Bind(wx.EVT_BUTTON, self.set_sqrt_mode)
-        leftSizer.Add(sqrt_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
+        for label, handler in buttons:
+            button = wx.Button(panel, label=label)
+            button.Bind(wx.EVT_BUTTON, handler)
+            leftSizer.Add(button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
 
         # Panel kanan untuk riwayat
         rightSizer = wx.BoxSizer(wx.VERTICAL)
@@ -100,12 +107,38 @@ class DialogScientific(wx.Dialog):
         self.Bind(wx.EVT_SHOW, self.fokus)
         self.Show()
 
+        #Mengubah mode input antara derajat dan radian.
+    def toggleInputMode(self, event):
+        self.isRadian = self.radianCheckbox.IsChecked()
+        mode = _("Radian") if self.isRadian else _("Degree")        
+        # Panggil fungsi untuk menerapkan perubahan mode
+        self.refreshMode()
+        self.number1.SetFocus()  # Pindahkan fokus ke kotak input
+
+    def refreshMode(self):
+        """Memeriksa mode saat ini dan merefresh ulang perhitungannya."""
+        if self.calculationMode:
+            # Panggil ulang fungsi sesuai dengan mode yang sedang aktif
+            if self.calculationMode == "sin":
+                self.set_sin_mode(None)
+            elif self.calculationMode == "cos":
+                self.set_cos_mode(None)
+            elif self.calculationMode == "tan":
+                self.set_tan_mode(None)
+            elif self.calculationMode == "asin":
+                self.set_asin_mode(None)
+            elif self.calculationMode == "acos":
+                self.set_acos_mode(None)
+            elif self.calculationMode == "atan":
+                self.set_atan_mode(None)
+
+
     def show_logaritma_options(self, event):
         dialog = wx.SingleChoiceDialog(
             self,
             _("Select a Basis"),
             _("Basis Options"),
-            ["Natural Basis", "Base 10"]
+            [_("Natural Base"), _("Base 10")]
         )
         pilihan = None
         if dialog.ShowModal() == wx.ID_OK:
@@ -113,30 +146,36 @@ class DialogScientific(wx.Dialog):
         
         dialog.Destroy()  # Pastikan dialog ditutup setelah dipilih
 
-        if pilihan == "Natural Basis":
+        if pilihan == _("Natural Base"):
             self.set_log_basis_natural(None)
-        elif pilihan == "Base 10":
+        elif pilihan == _("Base 10"):
             self.set_log_basis_10(None)
-
-
 
     def set_sin_mode(self, event):
         """Set mode perhitungan ke Sin."""
         self.calculationMode = "sin"
-        self.inputLabel.SetLabel(_("Input in Degrees:"))  # Perbarui label input
-        ui.message(_("Calculation mode set to Sin"))
-        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        input_mode = _("Radians") if self.isRadian else _("Degrees")  # Tentukan mode input
+        self.inputLabel.SetLabel(f"Input in {input_mode}:")  # Perbarui label input
+        ui.message(_("Calculation mode set to Sin (Input in ") + input_mode + ")")
+        
+        # Ambil nilai ekspresi dari kotak input dan lakukan perhitungan
+        expression = self.number1.GetValue().strip()
         self.hitung(expression)  
         self.number1.SetFocus()  # Pindahkan fokus ke kotak input
 
     def set_cos_mode(self, event):
         """Set mode perhitungan ke Cos."""
         self.calculationMode = "cos"
-        self.inputLabel.SetLabel(_("Input in Degrees:"))  # Perbarui label input
-        ui.message(_("Calculation mode set to Cos"))
-        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        input_mode = _("Radians") if self.isRadian else _("Degrees")  # Tentukan mode input
+        self.inputLabel.SetLabel(f"Input in {input_mode}:")  # Perbarui label input
+        ui.message(_("Calculation mode set to Cos (Input in ") + input_mode + ")")
+        
+        # Ambil nilai ekspresi dari kotak input dan lakukan perhitungan
+        expression = self.number1.GetValue().strip()
         self.hitung(expression)  
         self.number1.SetFocus()  # Pindahkan fokus ke kotak input
+
+
 
     def set_log_basis_natural(self, event):
         """Set mode perhitungan ke Log."""
@@ -163,6 +202,46 @@ class DialogScientific(wx.Dialog):
         self.hitung(expression)  
         self.number1.SetFocus()  # Pindahkan fokus ke kotak input
 
+    def set_asin_mode(self, event):
+        """Set mode perhitungan ke Asin (Arcsin)."""
+        self.calculationMode = "asin"
+        mode = _("Radians") if self.isRadian else _("Degrees")
+        self.inputLabel.SetLabel(_(f"Input in Range [-1, 1] ({mode}):"))  # Perbarui label input
+        ui.message(_("Calculation mode set to Asin"))
+        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        self.hitung(expression)
+        self.number1.SetFocus()  # Pindahkan fokus ke kotak input
+
+    def set_acos_mode(self, event):
+        """Set mode perhitungan ke Acos (Arccos)."""
+        self.calculationMode = "acos"
+        mode = _("Radians") if self.isRadian else _("Degrees")
+        self.inputLabel.SetLabel(_(f"Input in Range [-1, 1] ({mode}):"))  # Perbarui label input
+        ui.message(_("Calculation mode set to Acos"))
+        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        self.hitung(expression)
+        self.number1.SetFocus()  # Pindahkan fokus ke kotak input
+
+    def set_tan_mode(self, event):
+        """Set mode perhitungan ke Tan (Tangen)."""
+        self.calculationMode = "tan"
+        mode = _("Radians") if self.isRadian else _("Degrees")
+        self.inputLabel.SetLabel(_(f"Input in {mode}:"))  # Perbarui label input
+        ui.message(_("Calculation mode set to Tan"))
+        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        self.hitung(expression)
+        self.number1.SetFocus()  # Pindahkan fokus ke kotak input
+
+    def set_atan_mode(self, event):
+        """Set mode perhitungan ke Atan (Arctangen)."""
+        self.calculationMode = "atan"
+        mode = _("Radians") if self.isRadian else _("Degrees")
+        self.inputLabel.SetLabel(_(f"Input in Any Real Number ({mode}):"))  # Perbarui label input
+        ui.message(_("Calculation mode set to Atan"))
+        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        self.hitung(expression)
+        self.number1.SetFocus()  # Pindahkan fokus ke kotak input
+
 
     def periksa(self, event):
         """Fungsi untuk menyalin hasil ke clipboard."""
@@ -179,6 +258,7 @@ class DialogScientific(wx.Dialog):
             ui.message(_("No result to copy"))
 
     def hitung(self, expression):
+        """Perform the calculation."""
         if self.calculationMode is None:
             ui.message(_("Please select a calculation mode first"))
             tones.beep(440, 300)
@@ -187,20 +267,46 @@ class DialogScientific(wx.Dialog):
         if not expression:
             return
 
-        self.re.SetValue("")  # Kosongkan hasil sebelum perhitungan
+        self.re.SetValue("")  # Clear result before calculation
         expression = re.sub(r"[xX]", "*", expression).replace(":", "/")
 
         try:
-            # Validasi dan hitung berdasarkan mode
             value = float(expression)
-            getcontext().prec = 50  # Set presisi tinggi untuk perhitungan internal
+            getcontext().prec = 50  # Set high precision for calculations
 
-            if self.calculationMode == "sin":
-                value_decimal = Decimal(math.radians(value))
-                result = Decimal(math.sin(float(value_decimal)))
-            elif self.calculationMode == "cos":
-                value_decimal = Decimal(math.radians(value))
-                result = Decimal(math.cos(float(value_decimal)))
+            if self.calculationMode in ["sin", "cos", "tan"]:
+                if not self.isRadian:
+                    # Konversi derajat ke radian jika mode input adalah derajat
+                    value = math.radians(value)
+
+                if self.calculationMode == "sin":
+                    result = Decimal(math.sin(value))
+                elif self.calculationMode == "cos":
+                    result = Decimal(math.cos(value))
+                elif self.calculationMode == "tan":
+                    result = Decimal(math.tan(value))
+
+            elif self.calculationMode in ["asin", "acos", "atan"]:
+                if self.calculationMode == "asin":
+                    if value < -1 or value > 1:
+                        ui.message(_("Arcsine is only defined for values between -1 and 1"))
+                        tones.beep(440, 100)
+                        return
+                    result = math.asin(value)
+                elif self.calculationMode == "acos":
+                    if value < -1 or value > 1:
+                        ui.message(_("Arccosine is only defined for values between -1 and 1"))
+                        tones.beep(440, 100)
+                        return
+                    result = math.acos(value)
+                elif self.calculationMode == "atan":
+                    result = math.atan(value)
+
+                # Konversi hasil ke derajat jika mode input bukan radian
+                if not self.isRadian:
+                    result = math.degrees(result)
+                result = Decimal(result)
+
             elif self.calculationMode == "LogBasisNatural":
                 if value <= 0:
                     ui.message(_("Logarithm is only defined for positive numbers"))
@@ -222,21 +328,21 @@ class DialogScientific(wx.Dialog):
             else:
                 result = Decimal(eval(expression))
 
-            # Jika hasil mendekati nol, set ke 0
+            # Periksa apakah hasil sangat kecil dan anggap sebagai nol
             if abs(result) < Decimal('1e-10'):
                 result = Decimal(0)
 
-            # Tampilkan hasil dengan presisi tinggi dan pembulatan
-            precision = 2  # Jumlah desimal untuk pembulatan
-            rounded_result = round(result, precision)
+            # Tentukan presisi pembulatan
+            precision = 2
+            rounded_result = result.quantize(Decimal(f'1.{"0" * precision}'))
 
-            # Format hasil untuk kotak output
+            # Format output
             output = (
                 _("High Precision = {result}\nRounded = {rounded_result}")
-            ).format(result=result, precision=precision, rounded_result=rounded_result)
+            ).format(result=result, rounded_result=rounded_result)
             self.re.SetValue(output)
 
-            # Simpan riwayat hanya dengan pembulatan
+            # Tambahkan ke riwayat
             self.history.insert(0, f"{expression} = {rounded_result}")
             self.updateHistoryBox()
 
@@ -245,28 +351,30 @@ class DialogScientific(wx.Dialog):
         except Exception as e:
             ui.message(_("An error occurred: ") + str(e))
 
+
     def onTextChanged(self, event):
-        #Menangani perubahan teks di kotak input.
+        # Menangani perubahan teks di kotak input.
         expression = self.number1.GetValue().strip()
         if not expression:
             self.re.SetValue("")  # Kosongkan kotak hasil jika input kosong
         else:
             tones.beep(750, 50)  # Memutar nada beep saat ada input
 
-            # Validasi input untuk hanya mengizinkan angka dan simbol matematika
-            if not all(char.isdigit() or char in "-. " for char in expression):            
-                ui.message(_("Invalid input, only numbers allowed"))
+            # Validasi input yang lebih spesifik
+            valid_pattern = r"^-?\d*(\.\d*)?$"  # Angka negatif atau positif, opsional desimal
+            if not re.match(valid_pattern, expression):
+                ui.message(_("Invalid input, only valid numbers are allowed"))
                 tones.beep(440, 100)
                 self.number1.SetValue(expression[:-1])  # Hapus karakter tidak valid terakhir
                 self.number1.SetInsertionPointEnd()  # Set cursor ke akhir teks
-            elif self.calculationMode:  # Pastikan mode sudah dipilih
+            elif self.calculationMode and expression not in "-.":  # Pastikan input bukan hanya tanda saja
                 self.hitung(expression)  # Lakukan perhitungan real-time
         event.Skip()
 
 
     def fokus(self, event):
         """Fokuskan kotak input ketika dialog ditampilkan."""
-        self.sin_button.SetFocus()
+        #self.sin_button.SetFocus()
 
     def close(self, event):
         """Menangani penutupan dialog saat tombol Escape ditekan."""

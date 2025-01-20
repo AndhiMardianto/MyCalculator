@@ -13,7 +13,7 @@ import wx
 import gui
 from .help import show_calculator_help
 from .scientific import DialogScientific
-from .conversion import DialogConversion
+from .conversion import DialogConversion, tampilkan_tanggal_hijriah
 from keyboardHandler import KeyboardInputGesture
 from scriptHandler import script
 addonHandler.initTranslation()
@@ -24,6 +24,14 @@ showDialog = None
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
     def __init__(self):
         super().__init__()
+
+    @script(
+        description=_("Say Hijriah date"),
+        category=_("MyCalculator"),
+        gesture="kb:nvda+shift+h"
+    )
+    def script_hijriah(self, gesture):
+        conversion.tampilkan_tanggal_hijriah()
 
     @script(
         description=_("Open My Calculator dialog"),

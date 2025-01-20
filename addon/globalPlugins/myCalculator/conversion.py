@@ -6,8 +6,9 @@ import globalPluginHandler
 import ui
 import re
 import math
-
 import api
+import datetime
+from . hijri_converter import convert
 import tones
 import addonHandler
 import wx
@@ -79,6 +80,15 @@ class DialogConversion(wx.Dialog):
         speed_button.Bind(wx.EVT_BUTTON, self.show_speed_options)
         leftSizer.Add(speed_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
 
+# tombol time 
+        time_button = wx.Button(panel, label=_("Time"))
+        time_button.Bind(wx.EVT_BUTTON, self.show_time_options)  
+        leftSizer.Add(time_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
+        # tombol birth day ini belum tersedia fungsi nya 
+        #birthday_button = wx.Button(panel, label=_("Birthday"))
+        #birthday_button.Bind(wx.EVT_BUTTON, self.calculate_birth_day)  
+        #leftSizer.Add(birthday_button, 0, wx.ALL | wx.ALIGN_CENTER, 5)
+
         # Panel kanan untuk riwayat
         rightSizer = wx.BoxSizer(wx.VERTICAL)
         rightSizer.Add(wx.StaticText(panel, label=_("History")), 0, wx.ALL, 5)
@@ -102,6 +112,102 @@ class DialogConversion(wx.Dialog):
 
         self.Show()
 
+# popup time 
+    def show_time_options(self, event):
+        dialog = wx.SingleChoiceDialog(
+            self,
+            _("Select a Time conversion:"),  
+            _("Time Conversion Options"),  
+            [
+                _("Seconds to Minutes"),
+                _("Minutes to Hours"),
+                _("Hours to Days"),
+                _("Days to Weeks"),
+                _("Weeks to Months"),
+                _("Months to Years"),
+                _("Masehi to Hijri"),
+                _("Hijri to Masehi"),
+            ]
+        )
+
+        pilihan = None
+        if dialog.ShowModal() == wx.ID_OK:
+            pilihan = dialog.GetStringSelection()
+        if pilihan == _("Seconds to Minutes"):
+            self.seconds_to_minutes(None)
+        elif pilihan == _("Minutes to Hours"):
+            self.minutes_to_hours(None)
+        elif pilihan == _("Hours to Days"):
+            self.hours_to_days(None)
+        elif pilihan == _("Days to Weeks"):
+            self.days_to_weeks(None)
+        elif pilihan == _("Weeks to Months"):
+            self.weeks_to_months(None)
+        elif pilihan == _("Months to Years"):
+            self.months_to_years(None)
+        elif pilihan == _("Masehi to Hijri"):
+            self.masehi_to_hijri(None)
+        elif pilihan == _("Hijri to Masehi"):
+            self.hijri_to_masehi(None)
+
+
+    def masehi_to_hijri(self, event):
+        self.calculationMode = "masehi to hijri"
+        self.inputLabel.SetLabel(_("Input in Masehi. Example 01012025"))
+        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        self.hitung(expression)  # Panggil fungsi hitung dengan ekspresi
+        self.number1.SetFocus()  # Pindahkan fokus ke kotak input
+
+    def hijri_to_masehi(self, event):
+        self.calculationMode = "hijri to masehi"
+        self.inputLabel.SetLabel(_("Input in Hijri. Example 01012025"))
+        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        self.hitung(expression)  # Panggil fungsi hitung dengan ekspresi
+        self.number1.SetFocus()  # Pindahkan fokus ke kotak input
+
+    def seconds_to_minutes(self, event):
+        self.calculationMode = "SecondsToMinutes"
+        self.inputLabel.SetLabel(_("Input in Seconds:"))
+        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        self.hitung(expression)  # Panggil fungsi hitung dengan ekspresi
+        self.number1.SetFocus()  # Pindahkan fokus ke kotak input
+
+    def minutes_to_hours(self, event):
+        self.calculationMode = "MinutesToHours"
+        self.inputLabel.SetLabel(_("Input in Minutes:"))
+        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        self.hitung(expression)  # Panggil fungsi hitung dengan ekspresi
+        self.number1.SetFocus()  # Pindahkan fokus ke kotak input
+
+    def hours_to_days(self, event):
+        self.calculationMode = "HoursToDays"
+        self.inputLabel.SetLabel(_("Input in Hours:"))
+        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        self.hitung(expression)  # Panggil fungsi hitung dengan ekspresi
+        self.number1.SetFocus()  # Pindahkan fokus ke kotak input
+
+    def days_to_weeks(self, event):
+        self.calculationMode = "DaysToWeeks"
+        self.inputLabel.SetLabel(_("Input in Days:"))
+        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        self.hitung(expression)  # Panggil fungsi hitung dengan ekspresi
+        self.number1.SetFocus()  # Pindahkan fokus ke kotak input
+
+    def weeks_to_months(self, event):
+        self.calculationMode = "WeeksToMonths"
+        self.inputLabel.SetLabel(_("Input in Weeks:"))
+        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        self.hitung(expression)  # Panggil fungsi hitung dengan ekspresi
+        self.number1.SetFocus()  # Pindahkan fokus ke kotak input
+
+    def months_to_years(self, event):
+        self.calculationMode = "MonthsToYears"
+        self.inputLabel.SetLabel(_("Input in Months:"))
+        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        self.hitung(expression)  # Panggil fungsi hitung dengan ekspresi
+        self.number1.SetFocus()  # Pindahkan fokus ke kotak input
+
+
     # popup speed 
     def show_speed_options(self, event):
         dialog = wx.SingleChoiceDialog(
@@ -109,46 +215,46 @@ class DialogConversion(wx.Dialog):
             _("Select a Speed conversion:"),
             _("Speed Conversion Options"),
             [
-                "Kilometers per Hour to Miles per Hour",
-                "Miles per Hour to Kilometers per Hour",
-                "Meters per Second to Kilometers per Hour",
-                "Kilometers per Hour to Meters per Second",
-                "Meters per Second to Miles per Hour",
-                "Miles per Hour to Meters per Second",
-                "Knots to Kilometers per Hour",
-                "Kilometers per Hour to Knots",
-                "Knots to Miles per Hour",
-                "Miles per Hour to Knots",
-                "Feet per Second to Kilometers per Hour",
-                "Kilometers per Hour to Feet per Second"
+                _("Kilometers per Hour to Miles per Hour"),
+_("Miles per Hour to Kilometers per Hour"),
+_("Meters per Second to Kilometers per Hour"),
+_("Kilometers per Hour to Meters per Second"),
+_("Meters per Second to Miles per Hour"),
+_("Miles per Hour to Meters per Second"),
+_("Knots to Kilometers per Hour"),
+_("Kilometers per Hour to Knots"),
+_("Knots to Miles per Hour"),
+_("Miles per Hour to Knots"),
+_("Feet per Second to Kilometers per Hour"),
+_("Kilometers per Hour to Feet per Second")
             ]
         )
         pilihan = None
         if dialog.ShowModal() == wx.ID_OK:
             pilihan = dialog.GetStringSelection()
-        if pilihan == "Kilometers per Hour to Miles per Hour":
+        if pilihan == _("Kilometers per Hour to Miles per Hour"):
             self.kmh_to_mph(None)
-        elif pilihan == "Miles per Hour to Kilometers per Hour":
+        elif pilihan == _("Miles per Hour to Kilometers per Hour"):
             self.mph_to_kmh(None)
-        elif pilihan == "Meters per Second to Kilometers per Hour":
+        elif pilihan == _("Meters per Second to Kilometers per Hour"):
             self.ms_to_kmh(None)
-        elif pilihan == "Kilometers per Hour to Meters per Second":
+        elif pilihan == _("Kilometers per Hour to Meters per Second"):
             self.kmh_to_ms(None)
-        elif pilihan == "Meters per Second to Miles per Hour":
+        elif pilihan == _("Meters per Second to Miles per Hour"):
             self.ms_to_mph(None)
-        elif pilihan == "Miles per Hour to Meters per Second":
+        elif pilihan == _("Miles per Hour to Meters per Second"):
             self.mph_to_ms(None)
-        elif pilihan == "Knots to Kilometers per Hour":
+        elif pilihan == _("Knots to Kilometers per Hour"):
             self.knot_to_kmh(None)
-        elif pilihan == "Kilometers per Hour to Knots":
+        elif pilihan == _("Kilometers per Hour to Knots"):
             self.kmh_to_knot(None)
-        elif pilihan == "Knots to Miles per Hour":
+        elif pilihan == _("Knots to Miles per Hour"):
             self.knot_to_mph(None)
-        elif pilihan == "Miles per Hour to Knots":
+        elif pilihan == _("Miles per Hour to Knots"):
             self.mph_to_knot(None)
-        elif pilihan == "Feet per Second to Kilometers per Hour":
+        elif pilihan == _("Feet per Second to Kilometers per Hour"):
             self.fps_to_kmh(None)
-        elif pilihan == "Kilometers per Hour to Feet per Second":
+        elif pilihan == _("Kilometers per Hour to Feet per Second"):
             self.kmh_to_fps(None)
 
         dialog.Destroy()
@@ -244,7 +350,7 @@ class DialogConversion(wx.Dialog):
 
 
 
-
+# popup panjang 
     def show_length_options(self, event):
         """Menampilkan opsi konversi panjang/jarak."""
         # Tampilkan opsi konversi panjang/jarak
@@ -252,24 +358,24 @@ class DialogConversion(wx.Dialog):
             self,
             _("Select a length conversion:"),
             _("Length Conversion Options"),
-            ["Kilometers to Miles", "Miles to Kilometers", "Meters to Feet", "Feet to Meters", "Centimeters to Inches", "Inches to Centimeters"]
+            [_("Kilometers to Miles"), _("Miles to Kilometers"), _("Meters to Feet"), _("Feet to Meters"), _("Centimeters to Inches"), _("Inches to Centimeters")]
         )
         pilihan = None
         if dialog.ShowModal() == wx.ID_OK:
             pilihan = dialog.GetStringSelection()
-
-        if pilihan == "Kilometers to Miles":
+        if pilihan == _("Kilometers to Miles"):
             self.KmToMiles(None)  # Panggil fungsi konversi Kilometers ke Miles
-        elif pilihan== "Miles to Kilometers":
+        elif pilihan == _("Miles to Kilometers"):
             self.MilestoKm(None)
-        elif pilihan== "Meters to Feet":
+        elif pilihan == _("Meters to Feet"):
             self.MetersToFeet(None)
-        elif pilihan == "Feet to Meters":
+        elif pilihan == _("Feet to Meters"):
             self.FeetToMeters(None)
-        elif pilihan == "Centimeters to Inches":
-                    self.CmToInches(None)
-        elif pilihan == "Inches to Centimeters":
+        elif pilihan == _("Centimeters to Inches"):
+            self.CmToInches(None)
+        elif pilihan == _("Inches to Centimeters"):
             self.InchesToCm(None)
+
             dialog.Destroy()
 
 
@@ -324,30 +430,31 @@ class DialogConversion(wx.Dialog):
             _("Select a Mass conversion:"),
             _("Mass Conversion Options"),
             [
-                "Kilograms to Pounds",
-                "Pounds to Kilograms",
-                "Tons to Kilograms",
-                "Kilograms to Tons",
-                "Ounces to Grams",
-                "Grams to Ounces"
+                _("Kilograms to Pounds"),
+_("Pounds to Kilograms"),
+_("Tons to Kilograms"),
+_("Kilograms to Tons"),
+_("Ounces to Grams"),
+_("Grams to Ounces")
+
                 ]
         )
         pilihan = None
         if dialog.ShowModal() == wx.ID_OK:
             pilihan = dialog.GetStringSelection()
-
-        if pilihan == "Kilograms to Pounds":
+        if pilihan == _("Kilograms to Pounds"):
             self.KgToPounds(None)  
-        elif pilihan== "Pounds to Kilograms":
+        elif pilihan == _("Pounds to Kilograms"):
             self.PoundsToKg(None)
-        elif pilihan== "Tons to Kilograms":
+        elif pilihan == _("Tons to Kilograms"):
             self.TonsToKg(None)
-        elif pilihan == "Kilograms to Tons":
+        elif pilihan == _("Kilograms to Tons"):
             self.KgToTons(None)
-        elif pilihan == "Ounces to Grams":
-                    self.Ounces_To_Grams(None)
-        elif pilihan == "Grams to Ounces":
+        elif pilihan == _("Ounces to Grams"):
+            self.Ounces_To_Grams(None)
+        elif pilihan == _("Grams to Ounces"):
             self.GramsToOunces(None)
+
             dialog.Destroy()
 
     def KgToPounds(self, event):
@@ -398,24 +505,25 @@ class DialogConversion(wx.Dialog):
             self,
             _("Select a Temperature conversion:"),
             _("Temperature Conversion Options"),
-            ["Celsius to Fahrenheit", "Fahrenheit to Celsius", "Celsius to Kelvin", "Kelvin to Celsius", "Fahrenheit to Kelvin", "Kelvin to Fahrenheit"]
+            [_("Celsius to Fahrenheit"), _("Fahrenheit to Celsius"), _("Celsius to Kelvin"), _("Kelvin to Celsius"), _("Fahrenheit to Kelvin"), _("Kelvin to Fahrenheit")]
+
         )
         pilihan = None
         if dialog.ShowModal() == wx.ID_OK:
             pilihan = dialog.GetStringSelection()
-
-        if pilihan == "Celsius to Fahrenheit":
+        if pilihan == _("Celsius to Fahrenheit"):
             self.c_to_f(None)  
-        elif pilihan== "Fahrenheit to Celsius":
+        elif pilihan == _("Fahrenheit to Celsius"):
             self.f_to_c(None)
-        elif pilihan== "Celsius to Kelvin":
+        elif pilihan == _("Celsius to Kelvin"):
             self.c_to_k(None)
-        elif pilihan == "Kelvin to Celsius":
+        elif pilihan == _("Kelvin to Celsius"):
             self.k_to_c(None)
-        elif pilihan == "Fahrenheit to Kelvin":
-                    self.f_to_k(None)
-        elif pilihan == "Kelvin to Fahrenheit":
+        elif pilihan == _("Fahrenheit to Kelvin"):
+            self.f_to_k(None)
+        elif pilihan == _("Kelvin to Fahrenheit"):
             self.k_to_f(None)
+
             dialog.Destroy()
 
     def c_to_f(self, event):
@@ -468,52 +576,52 @@ class DialogConversion(wx.Dialog):
             _("Select a Volume conversion:"),
             _("Volume Conversion Options"),
             [
-                "Liter to Gallon (US)",
-                "Gallon (US) to Liter",
-                "Liter to Milliliter",
-                "Milliliter to Liter",
-                "Cubic Meter to Liter",
-                "Liter to Cubic Meter",
-                "Gallon (UK) to Liter",
-                "Liter to Gallon (UK)",
-                "Cubic Inch to Liter",
-                "Liter to Cubic Inch",
-                "Milliliter to Cubic Centimeter",
-                "Cubic Centimeter to Milliliter",
-                "Barrel (US) to Liter",
-                "Liter to Barrel (US)"
+                _("Liter to Gallon (US)"),
+                _("Gallon (US) to Liter"),
+                _("Liter to Milliliter"),
+                _("Milliliter to Liter"),
+                _("Cubic Meter to Liter"),
+                _("Liter to Cubic Meter"),
+                _("Gallon (UK) to Liter"),
+                _("Liter to Gallon (UK)"),
+                _("Cubic Inch to Liter"),
+                _("Liter to Cubic Inch"),
+                _("Milliliter to Cubic Centimeter"),
+                _("Cubic Centimeter to Milliliter"),
+                _("Barrel (US) to Liter"),
+                _("Liter to Barrel (US)")
             ]
         )
         pilihan = None
         if dialog.ShowModal() == wx.ID_OK:
             pilihan = dialog.GetStringSelection()
-        if pilihan == "Liter to Gallon (US)":
+        if pilihan == _("Liter to Gallon (US)"):
             self.ltr_to_gl_us(None)  
-        elif pilihan== "Gallon (US) to Liter":
+        elif pilihan == _("Gallon (US) to Liter"):
             self.gl_us_to_ltr(None)
-        elif pilihan == "Liter to Milliliter":
+        elif pilihan == _("Liter to Milliliter"):
             self.lt_to_ml(None)
-        elif pilihan == "Milliliter to Liter":
+        elif pilihan == _("Milliliter to Liter"):
             self.ml_to_lt(None)
-        elif pilihan == "Cubic Meter to Liter":
+        elif pilihan == _("Cubic Meter to Liter"):
             self.cbcm_to_ltr(None)
-        elif pilihan == "Liter to Cubic Meter":
+        elif pilihan == _("Liter to Cubic Meter"):
             self.ltr_to_cbcm(None)
-        elif pilihan =="Gallon (UK) to Liter":
+        elif pilihan == _("Gallon (UK) to Liter"):
             self.gluk_to_ltr(None)
-        elif pilihan == "Liter to Gallon (UK)":
+        elif pilihan == _("Liter to Gallon (UK)"):
             self.ltr_to_gluk(None)
-        elif pilihan == "Cubic Inch to Liter":
+        elif pilihan == _("Cubic Inch to Liter"):
             self.cbcinc_to_ltr(None)
-        elif pilihan == "Liter to Cubic Inch":
+        elif pilihan == _("Liter to Cubic Inch"):
             self.ltr_to_cbcinc(None)
-        elif pilihan =="Milliliter to Cubic Centimeter":
+        elif pilihan == _("Milliliter to Cubic Centimeter"):
             self.ml_to_cbccm(None)
-        elif pilihan == "Cubic Centimeter to Milliliter":
+        elif pilihan == _("Cubic Centimeter to Milliliter"):
             self.cbccm_to_ml(None)
-        elif pilihan == "Barrel (US) to Liter":
+        elif pilihan == _("Barrel (US) to Liter"):
             self.barelus_to_ltr(None)
-        elif pilihan == "Liter to Barrel (US)":
+        elif pilihan == _("Liter to Barrel (US)"):
             self.ltr_to_barelus(None)
 
             dialog.Destroy()
@@ -616,8 +724,12 @@ class DialogConversion(wx.Dialog):
         self.hitung(expression)  # Panggil fungsi hitung dengan ekspresi
         self.number1.SetFocus()  # Pindahkan fokus ke kotak input
 
-
-
+    def calculate_birth_day(self, event):
+        self.calculationMode = "BirthDay"
+        self.inputLabel.SetLabel(_("Input your birthdate (dd-mm-yyyy):"))
+        expression = self.number1.GetValue().strip()  # Ambil nilai ekspresi dari kotak input
+        self.hitung(expression)  # Panggil fungsi hitung untuk hari kelahiran
+        self.number1.SetFocus()  # Pindahkan fokus ke kotak input
 
 # fungsi hitung 
     def hitung(self, expression):
@@ -717,13 +829,76 @@ class DialogConversion(wx.Dialog):
                 result = value * 1.09728  # Konversi Feet per Detik ke Kilometer per Jam
             elif self.calculationMode == "KmhToFps":
                 result = value / 1.09728  # Konversi Kilometer per Jam ke Feet per Detik
+            elif self.calculationMode == "SecondsToMinutes":
+                result = value / 60  # Konversi detik ke menit
+            elif self.calculationMode == "MinutesToHours":
+                result = value / 60  # Konversi menit ke jam
+            elif self.calculationMode == "HoursToDays":
+                result = value / 24  # Konversi jam ke hari
+            elif self.calculationMode == "DaysToWeeks":
+                result = value / 7  # Konversi hari ke minggu
+            elif self.calculationMode == "WeeksToMonths":
+                result = value / 4.34524  # Konversi minggu ke bulan (rata-rata 4.34524 minggu per bulan)
+            elif self.calculationMode == "MonthsToYears":
+                result = value / 12  # Konversi bulan ke tahun
+            elif self.calculationMode == "masehi to hijri":
+                # Lakukan validasi hanya jika panjang input sudah 8 karakter
+                if len(expression) == 8:
+                    # Pastikan input terdiri dari 8 digit angka
+                    if not expression.isdigit():
+                        ui.message(_("invalid input only numbers  allow "))
+                        return
+                else:
+                    return  # Kembalikan tanpa melakukan apa-apa jika panjang input belum 8 karakter
+
+                # Pisahkan hari, bulan, dan tahun dari input
+                day = int(expression[:2])     # 2 digit pertama = hari
+                month = int(expression[2:4])  # 2 digit berikutnya = bulan
+                year = int(expression[4:])    # 4 digit terakhir = tahun
+
+                # Konversi ke Hijriah
+                hijri_date = convert.Gregorian(year, month, day).to_hijri()
+
+                # Daftar nama bulan Hijriah
+                bulan_hijriah = [
+                    "Muharram", "Safar", "Rabiul Awwal", "Rabiul Akhir",
+                    "Jumadil Awwal", "Jumadil Akhir", "Rajab", "Sya'ban",
+                    "Ramadhan", "Syawal", "Dzulqa'dah", "Dzulhijjah"
+                ]
+
+                # Format hasil dengan nama bulan lengkap
+                result = f"{hijri_date.day} {bulan_hijriah[hijri_date.month - 1]} {hijri_date.year} Hijriah"
+
+            elif self.calculationMode == "hijri to masehi":
+                # Lakukan validasi hanya jika panjang input sudah 8 karakter
+                if len(expression) == 8:
+                    # Pastikan input terdiri dari 8 digit angka
+                    if not expression.isdigit():
+                        ui.message(_("Invalid input, only numbers are allowed"))
+                        return
+                else:
+                    return  # Kembalikan tanpa melakukan apa-apa jika panjang input belum 8 karakter
+
+                # Pisahkan hari, bulan, dan tahun dari input
+                day = int(expression[:2])     # 2 digit pertama = hari
+                month = int(expression[2:4])  # 2 digit berikutnya = bulan
+                year = int(expression[4:])    # 4 digit terakhir = tahun
+
+                # Konversi ke Masehi
+                masehi_date = convert.Hijri(year, month, day).to_gregorian()
+
+                # Daftar nama bulan Masehi
+                bulan_masehi = [
+                    "Januari", "Februari", "Maret", "April", "Mei", "Juni",
+                    "Juli", "Agustus", "September", "Oktober", "November", "Desember"
+                ]
+
+                # Format hasil dengan nama bulan lengkap
+                result = f"{masehi_date.day} {bulan_masehi[masehi_date.month - 1]} {masehi_date.year} Masehi"
 
 
 
 
-
-
-                
             # Tampilkan hasil
             self.re.SetValue(str(result))
 
@@ -732,9 +907,11 @@ class DialogConversion(wx.Dialog):
             self.updateHistoryBox()
 
         except ValueError:
-            pass
+            ui.message("error check input")
         except Exception as e:
-            pass
+            ui.message("error check input")
+
+
 
     def periksa(self, event):
         #Fungsi untuk menyalin hasil ke clipboard.
@@ -795,4 +972,36 @@ class DialogConversion(wx.Dialog):
     def updateHistoryBox(self):
         self.historyBox.Value = "\n".join(self.history)  # Tampilkan seluruh riwayat
 
-    
+
+
+def tampilkan_tanggal_hijriah():
+    # Daftar nama bulan Hijriah
+    bulan_hijriah = [
+        "Muharram", "Safar", "Rabiul Awwal", "Rabiul Akhir",
+        "Jumadil Awwal", "Jumadil Akhir", "Rajab", "Sya'ban",
+        "Ramadhan", "Syawal", "Dzulqa'dah", "Dzulhijjah"
+    ]
+
+    # Ambil waktu saat ini
+    sekarang = datetime.datetime.now()
+    jam_sekarang = sekarang.hour
+    menit_sekarang = sekarang.minute
+
+    # Mulai dengan tanggal Masehi saat ini
+    tanggal_sekarang = sekarang.date()
+
+    # Jika waktu masih sebelum 18:30, gunakan tanggal Masehi kemarin agar sinkron dengan Hijriah
+    if jam_sekarang < 18 or (jam_sekarang == 18 and menit_sekarang < 30):
+        tanggal_sekarang -= datetime.timedelta(days=1)
+
+    # Konversi ke Hijriah
+    hijri_date = convert.Gregorian(tanggal_sekarang.year, tanggal_sekarang.month, tanggal_sekarang.day).to_hijri()
+
+    # Format hasil dengan nama bulan dan teks "Hijriah" lengkap
+    tanggal_hijriah_str = f"{hijri_date.day} {bulan_hijriah[hijri_date.month - 1]} {hijri_date.year} Hijriah"
+
+    # Menampilkan hasil dengan NVDA
+    ui.message(f"{tanggal_hijriah_str}")
+
+
+

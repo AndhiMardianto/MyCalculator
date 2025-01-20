@@ -63,6 +63,195 @@ msgid "Invalid calculation mode"
 msgstr "अमान्य गणना मोड"
 
 # conversion.py
+msgid "Time"
+msgstr "समय"
+
+msgid "Select a Time conversion:"
+msgstr "एक समय रूपांतरण चुनें:"
+
+msgid "Time Conversion Options"
+msgstr "समय रूपांतरण विकल्प"
+
+msgid "Masehi to Hijri"
+msgstr "मसीही से हिजरी"
+
+msgid "Hijri to Masehi"
+msgstr "हिजरी से मसीही"
+
+msgid "Input in Masehi. Example 01012025"
+msgstr "मसीही में इनपुट करें। उदाहरण 01012025"
+
+msgid "Input in Hijri. Example 01012025"
+msgstr "हिजरी में इनपुट करें। उदाहरण 01012025"
+
+msgid "Seconds to Minutes"
+msgstr "सेकंड से मिनट"
+
+msgid "Minutes to Hours"
+msgstr "मिनट से घंटे"
+
+msgid "Hours to Days"
+msgstr "घंटे से दिन"
+
+msgid "Days to Weeks"
+msgstr "दिन से सप्ताह"
+
+msgid "Weeks to Months"
+msgstr "सप्ताह से महीने"
+
+msgid "Months to Years"
+msgstr "महीने से वर्ष"
+
+msgid "Input in Seconds:"
+msgstr "सेकंड में इनपुट करें:"
+
+msgid "Input in Minutes:"
+msgstr "मिनट में इनपुट करें:"
+
+msgid "Input in Hours:"
+msgstr "घंटे में इनपुट करें:"
+
+msgid "Input in Days:"
+msgstr "दिन में इनपुट करें:"
+
+msgid "Input in Weeks:"
+msgstr "सप्ताह में इनपुट करें:"
+
+msgid "Input in Months:"
+msgstr "महीने में इनपुट करें:"
+
+msgid "Kilometers per Hour to Miles per Hour"
+msgstr "किलोमीटर प्रति घंटा से मील प्रति घंटा"
+
+msgid "Miles per Hour to Kilometers per Hour"
+msgstr "मील प्रति घंटा से किलोमीटर प्रति घंटा"
+
+msgid "Meters per Second to Kilometers per Hour"
+msgstr "मीटर प्रति सेकंड से किलोमीटर प्रति घंटा"
+
+msgid "Kilometers per Hour to Meters per Second"
+msgstr "किलोमीटर प्रति घंटा से मीटर प्रति सेकंड"
+
+msgid "Meters per Second to Miles per Hour"
+msgstr "मीटर प्रति सेकंड से मील प्रति घंटा"
+
+msgid "Miles per Hour to Meters per Second"
+msgstr "मील प्रति घंटा से मीटर प्रति सेकंड"
+
+msgid "Knots to Kilometers per Hour"
+msgstr "नॉट से किलोमीटर प्रति घंटा"
+
+msgid "Kilometers per Hour to Knots"
+msgstr "किलोमीटर प्रति घंटा से नॉट"
+
+msgid "Knots to Miles per Hour"
+msgstr "नॉट से मील प्रति घंटा"
+
+msgid "Miles per Hour to Knots"
+msgstr "मील प्रति घंटा से नॉट"
+
+msgid "Feet per Second to Kilometers per Hour"
+msgstr "फीट प्रति सेकंड से किलोमीटर प्रति घंटा"
+
+msgid "Kilometers per Hour to Feet per Second"
+msgstr "किलोमीटर प्रति घंटा से फीट प्रति सेकंड"
+
+msgid "Kilometers to Miles"
+msgstr "किलोमीटर से मील"
+
+msgid "Miles to Kilometers"
+msgstr "मील से किलोमीटर"
+
+msgid "Meters to Feet"
+msgstr "मीटर से फीट"
+
+msgid "Feet to Meters"
+msgstr "फीट से मीटर"
+
+msgid "Centimeters to Inches"
+msgstr "सेंटीमीटर से इंच"
+
+msgid "Inches to Centimeters"
+msgstr "इंच से सेंटीमीटर"
+
+msgid "Kilograms to Pounds"
+msgstr "किलोग्राम से पाउंड"
+
+msgid "Pounds to Kilograms"
+msgstr "पाउंड से किलोग्राम"
+
+msgid "Tons to Kilograms"
+msgstr "टन से किलोग्राम"
+
+msgid "Kilograms to Tons"
+msgstr "किलोग्राम से टन"
+
+msgid "Ounces to Grams"
+msgstr "औंस से ग्राम"
+
+msgid "Grams to Ounces"
+msgstr "ग्राम से औंस"
+
+msgid "Liter to Gallon (US)"
+msgstr "लीटर से गैलन (यूएस)"
+
+msgid "Gallon (US) to Liter"
+msgstr "गैलन (यूएस) से लीटर"
+
+msgid "Liter to Milliliter"
+msgstr "लीटर से मिलीलीटर"
+
+msgid "Milliliter to Liter"
+msgstr "मिलीलीटर से लीटर"
+
+msgid "Cubic Meter to Liter"
+msgstr "क्यूबिक मीटर से लीटर"
+
+msgid "Liter to Cubic Meter"
+msgstr "लीटर से क्यूबिक मीटर"
+
+msgid "Gallon (UK) to Liter"
+msgstr "गैलन (यूके) से लीटर"
+
+msgid "Liter to Gallon (UK)"
+msgstr "लीटर से गैलन (यूके)"
+
+msgid "Cubic Inch to Liter"
+msgstr "क्यूबिक इंच से लीटर"
+
+msgid "Liter to Cubic Inch"
+msgstr "लीटर से क्यूबिक इंच"
+
+msgid "Milliliter to Cubic Centimeter"
+msgstr "मिलीलीटर से क्यूबिक सेंटीमीटर"
+
+msgid "Cubic Centimeter to Milliliter"
+msgstr "क्यूबिक सेंटीमीटर से मिलीलीटर"
+
+msgid "Barrel (US) to Liter"
+msgstr "बैरल (यूएस) से लीटर"
+
+msgid "Liter to Barrel (US)"
+msgstr "लीटर से बैरल (यूएस)"
+
+msgid "Celsius to Fahrenheit"
+msgstr "सेल्सियस से फारेनहाइट"
+
+msgid "Fahrenheit to Celsius"
+msgstr "फारेनहाइट से सेल्सियस"
+
+msgid "Celsius to Kelvin"
+msgstr "सेल्सियस से केल्विन"
+
+msgid "Kelvin to Celsius"
+msgstr "केल्विन से सेल्सियस"
+
+msgid "Fahrenheit to Kelvin"
+msgstr "फारेनहाइट से केल्विन"
+
+msgid "Kelvin to Fahrenheit"
+msgstr "केल्विन से फारेनहाइट"
+
 msgid "Please Select Conversion Mode"
 msgstr "कृपया रूपांतरण मोड चुनें"
 
@@ -208,6 +397,81 @@ msgid "Invalid input, only numbers allowed"
 msgstr "अमान्य प्रविष्टि, केवल संख्याएं अनुमत हैं"
 
 # scientific.py
+msgid "Use Radians"
+msgstr "रेडियन का उपयोग करें"
+
+msgid "Asin"
+msgstr "आसिन"
+
+msgid "Acos"
+msgstr "आकोस"
+
+msgid "Tan"
+msgstr "टैन"
+
+msgid "Atan"
+msgstr "एटैन"
+
+msgid "Radian"
+msgstr "रेडियन"
+
+msgid "Degree"
+msgstr "डिग्री"
+
+msgid "Natural Base"
+msgstr "प्राकृतिक आधार"
+
+msgid "Base 10"
+msgstr "आधार 10"
+
+msgid "Radians"
+msgstr "रेडियन"
+
+msgid "Degrees"
+msgstr "डिग्री"
+
+msgid "Calculation mode set to Sin (Input in "
+msgstr "गणना मोड साइन पर सेट किया गया (इनपुट में "
+
+msgid "Calculation mode set to Cos (Input in "
+msgstr "गणना मोड कोस पर सेट किया गया (इनपुट में "
+
+msgid "Input in Range [-1, 1] ({mode}):"
+msgstr "श्रेणी में इनपुट करें [-1, 1] ({mode}):"
+
+msgid "Calculation mode set to Asin"
+msgstr "गणना मोड आसिन पर सेट किया गया"
+
+msgid "Calculation mode set to Acos"
+msgstr "गणना मोड आकोस पर सेट किया गया"
+
+msgid "Input in {mode}:"
+msgstr "{mode} में इनपुट करें:"
+
+msgid "Calculation mode set to Tan"
+msgstr "गणना मोड टैन पर सेट किया गया"
+
+msgid "Input in Any Real Number ({mode}):"
+msgstr "किसी भी वास्तविक संख्या में इनपुट करें ({mode}):"
+
+msgid "Calculation mode set to Atan"
+msgstr "गणना मोड एटैन पर सेट किया गया"
+
+msgid "Arcsine is only defined for values between -1 and 1"
+msgstr "आर्कसाइन केवल -1 और 1 के बीच के मानों के लिए परिभाषित है"
+
+msgid "Arccosine is only defined for values between -1 and 1"
+msgstr "आर्ककोसाइन केवल -1 और 1 के बीच के मानों के लिए परिभाषित है"
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "लघुगणक केवल सकारात्मक संख्याओं के लिए परिभाषित है"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "वर्गमूल केवल गैर-नकारात्मक संख्याओं के लिए परिभाषित है"
+
+msgid "Invalid input, only valid numbers are allowed"
+msgstr "अमान्य इनपुट, केवल मान्य संख्याएँ अनुमति हैं"
+
 msgid "Please Select Scientific Mode "
 msgstr "कृपया वैज्ञानिक मोड चुनें"
 
@@ -271,11 +535,11 @@ msgstr "कॉपी करने के लिए कोई परिणाम 
 msgid "Please select a calculation mode first"
 msgstr "कृपया पहले एक गणना मोड चुनें"
 
-msgid "Logarithm is only defined for positive numbers"
-msgstr "लॉगारिदम केवल धनात्मक संख्याओं के लिए परिभाषित है"
+#msgid "Logarithm is only defined for positive numbers"
+#msgstr "लॉगारिदम केवल धनात्मक संख्याओं के लिए परिभाषित है"
 
-msgid "Square root is only defined for non-negative numbers"
-msgstr "वर्गमूल केवल गैर-ऋणात्मक संख्याओं के लिए परिभाषित है"
+#msgid "Square root is only defined for non-negative numbers"
+#msgstr "वर्गमूल केवल गैर-ऋणात्मक संख्याओं के लिए परिभाषित है"
 
 msgid ""
 "High Precision = {result}\n"
@@ -293,66 +557,80 @@ msgstr "एक त्रुटि हुई:"
 #msgid "Invalid input, only numbers allowed"
 #msgstr "अमान्य प्रविष्टि, केवल संख्याएं अनुमत हैं"
 
-# help.py
+# help 
 msgid "Calculation Mode Help"
 msgstr "गणना मोड सहायता"
 
 msgid ""
 "Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Calculations follow the standard mathematical operator precedence rules "
+"(PEMDAS).\n"
 "Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
-"\n"
-"Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator precedence.\n"
-"Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
-"\n"
-"Scientific Mode:\n"
-"\n"
-"Sin and Cos:\n"
-"Calculates the values of sine and cosine.\n"
-"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
-"\n"
-"Logarithms:\n"
-"Two types of logarithms are available:\n"
-"- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
-"- Base 10 Logarithm: Logarithm with base 10.\n"
-"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
-"\n"
-"Square Root:\n"
-"Calculates the square root of a number.\n"
-"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
-"\n"
-"Result Format:\n"
-"- High Precision: Displays the result with full detail.\n"
-"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
 msgstr ""
 "मानक मोड:\n"
 "गणनाएँ मानक गणितीय ऑपरेटर प्राथमिकता नियमों (PEMDAS) का पालन करती हैं।\n"
 "उदाहरण: 3 + 5 * 2 = 13 (पहले गुणा किया जाता है)।\n"
-"\n"
-"बाएँ से दाएँ मोड:\n"
-"गणनाएँ ऑपरेटर प्राथमिकता को ध्यान में रखे बिना बाएँ से दाएँ की जाती हैं।\n"
-"उदाहरण: 3 + 5 * 2 = 16 (गणनाएँ बाएँ से दाएँ की जाती हैं)।\n"
-"\n"
-"वैज्ञानिक मोड:\n"
-"\n"
-"साइन और कॉस:\n"
-"साइन और कॉस के मानों की गणना करता है।\n"
-"इनपुट डिग्री में होना चाहिए। कैलकुलेटर स्वचालित रूप से गणना के लिए मान को रेडियन में बदल देगा।\n"
-"\n"
-"लॉगारिदम:\n"
-"दो प्रकार के लॉगारिदम उपलब्ध हैं:\n"
-"- प्राकृतिक लॉगारिदम (LN): प्राकृतिक आधार (e) के साथ लॉगारिदम।\n"
-"- आधार 10 लॉगारिदम: आधार 10 के साथ लॉगारिदम।\n"
-"ऋणात्मक संख्याएँ समर्थित नहीं हैं क्योंकि लॉगारिदम केवल सकारात्मक संख्याओं के लिए परिभाषित है।\n"
-"\n"
-"वर्गमूल:\n"
-"संख्या के वर्गमूल की गणना करता है।\n"
-"ऋणात्मक संख्याएँ समर्थित नहीं हैं क्योंकि वर्गमूल केवल गैर-ऋणात्मक संख्याओं के लिए परिभाषित है।\n"
-"\n"
-"परिणाम प्रारूप:\n"
-"- उच्च सटीकता: परिणाम को पूर्ण विवरण के साथ प्रदर्शित करता है।\n"
-"- आवृत (2 दशमलव स्थान): परिणाम को एक सरल रूप में प्रदर्शित करता है, आसान पढ़ने के लिए 2 दशमलव स्थानों तक आवृत।"
 
-msgid "OK"
-msgstr "ठीक है"
+msgid ""
+"Left to Right Mode:\n"
+"Calculations are performed from left to right without considering operator "
+"precedence.\n"
+"Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
+msgstr ""
+"बाएँ से दाएँ मोड:\n"
+"गणनाएँ बाएँ से दाएँ बिना ऑपरेटर प्राथमिकता को ध्यान में रखे की जाती हैं।\n"
+"उदाहरण: 3 + 5 * 2 = 16 (गणना बाएँ से दाएँ की जाती है)।\n"
+
+msgid "Scientific Mode:"
+msgstr "वैज्ञानिक मोड:"
+
+msgid ""
+"Sin, Cos, and Inverse Trigonometric Functions (Sin^-1, Cos^-1, Tan^-1):\n"
+"Calculates the values of sine, cosine, inverse sine (asin), inverse cosine "
+"(acos), tangent (tan), and inverse tangent (atan).\n"
+"These functions can accept input in degrees or radians. To switch between "
+"them, use the checkbox for 'Use Radians'. The default is degrees.\n"
+msgstr ""
+"साइन, कोसाइन और इन्वर्स त्रिकोणमितीय फलन (Sin^-1, Cos^-1, Tan^-1):\n"
+"साइन (sin), कोसाइन (cos), इन्वर्स साइन (asin), इन्वर्स कोसाइन (acos), टैन (tan) "
+"और इन्वर्स टैन (atan) के मानों की गणना करता है।\n"
+"ये फ़ंक्शन डिग्री या रेडियन में इनपुट स्वीकार कर सकते हैं। इनके बीच स्विच करने "
+"के लिए 'रेडियन का उपयोग करें' चेकबॉक्स का उपयोग करें। डिफ़ॉल्ट रूप से डिग्री चयनित रहता है।\n"
+
+msgid "Logarithms:"
+msgstr "लघुगणक:"
+
+msgid ""
+"Two types of logarithms are available:\n"
+"- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
+"- Base 10 Logarithm: Logarithm with base 10.\n"
+"Negative numbers are not supported as logarithms are only defined for "
+"positive numbers.\n"
+msgstr ""
+"दो प्रकार के लघुगणक उपलब्ध हैं:\n"
+"- प्राकृतिक लघुगणक (LN): प्राकृतिक आधार (e) के साथ लघुगणक।\n"
+"- आधार 10 लघुगणक: आधार 10 के साथ लघुगणक।\n"
+"नकारात्मक संख्याओं का समर्थन नहीं किया जाता क्योंकि लघुगणक केवल सकारात्मक संख्याओं के लिए परिभाषित होते हैं।\n"
+
+msgid "Square Root:"
+msgstr "वर्गमूल:"
+
+msgid ""
+"Calculates the square root of a number.\n"
+"Negative numbers are not supported as the square root is only defined for "
+"non-negative numbers.\n"
+msgstr ""
+"किसी संख्या के वर्गमूल की गणना करता है।\n"
+"नकारात्मक संख्याओं का समर्थन नहीं किया जाता क्योंकि वर्गमूल केवल गैर-नकारात्मक संख्याओं के लिए परिभाषित होता है।\n"
+
+msgid "Result Format:"
+msgstr "परिणाम प्रारूप:"
+
+msgid ""
+"- High Precision: Displays the result with full detail.\n"
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded "
+"to 2 decimal places for easier reading."
+msgstr ""
+"- उच्च सटीकता: परिणाम को पूरी सटीकता के साथ दिखाता है।\n"
+"- राउंडेड (2 दशमलव स्थान): परिणाम को सरल रूप में प्रदर्शित करता है, पढ़ने में "
+"आसान बनाने के लिए 2 दशमलव स्थान तक राउंड किया जाता है।"

@@ -62,6 +62,75 @@ msgid "Invalid calculation mode"
 msgstr "잘못된 계산 모드"
 
 # scientific.py
+msgid "Use Radians"
+msgstr "라디안 사용"
+
+msgid "Asin"
+msgstr "아크사인"
+
+msgid "Acos"
+msgstr "아크코사인"
+
+msgid "Tan"
+msgstr "탄젠트"
+
+msgid "Atan"
+msgstr "아크탄젠트"
+
+msgid "Radian"
+msgstr "라디안"
+
+msgid "Degree"
+msgstr "도"
+
+msgid "Natural Base"
+msgstr "자연로그 밑수"
+
+msgid "Base 10"
+msgstr "로그 밑수 10"
+
+msgid "Radians"
+msgstr "라디안"
+
+msgid "Degrees"
+msgstr "도"
+
+msgid "Calculation mode set to Sin (Input in "
+msgstr "계산 모드가 사인으로 설정됨 (입력: "
+
+msgid "Calculation mode set to Cos (Input in "
+msgstr "계산 모드가 코사인으로 설정됨 (입력: "
+
+msgid "Input in Range [-1, 1] ({mode}):"
+msgstr "입력 범위 [-1, 1] ({mode}):"
+
+msgid "Calculation mode set to Asin"
+msgstr "계산 모드가 아크사인으로 설정됨"
+
+msgid "Calculation mode set to Acos"
+msgstr "계산 모드가 아크코사인으로 설정됨"
+
+msgid "Input in {mode}:"
+msgstr "{mode}에서 입력:"
+
+msgid "Calculation mode set to Tan"
+msgstr "계산 모드가 탄젠트로 설정됨"
+
+msgid "Input in Any Real Number ({mode}):"
+msgstr "임의의 실수 입력 ({mode}):"
+
+msgid "Calculation mode set to Atan"
+msgstr "계산 모드가 아크탄젠트로 설정됨"
+
+msgid "Arcsine is only defined for values between -1 and 1"
+msgstr "아크사인은 -1과 1 사이의 값에서만 정의됩니다."
+
+msgid "Arccosine is only defined for values between -1 and 1"
+msgstr "아크코사인은 -1과 1 사이의 값에서만 정의됩니다."
+
+msgid "Invalid input, only valid numbers are allowed"
+msgstr "잘못된 입력입니다. 숫자만 입력할 수 있습니다."
+
 msgid "Please Select Scientific Mode "
 msgstr "과학 모드를 선택하세요"
 
@@ -136,6 +205,195 @@ msgid "Invalid input, only numbers allowed"
 msgstr "잘못된 입력입니다. 숫자만 허용됩니다"
 
 # conversion.py
+msgid "Time"
+msgstr "시간"
+
+msgid "Select a Time conversion:"
+msgstr "시간 변환을 선택하세요:"
+
+msgid "Time Conversion Options"
+msgstr "시간 변환 옵션"
+
+msgid "Masehi to Hijri"
+msgstr "서력기원에서 히즈리력 변환"
+
+msgid "Hijri to Masehi"
+msgstr "히즈리력에서 서력기원 변환"
+
+msgid "Input in Masehi. Example 01012025"
+msgstr "서력기원으로 입력하세요. 예: 01012025"
+
+msgid "Input in Hijri. Example 01012025"
+msgstr "히즈리력으로 입력하세요. 예: 01012025"
+
+msgid "Seconds to Minutes"
+msgstr "초에서 분 변환"
+
+msgid "Minutes to Hours"
+msgstr "분에서 시간 변환"
+
+msgid "Hours to Days"
+msgstr "시간에서 일 변환"
+
+msgid "Days to Weeks"
+msgstr "일에서 주 변환"
+
+msgid "Weeks to Months"
+msgstr "주에서 달 변환"
+
+msgid "Months to Years"
+msgstr "달에서 년 변환"
+
+msgid "Input in Seconds:"
+msgstr "초 단위 입력:"
+
+msgid "Input in Minutes:"
+msgstr "분 단위 입력:"
+
+msgid "Input in Hours:"
+msgstr "시간 단위 입력:"
+
+msgid "Input in Days:"
+msgstr "일 단위 입력:"
+
+msgid "Input in Weeks:"
+msgstr "주 단위 입력:"
+
+msgid "Input in Months:"
+msgstr "달 단위 입력:"
+
+msgid "Kilometers per Hour to Miles per Hour"
+msgstr "시속 킬로미터에서 시속 마일 변환"
+
+msgid "Miles per Hour to Kilometers per Hour"
+msgstr "시속 마일에서 시속 킬로미터 변환"
+
+msgid "Meters per Second to Kilometers per Hour"
+msgstr "초속 미터에서 시속 킬로미터 변환"
+
+msgid "Kilometers per Hour to Meters per Second"
+msgstr "시속 킬로미터에서 초속 미터 변환"
+
+msgid "Meters per Second to Miles per Hour"
+msgstr "초속 미터에서 시속 마일 변환"
+
+msgid "Miles per Hour to Meters per Second"
+msgstr "시속 마일에서 초속 미터 변환"
+
+msgid "Knots to Kilometers per Hour"
+msgstr "노트에서 시속 킬로미터 변환"
+
+msgid "Kilometers per Hour to Knots"
+msgstr "시속 킬로미터에서 노트 변환"
+
+msgid "Knots to Miles per Hour"
+msgstr "노트에서 시속 마일 변환"
+
+msgid "Miles per Hour to Knots"
+msgstr "시속 마일에서 노트 변환"
+
+msgid "Feet per Second to Kilometers per Hour"
+msgstr "초속 피트에서 시속 킬로미터 변환"
+
+msgid "Kilometers per Hour to Feet per Second"
+msgstr "시속 킬로미터에서 초속 피트 변환"
+
+msgid "Kilometers to Miles"
+msgstr "킬로미터에서 마일 변환"
+
+msgid "Miles to Kilometers"
+msgstr "마일에서 킬로미터 변환"
+
+msgid "Meters to Feet"
+msgstr "미터에서 피트 변환"
+
+msgid "Feet to Meters"
+msgstr "피트에서 미터 변환"
+
+msgid "Centimeters to Inches"
+msgstr "센티미터에서 인치 변환"
+
+msgid "Inches to Centimeters"
+msgstr "인치에서 센티미터 변환"
+
+msgid "Kilograms to Pounds"
+msgstr "킬로그램에서 파운드 변환"
+
+msgid "Pounds to Kilograms"
+msgstr "파운드에서 킬로그램 변환"
+
+msgid "Tons to Kilograms"
+msgstr "톤에서 킬로그램 변환"
+
+msgid "Kilograms to Tons"
+msgstr "킬로그램에서 톤 변환"
+
+msgid "Ounces to Grams"
+msgstr "온스에서 그램 변환"
+
+msgid "Grams to Ounces"
+msgstr "그램에서 온스 변환"
+
+msgid "Liter to Gallon (US)"
+msgstr "리터에서 갤런 (미국) 변환"
+
+msgid "Gallon (US) to Liter"
+msgstr "갤런 (미국)에서 리터 변환"
+
+msgid "Liter to Milliliter"
+msgstr "리터에서 밀리리터 변환"
+
+msgid "Milliliter to Liter"
+msgstr "밀리리터에서 리터 변환"
+
+msgid "Cubic Meter to Liter"
+msgstr "세제곱미터에서 리터 변환"
+
+msgid "Liter to Cubic Meter"
+msgstr "리터에서 세제곱미터 변환"
+
+msgid "Gallon (UK) to Liter"
+msgstr "갤런 (영국)에서 리터 변환"
+
+msgid "Liter to Gallon (UK)"
+msgstr "리터에서 갤런 (영국) 변환"
+
+msgid "Cubic Inch to Liter"
+msgstr "세제곱 인치에서 리터 변환"
+
+msgid "Liter to Cubic Inch"
+msgstr "리터에서 세제곱 인치 변환"
+
+msgid "Milliliter to Cubic Centimeter"
+msgstr "밀리리터에서 세제곱 센티미터 변환"
+
+msgid "Cubic Centimeter to Milliliter"
+msgstr "세제곱 센티미터에서 밀리리터 변환"
+
+msgid "Barrel (US) to Liter"
+msgstr "배럴 (미국)에서 리터 변환"
+
+msgid "Liter to Barrel (US)"
+msgstr "리터에서 배럴 (미국) 변환"
+
+msgid "Celsius to Fahrenheit"
+msgstr "섭씨에서 화씨 변환"
+
+msgid "Fahrenheit to Celsius"
+msgstr "화씨에서 섭씨 변환"
+
+msgid "Celsius to Kelvin"
+msgstr "섭씨에서 켈빈 변환"
+
+msgid "Kelvin to Celsius"
+msgstr "켈빈에서 섭씨 변환"
+
+msgid "Fahrenheit to Kelvin"
+msgstr "화씨에서 켈빈 변환"
+
+msgid "Kelvin to Fahrenheit"
+msgstr "켈빈에서 화씨 변환"
+
 msgid "Please Select Conversion Mode"
 msgstr "변환 모드를 선택하세요"
 
@@ -298,60 +556,64 @@ msgstr "계산 모드 도움말"
 
 msgid ""
 "Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Calculations follow the standard mathematical operator precedence rules "
+"(PEMDAS).\n"
 "Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
 "\n"
 "Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator precedence.\n"
+"Calculations are performed from left to right without considering operator "
+"precedence.\n"
 "Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
 "\n"
 "Scientific Mode:\n"
 "\n"
-"Sin and Cos:\n"
-"Calculates the values of sine and cosine.\n"
-"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"Sin, Cos, and Inverse Trigonometric Functions (Sin^-1, Cos^-1, Tan^-1):\n"
+"Calculates the values of sine, cosine, inverse sine (asin), inverse cosine "
+"(acos), tangent (tan), and inverse tangent (atan).\n"
+"These functions can accept input in degrees or radians. To switch between "
+"them, use the checkbox for 'Use Radians'. The default is degrees.\n"
 "\n"
 "Logarithms:\n"
 "Two types of logarithms are available:\n"
 "- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
 "- Base 10 Logarithm: Logarithm with base 10.\n"
-"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"Negative numbers are not supported as logarithms are only defined for "
+"positive numbers.\n"
 "\n"
 "Square Root:\n"
 "Calculates the square root of a number.\n"
-"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"Negative numbers are not supported as the square root is only defined for "
+"non-negative numbers.\n"
 "\n"
 "Result Format:\n"
 "- High Precision: Displays the result with full detail.\n"
-"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded "
+"to 2 decimal places for easier reading."
 msgstr ""
 "표준 모드:\n"
 "계산은 표준 수학 연산자 우선순위 규칙(PEMDAS)을 따릅니다.\n"
 "예: 3 + 5 * 2 = 13 (곱셈이 먼저 수행됩니다).\n"
 "\n"
-"좌에서 우로 모드:\n"
-"계산은 연산자 우선순위를 고려하지 않고 좌에서 우로 수행됩니다.\n"
-"예: 3 + 5 * 2 = 16 (좌에서 우로 계산이 수행됩니다).\n"
+"왼쪽에서 오른쪽 모드:\n"
+"계산은 연산자 우선순위를 고려하지 않고 왼쪽에서 오른쪽으로 수행됩니다.\n"
+"예: 3 + 5 * 2 = 16 (계산은 왼쪽에서 오른쪽으로 수행됩니다).\n"
 "\n"
 "과학 모드:\n"
 "\n"
-"사인 및 코사인:\n"
-"사인 및 코사인의 값을 계산합니다.\n"
-"입력값은 반드시 각도로 입력해야 합니다. 계산기는 값을 자동으로 라디안으로 변환하여 계산합니다.\n"
+"사인, 코사인, 역삼각 함수 (Sin^-1, Cos^-1, Tan^-1):\n"
+"사인, 코사인, 역사인(asin), 역코사인(acos), 탄젠트(tan), 역탄젠트(atan)의 값을 계산합니다.\n"
+"이 함수들은 입력을 도 또는 라디안으로 받을 수 있습니다. 두 단위 간 전환은 '라디안 사용' 체크박스를 사용하세요. 기본값은 도입니다.\n"
 "\n"
 "로그:\n"
-"두 가지 종류의 로그를 사용할 수 있습니다:\n"
-"- 자연 로그(LN): 자연 상수(e)를 기반으로 하는 로그.\n"
-"- 10진수 로그: 10을 기반으로 하는 로그.\n"
-"음수는 지원되지 않습니다. 로그는 양수에서만 정의됩니다.\n"
+"두 가지 유형의 로그가 가능합니다:\n"
+"- 자연 로그(LN): 자연 밑수(e)를 사용하는 로그.\n"
+"- 밑수 10 로그: 밑수 10을 사용하는 로그.\n"
+"로그는 양수에 대해서만 정의되므로 음수는 지원되지 않습니다.\n"
 "\n"
 "제곱근:\n"
 "숫자의 제곱근을 계산합니다.\n"
-"음수는 지원되지 않습니다. 제곱근은 0 이상의 숫자에서만 정의됩니다.\n"
+"제곱근은 음수에 대해서는 정의되지 않으므로 음수는 지원되지 않습니다.\n"
 "\n"
 "결과 형식:\n"
-"- 고정밀: 결과를 상세히 표시합니다.\n"
-"- 반올림 (소수점 이하 2자리): 결과를 더 간단히 표시하며, 읽기 쉽게 2자리로 반올림합니다."
-
-msgid "OK"
-msgstr "확인"
+"- 높은 정밀도: 결과를 세부사항까지 표시합니다.\n"
+"- 반올림 (소수점 2자리): 결과를 간단하게 표시하며, 읽기 쉽게 2자리로 반올림됩니다."

@@ -61,6 +61,195 @@ msgid "Invalid calculation mode"
 msgstr "Ungültiger Berechnungsmodus"
 
 # conversion.py
+msgid "Time"
+msgstr "Zeit"
+
+msgid "Select a Time conversion:"
+msgstr "Wählen Sie eine Zeitumrechnung:"
+
+msgid "Time Conversion Options"
+msgstr "Zeitumrechnungsoptionen"
+
+msgid "Masehi to Hijri"
+msgstr "Gregorianisch zu Hidschri"
+
+msgid "Hijri to Masehi"
+msgstr "Hidschri zu Gregorianisch"
+
+msgid "Input in Masehi. Example 01012025"
+msgstr "Eingabe im Gregorianischen. Beispiel: 01012025"
+
+msgid "Input in Hijri. Example 01012025"
+msgstr "Eingabe im Hidschri. Beispiel: 01012025"
+
+msgid "Seconds to Minutes"
+msgstr "Sekunden zu Minuten"
+
+msgid "Minutes to Hours"
+msgstr "Minuten zu Stunden"
+
+msgid "Hours to Days"
+msgstr "Stunden zu Tagen"
+
+msgid "Days to Weeks"
+msgstr "Tage zu Wochen"
+
+msgid "Weeks to Months"
+msgstr "Wochen zu Monaten"
+
+msgid "Months to Years"
+msgstr "Monate zu Jahren"
+
+msgid "Input in Seconds:"
+msgstr "Eingabe in Sekunden:"
+
+msgid "Input in Minutes:"
+msgstr "Eingabe in Minuten:"
+
+msgid "Input in Hours:"
+msgstr "Eingabe in Stunden:"
+
+msgid "Input in Days:"
+msgstr "Eingabe in Tagen:"
+
+msgid "Input in Weeks:"
+msgstr "Eingabe in Wochen:"
+
+msgid "Input in Months:"
+msgstr "Eingabe in Monaten:"
+
+msgid "Kilometers per Hour to Miles per Hour"
+msgstr "Kilometer pro Stunde zu Meilen pro Stunde"
+
+msgid "Miles per Hour to Kilometers per Hour"
+msgstr "Meilen pro Stunde zu Kilometer pro Stunde"
+
+msgid "Meters per Second to Kilometers per Hour"
+msgstr "Meter pro Sekunde zu Kilometer pro Stunde"
+
+msgid "Kilometers per Hour to Meters per Second"
+msgstr "Kilometer pro Stunde zu Meter pro Sekunde"
+
+msgid "Meters per Second to Miles per Hour"
+msgstr "Meter pro Sekunde zu Meilen pro Stunde"
+
+msgid "Miles per Hour to Meters per Second"
+msgstr "Meilen pro Stunde zu Meter pro Sekunde"
+
+msgid "Knots to Kilometers per Hour"
+msgstr "Knoten zu Kilometer pro Stunde"
+
+msgid "Kilometers per Hour to Knots"
+msgstr "Kilometer pro Stunde zu Knoten"
+
+msgid "Knots to Miles per Hour"
+msgstr "Knoten zu Meilen pro Stunde"
+
+msgid "Miles per Hour to Knots"
+msgstr "Meilen pro Stunde zu Knoten"
+
+msgid "Feet per Second to Kilometers per Hour"
+msgstr "Fuß pro Sekunde zu Kilometer pro Stunde"
+
+msgid "Kilometers per Hour to Feet per Second"
+msgstr "Kilometer pro Stunde zu Fuß pro Sekunde"
+
+msgid "Kilometers to Miles"
+msgstr "Kilometer zu Meilen"
+
+msgid "Miles to Kilometers"
+msgstr "Meilen zu Kilometer"
+
+msgid "Meters to Feet"
+msgstr "Meter zu Fuß"
+
+msgid "Feet to Meters"
+msgstr "Fuß zu Meter"
+
+msgid "Centimeters to Inches"
+msgstr "Zentimeter zu Zoll"
+
+msgid "Inches to Centimeters"
+msgstr "Zoll zu Zentimeter"
+
+msgid "Kilograms to Pounds"
+msgstr "Kilogramm zu Pfund"
+
+msgid "Pounds to Kilograms"
+msgstr "Pfund zu Kilogramm"
+
+msgid "Tons to Kilograms"
+msgstr "Tonnen zu Kilogramm"
+
+msgid "Kilograms to Tons"
+msgstr "Kilogramm zu Tonnen"
+
+msgid "Ounces to Grams"
+msgstr "Unzen zu Gramm"
+
+msgid "Grams to Ounces"
+msgstr "Gramm zu Unzen"
+
+msgid "Liter to Gallon (US)"
+msgstr "Liter zu Gallone (US)"
+
+msgid "Gallon (US) to Liter"
+msgstr "Gallone (US) zu Liter"
+
+msgid "Liter to Milliliter"
+msgstr "Liter zu Milliliter"
+
+msgid "Milliliter to Liter"
+msgstr "Milliliter zu Liter"
+
+msgid "Cubic Meter to Liter"
+msgstr "Kubikmeter zu Liter"
+
+msgid "Liter to Cubic Meter"
+msgstr "Liter zu Kubikmeter"
+
+msgid "Gallon (UK) to Liter"
+msgstr "Gallone (UK) zu Liter"
+
+msgid "Liter to Gallon (UK)"
+msgstr "Liter zu Gallone (UK)"
+
+msgid "Cubic Inch to Liter"
+msgstr "Kubikzoll zu Liter"
+
+msgid "Liter to Cubic Inch"
+msgstr "Liter zu Kubikzoll"
+
+msgid "Milliliter to Cubic Centimeter"
+msgstr "Milliliter zu Kubikzentimeter"
+
+msgid "Cubic Centimeter to Milliliter"
+msgstr "Kubikzentimeter zu Milliliter"
+
+msgid "Barrel (US) to Liter"
+msgstr "Fass (US) zu Liter"
+
+msgid "Liter to Barrel (US)"
+msgstr "Liter zu Fass (US)"
+
+msgid "Celsius to Fahrenheit"
+msgstr "Celsius zu Fahrenheit"
+
+msgid "Fahrenheit to Celsius"
+msgstr "Fahrenheit zu Celsius"
+
+msgid "Celsius to Kelvin"
+msgstr "Celsius zu Kelvin"
+
+msgid "Kelvin to Celsius"
+msgstr "Kelvin zu Celsius"
+
+msgid "Fahrenheit to Kelvin"
+msgstr "Fahrenheit zu Kelvin"
+
+msgid "Kelvin to Fahrenheit"
+msgstr "Kelvin zu Fahrenheit"
+
 msgid "Please Select Conversion Mode"
 msgstr "Bitte wählen Sie den Umrechnungsmodus"
 
@@ -206,6 +395,81 @@ msgid "Invalid input, only numbers allowed"
 msgstr "Ungültige Eingabe, nur Zahlen erlaubt"
 
 # scientific.py
+msgid "Use Radians"
+msgstr "Radian verwenden"
+
+msgid "Asin"
+msgstr "Asin"
+
+msgid "Acos"
+msgstr "Acos"
+
+msgid "Tan"
+msgstr "Tan"
+
+msgid "Atan"
+msgstr "Atan"
+
+msgid "Radian"
+msgstr "Radiant"
+
+msgid "Degree"
+msgstr "Grad"
+
+msgid "Natural Base"
+msgstr "Natürliche Basis"
+
+msgid "Base 10"
+msgstr "Basis 10"
+
+msgid "Radians"
+msgstr "Radianten"
+
+msgid "Degrees"
+msgstr "Grad"
+
+msgid "Calculation mode set to Sin (Input in "
+msgstr "Berechnungsmodus auf Sin gesetzt (Eingabe in "
+
+msgid "Calculation mode set to Cos (Input in "
+msgstr "Berechnungsmodus auf Cos gesetzt (Eingabe in "
+
+msgid "Input in Range [-1, 1] ({mode}):"
+msgstr "Eingabe im Bereich [-1, 1] ({mode}):"
+
+msgid "Calculation mode set to Asin"
+msgstr "Berechnungsmodus auf Asin gesetzt"
+
+msgid "Calculation mode set to Acos"
+msgstr "Berechnungsmodus auf Acos gesetzt"
+
+msgid "Input in {mode}:"
+msgstr "Eingabe in {mode}:"
+
+msgid "Calculation mode set to Tan"
+msgstr "Berechnungsmodus auf Tan gesetzt"
+
+msgid "Input in Any Real Number ({mode}):"
+msgstr "Eingabe in einer beliebigen reellen Zahl ({mode}):"
+
+msgid "Calculation mode set to Atan"
+msgstr "Berechnungsmodus auf Atan gesetzt"
+
+msgid "Arcsine is only defined for values between -1 and 1"
+msgstr "Der Arkussinus ist nur für Werte zwischen -1 und 1 definiert"
+
+msgid "Arccosine is only defined for values between -1 and 1"
+msgstr "Der Arkuskosinus ist nur für Werte zwischen -1 und 1 definiert"
+
+msgid "Logarithm is only defined for positive numbers"
+msgstr "Der Logarithmus ist nur für positive Zahlen definiert"
+
+msgid "Square root is only defined for non-negative numbers"
+msgstr "Die Quadratwurzel ist nur für nicht negative Zahlen definiert"
+
+msgid "Invalid input, only valid numbers are allowed"
+msgstr "Ungültige Eingabe, nur gültige Zahlen sind erlaubt"
+
 msgid "Please Select Scientific Mode "
 msgstr "Bitte wählen Sie den wissenschaftlichen Modus"
 
@@ -269,11 +533,11 @@ msgstr "Kein Ergebnis zum Kopieren"
 msgid "Please select a calculation mode first"
 msgstr "Bitte wählen Sie zuerst einen Berechnungsmodus"
 
-msgid "Logarithm is only defined for positive numbers"
-msgstr "Logarithmus ist nur für positive Zahlen definiert"
+#msgid "Logarithm is only defined for positive numbers"
+#msgstr "Logarithmus ist nur für positive Zahlen definiert"
 
-msgid "Square root is only defined for non-negative numbers"
-msgstr "Die Quadratwurzel ist nur für nicht-negative Zahlen definiert"
+#msgid "Square root is only defined for non-negative numbers"
+#msgstr "Die Quadratwurzel ist nur für nicht-negative Zahlen definiert"
 
 msgid ""
 "High Precision = {result}\n"
@@ -293,64 +557,76 @@ msgstr "Ein Fehler ist aufgetreten: "
 
 # help.py
 msgid "Calculation Mode Help"
-msgstr "Hilfe zum Berechnungsmodus"
+msgstr "Berechnungsmodus-Hilfe"
 
 msgid ""
 "Standard Mode:\n"
-"Calculations follow the standard mathematical operator precedence rules (PEMDAS).\n"
+"Calculations follow the standard mathematical operator precedence rules "
+"(PEMDAS).\n"
 "Example: 3 + 5 * 2 = 13 (multiplication is performed first).\n"
 "\n"
 "Left to Right Mode:\n"
-"Calculations are performed from left to right without considering operator precedence.\n"
+"Calculations are performed from left to right without considering operator "
+"precedence.\n"
 "Example: 3 + 5 * 2 = 16 (calculations are done left to right).\n"
 "\n"
 "Scientific Mode:\n"
 "\n"
-"Sin and Cos:\n"
-"Calculates the values of sine and cosine.\n"
-"The input must be in degrees. The calculator will automatically convert the value to radians for the calculation.\n"
+"Sin, Cos, and Inverse Trigonometric Functions (Sin^-1, Cos^-1, Tan^-1):\n"
+"Calculates the values of sine, cosine, inverse sine (asin), inverse cosine "
+"(acos), tangent (tan), and inverse tangent (atan).\n"
+"These functions can accept input in degrees or radians. To switch between "
+"them, use the checkbox for 'Use Radians'. The default is degrees.\n"
 "\n"
 "Logarithms:\n"
 "Two types of logarithms are available:\n"
 "- Natural Logarithm (LN): Logarithm with the natural base (e).\n"
 "- Base 10 Logarithm: Logarithm with base 10.\n"
-"Negative numbers are not supported as logarithms are only defined for positive numbers.\n"
+"Negative numbers are not supported as logarithms are only defined for "
+"positive numbers.\n"
 "\n"
 "Square Root:\n"
 "Calculates the square root of a number.\n"
-"Negative numbers are not supported as the square root is only defined for non-negative numbers.\n"
+"Negative numbers are not supported as the square root is only defined for "
+"non-negative numbers.\n"
 "\n"
 "Result Format:\n"
 "- High Precision: Displays the result with full detail.\n"
-"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded to 2 decimal places for easier reading."
+"- Rounded (2 Decimal Places): Displays the result in a simpler form, rounded "
+"to 2 decimal places for easier reading."
 msgstr ""
 "Standardmodus:\n"
-"Berechnungen folgen den Standardregeln zur Operatorvorrangigkeit (PEMDAS).\n"
-"Beispiel: 3 + 5 * 2 = 13 (Multiplikation wird zuerst durchgeführt).\n"
+"Berechnungen folgen den Standardregeln der mathematischen Operatorpriorität "
+"(PEMDAS).\n"
+"Beispiel: 3 + 5 * 2 = 13 (Multiplikation wird zuerst ausgeführt).\n"
 "\n"
-"Modus von Links nach Rechts:\n"
-"Berechnungen werden von links nach rechts durchgeführt, ohne die Operatorvorrangigkeit zu berücksichtigen.\n"
+"Links-nach-Rechts-Modus:\n"
+"Berechnungen werden von links nach rechts durchgeführt, ohne die "
+"Operatorpriorität zu berücksichtigen.\n"
 "Beispiel: 3 + 5 * 2 = 16 (Berechnungen erfolgen von links nach rechts).\n"
 "\n"
 "Wissenschaftlicher Modus:\n"
 "\n"
-"Sinus und Kosinus:\n"
-"Berechnet die Werte von Sinus und Kosinus.\n"
-"Die Eingabe muss in Grad erfolgen. Der Rechner konvertiert den Wert automatisch in Bogenmaß für die Berechnung.\n"
+"Sinus, Kosinus und inverse trigonometrische Funktionen (Sin^-1, Cos^-1, Tan^-1):\n"
+"Berechnet die Werte von Sinus (sin), Kosinus (cos), inverser Sinus (asin), "
+"inverser Kosinus (acos), Tangens (tan) und inverser Tangens (atan).\n"
+"Diese Funktionen können Eingaben in Grad oder Radiant akzeptieren. Um "
+"zwischen ihnen zu wechseln, verwenden Sie das Kontrollkästchen 'Radian verwenden'. "
+"Der Standardwert ist Grad.\n"
 "\n"
 "Logarithmen:\n"
-"Es stehen zwei Arten von Logarithmen zur Verfügung:\n"
-"- Natürlicher Logarithmus (LN): Logarithmus mit der natürlichen Basis (e).\n"
-"- Logarithmus Basis 10: Logarithmus zur Basis 10.\n"
-"Negative Zahlen werden nicht unterstützt, da Logarithmen nur für positive Zahlen definiert sind.\n"
+"Es gibt zwei Arten von Logarithmen:\n"
+"- Natürlicher Logarithmus (LN): Logarithmus zur Basis der natürlichen Zahl e.\n"
+"- Logarithmus zur Basis 10: Logarithmus mit Basis 10.\n"
+"Negative Zahlen werden nicht unterstützt, da Logarithmen nur für "
+"positive Zahlen definiert sind.\n"
 "\n"
 "Quadratwurzel:\n"
 "Berechnet die Quadratwurzel einer Zahl.\n"
-"Negative Zahlen werden nicht unterstützt, da die Quadratwurzel nur für nicht-negative Zahlen definiert ist.\n"
+"Negative Zahlen werden nicht unterstützt, da die Quadratwurzel nur für "
+"nicht negative Zahlen definiert ist.\n"
 "\n"
 "Ergebnisformat:\n"
-"- Hohe Genauigkeit: Zeigt das Ergebnis mit voller Detailgenauigkeit an.\n"
-"- Gerundet (2 Dezimalstellen): Zeigt das Ergebnis in einer vereinfachten Form an, gerundet auf 2 Dezimalstellen für eine einfachere Lesbarkeit."
-
-msgid "OK"
-msgstr "OK"
+"- Hohe Präzision: Zeigt das Ergebnis mit voller Genauigkeit an.\n"
+"- Gerundet (2 Dezimalstellen): Zeigt das Ergebnis in vereinfachter Form an, "
+"gerundet auf 2 Dezimalstellen für eine bessere Lesbarkeit."
