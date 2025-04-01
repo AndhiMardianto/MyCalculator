@@ -2,551 +2,649 @@
 # Copyright (C) 2025 My Calculator Project
 # This file is distributed under the same license as the MyCalculatorpackage.
 # Andhi Mardianto <anditoinfo@gmail.com>, 2025.
-
 msgid ""
 msgstr ""
 "Project-Id-Version: my calculator 2.0\n"
 "Report-Msgid-Bugs-To: anditoinfo@gmail.com\n"
-"POT-Creation-Date: 2025-01-02 10:01+0700\n"
-"PO-Revision-Date: 2025-01-11 10:30+0700\n"
+"POT-Creation-Date: 2025-03-30 16:12+0500\n"
+"PO-Revision-Date: 2025-03-30 16:27+0500\n"
 "Last-Translator: Andhi Mardianto with google translet<anditoinfo@gmail.com>\n"
+"Language-Team: \n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ../../../..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: addon\n"
+"X-Poedit-SearchPath-2: addon/globalPlugins/myCalculator\n"
+"X-Poedit-SearchPath-3: addon/globalPlugins/myCalculator/hijri_converter\n"
 
-
+#: addon/globalPlugins/myCalculator/__init__.py:29
+msgid "Say Hijriah date"
+msgstr "Озвучить дату Хиджры"
 
 # init.py
+#: addon/globalPlugins/myCalculator/__init__.py:30
+#: addon/globalPlugins/myCalculator/__init__.py:38
+msgid "MyCalculator"
+msgstr "Мой Калькулятор"
+
+# init.py
+#: addon/globalPlugins/myCalculator/__init__.py:37
 msgid "Open My Calculator dialog"
 msgstr "Открыть диалоговое окно Мой Калькулятор"
 
+#: addon/globalPlugins/myCalculator/__init__.py:71
 msgid "Calculation Input"
 msgstr "Ввод вычисления"
 
-msgid "Copy"
-msgstr "Копировать"
-
-msgid "Standar"
-msgstr "Стандартный"
-
-msgid "Left to Right"
-msgstr "Слева направо"
-
-msgid "Conversion"
-msgstr "Конверсия"
-
-msgid "Scientific"
-msgstr "Научный"
-
-msgid "Help"
-msgstr "Справка"
-
-msgid "Calculation mode set to Standard International"
-msgstr "Режим вычислений установлен на Стандартный Международный"
-
-msgid "Calculation mode set to Left to Right"
-msgstr "Режим вычислений установлен на Слева направо"
-
-msgid "Failed to access clipboard"
-msgstr "Не удалось получить доступ к буферу обмена"
-
-msgid "Invalid input, only numbers and arithmetic symbols allowed"
-msgstr "Неверный ввод, разрешены только числа и арифметические символы"
-
-msgid "Error! Check Input"
-msgstr "Ошибка! Проверьте ввод"
-
-msgid "Invalid calculation mode"
-msgstr "Неверный режим вычислений"
-
-# scientific.py
-msgid "Use Radians"
-msgstr "Использовать радианы"
-
-msgid "Asin"
-msgstr "Арксинус"
-
-msgid "Acos"
-msgstr "Арккосинус"
-
-msgid "Tan"
-msgstr "Тангенс"
-
-msgid "Atan"
-msgstr "Арктангенс"
-
-msgid "Radian"
-msgstr "Радиан"
-
-msgid "Degree"
-msgstr "Градус"
-
-msgid "Natural Base"
-msgstr "Естественная база"
-
-msgid "Base 10"
-msgstr "Основание 10"
-
-msgid "Radians"
-msgstr "Радианы"
-
-msgid "Degrees"
-msgstr "Градусы"
-
-msgid "Calculation mode set to Sin (Input in "
-msgstr "Режим вычисления установлен на Sin (Введите в "
-
-msgid "Calculation mode set to Cos (Input in "
-msgstr "Режим вычисления установлен на Cos (Введите в "
-
-msgid "Input in Range [-1, 1] ({mode}):"
-msgstr "Введите в диапазоне [-1, 1] ({mode}):"
-
-msgid "Calculation mode set to Asin"
-msgstr "Режим вычисления установлен на Asin"
-
-msgid "Calculation mode set to Acos"
-msgstr "Режим вычисления установлен на Acos"
-
-msgid "Input in {mode}:"
-msgstr "Введите в {mode}:"
-
-msgid "Calculation mode set to Tan"
-msgstr "Режим вычисления установлен на Tan"
-
-msgid "Input in Any Real Number ({mode}):"
-msgstr "Введите любое действительное число ({mode}):"
-
-msgid "Calculation mode set to Atan"
-msgstr "Режим вычисления установлен на Atan"
-
-msgid "Arcsine is only defined for values between -1 and 1"
-msgstr "Арксинус определён только для значений от -1 до 1"
-
-msgid "Arccosine is only defined for values between -1 and 1"
-msgstr "Арккосинус определён только для значений от -1 до 1"
-
-msgid "Invalid input, only valid numbers are allowed"
-msgstr "Неверный ввод, разрешены только действительные числа"
-
-msgid "Please Select Scientific Mode "
-msgstr "Пожалуйста, выберите научный режим"
-
-#msgid "Copy"
-#msgstr "Копировать"
-
-msgid "Sin"
-msgstr "Син"
-
-msgid "Cos"
-msgstr "Кос"
-
-msgid "Log"
-msgstr "Лог"
-
-msgid "Sqrt"
-msgstr "Кв. корень"
-
-msgid "Select a Basis"
-msgstr "Выберите основание"
-
-msgid "Basis Options"
-msgstr "Опции основания"
-
-msgid "Input in Degrees:"
-msgstr "Ввод в градусах:"
-
-msgid "Calculation mode set to Sin"
-msgstr "Режим вычислений установлен на Син"
-
-msgid "Calculation mode set to Cos"
-msgstr "Режим вычислений установлен на Кос"
-
-msgid "Input in Basis Natural :"
-msgstr "Ввод в натуральном основании:"
-
-msgid "Input in Basis 10:"
-msgstr "Ввод в основании 10:"
-
-msgid "Input in Non-Negative Numbers:"
-msgstr "Ввод неотрицательных чисел:"
-
-msgid "Calculation mode set to Sqrt"
-msgstr "Режим вычислений установлен на Кв. корень"
-
-#msgid "Failed to access clipboard"
-#msgstr "Не удалось получить доступ к буферу обмена"
-
-msgid "Please select a calculation mode first"
-msgstr "Сначала выберите режим вычислений"
-
-msgid "Logarithm is only defined for positive numbers"
-msgstr "Логарифм определен только для положительных чисел"
-
-msgid "Square root is only defined for non-negative numbers"
-msgstr "Квадратный корень определен только для неотрицательных чисел"
-
-msgid ""
-"High Precision = {result}\n"
-"Rounded = {rounded_result}"
-msgstr ""
-"Высокая точность = {result}\n"
-"Округлено = {rounded_result}"
-
-msgid "Invalid input. Please check your expression"
-msgstr "Неверный ввод. Пожалуйста, проверьте выражение"
-
-msgid "An error occurred: "
-msgstr "Произошла ошибка:"
-
-msgid "Invalid input, only numbers allowed"
-msgstr "Неверный ввод, разрешены только числа"
-
-# conversion.py
-msgid "Time"
-msgstr "Время"
-
-msgid "Select a Time conversion:"
-msgstr "Выберите преобразование времени:"
-
-msgid "Time Conversion Options"
-msgstr "Опции преобразования времени"
-
-msgid "Masehi to Hijri"
-msgstr "Масехи в Хиджру"
-
-msgid "Hijri to Masehi"
-msgstr "Хиджра в Масехи"
-
-msgid "Input in Masehi. Example 01012025"
-msgstr "Введите в Масехи. Пример 01012025"
-
-msgid "Input in Hijri. Example 01012025"
-msgstr "Введите в Хиджре. Пример 01012025"
-
-msgid "Seconds to Minutes"
-msgstr "Секунды в минуты"
-
-msgid "Minutes to Hours"
-msgstr "Минуты в часы"
-
-msgid "Hours to Days"
-msgstr "Часы в дни"
-
-msgid "Days to Weeks"
-msgstr "Дни в недели"
-
-msgid "Weeks to Months"
-msgstr "Недели в месяцы"
-
-msgid "Months to Years"
-msgstr "Месяцы в годы"
-
-msgid "Input in Seconds:"
-msgstr "Введите в секундах:"
-
-msgid "Input in Minutes:"
-msgstr "Введите в минутах:"
-
-msgid "Input in Hours:"
-msgstr "Введите в часах:"
-
-msgid "Input in Days:"
-msgstr "Введите в днях:"
-
-msgid "Input in Weeks:"
-msgstr "Введите в неделях:"
-
-msgid "Input in Months:"
-msgstr "Введите в месяцах:"
-
-msgid "Kilometers per Hour to Miles per Hour"
-msgstr "Километры в час в мили в час"
-
-msgid "Miles per Hour to Kilometers per Hour"
-msgstr "Мили в час в километры в час"
-
-msgid "Meters per Second to Kilometers per Hour"
-msgstr "Метры в секунду в километры в час"
-
-msgid "Kilometers per Hour to Meters per Second"
-msgstr "Километры в час в метры в секунду"
-
-msgid "Meters per Second to Miles per Hour"
-msgstr "Метры в секунду в мили в час"
-
-msgid "Miles per Hour to Meters per Second"
-msgstr "Мили в час в метры в секунду"
-
-msgid "Knots to Kilometers per Hour"
-msgstr "Узлы в километры в час"
-
-msgid "Kilometers per Hour to Knots"
-msgstr "Километры в час в узлы"
-
-msgid "Knots to Miles per Hour"
-msgstr "Узлы в мили в час"
-
-msgid "Miles per Hour to Knots"
-msgstr "Мили в час в узлы"
-
-msgid "Feet per Second to Kilometers per Hour"
-msgstr "Футы в секунду в километры в час"
-
-msgid "Kilometers per Hour to Feet per Second"
-msgstr "Километры в час в футы в секунду"
-
-msgid "Kilometers to Miles"
-msgstr "Километры в мили"
-
-msgid "Miles to Kilometers"
-msgstr "Мили в километры"
-
-msgid "Meters to Feet"
-msgstr "Метры в футы"
-
-msgid "Feet to Meters"
-msgstr "Футы в метры"
-
-msgid "Centimeters to Inches"
-msgstr "Сантиметры в дюймы"
-
-msgid "Inches to Centimeters"
-msgstr "Дюймы в сантиметры"
-
-msgid "Kilograms to Pounds"
-msgstr "Килограммы в фунты"
-
-msgid "Pounds to Kilograms"
-msgstr "Фунты в килограммы"
-
-msgid "Tons to Kilograms"
-msgstr "Тонны в килограммы"
-
-msgid "Kilograms to Tons"
-msgstr "Килограммы в тонны"
-
-msgid "Ounces to Grams"
-msgstr "Унции в граммы"
-
-msgid "Grams to Ounces"
-msgstr "Граммы в унции"
-
-msgid "Liter to Gallon (US)"
-msgstr "Литры в галлоны (США)"
-
-msgid "Gallon (US) to Liter"
-msgstr "Галлоны (США) в литры"
-
-msgid "Liter to Milliliter"
-msgstr "Литры в миллилитры"
-
-msgid "Milliliter to Liter"
-msgstr "Миллилитры в литры"
-
-msgid "Cubic Meter to Liter"
-msgstr "Кубический метр в литры"
-
-msgid "Liter to Cubic Meter"
-msgstr "Литры в кубический метр"
-
-msgid "Gallon (UK) to Liter"
-msgstr "Галлоны (Великобритания) в литры"
-
-msgid "Liter to Gallon (UK)"
-msgstr "Литры в галлоны (Великобритания)"
-
-msgid "Cubic Inch to Liter"
-msgstr "Кубический дюйм в литры"
-
-msgid "Liter to Cubic Inch"
-msgstr "Литры в кубический дюйм"
-
-msgid "Milliliter to Cubic Centimeter"
-msgstr "Миллилитры в кубические сантиметры"
-
-msgid "Cubic Centimeter to Milliliter"
-msgstr "Кубические сантиметры в миллилитры"
-
-msgid "Barrel (US) to Liter"
-msgstr "Бочки (США) в литры"
-
-msgid "Liter to Barrel (US)"
-msgstr "Литры в бочки (США)"
-
-msgid "Celsius to Fahrenheit"
-msgstr "Цельсий в Фаренгейт"
-
-msgid "Fahrenheit to Celsius"
-msgstr "Фаренгейт в Цельсий"
-
-msgid "Celsius to Kelvin"
-msgstr "Цельсий в Кельвин"
-
-msgid "Kelvin to Celsius"
-msgstr "Кельвин в Цельсий"
-
-msgid "Fahrenheit to Kelvin"
-msgstr "Фаренгейт в Кельвин"
-
-msgid "Kelvin to Fahrenheit"
-msgstr "Кельвин в Фаренгейт"
-
-msgid "Please Select Conversion Mode"
-msgstr "Пожалуйста, выберите режим конвертации"
-
+#: addon/globalPlugins/myCalculator/__init__.py:80
+#: addon/globalPlugins/myCalculator/conversion.py:50
+#: addon/globalPlugins/myCalculator/scientific.py:58
 msgid "Result"
 msgstr "Результат"
 
-#msgid "Copy"
-#msgstr "Копировать"
+#: addon/globalPlugins/myCalculator/__init__.py:87
+#: addon/globalPlugins/myCalculator/conversion.py:57
+#: addon/globalPlugins/myCalculator/scientific.py:66
+msgid "Copy"
+msgstr "Копировать"
 
-msgid "Length"
-msgstr "Длина"
+#: addon/globalPlugins/myCalculator/__init__.py:92
+msgid "Standar"
+msgstr "Стандартный"
 
-msgid "Mass"
-msgstr "Масса"
+#: addon/globalPlugins/myCalculator/__init__.py:97
+msgid "Left to Right"
+msgstr "Слева направо"
 
-msgid "Temperature"
-msgstr "Температура"
+#: addon/globalPlugins/myCalculator/__init__.py:102
+msgid "Scientific"
+msgstr "Научный"
 
-msgid "Volume"
-msgstr "Объем"
+#: addon/globalPlugins/myCalculator/__init__.py:107
+msgid "Conversion"
+msgstr "Преобразование"
 
-msgid "Speed"
-msgstr "Скорость"
+#: addon/globalPlugins/myCalculator/__init__.py:112
+msgid "Help"
+msgstr "Справка"
 
+#: addon/globalPlugins/myCalculator/__init__.py:118
+#: addon/globalPlugins/myCalculator/conversion.py:94
+#: addon/globalPlugins/myCalculator/scientific.py:89
 msgid "History"
 msgstr "История"
 
-msgid "Select a Speed conversion:"
-msgstr "Выберите конвертацию скорости:"
+#: addon/globalPlugins/myCalculator/__init__.py:167
+msgid "Calculation mode set to Standard International"
+msgstr "Режим вычислений установлен на Стандартный Международный"
 
-msgid "Speed Conversion Options"
-msgstr "Опции конвертации скорости"
+#: addon/globalPlugins/myCalculator/__init__.py:175
+msgid "Calculation mode set to Left to Right"
+msgstr "Режим вычислений установлен на Слева направо"
 
-msgid "Input in Kilometers per Hour:"
-msgstr "Ввод в километрах в час:"
-
-msgid "Input in Miles per Hour:"
-msgstr "Ввод в милях в час:"
-
-msgid "Input in Meters per Second:"
-msgstr "Ввод в метрах в секунду:"
-
-msgid "Input in Knots:"
-msgstr "Ввод в узлах:"
-
-msgid "Input in Feet per Second:"
-msgstr "Ввод в футах в секунду:"
-
-msgid "Select a length conversion:"
-msgstr "Выберите конвертацию длины:"
-
-msgid "Length Conversion Options"
-msgstr "Опции конвертации длины"
-
-msgid "Input in Kilometers:"
-msgstr "Ввод в километрах:"
-
-msgid "Input in Miles:"
-msgstr "Ввод в милях:"
-
-msgid "Input in Meters:"
-msgstr "Ввод в метрах:"
-
-msgid "Input in Feet:"
-msgstr "Ввод в футах:"
-
-msgid "Input in Centimeters:"
-msgstr "Ввод в сантиметрах:"
-
-msgid "Input in Inches:"
-msgstr "Ввод в дюймах:"
-
-msgid "Select a Mass conversion:"
-msgstr "Выберите конвертацию массы:"
-
-msgid "Mass Conversion Options"
-msgstr "Опции конвертации массы"
-
-msgid "Input in Kilograms:"
-msgstr "Ввод в килограммах:"
-
-msgid "Input in Pounds:"
-msgstr "Ввод в фунтах:"
-
-msgid "Input in Tons:"
-msgstr "Ввод в тоннах:"
-
-msgid "Input in Ounces:"
-msgstr "Ввод в унциях:"
-
-msgid "Input in Grams:"
-msgstr "Ввод в граммах:"
-
-msgid "Select a Temperature conversion:"
-msgstr "Выберите конвертацию температуры:"
-
-msgid "Temperature Conversion Options"
-msgstr "Опции конвертации температуры"
-
-msgid "Input in Celsius:"
-msgstr "Ввод в градусах Цельсия:"
-
-msgid "Input in Fahrenheit:"
-msgstr "Ввод в градусах Фаренгейта:"
-
-msgid "Input in Kelvin:"
-msgstr "Ввод в кельвинах:"
-
-msgid "Select a Volume conversion:"
-msgstr "Выберите конвертацию объема:"
-
-msgid "Volume Conversion Options"
-msgstr "Опции конвертации объема"
-
-msgid "Input in Liter:"
-msgstr "Ввод в литрах:"
-
-msgid "Input in Gallon (US):"
-msgstr "Ввод в галлонах (США):"
-
-msgid "Input in Milliliter:"
-msgstr "Ввод в миллилитрах:"
-
-msgid "Input in Cubic Meter:"
-msgstr "Ввод в кубических метрах:"
-
-msgid "Input in Gallon (UK) :"
-msgstr "Ввод в галлонах (Великобритания):"
-
-msgid "Input in Cubic Inch :"
-msgstr "Ввод в кубических дюймах:"
-
-msgid "Input in Cubic Centimeter :"
-msgstr "Ввод в кубических сантиметрах:"
-
-msgid "Input in Barrel (US) :"
-msgstr "Ввод в баррелях (США):"
-
+#: addon/globalPlugins/myCalculator/__init__.py:191
+#: addon/globalPlugins/myCalculator/conversion.py:924
+#: addon/globalPlugins/myCalculator/scientific.py:254
 msgid "Result copied to clipboard"
 msgstr "Результат скопирован в буфер обмена"
 
-#msgid "Failed to access clipboard"
-#msgstr "Не удалось получить доступ к буферу обмена"
+#: addon/globalPlugins/myCalculator/__init__.py:193
+#: addon/globalPlugins/myCalculator/conversion.py:926
+#: addon/globalPlugins/myCalculator/scientific.py:256
+msgid "Failed to access clipboard"
+msgstr "Не удалось получить доступ к буферу обмена"
 
+# msgid "Failed to access clipboard"
+# msgstr "Не удалось получить доступ к буферу обмена"
+#: addon/globalPlugins/myCalculator/__init__.py:195
+#: addon/globalPlugins/myCalculator/conversion.py:928
+#: addon/globalPlugins/myCalculator/scientific.py:258
 msgid "No result to copy"
 msgstr "Нет результата для копирования"
 
-#msgid "Invalid input, only numbers allowed"
-#msgstr "Неверный ввод, разрешены только числа"
+#: addon/globalPlugins/myCalculator/__init__.py:218
+msgid "Invalid input, only numbers and arithmetic symbols allowed"
+msgstr "Неверный ввод, разрешены только числа и арифметические символы"
 
+#: addon/globalPlugins/myCalculator/__init__.py:237
+#: addon/globalPlugins/myCalculator/__init__.py:259
+msgid "Error! Check Input"
+msgstr "Ошибка! Проверьте ввод"
+
+#: addon/globalPlugins/myCalculator/__init__.py:248
+msgid "Invalid calculation mode"
+msgstr "Неверный режим вычислений"
+
+#: addon/globalPlugins/myCalculator/conversion.py:38
+msgid "Please Select Conversion Mode"
+msgstr "Пожалуйста, выберите режим преобразования"
+
+# msgid "Copy"
+# msgstr "Копировать"
+#: addon/globalPlugins/myCalculator/conversion.py:62
+msgid "Length"
+msgstr "Длина"
+
+#: addon/globalPlugins/myCalculator/conversion.py:66
+msgid "Mass"
+msgstr "Масса"
+
+#: addon/globalPlugins/myCalculator/conversion.py:70
+msgid "Temperature"
+msgstr "Температура"
+
+#: addon/globalPlugins/myCalculator/conversion.py:74
+msgid "Volume"
+msgstr "Объём"
+
+#: addon/globalPlugins/myCalculator/conversion.py:79
+msgid "Speed"
+msgstr "Скорость"
+
+# conversion.py
+#: addon/globalPlugins/myCalculator/conversion.py:84
+msgid "Time"
+msgstr "Время"
+
+#: addon/globalPlugins/myCalculator/conversion.py:119
+msgid "Select a Time conversion:"
+msgstr "Выберите преобразование времени:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:120
+msgid "Time Conversion Options"
+msgstr "Опции преобразования времени"
+
+#: addon/globalPlugins/myCalculator/conversion.py:122
+#: addon/globalPlugins/myCalculator/conversion.py:136
+msgid "Seconds to Minutes"
+msgstr "Секунды в минуты"
+
+#: addon/globalPlugins/myCalculator/conversion.py:123
+#: addon/globalPlugins/myCalculator/conversion.py:138
+msgid "Minutes to Hours"
+msgstr "Минуты в часы"
+
+#: addon/globalPlugins/myCalculator/conversion.py:124
+#: addon/globalPlugins/myCalculator/conversion.py:140
+msgid "Hours to Days"
+msgstr "Часы в дни"
+
+#: addon/globalPlugins/myCalculator/conversion.py:125
+#: addon/globalPlugins/myCalculator/conversion.py:142
+msgid "Days to Weeks"
+msgstr "Дни в недели"
+
+#: addon/globalPlugins/myCalculator/conversion.py:126
+#: addon/globalPlugins/myCalculator/conversion.py:144
+msgid "Weeks to Months"
+msgstr "Недели в месяцы"
+
+#: addon/globalPlugins/myCalculator/conversion.py:127
+#: addon/globalPlugins/myCalculator/conversion.py:146
+msgid "Months to Years"
+msgstr "Месяцы в годы"
+
+#: addon/globalPlugins/myCalculator/conversion.py:128
+#: addon/globalPlugins/myCalculator/conversion.py:148
+msgid "Masehi to Hijri"
+msgstr "Масехи в Хиджру"
+
+#: addon/globalPlugins/myCalculator/conversion.py:129
+#: addon/globalPlugins/myCalculator/conversion.py:150
+msgid "Hijri to Masehi"
+msgstr "Хиджра в Масехи"
+
+#: addon/globalPlugins/myCalculator/conversion.py:156
+msgid "Input in Masehi. Example 01012025"
+msgstr "Введите в Масехи. Пример 01012025"
+
+#: addon/globalPlugins/myCalculator/conversion.py:163
+msgid "Input in Hijri. Example 01012025"
+msgstr "Введите в Хиджре. Пример 01012025"
+
+#: addon/globalPlugins/myCalculator/conversion.py:170
+msgid "Input in Seconds:"
+msgstr "Введите в секундах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:177
+msgid "Input in Minutes:"
+msgstr "Введите в минутах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:184
+msgid "Input in Hours:"
+msgstr "Введите в часах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:191
+msgid "Input in Days:"
+msgstr "Введите в днях:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:198
+msgid "Input in Weeks:"
+msgstr "Введите в неделях:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:205
+msgid "Input in Months:"
+msgstr "Введите в месяцах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:215
+msgid "Select a Speed conversion:"
+msgstr "Выберите преобразование скорости:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:216
+msgid "Speed Conversion Options"
+msgstr "Опции преобразования скорости"
+
+#: addon/globalPlugins/myCalculator/conversion.py:218
+#: addon/globalPlugins/myCalculator/conversion.py:235
+msgid "Kilometers per Hour to Miles per Hour"
+msgstr "Километры в час в мили в час"
+
+#: addon/globalPlugins/myCalculator/conversion.py:219
+#: addon/globalPlugins/myCalculator/conversion.py:237
+msgid "Miles per Hour to Kilometers per Hour"
+msgstr "Мили в час в километры в час"
+
+#: addon/globalPlugins/myCalculator/conversion.py:220
+#: addon/globalPlugins/myCalculator/conversion.py:239
+msgid "Meters per Second to Kilometers per Hour"
+msgstr "Метры в секунду в километры в час"
+
+#: addon/globalPlugins/myCalculator/conversion.py:221
+#: addon/globalPlugins/myCalculator/conversion.py:241
+msgid "Kilometers per Hour to Meters per Second"
+msgstr "Километры в час в метры в секунду"
+
+#: addon/globalPlugins/myCalculator/conversion.py:222
+#: addon/globalPlugins/myCalculator/conversion.py:243
+msgid "Meters per Second to Miles per Hour"
+msgstr "Метры в секунду в мили в час"
+
+#: addon/globalPlugins/myCalculator/conversion.py:223
+#: addon/globalPlugins/myCalculator/conversion.py:245
+msgid "Miles per Hour to Meters per Second"
+msgstr "Мили в час в метры в секунду"
+
+#: addon/globalPlugins/myCalculator/conversion.py:224
+#: addon/globalPlugins/myCalculator/conversion.py:247
+msgid "Knots to Kilometers per Hour"
+msgstr "Узлы в километры в час"
+
+#: addon/globalPlugins/myCalculator/conversion.py:225
+#: addon/globalPlugins/myCalculator/conversion.py:249
+msgid "Kilometers per Hour to Knots"
+msgstr "Километры в час в узлы"
+
+#: addon/globalPlugins/myCalculator/conversion.py:226
+#: addon/globalPlugins/myCalculator/conversion.py:251
+msgid "Knots to Miles per Hour"
+msgstr "Узлы в мили в час"
+
+#: addon/globalPlugins/myCalculator/conversion.py:227
+#: addon/globalPlugins/myCalculator/conversion.py:253
+msgid "Miles per Hour to Knots"
+msgstr "Мили в час в узлы"
+
+#: addon/globalPlugins/myCalculator/conversion.py:228
+#: addon/globalPlugins/myCalculator/conversion.py:255
+msgid "Feet per Second to Kilometers per Hour"
+msgstr "Футы в секунду в километры в час"
+
+#: addon/globalPlugins/myCalculator/conversion.py:229
+#: addon/globalPlugins/myCalculator/conversion.py:257
+msgid "Kilometers per Hour to Feet per Second"
+msgstr "Километры в час в футы в секунду"
+
+#: addon/globalPlugins/myCalculator/conversion.py:264
+#: addon/globalPlugins/myCalculator/conversion.py:285
+#: addon/globalPlugins/myCalculator/conversion.py:313
+#: addon/globalPlugins/myCalculator/conversion.py:341
+msgid "Input in Kilometers per Hour:"
+msgstr "Ввод в километрах в час:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:271
+#: addon/globalPlugins/myCalculator/conversion.py:299
+#: addon/globalPlugins/myCalculator/conversion.py:327
+msgid "Input in Miles per Hour:"
+msgstr "Ввод в милях в час:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:278
+#: addon/globalPlugins/myCalculator/conversion.py:292
+msgid "Input in Meters per Second:"
+msgstr "Ввод в метрах в секунду:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:306
+#: addon/globalPlugins/myCalculator/conversion.py:320
+msgid "Input in Knots:"
+msgstr "Ввод в узлах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:334
+msgid "Input in Feet per Second:"
+msgstr "Ввод в футах в секунду:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:359
+msgid "Select a length conversion:"
+msgstr "Выберите преобразование длины:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:360
+msgid "Length Conversion Options"
+msgstr "Опции преобразования длины"
+
+#: addon/globalPlugins/myCalculator/conversion.py:361
+#: addon/globalPlugins/myCalculator/conversion.py:366
+msgid "Kilometers to Miles"
+msgstr "Километры в мили"
+
+#: addon/globalPlugins/myCalculator/conversion.py:361
+#: addon/globalPlugins/myCalculator/conversion.py:368
+msgid "Miles to Kilometers"
+msgstr "Мили в километры"
+
+#: addon/globalPlugins/myCalculator/conversion.py:361
+#: addon/globalPlugins/myCalculator/conversion.py:370
+msgid "Meters to Feet"
+msgstr "Метры в футы"
+
+#: addon/globalPlugins/myCalculator/conversion.py:361
+#: addon/globalPlugins/myCalculator/conversion.py:372
+msgid "Feet to Meters"
+msgstr "Футы в метры"
+
+#: addon/globalPlugins/myCalculator/conversion.py:361
+#: addon/globalPlugins/myCalculator/conversion.py:374
+msgid "Centimeters to Inches"
+msgstr "Сантиметры в дюймы"
+
+#: addon/globalPlugins/myCalculator/conversion.py:361
+#: addon/globalPlugins/myCalculator/conversion.py:376
+msgid "Inches to Centimeters"
+msgstr "Дюймы в сантиметры"
+
+#: addon/globalPlugins/myCalculator/conversion.py:385
+msgid "Input in Kilometers:"
+msgstr "Ввод в километрах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:392
+msgid "Input in Miles:"
+msgstr "Ввод в милях:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:399
+msgid "Input in Meters:"
+msgstr "Ввод в метрах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:406
+msgid "Input in Feet:"
+msgstr "Ввод в футах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:413
+msgid "Input in Centimeters:"
+msgstr "Ввод в сантиметрах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:420
+msgid "Input in Inches:"
+msgstr "Ввод в дюймах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:430
+msgid "Select a Mass conversion:"
+msgstr "Выберите преобразование массы:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:431
+msgid "Mass Conversion Options"
+msgstr "Опции преобразования массы"
+
+#: addon/globalPlugins/myCalculator/conversion.py:433
+#: addon/globalPlugins/myCalculator/conversion.py:445
+msgid "Kilograms to Pounds"
+msgstr "Килограммы в фунты"
+
+#: addon/globalPlugins/myCalculator/conversion.py:434
+#: addon/globalPlugins/myCalculator/conversion.py:447
+msgid "Pounds to Kilograms"
+msgstr "Фунты в килограммы"
+
+#: addon/globalPlugins/myCalculator/conversion.py:435
+#: addon/globalPlugins/myCalculator/conversion.py:449
+msgid "Tons to Kilograms"
+msgstr "Тонны в килограммы"
+
+#: addon/globalPlugins/myCalculator/conversion.py:436
+#: addon/globalPlugins/myCalculator/conversion.py:451
+msgid "Kilograms to Tons"
+msgstr "Килограммы в тонны"
+
+#: addon/globalPlugins/myCalculator/conversion.py:437
+#: addon/globalPlugins/myCalculator/conversion.py:453
+msgid "Ounces to Grams"
+msgstr "Унции в граммы"
+
+#: addon/globalPlugins/myCalculator/conversion.py:438
+#: addon/globalPlugins/myCalculator/conversion.py:455
+msgid "Grams to Ounces"
+msgstr "Граммы в унции"
+
+#: addon/globalPlugins/myCalculator/conversion.py:462
+#: addon/globalPlugins/myCalculator/conversion.py:483
+msgid "Input in Kilograms:"
+msgstr "Ввод в килограммах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:469
+msgid "Input in Pounds:"
+msgstr "Ввод в фунтах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:476
+msgid "Input in Tons:"
+msgstr "Ввод в тоннах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:490
+msgid "Input in Ounces:"
+msgstr "Ввод в унциях:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:497
+msgid "Input in Grams:"
+msgstr "Ввод в граммах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:506
+msgid "Select a Temperature conversion:"
+msgstr "Выберите преобразование температуры:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:507
+msgid "Temperature Conversion Options"
+msgstr "Опции преобразования температуры"
+
+#: addon/globalPlugins/myCalculator/conversion.py:508
+#: addon/globalPlugins/myCalculator/conversion.py:514
+msgid "Celsius to Fahrenheit"
+msgstr "Цельсий в Фаренгейт"
+
+#: addon/globalPlugins/myCalculator/conversion.py:508
+#: addon/globalPlugins/myCalculator/conversion.py:516
+msgid "Fahrenheit to Celsius"
+msgstr "Фаренгейт в Цельсий"
+
+#: addon/globalPlugins/myCalculator/conversion.py:508
+#: addon/globalPlugins/myCalculator/conversion.py:518
+msgid "Celsius to Kelvin"
+msgstr "Цельсий в Кельвин"
+
+#: addon/globalPlugins/myCalculator/conversion.py:508
+#: addon/globalPlugins/myCalculator/conversion.py:520
+msgid "Kelvin to Celsius"
+msgstr "Кельвин в Цельсий"
+
+#: addon/globalPlugins/myCalculator/conversion.py:508
+#: addon/globalPlugins/myCalculator/conversion.py:522
+msgid "Fahrenheit to Kelvin"
+msgstr "Фаренгейт в Кельвин"
+
+#: addon/globalPlugins/myCalculator/conversion.py:508
+#: addon/globalPlugins/myCalculator/conversion.py:524
+msgid "Kelvin to Fahrenheit"
+msgstr "Кельвин в Фаренгейт"
+
+#: addon/globalPlugins/myCalculator/conversion.py:531
+#: addon/globalPlugins/myCalculator/conversion.py:545
+msgid "Input in Celsius:"
+msgstr "Ввод в градусах Цельсия:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:538
+#: addon/globalPlugins/myCalculator/conversion.py:559
+msgid "Input in Fahrenheit:"
+msgstr "Ввод в градусах Фаренгейта:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:552
+#: addon/globalPlugins/myCalculator/conversion.py:566
+msgid "Input in Kelvin:"
+msgstr "Ввод в кельвинах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:576
+msgid "Select a Volume conversion:"
+msgstr "Выберите преобразование объёма:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:577
+msgid "Volume Conversion Options"
+msgstr "Опции преобразования объёма"
+
+#: addon/globalPlugins/myCalculator/conversion.py:579
+#: addon/globalPlugins/myCalculator/conversion.py:598
+msgid "Liter to Gallon (US)"
+msgstr "Литры в галлоны (США)"
+
+#: addon/globalPlugins/myCalculator/conversion.py:580
+#: addon/globalPlugins/myCalculator/conversion.py:600
+msgid "Gallon (US) to Liter"
+msgstr "Галлоны (США) в литры"
+
+#: addon/globalPlugins/myCalculator/conversion.py:581
+#: addon/globalPlugins/myCalculator/conversion.py:602
+msgid "Liter to Milliliter"
+msgstr "Литры в миллилитры"
+
+#: addon/globalPlugins/myCalculator/conversion.py:582
+#: addon/globalPlugins/myCalculator/conversion.py:604
+msgid "Milliliter to Liter"
+msgstr "Миллилитры в литры"
+
+#: addon/globalPlugins/myCalculator/conversion.py:583
+#: addon/globalPlugins/myCalculator/conversion.py:606
+msgid "Cubic Meter to Liter"
+msgstr "Кубический метр в литры"
+
+#: addon/globalPlugins/myCalculator/conversion.py:584
+#: addon/globalPlugins/myCalculator/conversion.py:608
+msgid "Liter to Cubic Meter"
+msgstr "Литры в кубический метр"
+
+#: addon/globalPlugins/myCalculator/conversion.py:585
+#: addon/globalPlugins/myCalculator/conversion.py:610
+msgid "Gallon (UK) to Liter"
+msgstr "Галлоны (Великобритания) в литры"
+
+#: addon/globalPlugins/myCalculator/conversion.py:586
+#: addon/globalPlugins/myCalculator/conversion.py:612
+msgid "Liter to Gallon (UK)"
+msgstr "Литры в галлоны (Великобритания)"
+
+#: addon/globalPlugins/myCalculator/conversion.py:587
+#: addon/globalPlugins/myCalculator/conversion.py:614
+msgid "Cubic Inch to Liter"
+msgstr "Кубический дюйм в литры"
+
+#: addon/globalPlugins/myCalculator/conversion.py:588
+#: addon/globalPlugins/myCalculator/conversion.py:616
+msgid "Liter to Cubic Inch"
+msgstr "Литры в кубический дюйм"
+
+#: addon/globalPlugins/myCalculator/conversion.py:589
+#: addon/globalPlugins/myCalculator/conversion.py:618
+msgid "Milliliter to Cubic Centimeter"
+msgstr "Миллилитры в кубические сантиметры"
+
+#: addon/globalPlugins/myCalculator/conversion.py:590
+#: addon/globalPlugins/myCalculator/conversion.py:620
+msgid "Cubic Centimeter to Milliliter"
+msgstr "Кубические сантиметры в миллилитры"
+
+#: addon/globalPlugins/myCalculator/conversion.py:591
+#: addon/globalPlugins/myCalculator/conversion.py:622
+msgid "Barrel (US) to Liter"
+msgstr "Баррели (США) в литры"
+
+#: addon/globalPlugins/myCalculator/conversion.py:592
+#: addon/globalPlugins/myCalculator/conversion.py:624
+msgid "Liter to Barrel (US)"
+msgstr "Литры в баррели (США)"
+
+#: addon/globalPlugins/myCalculator/conversion.py:631
+#: addon/globalPlugins/myCalculator/conversion.py:645
+#: addon/globalPlugins/myCalculator/conversion.py:666
+msgid "Input in Liter:"
+msgstr "Ввод в литрах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:638
+msgid "Input in Gallon (US):"
+msgstr "Ввод в галлонах (США):"
+
+#: addon/globalPlugins/myCalculator/conversion.py:652
+msgid "Input in Milliliter:"
+msgstr "Ввод в миллилитрах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:659
+msgid "Input in Cubic Meter:"
+msgstr "Ввод в кубических метрах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:673
+msgid "Input in Gallon (UK) :"
+msgstr "Ввод в галлонах (Великобритания):"
+
+#: addon/globalPlugins/myCalculator/conversion.py:680
+#: addon/globalPlugins/myCalculator/conversion.py:694
+#: addon/globalPlugins/myCalculator/conversion.py:722
+msgid "Input in Liter :"
+msgstr "Ввод в литрах :"
+
+#: addon/globalPlugins/myCalculator/conversion.py:687
+msgid "Input in Cubic Inch :"
+msgstr "Ввод в кубических дюймах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:701
+msgid "Input in Milliliter :"
+msgstr "Ввод в миллилитрах :"
+
+#: addon/globalPlugins/myCalculator/conversion.py:708
+msgid "Input in Cubic Centimeter :"
+msgstr "Ввод в кубических сантиметрах:"
+
+#: addon/globalPlugins/myCalculator/conversion.py:715
+msgid "Input in Barrel (US) :"
+msgstr "Ввод в баррелях (США):"
+
+#: addon/globalPlugins/myCalculator/conversion.py:729
+msgid "Input your birthdate (dd-mm-yyyy):"
+msgstr "Введите дату вашего рождения в формате (дд-мм-гггг):"
+
+#: addon/globalPlugins/myCalculator/conversion.py:849
+msgid "invalid input only numbers  allow "
+msgstr "неверный ввод, разрешены только числа "
+
+#: addon/globalPlugins/myCalculator/conversion.py:877
+msgid "Invalid input, only numbers are allowed"
+msgstr "Неверный ввод, разрешены только числа"
+
+#: addon/globalPlugins/myCalculator/conversion.py:940
+msgid "Invalid input, only numbers allowed"
+msgstr "Неверный ввод, разрешены только числа"
+
+# msgid "Invalid input, only numbers allowed"
+# msgstr "Неверный ввод, разрешены только числа"
 # help.py
+#: addon/globalPlugins/myCalculator/help.py:10
 msgid "Calculation Mode Help"
 msgstr "Помощь по режиму вычислений"
 
+#: addon/globalPlugins/myCalculator/help.py:20
 msgid ""
 "Standard Mode:\n"
 "Calculations follow the standard mathematical operator precedence rules "
@@ -594,25 +692,227 @@ msgstr ""
 "\n"
 "Научный режим:\n"
 "\n"
-"Синус, Косинус и Обратные тригонометрические функции (Sin^-1, Cos^-1, Tan^-1):\n"
-"Вычисляют значения синуса, косинуса, обратного синуса (asin), обратного косинуса "
-"(acos), тангенса (tan) и обратного тангенса (atan).\n"
-"Эти функции могут принимать ввод в градусах или радианах. Для переключения между "
-"ними используйте флажок 'Использовать радианы'. По умолчанию используются градусы.\n"
+"Синус, Косинус и Обратные тригонометрические функции (Sin^-1, Cos^-1, "
+"Tan^-1):\n"
+"Вычисляют значения синуса, косинуса, обратного синуса (asin), обратного "
+"косинуса (acos), тангенса (tan) и обратного тангенса (atan).\n"
+"Эти функции могут принимать ввод в градусах или радианах. Для переключения "
+"между ними используйте флажок 'Использовать радианы'. По умолчанию "
+"используются градусы.\n"
 "\n"
 "Логарифмы:\n"
 "Доступны два типа логарифмов:\n"
 "- Натуральный логарифм (LN): Логарифм с натуральной базой (e).\n"
 "- Логарифм по основанию 10: Логарифм с основанием 10.\n"
-"Отрицательные числа не поддерживаются, так как логарифмы определены только для "
-"положительных чисел.\n"
+"Отрицательные числа не поддерживаются, так как логарифмы определены только "
+"для положительных чисел.\n"
 "\n"
 "Квадратный корень:\n"
 "Вычисляет квадратный корень числа.\n"
-"Отрицательные числа не поддерживаются, так как квадратный корень определен только для "
-"неотрицательных чисел.\n"
+"Отрицательные числа не поддерживаются, так как квадратный корень определен "
+"только для неотрицательных чисел.\n"
 "\n"
 "Формат результата:\n"
 "- Высокая точность: Показывает результат с полными деталями.\n"
-"- Округленный (до 2 знаков после запятой): Показывает результат в упрощенной форме, округленный "
-"до 2 знаков для облегчения чтения."
+"- Округленный (до 2 знаков после запятой): Показывает результат в упрощенной "
+"форме, округленный до 2 знаков для облегчения чтения."
+
+#: addon/globalPlugins/myCalculator/help.py:45
+msgid "OK"
+msgstr "ОК"
+
+# scientific.py
+#: addon/globalPlugins/myCalculator/scientific.py:39
+msgid "Use Radians"
+msgstr "Использовать радианы"
+
+#: addon/globalPlugins/myCalculator/scientific.py:45
+msgid "Please Select Scientific Mode"
+msgstr "Пожалуйста, выберите научный режим"
+
+# msgid "Copy"
+# msgstr "Копировать"
+#: addon/globalPlugins/myCalculator/scientific.py:72
+msgid "Sin"
+msgstr "Син"
+
+#: addon/globalPlugins/myCalculator/scientific.py:73
+msgid "Asin"
+msgstr "Арксинус"
+
+#: addon/globalPlugins/myCalculator/scientific.py:74
+msgid "Cos"
+msgstr "Кос"
+
+#: addon/globalPlugins/myCalculator/scientific.py:75
+msgid "Acos"
+msgstr "Арккосинус"
+
+#: addon/globalPlugins/myCalculator/scientific.py:76
+msgid "Tan"
+msgstr "Тангенс"
+
+#: addon/globalPlugins/myCalculator/scientific.py:77
+msgid "Atan"
+msgstr "Арктангенс"
+
+#: addon/globalPlugins/myCalculator/scientific.py:78
+msgid "Log"
+msgstr "Лог"
+
+#: addon/globalPlugins/myCalculator/scientific.py:79
+msgid "Sqrt"
+msgstr "Кв. корень"
+
+#: addon/globalPlugins/myCalculator/scientific.py:113
+msgid "Radian"
+msgstr "Радиан"
+
+#: addon/globalPlugins/myCalculator/scientific.py:113
+msgid "Degree"
+msgstr "Градус"
+
+#: addon/globalPlugins/myCalculator/scientific.py:139
+msgid "Select a Basis"
+msgstr "Выберите основание"
+
+#: addon/globalPlugins/myCalculator/scientific.py:140
+msgid "Basis Options"
+msgstr "Опции основания"
+
+#: addon/globalPlugins/myCalculator/scientific.py:141
+#: addon/globalPlugins/myCalculator/scientific.py:149
+msgid "Natural Base"
+msgstr "Естественная база"
+
+#: addon/globalPlugins/myCalculator/scientific.py:141
+#: addon/globalPlugins/myCalculator/scientific.py:151
+msgid "Base 10"
+msgstr "Основание 10"
+
+#: addon/globalPlugins/myCalculator/scientific.py:157
+#: addon/globalPlugins/myCalculator/scientific.py:169
+#: addon/globalPlugins/myCalculator/scientific.py:208
+#: addon/globalPlugins/myCalculator/scientific.py:218
+#: addon/globalPlugins/myCalculator/scientific.py:228
+#: addon/globalPlugins/myCalculator/scientific.py:238
+msgid "Radians"
+msgstr "Радианы"
+
+#: addon/globalPlugins/myCalculator/scientific.py:157
+#: addon/globalPlugins/myCalculator/scientific.py:169
+#: addon/globalPlugins/myCalculator/scientific.py:208
+#: addon/globalPlugins/myCalculator/scientific.py:218
+#: addon/globalPlugins/myCalculator/scientific.py:228
+#: addon/globalPlugins/myCalculator/scientific.py:238
+msgid "Degrees"
+msgstr "Градусы"
+
+#: addon/globalPlugins/myCalculator/scientific.py:159
+msgid "Calculation mode set to Sin (Input in "
+msgstr "Режим вычисления установлен на Sin (Введите в "
+
+#: addon/globalPlugins/myCalculator/scientific.py:171
+msgid "Calculation mode set to Cos (Input in "
+msgstr "Режим вычисления установлен на Cos (Введите в "
+
+#: addon/globalPlugins/myCalculator/scientific.py:183
+msgid "Input in Basis Natural :"
+msgstr "Ввод в натуральном основании:"
+
+#: addon/globalPlugins/myCalculator/scientific.py:191
+msgid "Input in Basis 10:"
+msgstr "Ввод в основании 10:"
+
+#: addon/globalPlugins/myCalculator/scientific.py:199
+msgid "Input in Non-Negative Numbers:"
+msgstr "Ввод неотрицательных чисел:"
+
+#: addon/globalPlugins/myCalculator/scientific.py:200
+msgid "Calculation mode set to Sqrt"
+msgstr "Режим вычислений установлен на Кв. корень"
+
+#: addon/globalPlugins/myCalculator/scientific.py:209
+#: addon/globalPlugins/myCalculator/scientific.py:219
+#, python-brace-format
+msgid "Input in Range [-1, 1] ({mode}):"
+msgstr "Введите в диапазоне [-1, 1] ({mode}):"
+
+#: addon/globalPlugins/myCalculator/scientific.py:210
+msgid "Calculation mode set to Asin"
+msgstr "Режим вычисления установлен на Asin"
+
+#: addon/globalPlugins/myCalculator/scientific.py:220
+msgid "Calculation mode set to Acos"
+msgstr "Режим вычисления установлен на Acos"
+
+#: addon/globalPlugins/myCalculator/scientific.py:229
+#, python-brace-format
+msgid "Input in {mode}:"
+msgstr "Введите в {mode}:"
+
+#: addon/globalPlugins/myCalculator/scientific.py:230
+msgid "Calculation mode set to Tan"
+msgstr "Режим вычисления установлен на Tan"
+
+#: addon/globalPlugins/myCalculator/scientific.py:239
+#, python-brace-format
+msgid "Input in Any Real Number ({mode}):"
+msgstr "Введите любое действительное число ({mode}):"
+
+#: addon/globalPlugins/myCalculator/scientific.py:240
+msgid "Calculation mode set to Atan"
+msgstr "Режим вычисления установлен на Atan"
+
+# msgid "Failed to access clipboard"
+# msgstr "Не удалось получить доступ к буферу обмена"
+#: addon/globalPlugins/myCalculator/scientific.py:263
+msgid "Please select a calculation mode first"
+msgstr "Сначала выберите режим вычислений"
+
+#: addon/globalPlugins/myCalculator/scientific.py:292
+msgid "Arcsine is only defined for values between -1 and 1"
+msgstr "Арксинус определён только для значений от -1 до 1"
+
+#: addon/globalPlugins/myCalculator/scientific.py:298
+msgid "Arccosine is only defined for values between -1 and 1"
+msgstr "Арккосинус определён только для значений от -1 до 1"
+
+#: addon/globalPlugins/myCalculator/scientific.py:312
+#: addon/globalPlugins/myCalculator/scientific.py:318
+msgid "Logarithm is only defined for positive numbers"
+msgstr "Логарифм определен только для положительных чисел"
+
+#: addon/globalPlugins/myCalculator/scientific.py:324
+msgid "Square root is only defined for non-negative numbers"
+msgstr "Квадратный корень определен только для неотрицательных чисел"
+
+#: addon/globalPlugins/myCalculator/scientific.py:341
+#, python-brace-format
+msgid ""
+"High Precision = {result}\n"
+"Rounded = {rounded_result}"
+msgstr ""
+"Высокая точность = {result}\n"
+"Округлено = {rounded_result}"
+
+#: addon/globalPlugins/myCalculator/scientific.py:350
+msgid "Invalid input. Please check your expression"
+msgstr "Неверный ввод. Пожалуйста, проверьте выражение"
+
+#: addon/globalPlugins/myCalculator/scientific.py:352
+msgid "An error occurred: "
+msgstr "Произошла ошибка: "
+
+#: addon/globalPlugins/myCalculator/scientific.py:366
+msgid "Invalid input, only valid numbers are allowed"
+msgstr "Неверный ввод, разрешены только действительные числа"
+
+#~ msgid "Input in Degrees:"
+#~ msgstr "Ввод в градусах:"
+
+#~ msgid "Calculation mode set to Sin"
+#~ msgstr "Режим вычислений установлен на Син"
+
+#~ msgid "Calculation mode set to Cos"
+#~ msgstr "Режим вычислений установлен на Кос"
