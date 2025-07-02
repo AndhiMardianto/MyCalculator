@@ -1,5 +1,5 @@
-addon_name = "MyCalculator"
-addon_version = "2.2.0"
+addon_name = "myCalculator"
+addon_version = "2.2.1"
 addon_minimumNVDAVersion = "2023.3"
 addon_lastTestedNVDAVersion = "2025.1"
 addon_summary = "Calculator"
