@@ -4,17 +4,18 @@
 # Andhi Mardianto <anditoinfo@gmail.com>, 2025.
 msgid ""
 msgstr ""
-"Project-Id-Version: my calculator 2.0\n"
+"Project-Id-Version: my calculator 2.2.1\n"
 "Report-Msgid-Bugs-To: anditoinfo@gmail.com\n"
-"POT-Creation-Date: 2025-03-30 16:12+0500\n"
-"PO-Revision-Date: 2025-03-30 16:27+0500\n"
+"POT-Creation-Date: 2025-08-26 06:36+0500\n"
+"PO-Revision-Date: 2025-08-26 06:38+0500\n"
 "Last-Translator: Andhi Mardianto with google translet<anditoinfo@gmail.com>\n"
-"Language-Team: \n"
-"Language: ru\n"
+"Language-Team: Russian translation team <nvda.ru>, Danil Kostenkov "
+"<danilkostenkov38@gmail.com>\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.7\n"
 "X-Poedit-Basepath: ../../../..\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: addon\n"
@@ -34,7 +35,7 @@ msgstr "Мой Калькулятор"
 # init.py
 #: addon/globalPlugins/myCalculator/__init__.py:37
 msgid "Open My Calculator dialog"
-msgstr "Открыть диалоговое окно Мой Калькулятор"
+msgstr "Открыть диалог Мой Калькулятор"
 
 #: addon/globalPlugins/myCalculator/__init__.py:71
 msgid "Calculation Input"
@@ -156,7 +157,7 @@ msgstr "Выберите преобразование времени:"
 
 #: addon/globalPlugins/myCalculator/conversion.py:120
 msgid "Time Conversion Options"
-msgstr "Опции преобразования времени"
+msgstr "Параметры преобразования времени"
 
 #: addon/globalPlugins/myCalculator/conversion.py:122
 #: addon/globalPlugins/myCalculator/conversion.py:136
@@ -236,7 +237,7 @@ msgstr "Выберите преобразование скорости:"
 
 #: addon/globalPlugins/myCalculator/conversion.py:216
 msgid "Speed Conversion Options"
-msgstr "Опции преобразования скорости"
+msgstr "Параметры преобразования скорости"
 
 #: addon/globalPlugins/myCalculator/conversion.py:218
 #: addon/globalPlugins/myCalculator/conversion.py:235
@@ -331,7 +332,7 @@ msgstr "Выберите преобразование длины:"
 
 #: addon/globalPlugins/myCalculator/conversion.py:360
 msgid "Length Conversion Options"
-msgstr "Опции преобразования длины"
+msgstr "Параметры преобразования длины"
 
 #: addon/globalPlugins/myCalculator/conversion.py:361
 #: addon/globalPlugins/myCalculator/conversion.py:366
@@ -393,7 +394,7 @@ msgstr "Выберите преобразование массы:"
 
 #: addon/globalPlugins/myCalculator/conversion.py:431
 msgid "Mass Conversion Options"
-msgstr "Опции преобразования массы"
+msgstr "Параметры преобразования массы"
 
 #: addon/globalPlugins/myCalculator/conversion.py:433
 #: addon/globalPlugins/myCalculator/conversion.py:445
@@ -452,7 +453,7 @@ msgstr "Выберите преобразование температуры:"
 
 #: addon/globalPlugins/myCalculator/conversion.py:507
 msgid "Temperature Conversion Options"
-msgstr "Опции преобразования температуры"
+msgstr "Параметры преобразования температуры"
 
 #: addon/globalPlugins/myCalculator/conversion.py:508
 #: addon/globalPlugins/myCalculator/conversion.py:514
@@ -505,7 +506,7 @@ msgstr "Выберите преобразование объёма:"
 
 #: addon/globalPlugins/myCalculator/conversion.py:577
 msgid "Volume Conversion Options"
-msgstr "Опции преобразования объёма"
+msgstr "Параметры преобразования объёма"
 
 #: addon/globalPlugins/myCalculator/conversion.py:579
 #: addon/globalPlugins/myCalculator/conversion.py:598
@@ -832,12 +833,6 @@ msgstr "Ввод неотрицательных чисел:"
 msgid "Calculation mode set to Sqrt"
 msgstr "Режим вычислений установлен на Кв. корень"
 
-#: addon/globalPlugins/myCalculator/scientific.py:209
-#: addon/globalPlugins/myCalculator/scientific.py:219
-#, python-brace-format
-msgid "Input in Range [-1, 1] ({mode}):"
-msgstr "Введите в диапазоне [-1, 1] ({mode}):"
-
 #: addon/globalPlugins/myCalculator/scientific.py:210
 msgid "Calculation mode set to Asin"
 msgstr "Режим вычисления установлен на Asin"
@@ -846,19 +841,9 @@ msgstr "Режим вычисления установлен на Asin"
 msgid "Calculation mode set to Acos"
 msgstr "Режим вычисления установлен на Acos"
 
-#: addon/globalPlugins/myCalculator/scientific.py:229
-#, python-brace-format
-msgid "Input in {mode}:"
-msgstr "Введите в {mode}:"
-
 #: addon/globalPlugins/myCalculator/scientific.py:230
 msgid "Calculation mode set to Tan"
 msgstr "Режим вычисления установлен на Tan"
-
-#: addon/globalPlugins/myCalculator/scientific.py:239
-#, python-brace-format
-msgid "Input in Any Real Number ({mode}):"
-msgstr "Введите любое действительное число ({mode}):"
 
 #: addon/globalPlugins/myCalculator/scientific.py:240
 msgid "Calculation mode set to Atan"
@@ -907,6 +892,18 @@ msgstr "Произошла ошибка: "
 #: addon/globalPlugins/myCalculator/scientific.py:366
 msgid "Invalid input, only valid numbers are allowed"
 msgstr "Неверный ввод, разрешены только действительные числа"
+
+#, python-brace-format
+#~ msgid "Input in Range [-1, 1] ({mode}):"
+#~ msgstr "Введите в диапазоне [-1, 1] ({mode}):"
+
+#, python-brace-format
+#~ msgid "Input in {mode}:"
+#~ msgstr "Введите в {mode}:"
+
+#, python-brace-format
+#~ msgid "Input in Any Real Number ({mode}):"
+#~ msgstr "Введите любое действительное число ({mode}):"
 
 #~ msgid "Input in Degrees:"
 #~ msgstr "Ввод в градусах:"
